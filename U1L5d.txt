@@ -1,0 +1,83 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5d.txt
+#
+# Captions for 8.421x module
+#
+# This file has 74 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So there's a standard way of describing measurements
+in quantum mechanics.
+A measurement operator is a Hermitian matrix.
+
+M equals summation lambda i v sub i v sub i.
+
+The measurement operator gives us lambda sub i
+and projects the state onto the eigenspace corresponding
+to lambda sub i.
+
+So I'm going to do this.
+I'm going to explain this for sigma-x, sigma-y, sigma-z.
+
+Sigma-x equals 1 1 0 0.
+The eigenvectors are plus with eigenvalue 1
+and minus with eigenvalue minus 1.
+
+And 1/2 sigma-x is--
+
+I'm going to say this is a measurement
+operator corresponding to spin along the x-axis.
+
+So let's draw on the blocks sphere.
+
+Plus is spin 1/2 along the x-axis,
+and minus is spin minus 1/2 along the x-axis.
+
+So apply-- OK, so what I want to do is I want to say,
+apply the measurement corresponding to--
+
+corresponding to sigma-x, get plus 1/2 or minus 1/2.
+And you get plus 1/2, you know, this is the eigenstate.
+
+And eigenstate plus.
+And if you get minus 1/2, it's going to be eigenstate minus.
+
+And this is just because sigma-x equals summation--
+or 1/2 sigma-x equals summation.
+OK, I don't want to.
+1/2 plus plus minus 1/2 minus minus.
+
+So this corresponds to the measurement
+in eigenvectors plus and minus.
+
+So if M is a measurement operator,
+the size of quantum state--
+
+actually, what quantum people call this in quantum mechanics,
+these are called observables.
+So let's call them observable.
+If psi is a quantum state, then psi
+M psi is the expectation value of the observable.
+Expected value of observable.
+
+Proof.
+M is equal to summation lambda sub i v sub i v sub i.
+
+Psi M psi is equal to summation lambda i psi v sub i v sub i
+psi is equal to sum lambda i v sub i psi squared equals
+summation of lambda i times the probability of observing
+lambda sub i.
+
+So one thing I'm going to say is that so far, we've
+only talked about something called von Neumann measurements
+or projective measurements.
+And there is a more general class of measurements called
+positive-operator valued measurements or POVMs,
+and we are not going to deal with them until later
+in the course.
+Because, well, basically because they're much too--
+they're much more confusing than this kind of measurement
+and we don't need them until we get

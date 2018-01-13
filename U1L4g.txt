@@ -1,0 +1,70 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4g.txt
+#
+# Captions for 8.421x module
+#
+# This file has 61 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now let's take the tensor product of two matrices.
+1 over root 2.
+1 1 1 minus 1 one.
+That was H. OK, let's do this in steps.
+And let's take I equals 1 0 0 1.
+And again, let's look at these coordinates.
+So this is 0 1 0 1, 0 1 0 1.
+
+H tensor I is equal to, again, we're
+going to assume we put the coordinates in the right--
+in the lexicographical order.
+So this-- if you look at this upper-left corner, 1 0 1 1.
+I want to divide this into four pieces.
+If you look at this upper-left corner,
+you have 0 in the first coordinate
+for all of these things.
+And then you have a copy, 0 1 0 1, in the second matrix.
+So that gives you--
+so what we're going to do is take the second matrix
+and multiply it by the--
+
+let's make this 1 over root 2, 1 over root 2, 1 over root 2,
+minus 1 over root 2.
+And multiply it by the 0 0 entry in the first matrix.
+So this is going to give us 1 over root 2, 1 over root 2.
+
+Now here, we have that 0 1 entry in the first matrix
+times the second matrix.
+That is again 1 over root 2 0 0 1 over root 2, 1 over root 2
+0 0 1 over root 2, and now the last one is a minus,
+so we get a minus 1 over root 2 0 0 minus 1 over root 2.
+
+It's clear what we're doing?
+
+And now what would I tensor H be?
+
+Well?
+We want to put an H in here.
+1 over root 2, 1 over root 2, 1 over root 2, minus 1
+over root 2, 0, 0, 1 over root 2 1 over root 2 1
+over root 2 minus 1 over root 2.
+
+Again, 0 0 0 1, 1 0 1.
+
+Can anyone tell me what I tensor I is?
+Yeah?
+I. Yeah, you take the density, tensor the identity,
+you get the identity.
+Which is good, because if you apply the identity
+to the first qubit and the identity to the second qubit,
+nothing should happen.
+It should be the same, so it should be the identity.
+And now let's compute H tensor H. What is it?
+It is, well, we're going take H and multiply it
+by 1 over root 2 in here, so you get 1/2 1/2 1/2 minus 1/2.
+We're going to do the same thing in the next coordinate.
+1/2 1/2 1/2 minus 1/2, minus 1/2 minus 1/2 minus 1/2 and 1/2.
+Because H has a minus sign in the bottom right
+entry and plus signs in all the others.

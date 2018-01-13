@@ -1,0 +1,54 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3m.txt
+#
+# Captions for 8.421x module
+#
+# This file has 45 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So question, how do you describe a rotation of angle theta
+around an axis?
+
+Answer, e to the minus i theta sigma x or e--
+wait.
+There's a 2 in here.
+e to the minus i theta sigma y over 2 or e to the minus i
+theta sigma z over 2.
+Our rotations of theta around the x-axis, the y-axis,
+and the z-axis.
+
+Let's worry about sigma z over 2 first.
+So sigma z over 2, e to the i theta.
+Sigma z over 2 is equal to sigma z was 1 minus 1, so
+this is just going to be e to the i theta over 2
+e to the minus i--
+oh, e to the plus i theta over 2, e to the minus i theta
+over 2.
+Because we're exponentiating a diagonal matrix, what we do is
+we just need to exponentiate the elements
+along the diagonal, which is--
+I left out a minus sign there--
+which gives you an e to the minus i theta over 2 and e
+to the plus i theta over 2, which is equivalent
+up to global phase.
+
+to 1, 0, 0, e to the i theta.
+
+And we can check this.
+I mean, suppose we start with 0 plus 1 over root 2.
+And we want to rotate it by 90 degrees.
+That's pi over 2.
+And if we rotate it 90 degrees, it's
+supposed to take this to that.
+
+So we multiply 1, 0, 0 e to the i pi over 4 by 1 over root 2.
+We get 1 over root 2 pi over root 2.
+
+So that did it.
+So so at least by example, this worked.
+
+The next thing I want to do is figure out
+what e to the minus i theta sigma y over 2 is.

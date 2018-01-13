@@ -1,0 +1,23 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3d.txt
+#
+# Captions for 8.421x module
+#
+# This file has 14 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+There's one more thing I need to say about quantum states, which
+is multiplying a quantum state by a global phase does not
+change the essential nature of a quantum state.
+
+But it needs to be a global phase.
+
+For example, let's say down is essentially
+equivalent to 5 times down.
+But up plus down, which is equal to right,
+is not equal to up plus I down over root 2, which
+we said was into the board.
+

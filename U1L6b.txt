@@ -1,0 +1,164 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6b.txt
+#
+# Captions for 8.421x module
+#
+# This file has 155 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I'm going to present Bell's argument first.
+Originally, it's a statement about marginal probabilities
+of a joint probability distribution.
+But I find it makes much more intuitive sense
+if you talk about it as a game that two players are
+cooperatively trying to play.
+
+And so what is this game?
+
+And this is called the CHSH game after Clauser, Horne, Shimony,
+and someone else.
+Sorry.
+I should have looked it up.
+And so here's the game with Alice and Bob.
+So Alice and Bob have migrated from cryptography
+to quantum information theory, if you want
+to know where they came from.
+
+So Alice and Bob are two of the prototypical participants
+in cryptosystems.
+So they're playing a game.
+And they want to cooperate to win with as high probability as
+possible.
+So you have a referee who doesn't actually
+make any decisions.
+He just flips coins and does what the instructions tell him.
+So sends a bit to Alice and Bob.
+So we'll have him send A to Alice and B to Bob.
+And then Alice and Bob, who are in separate rooms and cannot
+communicate, get these two bits and output two more bits,
+xy two bits.
+And I should say the referee chooses the bits completely
+at random.
+
+So great.
+So now, we need to tell you when Alice and Bob win
+and when they lose because, otherwise, that would be--
+I mean, yeah.
+So we need to know when people win
+and lose to determine the game.
+So Alice and Bob win if x plus y equals A times B.
+Or I should say x plus y mod 2.
+So that's a x exclusive r y.
+
+Wait, no.
+
+Yeah, no, that's right.
+
+OK.
+So that should be pretty clear, but I
+want to put up a little chart to make it well.
+
+So A can be 0 or 1.
+B can either be 0 or 1.
+And Alice and Bob win if x plus y equals 0.
+x plus y equals 0.
+x plus y equals 0.
+And x plus y equals 1.
+
+Now, let's pretend that Alice and Bob have
+to do this deterministically.
+So Alice has a little chart.
+
+If x equals 0, output 0.
+If x equals 1, output 1, or something like that.
+
+And there is a general theory in games like this,
+Alice and Bob cannot do any better with a probabilistic
+strategy than a deterministic strategy.
+And we'll get to that later.
+So here, well, here, this is x0 plus y0, x0 being the bit
+that Alice outputs if A is 0.
+This is x0 plus y1.
+This is x1 plus y0.
+And this is x1 plus y1.
+And these are all mod 2.
+Yeah?
+Oh, that was my question.
+Isn't it possible to circle mod 2?
+Yes.
+I am being lazy.
+
+OK.
+So this is what Alice and Bob want.
+Now, can anyone tell me why they can't
+win with probability 100%?
+
+Following this y--
+
+Yeah?
+So if you sum everything up, you get 0.
+That's right.
+So you sum everything up.
+So that's 2x0 plus 2x1 plus 2y0 plus 2y1 is equal to 1 mod 2.
+That doesn't work because, you know,
+there's 2x1s in this chart, two x0s, 2y1s, and 2y0s.
+
+Now, I want to say Alice and Bob can only
+win with probability 75%.
+
+Why is this?
+Well, so there's no choice of x0, x1, y0,
+and y1 that makes this perfect.
+So let's suppose that Alice and Bob have
+agreed in advance to some combination of x0, x1, y0,
+and y1.
+The referee comes along and sends them
+two bits, which randomly select one of these four boxes.
+Well, we know one of these four boxes
+has to disagree with what Alice and Bob want
+because they can't all work.
+So at least one has to be wrong.
+And if one is wrong, and the referee
+picks that one, which he does 1/4 of the time,
+then Alice and Bob lose.
+So that's 75%.
+
+Now, I want to argue why a random strategy can't
+do any better.
+
+So for a random strategy, we have a probability
+that they win is equal to some probability of, let's
+let r be the string of random bits that Alice.
+So a random strategy you can always
+think of this as Alice and Bob get some set of random bits.
+And we don't care whether they're correlated or not.
+And then for these random bits, they
+need to pick a deterministic outcome of x0, x1, y0, and y1.
+So the probability that Alice and Bob
+win with a random strategy is equal to sum
+times the probability of string r
+random bits times the probability
+that Alison and Bob win given r.
+
+So this is essentially an average
+of how often they win given any particular string
+of random bits.
+So if this was greater than 3/4, there
+must be some string of random bits
+which gives Alice and Bob a deterministic strategy
+of winning with probability at least 3/4.
+And we just argued that was impossible.
+
+So that's the classical part.
+So now, we want to say that if Alice and Bob have
+an EPR pair of qubits, 0, 1, minus 1, 0, then
+they can win with probability larger than 75%.
+
+But the problem with 1/2 0, 1, minus 1,
+0 is that Alice and Bob get opposite answers every time.
+And I find it much harder to think
+about getting opposite answers than getting the same answer.
+So I want to find a way that Alice and Bob can

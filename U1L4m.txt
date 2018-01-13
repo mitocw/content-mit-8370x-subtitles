@@ -1,0 +1,130 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4m.txt
+#
+# Captions for 8.421x module
+#
+# This file has 121 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So the next thing I want to do is ask, what happens here?
+
+We apply H-- apply H to both of these
+and control NOT and then another Hadamard to each of them.
+What is this?
+
+Let's see.
+
+So this is one of the nicest identities
+that we'll see in quantum computing.
+And let's see.
+
+Well, I don't know any good easy way to see this.
+Do you, Ike?
+I like to do it in block matrix form.
+OK, well, so what I was going to do is just
+say what happens when you input each of the--
+put in some input.
+So suppose you put in 0, 0 here.
+What would you get?
+Here you'd get 0, 0 plus 0, 1 plus 1, 0 plus 1, 1.
+Now the controlled NOT takes the first qubit and [INAUDIBLE]
+with a second qubit.
+So you get 0, 0; 0, 1; 1, 0; 1, 1 here.
+And they're all pluses, because these were all pluses.
+And now-- actually, maybe I should--
+
+1, 0 goes to 1, 1, and 1, 1 goes to 1, 0.
+But this is the same as this.
+So when you apply two more H's there, it goes to 0, 0.
+So that means you take an inputted 0, 0
+to an outputted 0, 0.
+And that's a 1 there.
+
+And now I'm going to be very annoying for those
+who take notes and use Blackboard arithmetic.
+So what would happen if we put in 0, 1?
+
+Well, what would happen is that this would change to a minus,
+and this would change to a minus.
+
+And of course, this would change to a minus.
+This would change to a minus.
+And now if you look at this, this is 0, 0 minus 1, 0 and--
+or 0, 0 minus 1, 0 and minus 0, 1 and 1, 1 minus 0, 1 minus 1,
+0 plus 1, 1, which is just 0 minus 1, 0 minus 1.
+And this state is--
+when you take the Hadamard, this turns into a 1,
+this turns into a 1, and you get 1, 1.
+
+So 0, 1 goes to 1, 1.
+
+So you stick 0, 1 in.
+You get 1, 1 out.
+And that's a sky.
+
+OK, now-- well, I'm want to say this is completely symmetric.
+So if we'd stuck a 0--
+stuck a 1, 1 in, we would have gotten a 0, 1 out.
+Because you flip this circuit right to left,
+you get the same thing.
+So if you have an input that leads to some output,
+then the output has to leave back to the input.
+But we can also check back with plus.
+So this a minus.
+This is a plus--
+
+oh, wait, yeah.
+An 0, 0 minus 0, 1; 1, 0 minus 1, 1, that is 0,
+1 when you are undo the Hadamard.
+So this is right.
+And then, of course, this last thing has to be a 1 here.
+
+Well, actually it doesn't.
+As it was, it might have been a minus 1,
+but we can check that too, 0, 0; 0, 1.
+So this last thing is 1, 0.
+So that means 0 minus 1 here.
+This is a minus plus.
+This is a minus.
+This is a minus.
+This is a plus.
+So we have 0, 0 plus 0, 1 minus 1, 0 minus 1 here 0, 0 plus 0,
+1 minus 1, 0 minus 1, 1 here.
+This is the same state as that.
+So we get that, 1, 0; 1, 0.
+So what does this do?
+Well, if the second--
+
+I want to say if the second element is a 0,
+it leaves the first bit alone.
+If the second bit is a 1, it flips the first bit, because 1,
+1 goes to 1, 0, and 1, 0 goes to 1, 1.
+
+So what does that mean?
+Well, that means this is our control NOT
+gate going the other way.
+This takes the first qubit and [INAUDIBLE] it
+into the second qubit.
+And if you-- well, either if you change bases to plus minus
+or if you put a Hadamard on both ends,
+this takes the second qubit and [INAUDIBLE] it
+into the first qubit.
+
+So this is actually an example of a fundamental phenomenon
+in quantum mechanics, that if A does something to B,
+then B does something to A. So it's called--
+
+it's called back reaction.
+Back action?
+Back action.
+Back action, right.
+Back action.
+
+So if A affects B, then B must effect A.
+So I don't think we'll explain this much in this class,
+except we'll probably see some more instances of this,
+but this is a general phenomenon in quantum mechanics.
+OK, are there any questions?

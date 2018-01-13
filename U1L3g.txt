@@ -1,0 +1,81 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3g.txt
+#
+# Captions for 8.421x module
+#
+# This file has 72 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In this class, we're going to be talking
+about a lot of different quantum gates.
+And so last class, I told you about see
+CNOT gates, and Toffoli gates, and maybe Fredkin gates, and N
+gates, OR gates, et cetera.
+So we're doing quantum computation
+in the circuit model, which means
+we'll be stringing together bunches of quantum gates.
+And we need a name for all these quantum gates
+or not all of them.
+Sigma x is 0 1 1 0.
+Sigma y is equal to minus i i 0 0.
+Sigma z is equal to 1 0 0 minus 1.
+
+H is equal to 1 of root 2 1 1 1 minus 1.
+
+And there's two more.
+
+S is equal to 1 0 0 i.
+So S squared equals Z. And T is equal to 1 0 0 e to the 2 pi
+over 4.
+So T squared equals S.
+And Seth Lloyd has a great technique, a great mnemonic
+for remembering which of these is the minus i and which
+of these is the i.
+And his mnemonic is minus is lighter than i,
+so it floats to the top--
+
+floats to the top.
+So if you can remember--
+so if you can remember it's either minus i i or i minus i.
+This tells you which of the two is the minus.
+And that's the only really hard thing to remember about this.
+
+So what happens when we apply two of these Pauli matrices?
+What happens when we multiply two of these Pauli matrices?
+Well, let's do it on the Bloch sphere and then--
+so sigma x keeps the x-axis the same
+and interchanges the minus y-axis and minus z-axis
+to get units.
+Sigma y keeps the y-axis unchanged
+and then changes the z-axis and the x-axis units.
+So you multiply sigma x and sigma y.
+Well, you flip the minus x and x vectors.
+You flip the minus y and y vectors.
+And you flip the minus z and z vectors,
+but then you flip them back.
+So sigma x times sigma y is sigma z,
+except that's not quite right, because we're not--
+we're leaving out signs.
+So sigma x sigma y is equal to--
+actually, I think, i sigma z.
+Let's check that.
+Sigma x times sigma y, the top-left corner is an i,
+and the bottom-right corner is a minus i.
+So we get i minus i, which is, indeed, i sigma z.
+And sigma y sigma z is equal to minus i sigma x--
+plus i sigma x.
+Sigma z sigma x equals i sigma y.
+So you multiply two Pauli vectors.
+You get an i times a third one, assuming you multiply them--
+no, x times y or sigma y times sigma z or sigma
+z times sigma x.
+And then sigma y sigma x equals minus i sigma z.
+
+So an important thing is the three Pauli vectors.
+
+Well, they anti-commute pairs.
+
+Sigma x sigma z equals minus sigma z sigma x.

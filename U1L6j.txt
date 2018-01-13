@@ -1,0 +1,141 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6j.txt
+#
+# Captions for 8.421x module
+#
+# This file has 132 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So Alice and Bob share this state.
+
+Alice gets row.
+
+Measures the observables in that row.
+
+So Alice and Bob are sharing this state.
+When Alice gets a second row, she
+measures sigma z on the second qubit, sigma
+z on the first qubit.
+And she, I should say, red if eigenvalue of minus 1
+and green if eigenvalue of plus 1.
+
+So she measures sigma z on the first qubit, sigma
+z on the second qubit, and then if the first one was a minus 1
+and the second one was a 1, she would
+mark this square red, this square green,
+and this square red.
+Now, we know because all three of these matrices
+multiply to i that the observables must follow i to 1.
+
+So that means that there are two greens in Alice's rows
+or even number of reds.
+
+Because the reds were minus 1, and their product is 1.
+But Bob's columns all multiply to minus i,
+which means you get an odd number of red
+in each column when Bob measures these.
+
+So Bob gets odd number of reds.
+
+And the last thing is that Alice and Bob
+are sharing the state so Alice measures on her qubits.
+
+And I guess this would be AB, AB, AB, AB.
+And Bob measures on his qubits.
+But when they measure the same observable,
+because this is in the 1/2 0 0 plus 1 1 state,
+they get the same result.
+So when both of them measure sigma z, they
+get the same result. When both of them
+measure sigma x, they get the same result.
+Actually, when both of them measure sigma y,
+they get opposite results, but you know this is opposite.
+This is opposite.
+And we're taking the parity.
+So they get the same plus or minus 1
+for this one, even though each of their qubits
+they get opposite.
+
+Rather, if Bob measured a plus 1, plus 1 for both qubits,
+Alice would measure minus 1, minus 1 for both qubits.
+But then they are looking at the eigenvalue plus 1 times plus 1
+equals minus 1 times minus 1.
+
+And any questions?
+
+Yeah?
+So under what circumstances would they lose then?
+They never lose if they--
+Oh, well, what's the [INAUDIBLE] for?
+Oh, that's a classical strategy.
+Oh, I see.
+
+Classic rule strategy.
+Remember, the classical strategy,
+they had to agree on a square.
+And you cannot color all the squares so that every row has
+an even number of reds and every column has an odd number
+of reds.
+And that's why they cannot win with probability more than 8/9.
+But a quantum strategy, because you have these observables
+such that any product is identity here
+and any product is minus the identity in the columns,
+means they can always win.
+
+Any other questions?
+OK.
+So the last thing I wanted to do was
+say what the simultaneous eigenvalues
+are in sigma x tensor sigma in this column.
+So sigma x tensor sigma x is equal to 1, 1, 1, 1.
+Sigma z tensor sigma z equals 1, minus 1, minus 1, 1.
+
+OK.
+
+And there are four eigenspaces.
+And first, if you know sigma x tensor sigma x,
+and you know the eigenvalue for sigma z tensor sigma z,
+you know the eigenvalue for sigma y tensor
+sigma y, because this times this times this is minus 1.
+So we don't need to worry about sigma
+y tensor sigma y and the eigenvectors are 0,0,
+plus 1, 1.
+
+So that's in the plus 1 eigenspace for this.
+And that's the plus 1 eigen space for this.
+
+And that's plus, plus.
+
+And 1 over root 2, 0, 0, minus 1, 1.
+Well, that's still in the plus eigenspace for this
+because 0, 0 and 1, 1--
+that's 0, 0, 1, 1-- are both in the plus eigenspace.
+But this vector is just 1, 0, 0, minus 1.
+And you can see that it's taken to its negative by this matrix.
+So that's in the minus plus eigenspace.
+
+And then 1 over root 2, 0, 0, 0, 1, minus 1, 0.
+And that's in the minus, minus eigenspace.
+And 1 over root 2, 0, 1, plus 1, 0, and that's
+in the plus, minus eigenspace.
+
+So that if Alice measured this row, and Bob measured,
+let's say, this row, this is Bob column three.
+
+Alice column-- I want her to do column two--
+
+eigenspaces are 0, 0, 0, 1, 1, 0, 1, 1.
+
+So if Alice and Bob shared this thing, Alice would and Bob got,
+so Alice is measuring this row, and Bob is measuring this row.
+Bob might see 0,0 plus 1, 1.
+And Alice might see 1, 1.
+
+But they will agree on this eigen.
+And 0, 0, plus 1, 1 is in the plus 1 eigenspace of sigma z
+tensor sigma z.
+1, 1 is in the plus one eigenspace of sigma
+z tensor sigma z.

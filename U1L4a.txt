@@ -1,0 +1,33 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4a.txt
+#
+# Captions for 8.421x module
+#
+# This file has 24 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK.
+So last time we went over the Bloch sphere, and Pauli gates,
+and other stuff.
+So I will redraw the Bloch sphere.
+
+So this point was 0, this point was 1,
+and there is notation widely used in quantum computing
+that says this point is plus and this point is minus.
+So plus is equal to 1 over root 2 0 plus 1,
+and minus is 1 over root 2 0 minus 1.
+
+And this was 0 plus i 1 normalized.
+And this was 0 minus i 1 normalized.
+
+And last time, we talked about how
+to rotate the Bloch sphere around the x-axis, the y-axis,
+and the z-axis.
+So we got x, y, and I can't reach z, but it's up.
+
+So we didn't talk about measurement last time.
+And I'm going to say a little bit about measurement
+this time, because I'm going to need it

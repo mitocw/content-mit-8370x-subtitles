@@ -1,0 +1,26 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6f.txt
+#
+# Captions for 8.421x module
+#
+# This file has 17 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So the quantum strategy.
+And Bob, share 1/2, 00 plus 1, 1, 0, 0, plus 1, 1.
+
+And then each of Alice and Bob make measurement--
+[INAUDIBLE] I don't want to say a measurement.
+I want to say an observable.
+Yeah.
+So they measure-- let's say they measure some observable.
+
+On, depending on a and b, which are the random numbers that
+[? were ?] set that tell which column or row they want.
+
+OK, and now I'm going to write down a matrix,
+and then I'm going to explain how that gives you
+the observable, and then we'll be done.

@@ -1,0 +1,119 @@
+#
+# File:   content-mit-8370x-subtitles/U1L2g.txt
+#
+# Captions for 8.421x module
+#
+# This file has 110 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let me give you the family of reversible gates.
+So the first of these, I will use a lot.
+It's called the CNOT, or controlled-NOT.
+x and y; x goes to x plus y.
+And this is an exclusive OR, so addition modulo 2.
+Another one of these is called the Toffoli gate.
+Tom Toffoli, who's now a professor at BU,
+used to hang out here at MIT a great deal.
+x, y, and z.
+And we get as an output x, y, x, and y.
+So that's xy multiplied, plus z modulo 2.
+And then the Fredkin gate comes along.
+And this we draw like so, with two crosses,
+because this gate, those 2 y's and 2 crosses, is a swap gate.
+So x, y, y, x.
+Here, we have x, y, z.
+And the idea is if x is 1, then it causes y and z to swap.
+So it's x times z and x times y.
+But if x is 0, then it stays unchanged.
+So x bar y, x bar z.
+OK.
+So we have a bunch of these gates,
+and I want to quickly give you some theorems
+about these gates.
+First, they're universal.
+They're universal for all computation
+because they can be used to construct the AND and OR gates.
+
+First, the Toffoli gate is universal just by itself.
+It doesn't need any other kinds of gates along.
+That's really easy to see by construction.
+So I will take x and y and 0.
+This is xy.
+I can also take my Toffoli gate and put an x and a 1--
+and a 1, and this gives me x, 1, and an x bar down here.
+So I have an AND gate and a NOT gate;
+therefore, I have every gate I need.
+Second theorem, Fredkin is universal.
+
+So we do the same kind of thing.
+
+This is that controlled swap gate here.
+So if I have x, y, and a 0, then out here, I get x times y.
+I will only see a ball down here if there
+were two balls over here.
+And this is, in fact, motivated by the billiard ball
+model of computation.
+And I can also have x, 1, and a 0.
+So now you can see these two will get swapped if
+and only if x is 1.
+And when it gets swapped, then we get an x over here.
+So this y is x bar.
+These are x and x, and they stay unchanged.
+The point about this x and x, though,
+is kind of interesting and important for us.
+There's extra stuff around.
+We don't just have a NOT gate; we have a NOT gate
+with extra stuff, and that's known as garbage.
+
+OK.
+And this garbage keeps on growing as we build
+our circuit larger and larger.
+However, there's a theorem that you can make a garbage--
+
+the amount of garbage needed to reversibly
+simulate any Boolean is of the order
+of the size of the circuit, of the width and not the depth.
+
+So that the amount of garbage can be a controlled amount.
+And hand-in-hand with this theorem
+is another important thing, which
+is implied by that, which I'm afraid I don't have time
+to prove for you right now but I will post the proof
+of this in the class notes.
+Any Boolean circuit of n gates can
+be simulated by a reversible circuit of order of polynomial
+in n reversible gates.
+And this polynomial grows approximately as n squared.
+OK.
+So reversible-- every computation
+can be made reversible.
+Microsoft Office could be reversible.
+Imagine that.
+So you can run your typing backwards or your spreadsheet
+backwards.
+But people don't do that.
+And largely, we do not do it today
+because of the need to tolerate errors and become reliable.
+And so this is also the fundamental story
+for quantum computing, because quantum computers fundamentally
+need to be reversible due to the laws of quantum mechanics.
+And in the next three lectures, you will see exactly that.
+The laws of quantum mechanics, how you think
+of them in terms of computation, and then
+why they need to map directly onto a reversible computation.
+And so we'll come right back to this topic,
+and we'll see how reversible computation subsumes
+normal classical computation.
+And because quantum mechanics subsumes
+reversible computation, it also--
+it subsumes all of computation today.
+But the laws of quantum mechanics
+are the laws of physics, and therefore, the laws of physics
+govern computation.
+Isn't that a great ending?
+I'll see you next time.
+Peter Scholl will give the next lecture.
+And then we'll be back.

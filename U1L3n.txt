@@ -1,0 +1,68 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3n.txt
+#
+# Captions for 8.421x module
+#
+# This file has 59 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What is E to the I theta minus I theta over 2 sigma-y?
+Well, there are two ways of doing this.
+Actually, there's probably more than two ways of doing this.
+Two ways to do it.
+
+Diagonalize.
+
+So you find U so U sigma-y U-dagger
+is equal to a diagonal.
+
+Exponentiate D. So that gives you E to the minus I theta D
+over 2.
+And you can do this just by taking
+each of the diagonal elements of D and raising it and--
+you know, exponentiating it to get E to the minus I
+theta D sub I over 2.
+And then undiagonalize.
+Reverse U. So you now have U-dagger E
+to the minus I theta D over 2 U. But I
+want to do it the other way just to show you
+how the other way works.
+
+OK E to the I theta over 2 sigma-y is equal to I.
+What we're going to do is just write this out
+in terms of a Taylor series.
+Minus theta over 2 sigma-y plus I squared theta over 2
+squared sigma-y squared.
+And I think we need 1/2 factorial.
+
+Plus 1/3 factorial times I times theta over 3, theta over 2
+cubed sigma-y cubed plus dot-dot-dot.
+
+So what we want to do is I want to say the even terms are I
+minus 1/2 theta over 2 squared.
+Sigma-y squared is I because you take any of the following
+matrices and you square them and you
+get I. Plus 1/4 factorial theta over 2
+to the fourth times I, dot-dot-dot.
+And the R terms, well, all the--
+sigma-y is sigma-y cubed, so this is sigma-y--
+
+OK, so this is minus I theta over 2,
+plus I cubed over 3 factorial theta over 2 cubed, et cetera.
+And this is just cosine of theta over 2,
+and this is minus I sine theta over 2,
+so this is cosine theta over 2 times I minus I sine
+theta over 2 times sigma-y, which
+is equal to cosine theta over 2 minus sine theta over 2,
+sine theta over 2, cosine theta over 2.
+Gosh.
+Now it seems to me I've gotten one of the--
+
+Assuming I didn't get this sign wrong, but you can see,
+this is just a rotation of angle theta over 2 and the x-z plane.
+
+So this is how you get rotations of theta
+around the z-axis, the y-axis, and the x-axis.

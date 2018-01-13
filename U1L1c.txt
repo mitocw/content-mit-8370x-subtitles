@@ -1,0 +1,262 @@
+#
+# File:   content-mit-8370x-subtitles/U1L1c.txt
+#
+# Captions for 8.421x module
+#
+# This file has 253 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so what I want to do now is say something
+about quantum mechanics.
+We'll be covering that in more detail two lectures from now.
+So quantum mechanics.
+
+And quantum mechanics was really developed somewhere
+between 19--
+well, it took several decades to develop quantum mechanics,
+and I'm putting down 1900 through 1930
+although you could argue a lot about different dumb dates.
+And Einstein, Podolski, and Rosen
+in 1936 said that quantum mechanics--
+they published a paper that was really saying quantum mechanics
+is incomplete.
+
+And the reason-- well, let's put this in quotes
+because people don't believe this anymore.
+The reason is you can take two particles,
+and they can have opposite momenta and opposite
+positions, x and minus x.
+
+And these particles--
+So you can prepare these particles
+so that whenever you measure their momentum,
+they're opposite.
+This is minus p and p, and whenever
+you measure both of their positions, this one is at x,
+and this one is at minus x.
+And you cannot measure the position and the momentum
+of the same particle because quantum mechanics says that
+this is impossible because the position and momentum are
+conjugate variables.
+And we will-- well, we're not going
+to be using continuous variables,
+but we will explain what happens with discrete variables
+at some point later in just a few lectures.
+
+So that means that, well, this particle
+must have a momentum because if you measured this particle,
+it will give you that momentum.
+And this particle must also have a position
+because if you measured this particle,
+it would tell you about this position.
+But quantum mechanics says this particle cannot have both,
+so there must be some information this particle knows
+that quantum mechanics doesn't tell you about.
+So quantum mechanics is incomplete.
+
+And what Schrodinger said--
+Schrodinger replied to this by just saying, no,
+it's not incomplete.
+These particles are entangled, and that's just the property
+that entangled particles have.
+
+So maybe this wasn't really satisfactory for Einstein.
+
+Or actually Schrodinger said they were [INAUDIBLE] shrinking
+and not entangled.
+
+What happened in 1964?
+1964 Bell proved that no classical explanation
+for the behavior of EPR appears.
+
+EPR, I should say, because Einstein, Podolski, Rosen came
+up with this pair of particles and EPR pair
+is what they are called.
+
+And their-- Bell proved that there's
+no classical explanation for EPR pairs.
+So if quantum mechanics is incomplete,
+it's incomplete not in a classical way
+but in a way that gets even weirder
+than quantum mechanics, which I don't think
+would have satisfied Einstein at all.
+
+And in fact, these--
+
+I don't have the date but 1980-something Aspect showed
+Bell's predictions were correct, and people have been improving
+Aspect's experiment--
+I mean when Aspect showed Bell's predictions were correct,
+a few very doubting people said, but what about this loophole?
+What about this loophole?
+There could still be a classic explanation.
+And people have been closing these loopholes ever since,
+and I think they're pretty much all closed now
+with the latest experiments, which just
+happened in the last few years.
+So there's no classical explanation
+for quantum mechanics.
+So quantum mechanics is really weird.
+
+And now I want to talk about what happened next.
+So in 1982, Herbert in respectable physics journal
+published a paper called "Flash--
+
+First Laser-Amplified Superluminal Hookup,
+which is really faster than light communication.
+
+Communication using weird properties of EPR pairs.
+
+Superluminal what?
+Communication using weird properties of the--
+H, hookup.
+Hookup?
+H is hookup.
+Obviously designed for the acronym.
+Using weird properties of mechanics and EPR pair.
+
+Now, one of these referees of this paper was Asher Peres,
+and Asher Peres said in this referee report, well,
+this paper has to be wrong, but I can't
+understand why it's wrong.
+So why didn't you publish it, and we'll see someone come up
+with the flaw in the paper.
+So this paper is indeed wrong.
+
+But in 1982, two groups of people looked at this
+and figured out why the paper was wrong and published
+the no-cloning theorem, which we will get to, which says that
+a single quantum state--
+
+actually technically, I should probably say a single unknown
+quantum state cannot be duplicated.
+
+So how much of this theorem is due to this Berkeley hippie who
+came up with this wrong paper?
+Well, it probably wouldn't have been discovered in 1982 if he
+hadn't published this paper.
+It probably would have been discovered eventually.
+
+Now, I want to get to--
+
+So in 1985, David--
+
+Let's go back to 1982.
+Feynman and simultaneously in the Soviet Union Manin,
+but a year or two earlier, said very
+difficult to simulate quantum mechanics requires 2
+to the n, resources or time for n particles.
+
+And then they said, quantum computers might be faster.
+
+Well, they said would be faster.
+
+So use quantum mechanics to simulate quantum mechanics.
+
+Excuse me.
+In saying 2 to the n time, you mean order of 2
+to the n complexity?
+Yes, order of 2 to the n--
+I should really say cn because it's not--
+well, depending on exactly what you mean, it's exponential.
+But this is a very vague statement,
+and depending on how you make the statement precise,
+this tying down might be more or less.
+So it requires 2 to the n complexity
+to simulate n particles.
+
+Computational steps is really complexity.
+And we will say more about this--
+we'll say more about what complexity is in next lecture.
+So what happened after that?
+Well, David Deutsch described the quantum Turing machine.
+
+Said it would be good for simulating quantum mechanics
+although he didn't go into any details.
+And when you do go into the details,
+it's much more complicated than it sounds at first.
+And asked is it good for classical computing?
+
+So this is the first--
+
+Feynman and Manin-- if a quantum computer is better
+at simulating quantum mechanics than a classical computer,
+maybe--
+why shouldn't it be better for classical problems
+than a classical computer?
+It's not clear that anybody before Deutsch
+asked this question, and really in this paper,
+he gave some very, very unsatisfactory answers.
+But in 1982, to Deutsche and Jossa said, yes, sort of.
+So much, much less than satisfactory answer.
+And after that, people really started thinking
+about quantum computing.
+And Bernstein and Vazirani in 1993 and 1994,
+Simon came up with a problem that
+is exponentially faster on a quantum computer.
+
+And roughly, this is where I came in
+because I was on a conference program committee
+where he submitted his paper.
+And, unfortunately, we decided to reject it.
+I have the satisfaction I argued for its acceptance,
+but in retrospect, I clearly should
+have been jumping up and down, demanding that it
+be accepted instead of just--
+instead of what I did, which was much less demonstrative
+but yes.
+And this uses periodicity So I had the idea, well,
+periodicity might be important.
+Discrete log and factoring, which are very important
+classical problems used periodicity.
+So maybe quantum computers can do factoring.
+So in 1994-- actually Simon's paper was written in 1993
+but not published in 1994.
+I think I saw it in January of 1993--
+factoring in discrete log.
+
+On quantum computer 1994.
+And this is really where the field of quantum computing
+took off.
+I mean before here--
+before 1994, it was a bunch of people
+that most physicists thought were kind of a little bit
+crazy.
+And indeed some of them really were crazy.
+
+Looking at it in 1994, after the factoring result everybody
+started thinking about it.
+And then in 1996--
+Can I ask a question about the 1990 assignment thing?
+It's not clear that, for example, simulating quantum
+mechanics is in that category or where quantum [INAUDIBLE]
+Oh, no.
+Similar quantum mechanics is--
+so it's not-- simulating quantum mechanics is not
+provably faster, but it's clearly faster.
+But I was-- this is the question is quantum computing--
+are quantum computer is good for classical computing
+is this thread.
+
+I think most people were agreed that quantum computers were
+better for simulating quantum mechanics
+than classical computers.
+
+Although since then, people have discovered algorithms
+that really work well for simulating some quantum
+problems that people didn't know how to simulate before then so,
+classical computers are getting at-- better
+at simulating quantum mechanics, too.
+So, in 1995 or so, Lov Grover came up
+with his search algorithm, which searches a space of size, n,
+and route n steps.
+
+And after that-- well, that's as far
+as we're going to do for algorithms in this class
+because these are all very easily presented algorithms
+that are very important.
+And since then most quantum algorithms
+are known for less important problems

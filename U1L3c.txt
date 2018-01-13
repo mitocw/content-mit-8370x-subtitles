@@ -1,0 +1,84 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3c.txt
+#
+# Captions for 8.421x module
+#
+# This file has 75 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's go back to examples.
+We have polarization of a photon.
+
+And I said there were two basic states.
+But of course, you know that a photon can have a lot
+more than two polarizations.
+So for example, you can have a diagonal polarization.
+
+And what that is is equal to 1 over root
+2 horizontal plus vertical.
+
+Where of course this plus is a completely arbitrary
+convention.
+
+Equals 1/2 horizontal minus vertical.
+
+Oh, we also have 1/2.
+I said it was a complex vector space,
+so you also have 1/2 horizontal minus I vertical.
+
+Does anybody have a guess as to what this corresponds to?
+Yeah?
+Circular polarization.
+So-- so this I guess is right circular polarization
+and the other side would be left circular polarization.
+And of course, if you rotate this by theta,
+you want to have that is equal to cos theta--
+
+OK.
+Let's make that angle theta, because we
+took cos theta times horizontal plus sine theta times vertical.
+
+So this is an example of a quantum state space.
+So the quantum state space that we'll
+be using most of the time or much of the time--
+actually, the quantum state space
+we will be using most of the time is just a qubit
+and we will use 0 and 1 as the basis vectors.
+
+Spin 1/2 particle.
+
+OK, so that's spin up.
+
+And that's spin down.
+
+But of course, we can also a particle
+so it spins to the right.
+Or actually, this is really the axis around which
+it spins, so if you--
+well actually, angular momentum of particles is very strange,
+but this is equivalent to the axis around it spins
+or analogous or something.
+So if you have a spin up particle,
+it's going around counterclockwise
+assuming you can say it's going around anything at all.
+And here, it's going around that way.
+So this is equal to, by convention, plus spin down.
+And we need to normalize it, so it's
+1/2, and is equal to 1/2 spin up, minus spin down.
+
+And there is also--
+one is going into the board and out of the board
+and into the board, which in Seth Lloyd's notes,
+he uses is in and that is out.
+And if you want to read Seth Lloyd's notes
+and have a mnemonic for this, think of an arrow,
+and here, you can see the head of the arrow pointing out,
+and here, you can see the feathers on the arrow pointing
+into the board.
+
+And this is 1/2 up plus I down.
+
+And this is minus.

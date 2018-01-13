@@ -1,0 +1,62 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4b.txt
+#
+# Captions for 8.421x module
+#
+# This file has 53 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So what is measurement?
+Recall, I said, orthogonal vectors are distinguishable.
+
+So for example, 0, 1 are distinguishable.
+
+What does it mean for something to be distinguishable?
+Or two things to be distinguishable?
+It means there's some measurement that
+distinguishes between them.
+
+So one of the axioms of quantum mechanics,
+if you apply the measurement that distinguishes 0 and 1
+to alpha 0 plus beta 1, there's only two distinguishable states
+in this qubit.
+So that means that in this case, you will get either
+an answer of 0 or 1.
+You'll get 0 with probability of alpha squared.
+And 1 with probability of beta squared.
+
+And if you have d dimensions, this
+is really what is known as the Von Neumann measurement
+in the standard basis.
+
+You get alpha 0 0 plus alpha 1 1 plus alpha 2 2,
+alpha d minus 1.
+d minus 1 yields the answer k with the probability alpha sub
+k, absolute value squared.
+
+And this was a unit vector.
+
+So sum of alpha sub i squared is equal to 1.
+
+Which is good because that means that if you add up
+all the possible measurement outcomes,
+you get 1, which is what is supposed
+to happen with a probability distribution.
+Now what happens with an arbitrary basis?
+
+Suppose you have measurement basis w1, w2, w0, through w
+sub d minus 1.
+
+Have vector psi.
+
+The probability of seeing w sub i
+is w sub i psi squared, which you
+can see that the inner product of i and this vector
+is exactly alpha sub i.
+So it's the same formula as in the standard basis.
+
+And again, because it's the basis,
+the sums of these squares is 1.

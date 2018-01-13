@@ -1,0 +1,127 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5a.txt
+#
+# Captions for 8.421x module
+#
+# This file has 118 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Last time, we talked about tensor products.
+And we've also talked about measurement.
+What we haven't talked about is how measurement
+combines with tensor products--
+how to combine measurement and tensor products.
+
+And that's essentially what I'll be talking about today
+and also going into measurement in more detail.
+
+So suppose we have this state 1 over root 3, 0, 0
+plus 0, 1 plus 1, 1.
+
+So this is an entangled state.
+
+So there's two qubits here.
+And we know what happens if we measure it in the basis 0, 0,
+0, 1, 1, 0 1, 1.
+We get 0, 0 with probability 1 over root 3 squared.
+That's 1/3.
+We get 0, 1, probably same, 1 over root 3 squared.
+
+And there's something I think--
+I don't remember whether I told you or not.
+But after the measurement, the system
+acts as if it had been in the measured state all along.
+
+Now, some kinds of quantum mechanical measurements,
+you know, depending on the experiment,
+will actually destroy the state.
+And some of them won't.
+But if you make a measurement, you cannot tell--
+and you get 0, 0--
+you cannot tell whether you were in this state to begin with,
+and you happened to measure 0, 0 with probability 1/3,
+or whether you've just been in the 0, 0 state to begin with,
+in which case the probability of getting that measurement would
+be 1.
+And you would still be in the same--
+well, so the traditional description
+of the measurement as your measurement
+projects you onto the stage.
+OK, so we know how to measure in this basis.
+Suppose we just measure the first qubit.
+
+What happens?
+Well, I want to say we can rewrite this as equal to 0,
+root 2/3 or rather root 1/3 0, 0, 0 plus 1 plus 1,
+say root 1/3, 1.
+
+So if we measure 0, the remaining qubits
+should be in 0, 0 or rather in 0 plus 1.
+And if we measure 1, the remaining qubit will be in 1.
+
+So 0 probability, well, that's going to be probably 2/3.
+And qubit b will be in 0 plus 1, 1 over root 2.
+
+And with probably 1/3, we will measure the first qubit
+in the state 1.
+And the second qubit will be in the state 1.
+
+So probably, I need to describe this further.
+
+Actually, there are a bunch of different ways
+of describing this.
+And we'll go through several of them today.
+But one way of doing it is measure--
+
+OK, you have a combined system.
+So there are two pieces of your system A, B. One way of doing--
+and want to measure in let's say U e1, e2, through e sub d.
+
+You want to measure A in the basis e0 through ed minus 1.
+
+So you can write--
+
+so state cal it psi A, B, you can write psi
+is equal to sum j equals 0 through d minus 1 e sub j
+A, v sub j B. And here, these are not going to be normalized.
+Because over here, if you look at this,
+these two things are not normalized.
+
+So what you get--
+e sub k with probability v sub k squared.
+
+And system B is in state v sub k over v sub k.
+
+So we get the result k with probably v sub k squared.
+
+So yeah, and system B is in state--
+is in the state v sub k when you divide by its length
+to make it a unit vector.
+
+So I should say this is the measurement result.
+Is this clear?
+
+Well, over here, we could have measured the second qubit--
+
+qubit.
+And we would get 0b with probability 1/3.
+And then you would get--
+and state system A would be in state 0.
+
+And you would get 1 sub b with probability 2/3.
+And A would then be in 0 plus 1.
+
+If you take this thing and measure the second qubit,
+you will get exactly the same probabilities here.
+So it doesn't matter whether you made your system
+B first or system A first.
+What will happen is that you will get the same results
+as if you'd measured both of them at the same time.
+And this should be clear because here you
+know you get 0 sub A probability of 1/2 and 0
+sub B probability 1/2.
+And when you multiply 2/3 by 1/2, you get 1/3.
+

@@ -1,0 +1,107 @@
+#
+# File:   content-mit-8370x-subtitles/U1L2c.txt
+#
+# Captions for 8.421x module
+#
+# This file has 98 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+3SAT is an interesting example, because it's
+all about a Boolean formula.
+And now I want to share with you this universality claim written
+out in this language of AND and NOT gates.
+So I want to prove this claim about universality.
+So AND, NOT are universal for Boolean circuits.
+
+Let f be a function which maps n plus 1 bits to just 1 bit.
+And then we may define two other functions--
+one called f0 and another called f1.
+And the f0 will take in just the n bits.
+So x1, xn.
+Note that f started with x0, like I've
+done elsewhere up here.
+And this will be defined as being f with a 0
+in the first place.
+
+And similarly, f1 will be defined with a 1
+in the first bit.
+
+OK.
+So now we have two of these functions.
+And the way you show that you get universality with AND
+and NOT is really trivial.
+You define f of y is equal to--
+let me be a little more careful here.
+Note that I'll now define f acting on all n plus 1 bits.
+So instead of it just to 0 or 1, suppose
+I label the first bit as y--
+then I have x1, x2, all the way up to xn.
+This is the function I want to construct.
+And we can see that it's easily constructed as y
+times f0 plus y bar times f1.
+This is an OR gate, this is an AND gate.
+And I need to show you that you can get an OR gate from an AND.
+
+And I'll leave that as a little exercise, because it's easy.
+It's De Morgan's theorem.
+OK.
+So what are the resources required to do f?
+By the way, you can then continue
+on this line and recurse.
+
+Well, if we draw off the circuits that I just used,
+it becomes very clear how much resource is required.
+So what we have is two sets of inputs, x1 through xn.
+There are n bits here, there's 1 bit here.
+This is fed into a box which computes f0,
+and copied and also fed into a box that computes f1.
+And then this bit y, a single bit here,
+is used to select one of the outputs of the functions,
+either the f0 function or the f1 function.
+And we do that by using an AND gate, for example.
+
+And then ORing the two results together,
+where I connect with a NOT gate here, this is an AND,
+this is an OR, and then this output is f.
+OK.
+So we now see that we need to double the number of function
+evaluations at each stage.
+I will recursively simulate f0 with exactly the same pattern
+and just keep on going.
+So you can see that the amount of complexity,
+the resources needed, grow exponentially, at least as 2
+to the number of bits used in the system.
+And I'll use complexity notation and say
+that, to realize an n bit function using AND, and OR,
+and NOT gates, you need approximately 2
+to the n of such primitive gates.
+And so now we can get at least the universality
+of the AND and the NOT.
+In addition, we use several other resources
+that are physical.
+So I don't want this just to be a computer science argument;
+I want you to also think about the fact
+that right here, we had wires that
+were crossing over each other.
+Right here, we had wires that involve
+copying of data, something which is anathema
+in quantum computation.
+So if you're going to think about the physics
+of the circuit, we want to realize
+that there are odd resources beyond AND, and OR, and NOT.
+We also had to use the resource of FANOUT and CROSSOVER.
+
+And of course, there are wires.
+So there's communication of the bits of information
+between all of these gates.
+And you want to think, if you're realizing
+a model of a computation, how do all of those resources scale?
+How many crossovers, how many FANOUTs,
+how many wires do I need as I am building something?
+And these kinds of questions are only recently
+becoming a barrier in implementations
+of large-scale integrated circuits
+as we reach limits where energy consumption become

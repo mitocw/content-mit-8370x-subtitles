@@ -1,0 +1,123 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5c.txt
+#
+# Captions for 8.421x module
+#
+# This file has 114 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Before we go on, I think I need to tell you
+some facts about matrices.
+So a unitary matrix satisfies finds
+U dagger equals U inverse.
+A Hermitian matrix satisfies H is equal to H dagger.
+
+And sigma x, sigma y, sigma z are both unitary and Hermitian.
+
+So if we take minus i, i and 1 minus 1,
+so if we take the transpose of this
+and take its complex conjugate, we get the same thing here.
+We get the same thing here.
+And we get the same thing here.
+And that's what it means for this to be Hermitian.
+So this is a dagger and not a plus.
+It's a dagger and not a transpose the way
+it looked like.
+I'm sorry I meant to write dagger.
+But I didn't draw the--
+I didn't draw this upper thing quite as well as I should.
+OK, so the fact we need, both unitary and Hermitian matrices
+of dimension d have d eigenvectors.
+
+Dimension d have d eigenvectors.
+
+And these are, well, they're all orthogonal.
+And you can-- and since eigenvectors aren't--
+the length of eigenvectors is not specified,
+you can assume that there are all units.
+So you can assume that they're all orthonormal.
+
+So H is equal--
+
+and Hermitian M is equal to summation i equals 1
+through d lambda i b sub i.
+And a unitary is i equals 1 through d e to the i theta
+b sub i, b sub i, where in both the cases,
+the b sub i's form a basis.
+And lambda i is of course the eigenvalues.
+And e to the i theta are again the eigenvalues.
+
+So this-- well, I will prove it.
+
+Am I speaking loud enough for the back of the class to hear?
+Oh, good.
+
+So I will prove it in a little while.
+Suppose proof, well, I will use the fact that there always
+exist one eigenvector--
+
+exists one eigenvector.
+
+And over here, we need to use the fact
+that we're using matrices over the complex numbers
+because this isn't necessarily true for matrices
+if you don't allow complex numbers.
+
+And so that means M v equals lambda i v. So or U v equals
+e to the i theta v.
+So the eigenvalue for unitary matrices
+has to be e to the i theta because, remember,
+unitary matrices take norm one vectors to norm one vectors.
+So if you have an eigenvalue, this has to be unit length.
+So it has to be e to the i theta.
+For Hermitian matrices, it has to be real, lambda i.
+
+Let's call that lambda.
+Lambda is real since v M v, complex conjugate,
+is equal to v M adjoint v because what
+we do is flip this around and take the adjoint of the middle.
+And that's just equal to v M v. And this was lambda.
+
+So now, what we do is change the basis.
+
+I guess M prime equals U M U dagger So this
+is how you change bases.
+So first, you know, basis vector is v. Now,
+if v is an eigenvector, we know that M times 1, 0, 0
+is equal to lambda 1, 0, 0, 0, 0.
+And what that means is that this entry is lambda,
+and all these other entries are 0.
+But M is Hermitian, so that means that all of these entries
+also have to be 0.
+
+OK?
+And now, we have a smaller matrix,
+which is this, which also has to be Hermitian.
+And we can use induction and show
+that we can find a unitary transformation, which
+changes the bases so that M is diagonal with real elements.
+So the exact same proof applies to unitary,
+except that U equals e to the i theta 0, 0, 0, 0, 0.
+And we know that the columns have length 1.
+And the row vectors have length 1.
+So that means all of these other things
+have to be 0 because row vectors in unitary U are norm 1.
+And again, we can apply induction and get that U is--
+
+that we can diagonalize U so that it has e to the i
+thetas along the diagonal.
+Yeah?
+Does theta have to be the same for every eigenvector.
+No.
+OK.
+Theta is going to be different.
+So this is going to be e to the i theta 1, e to the i theta 2,
+and e to the i theta n.
+And again, this lambda doesn't have to be the same.
+It can be lambda 1, lambda 2, through lambda n.
+
+And it's clear this is a unitary matrix.
+And it's clear that this is a Hermitian matrix.

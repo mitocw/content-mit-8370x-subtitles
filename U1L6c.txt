@@ -1,0 +1,91 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6c.txt
+#
+# Captions for 8.421x module
+#
+# This file has 82 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Alice and Bob share 1 over root 2, 0, 0 plus 1, 1.
+
+Fact, if Alice and Bob make a measurement
+of form alpha 0 plus beta 1--
+what, no, that's not what I wanted--
+
+alpha 0 plus sigma x and sigma z.
+
+So they both make the same measurement, which is on--
+
+well, on this great circle of the Bloch sphere,
+they get the same outcome.
+
+So-- and if they measure with the observable sigma y,
+they get opposite outcomes.
+So I'm not going to--
+I mean, you could easily check that.
+Proof for alpha equals 0 and alpha equals 1.
+And here, I probably should have said alpha squared plus beta
+squared is 1, alpha beta real.
+
+I'm not sure it matters that alpha and beta are real, but--
+yeah, alpha and beta are real, yeah.
+Otherwise, this is not Hermitian.
+So it's not an observable.
+So proof for alpha equals 0 and alpha equals 1--
+alpha equals 1, that's sigma z.
+And they're just measuring in the 0, 1 basis, which means 0--
+if they either get both 0, or they both get 1.
+
+No, wait, that's alpha equals 0 is easy.
+Alpha equals 1, that's 1 over root 2 0, 1, 0, 0 plus 1, 1.
+
+And I'm going to put another 1 over root 2 here.
+So this is, say, Alice's state.
+And this Alice, Bob, Alice, Bob.
+When we multiply this by this, we get 0, Bob.
+And we multiply this by this, we get 0, 1, Bob.
+
+And there's a 1/2 in front of here.
+
+And similarly, if we had a minus here and a plus here,
+we would get a minus there.
+So when we take the projection onto 0 plus 1, we get 0 plus 1.
+When we take the projection onto 0 minus 1, we get 0 minus 1--
+
+and in fact--
+
+And the proof for arbitrary alpha is not so hard.
+I'm not going to go through it right now for lack of time.
+But I want to use this.
+
+So this was what we want.
+And I'm going to erase 75%.
+But hopefully, you guys can remember that.
+And say, what is our strategy?
+
+Well, 0, 1-- no, wait.
+I'm trying to draw a piece of a Bloch sphere--
+so 0, 1 plus minus.
+And these are the points that are 45 degrees.
+So this is the slice--
+vertical slice through the Bloch sphere.
+
+So Alice chooses 0, 1 or plus minus.
+So Alice and Bob are going to measure--
+each going to measure their half of the state.
+And I want to say, Alice chooses 0, 1 or plus
+minus with probability of 50%.
+
+And Bob chooses-- no, not with probably 50%--
+
+depending on what a was.
+So a equals 0, and a equals 1.
+
+And Bob chooses-- we need variables.
+So let's call this s and this axis t.
+
+So Bob chooses s and the opposite of s, if b equals 0.
+And he chooses t and opposite state of t, if b equals 1.

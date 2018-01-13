@@ -1,0 +1,101 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6g.txt
+#
+# Captions for 8.421x module
+#
+# This file has 92 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+But first, I need to tell you something more
+about quantum mechanics.
+Two Hermitian matrices commute if and only
+if they are simultaneously diagonalizable.
+
+And actually, this is a much broader class of matrices--
+this is true for a much broader class of matrices
+than Hermitian matrices.
+But since not all matrices are diagonalizable,
+not all matrices are simultaneously diagonalizable.
+So let's say-- let's call these matrices M sub A an M sub B.
+They're simultaneously diagonalizable if--
+so this is the definition--
+if U A U dagger is a diagonal and U B U
+dagger equals, call it, DA and DB for some unitary U.
+So the first thing is, if they're simultaneously
+diagonalizable, then they have to compute,
+because DA and DB are diagonal matrices, so they commute.
+And if DA equals DB, that implies that U A--
+no, let's-- well, that implies that U--
+
+I'm doing this wrong, aren't I?
+What I meant to write down was DA equals DB.
+So that says if U DA DB U dagger is equal to U DB DA dagger.
+And this is equal to--
+
+U dagger.
+And this is equal to U B A U dagger.
+
+I am moving too fast.
+I'm not looking at my notes enough.
+U dagger DA DB U equals U dagger DB DA U.
+But because DA was U A U dagger, this is just equal to BA
+and this is equal to--
+well, let's write this one out--
+equals U dagger U. DA was U A U dagger,
+so this is U dagger U A U dagger U B U dagger
+U, which is equal to AB.
+So AB equals BA, if DA--
+if the matrices are simultaneously diagonalizable.
+
+Yeah, this is the one I should erase.
+So now, suppose A and B commute.
+
+Then U A U dagger is diagonal.
+
+Well, Hermitian matrices are diagonalizable.
+So there's some U such that U A U dagger is diagonal.
+So U A U dagger is equal to lambda 1 I lambda 2
+I lambda 3 I.
+So let's look at what U B U dagger has to look like.
+
+I want to claim that it has to look like B1--
+or B-- yeah, B1, B2, B3, 0, 0, 0, 0, 0, 0, et cetera.
+So when you diagonalize A, you get the different eigenspaces
+corresponding to the eigenvalues.
+And when you apply the same thing to B,
+you get B1, B2, B3, which are matrices, which
+are just in these eigenspaces.
+And now, you can diagonalize these three matrices,
+because they're Hermitian.
+And if you apply U prime I U prime dagger, you get I.
+So when you diagonalize these matrices,
+this matrix doesn't change.
+So the only thing left to show is
+why B keeps the eigenspaces of A intact.
+
+B must keep eigenspaces of A intact.
+
+So let's see what happens if we--
+so let V--
+
+I seem to have switched notation.
+This should be A B. Let phi be eigenvector of A
+with eigenvalue lambda.
+
+Claim B psi is also an eigenvector of A
+with eigenvalue of lambda.
+
+And the proof is AB psi is equal to BA psi,
+because A and B commute, is equal to lambda B
+psi, because psi was an eigenvector of A
+with eigenvalue lambda.
+So we start with something in the eigenspace of A
+with eigenvalue lambda.
+You apply B to it.
+You remain in the eigenspace of A with eigenvalue lambda.
+And that says that all of these entries
+are 0, which means that we can simultaneously
+diagonalize A and B.

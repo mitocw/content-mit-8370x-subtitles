@@ -1,0 +1,87 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4e.txt
+#
+# Captions for 8.421x module
+#
+# This file has 78 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now, we're ready for the no-cloning theorem.
+So what is the no-cloning theorem?
+Well, it says you cannot take an unknown qubit and turn it
+into two copies of this unknown qubit.
+
+So this does not work.
+But what does this mean?
+Well, here we have an unknown qubit.
+We have a state space of dimension 2.
+Here, we have a state space dimension 4.
+You can't take a state space of dimension 2 and turn it into--
+and do anything to put it in a state space of dimension 4.
+We need to start with the state space of dimension 4.
+So how do we do that?
+Well, Psi 0.
+So if we need another register, which
+starts in some definite state.
+So we take our unknown qubit, in say one qubit.
+And another qubit, which is in a definite state.
+And we'd like to turn it into two copies of the same qubit.
+And I want to say we can't do that.
+Well, we would need--
+
+this goes to that.
+And suppose you started this in another unknown state.
+It would have to go to phi, phi.
+
+But of course, it can't, because the no-cloning theorem
+says that you can't do that.
+And this says look at inner products.
+
+So unitary transformations preserve inner products.
+And I haven't proved that yet, but it's one line.
+And I'll who do that after this thing.
+So inner products are preserved.
+
+So, need, well, we need to take the inner product of these two,
+which was just psi, phi, 0, 0.
+And we need that to be equal to psi, phi, psi, phi.
+
+If psi, phi equals x, get--
+well, this is one.
+x equals x squared, which only works if x is 0 or 1.
+So what does that say?
+Well, if we had two distinguishable states,
+we could clone them.
+But that's-- now, if we have two distinguishable states,
+we can measure which of these two states that they're in.
+And then we can make as many copies as we want.
+If we have two equal states, we can clone them.
+And if we-- assuming we know what the state is,
+we can make as many copies of it as we want.
+But if we have two states, which we don't know,
+and which are not orthogonal, then we can not clone them.
+
+OK.
+So why do unitary transformations
+preserve inner products?
+
+Recall, U is unitary if and only if U dagger equals U inverse.
+
+So phi, psi get mapped by U to U phi U psi.
+
+And the inner product here is just, say, phi, psi.
+
+And the inner product here, well, we take this ket
+and find the equivalent bra.
+So we take the conjugate transpose.
+And when we do that, it's phi U dagger.
+And then this is U psi.
+
+But remember, U dagger U is equal to U inverse U,
+equals I. So this is phi times the identity,
+psi, which equals phi psi.
+So inner products are preserved by unitary transformations.
+So this calculation was correct.

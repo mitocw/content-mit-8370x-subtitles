@@ -1,0 +1,252 @@
+#
+# File:   content-mit-8370x-subtitles/U1L1b.txt
+#
+# Captions for 8.421x module
+#
+# This file has 243 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So what I'm going to do for the rest of this lecture
+is talk about the historical development of quantum
+mechanics and classical computing and information
+theory and where this fits into the class,
+and I'm also going to start talking about models
+for quantum computation.
+And before I start talking about models for quantum computation,
+let's start with models for classical computation.
+So models for classical computation.
+
+So can anybody give me a model for classical computation?
+Yeah?
+Turing machine.
+Turing machine.
+
+Anybody give me another?
+Yeah?
+TFAs and NFAs.
+What?
+The Turnistic finite automaton.
+Oh, finite automaton.
+
+Another?
+Yeah?
+Lambda calculus?
+Yeah, good.
+
+Another?
+Was there another one?
+
+OK.
+How about a coin.
+What?
+A coin!
+A coin.
+A coin.
+
+Well, OK.
+
+So which of these, if any, do you think the standard quantum
+mechanical model for computation is?
+
+OK.
+So all of you have something to learn in this class.
+That's good.
+OK.
+So first, let's classify these into two parts.
+I want to claim this is universal,
+and this is universal.
+And this, not universal, and this is not universal.
+And what does universal mean?
+
+OK.
+
+Let's erase this.
+
+1936, Turing, universal computation.
+
+So what universal means is that, given any computation
+that is reasonable, you can do it on a Turing machine,
+or you can do it with a lambda calculus.
+So that does all computations.
+Finite automata do not do--
+do not solve all problems.
+And coins are very far from solving all problems.
+OK.
+And I'm going to write down a circuit
+model, which is actually the one which the quantum computers--
+it's the most-- it's a model that we'll
+be using for quantum computers, and it's
+the model that really is the standard one for quantum
+computers.
+And this is--
+Well, I should say something about its universality.
+This is actually super-universal.
+In other words, there are some computations
+which can be solved with a circuit model which can not
+be solved with Turing machines.
+So this is a problem.
+But we will get back to how to fix it.
+So what is the circuit model?
+
+The circuit model is what you can
+draw circuits, which are, say, NOT gates, AND gates
+and OR gates.
+And why don't I use these, say, NOT, AND, and ARE
+rather than drawing the EE symbol for them,
+because half of you probably don't know the EE symbols,
+and we're not going to be using them.
+So and what you do is you just take your input,
+put it through a gate, feed output of that
+into another gate, feed the output of that gate
+into another gate, and then you have the output here.
+
+And I guess we'd probably want several bits for the input.
+And an OR gate takes two inputs and gives you one output.
+
+And this is the circuit model.
+So why did-- and these have been around a lot longer
+than Turing machines.
+I mean, electrical engineers were designing circuits well
+before 1936.
+So why did Turing not use circuits
+for his model of computation rather than Turing machines?
+
+Any guesses?
+
+Yeah?
+The circuits get really big.
+Well, yes, that's true.
+But that's not the real reason, because Turing machines
+can also, in some sense, get really big.
+Yep?
+If you wanted to do a FOR loop whose
+size depended on the input, can you
+do that with a circuit model?
+I mean, aren't there things that are hard to do on a circuit--
+Right, well, it's because circuits are only
+designed if I give you a circuit for a finite size input.
+So I can have a circuit--
+so let's pick a problem.
+Multiple two n bit numbers, two n bit numbers.
+I can write down a circuit which multiplies 10
+by bit by 10-bit numbers.
+And I can write down a circuit that multiplies
+12-bit by 12-bit that numbers.
+But if you want to have some kind of computation that
+is independent of the size of the input,
+circuits don't really do it, because circuits have--
+
+because circuits are specified for the particular input.
+
+And you can also cheat because of that.
+So let's see.
+So let's pick an example of an uncomputable problem.
+Does the Turing machine with, I guess, program given by P--
+so you can write your program of a certain Turing machine
+as a string of 0s and 1s.
+And that's with P. And input i halt--
+
+This is uncomputable.
+
+But you can solve it with a circuit model,
+well, with a family of circuits.
+
+Circuit with 2 to the Pi inputs outputs 1
+if the Turing machine halts and 0 if the Turing machine does
+not halt, because for the circuit model,
+there's not a circuit for every--
+there's not a single circuit for every size input.
+There's a different circuit for every size input.
+So we can hide uncomputable information
+in the design of the circuit for size n.
+So that's a bad idea.
+So this is why Turing machine--
+Turing came up with the Turing machine to do computation.
+
+OK.
+So in 1994, I discovered the factoring algorithm
+and started talking to people about it.
+And somebody pointed out at some point
+that when they first heard me talk about it,
+I was using the quantum Turing machine model.
+And then later, by the time I gave the talk and six months
+after I discovered it, I was using the circuit model.
+So why was that?
+Well, it turns out I'd been talking with physicists.
+And physicists, if you have the Turing machine, what
+you have to do is you have to keep the Turing
+machine in superposition, which is something
+I haven't told you what it is.
+But you need to keep the Turing machine
+in a coherent superposition of where the heads are--
+of having the head in different places along with tape.
+And a physicist just looks at it and then says,
+that's totally impossible.
+There's no way we'll ever be able to engineer that,
+even if it's theoretically permitted by physics.
+On the other hand, the circuit model,
+you can do just by having a bunch of quantum
+bits in coherent superposition with each other
+and applying gates to pairs of quantum bits.
+And that actually works.
+Or I shouldn't say actually works.
+In 1994, that was also impossible
+and several orders of magnitude less impossible than a quantum
+Turing machine.
+And now, we are seeing people have quantum computers
+with, say, 50 gates, which really do satisfy the circuit
+model and are reasonably stable, coherent superpositions.
+And they're getting bigger.
+And so far, no one has built a single quantum Turing machine.
+So this is why we're doing the circuit model.
+So for the circuit model, the description of the circuit
+should be--
+
+oops-- it should be output by a classical computer program.
+
+And this is what keeps you from cheating and hiding
+uncomputable information in the description
+of the different circuits of different sizes.
+Yeah?
+Sorry.
+Can you explain what you mean by the algorithm classically
+computing?
+Well, there should be a classical computer,
+where the input is n size of circuit,
+the output is the quantum circuit of size n.
+
+And that solves the problem you're interested in.
+
+I should say for inputs of size n.
+Is this computer a Turing machine?
+Yeah.
+This computer can be a Turing machine.
+
+It should be some kind of classical universal computer.
+And it really doesn't matter what it is, because this is--
+because they're-- all classical universal computers are really
+equivalent in some sense.
+
+Yeah?
+So is there a way to fix up some rules for the classical circuit
+model, so it's not so unreasonable?
+Well, you can have the classical circuit be the output
+of some Turing machine.
+But this is somehow recursive, because that gets you back
+to Turing machines.
+If you want the classical circuit
+to be the output of another classical circuit,
+you're somehow building in--
+
+you may still be building in ways to cheat.
+I mean, maybe, you can have a classical circuit that
+is of size n that designs a classical circuit of a larger
+size that does something, but I don't
+know if anybody has done this.
+Good question.
+OK.
+So we will talk really, about classical circuits
+the next time.

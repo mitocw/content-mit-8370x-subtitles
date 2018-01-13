@@ -1,0 +1,93 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3b.txt
+#
+# Captions for 8.421x module
+#
+# This file has 84 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The first thing is, what is a quantum state.
+So a quantum state space of a system is a vector space.
+
+And we will explain this a little bit more later,
+but I will say that a qubit is a two dimensional quantum spate
+space.
+
+And actually, there is something about quantum mechanics
+that is probably different from the linear algebra
+that you've learned.
+Quantum mechanics, everything has complex numbers in it,
+so it's a complex vector space.
+So let's do examples.
+
+So the polarization of a photon has basically has
+two distinguishable states--
+horizontal and vertical.
+And you can distinguish them by using
+a pair of Polaroid sunglasses.
+And the horizontal ones go through
+and the vertical ones do not, or vice versa,
+depending on which way you rotate your glasses.
+So, spin of 1/2 spin particle is the quantum
+states are up and down.
+These are the basis states of the quantum state space.
+And harmonic oscillator--
+
+0, 1, 2, 3.
+
+Harmonic oscillator can be an estate corresponding
+to any natural number.
+And we won't be doing harmonic oscillators in this class.
+But if you've had any quantum mechanics, you've seen this.
+And so I will try to explain what
+this means a little bit later.
+So what now?
+
+So let's do an example of a 4 dimensional state space.
+
+And let's call the basis vectors 0, 1, 2, 3.
+
+So I've been using this funny notation without explaining it.
+So now I get to explain it.
+V is a column vector.
+
+And a column vector will have four coordinates.
+So it will look like v0, v1, v2, v3.
+
+So a quantum state is a unit vector
+in a quantum state space.
+
+So associated to a quantum system
+is a quantum state space.
+So for example, associated to a spin
+1/2 particle is a 2 dimensional state space.
+And the state of a spin 1/2 particle
+can be any complex unit vector in the quantum state space.
+
+For example, v might be 0.5, 0.5, 0.7i, 0.1,
+which if you sum the squares of these, you get 1.
+So it's a unit vector.
+And this funny looking thing is called a ket.
+
+So this is Dirac notation.
+And it can be very useful.
+I hope to show you a calculation in which it's useful
+later today.
+
+So this is a column vector.
+There's a corresponding row vector,
+which is called the bra, and it's
+equal to the transpose or v conjugate transpose.
+So in this case, it is equal to 0.5, 0.5, minus 0.7i, 0.1.
+And why do these two things have these very funny names?
+Well a bra-ket is equal to, v is equal to--
+well, because v is a unit vector,
+and we're multiplying it by it's conjugate transpose,
+you always get 1 if you have a quantum state.
+And wv is equal to--
+well, in that notation I guess it
+would be w complex conjugate transpose v. And this
+is an inner product.

@@ -1,0 +1,115 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3h.txt
+#
+# Captions for 8.421x module
+#
+# This file has 106 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+A unitary transformation is one that takes complex unit vectors
+to complex unit vectors.
+
+So it takes 0.
+So let's pretend.
+OK.
+So d dimensional quantum state space with bases 0, 1,
+2, d minus 1--
+OK.
+So let's work in the d dimensional quantum state space
+and see what we need for a transformation to be unitary.
+
+So I times U is equal to--
+let's call it C sub i.
+
+C sub i is unit length because--
+I should say that I is just the vector 0, 0, 1, 0, 0, where
+1 is in the i-th position.
+
+So U times I is a complex vector C sub i.
+And if you think about it, C sub i is i-th column of U.
+So U looks like C1, C2, through C sub i--
+C sub d minus 1.
+
+OK.
+I want to say we can write this as summation C sub i
+I. So this is a nice thing about Dirac notation.
+So this is just [? phi. ?]
+So what does this mean?
+Well, it means that if you apply U
+to j, you get I equals 0 through d minus 1 C sub i Ij, which,
+remember, I--
+1 [INAUDIBLE] through d minus 1 is an orthonormal basis
+of the space.
+So that's just equal to C sub i times the I
+equals 0 through d minus 1, C sub i times
+the Kronecker delta function, delta sub Ij, where this is 1
+if I equals j and 0 otherwise.
+And that is just equal to C sub i.
+
+So now we have this notation.
+
+Let's see.
+Let's erase this.
+
+Apply U to I plus j over root 2.
+So that tells you C sub i--
+
+I times-- OK, let's make this j plus k over root 2
+so we don't reuse indices.
+I equals 0 through d minus 1.
+j plus k over root 2 is equal to Cj plus Ck over root 2.
+And this needs to be a unit vector
+because for a unitary transformation-- needs
+to take this unit vector to another unit vector.
+So we know Cj plus Ck over root 2 times Cj plus Ck over root 2
+is equal to Cj, Cj plus Ck, Ck plus Cj, Ck plus Ck, Cj,
+all over 2.
+
+So what is this?
+Well, Cj, Cj is 1.
+And Ck, Ck--
+I made a typo.
+No.
+I didn't make a typo.
+And Ck, Ck is 1.
+So this is equal to 1 plus 1/2 Cj, Ck--
+that's the inner product of Cj and Ck--
+plus-- I'm going to rewrite this as Cj, Ck star that says Cj,
+Ck is imaginary.
+
+OK.
+
+Now, if you apply U to j plus Ik over root 2,
+you can go through exactly the same calculation.
+And you get Cj, Ck is real.
+
+So that tells you that Cj, Ck is equal to 0.
+
+So we go back.
+Here, U is a vector made up of columns, all of which
+have length 1, and any two of which are orthogonal.
+So that is one, another, definition of a unitary matrix
+because you can--
+
+what does U do?
+Well, it takes one basis to a different basis.
+
+If you start out with a unit vector and one basis,
+all you're doing is changing the unit vector
+to a unit vector in a different basis.
+So for example, summation alpha sub
+i I goes to summation alpha sub i C sub i.
+But sum of the alpha i squared is 1.
+And that means this is a unit vector.
+Sum of the alpha sub i squared is also--
+is still 1 after the transformation.
+So this is also a unit vector.
+So a unitary is--
+
+definition two of a unitary is a matrix
+with all unit vectors and its columns
+and any pair of columns orthogonal.
+And there's a third definition of a unitary, which I will--

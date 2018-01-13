@@ -1,0 +1,158 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3f.txt
+#
+# Captions for 8.421x module
+#
+# This file has 149 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The next thing I want to do is explain
+how to rotate the Bloch sphere.
+So let's write down these matrices, minus i 0 i
+0 and sigma z equals 1 minus 1 0 0.
+So these are all two-dimensional matrices,
+which means they perform transformations
+on a two-dimensional state space.
+
+And these are the three Pauli matrices, sigma x, sigma y,
+sigma z.
+And let's try to figure out what transformations they perform.
+
+So 1 over root 2--
+no wait-- 1 0, what happens when we apply sigma x to 1 0?
+We get 0 1.
+
+What happens when we apply sigma 1 1, sigma x to 1 1?
+We get 1 over root 2 1 1.
+And if we have 1 over root 2 1 minus 1,
+it goes to 1 over root 2 minus 1 1.
+
+So what does that do to the Bloch sphere?
+Well, 1 1, which happens to be the x-axis is left unchanged.
+
+And if we-- it takes minus the z-axis to plus the z-axis,
+and it took minus the y-axis--
+
+1 over root 2 1 1--
+1 minus 1 goes to 1 over root 2 minus 1 1.
+1 over root 2 1 i goes to 1 over root 2 i 1, which happens just
+happens to equal to 1 over root 2 1 minus i.
+
+But this is just the negative of this.
+So as I said before, this is essentially
+the same vector as this.
+
+So it takes-- it leaves this vector unchanged.
+It leaves this vector unchanged.
+It takes this guy to the top, and it takes this minus y--
+or this minus y unit to the y unit and vice versa.
+So it's a 180 degree rotation around the x-axis.
+
+And I'm not going to go into the calculations,
+but this and this are 180 degree rotations around the y-axis
+and the z-axis.
+
+So this is-- and you see that this transformation just
+rotates the Bloch sphere.
+And, in fact, all the quantum transformations
+you can do, essentially, rotate the Bloch sphere.
+
+So let's figure out another one.
+H is equal to 1 over root 2 minus 1 over root 2--
+no, 1 over root 2 1 over root 2 1 over root 2 minus 1
+over root 2.
+OK, what does that do?
+Well, it takes a vertical, which is 0 to 1 over root 2 1
+over root 2 which is 0 plus 1 over root 2 to the right.
+
+And, in fact, if you square this, you get the identity.
+Because you square this, you multiply this by that--
+I mean, 1 over root 2 times 1 over root 2 plus 1 over root
+2 times 1 over root 2 is 1.
+And this times this plus this times this is also 1.
+And the other two terms are 0, because they have
+a plus and a minus in them.
+So H squared equals I. And so it interchanges that and that.
+
+Well, the down-- if you have 0 1, you get 1--
+you get a 1 minus 1 vector.
+So it interchanges that and that.
+
+And what does it do to 0 plus i 1?
+OK, maybe I need to--
+
+so that's what 1 i is equal to--
+
+well-- OK, this gets complicated.
+1 plus i or 1 over root 2 1 plus i gives you 1 plus 1/2.
+So the top thing is 1 plus i.
+And the bottom thing is 1 minus i.
+Well, you can multiply the top and bottom of this by 1
+plus i over root--
+or 1 minus i over root 2 1 minus i 1 minus i 1 over root 2.
+
+So this is a--
+
+so we're essentially multiplying the whole thing.
+I mean, this is supposed to be a scalar, I'm sorry, 1 minus i.
+So this is a scalar, and it's a unit scalar.
+So it does not change what this vector really is.
+And the top thing becomes 2.
+And canceling all the powers of 2 out, you get a 1
+over root 2 1.
+And the bottom thing, 1 minus i times 1 minus i is 2 i,
+you got minus i.
+So what you've done is you've swapped the front
+and the back of the sphere.
+So it's not a reflection, because you've
+taken this guy to this guy, this guy to this guy, and the back
+to the front of the sphere.
+It's a rotation around--
+I should have brought colored chalk clearly.
+It's a rotation around this axis.
+
+OK, so there are a lot of--
+yeah.
+In terms of x, y, z what is the vector
+that points in the direction on that axis?
+
+OK, so this rotation around--
+well, this is cosine pi 4 or rather 1 over root 2 1
+over root 2 is cosine--
+
+OK, cosine pi over 8 sine pi over 8 really.
+
+And I forgot to put cosine pi over 8.
+The y-axis is 0.
+And the-- no, the z-axis is cosine pi over 8.
+And the y-axis is 0.
+And yes, so sine pi over 8 cosine pi over 8.
+So you know, this 1 over root 2 0 1 over root 2
+is cosine pi over root 4--
+sine pi over root 4 0 cosine pi over root 4 and 1 0 or 0
+0 1, which is this point in--
+I guess, Euclidean coordinates is sine 0 0 cosine 0.
+And this point is supposed to be halfway in between them.
+So it's really sine pi over 8 0 cos pi over 8.
+And that's good.
+So I want to--
+so we're going to be doing a lot of quantum gates.
+Yeah, another question.
+Yeah.
+So H is basically [INAUDIBLE] sigma x plus sigma [INAUDIBLE]??
+And the [INAUDIBLE] rotation is basically
+like the x plus [INAUDIBLE].
+[INAUDIBLE] that like if you decompose it,
+then you can figure out what [INAUDIBLE]??
+Yes.
+Well, there's a very nice formula
+for exactly how rotations correspond to axes,
+which we won't get to yet.
+But we should be doing it at some time
+in the next few lectures.
+But what do I want to say?
+I want to say that you need to know--
+that we need a little more background before we

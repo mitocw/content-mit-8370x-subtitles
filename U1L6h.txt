@@ -1,0 +1,130 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6h.txt
+#
+# Captions for 8.421x module
+#
+# This file has 121 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now we can go on and give our strategy.
+So I'm going to write down a three-by-three matrix,
+with observables on two cubits.
+So this is sigma x tensor I, I tensor sigma x,
+sigma x tensor sigma x.
+
+I tensor sigma z, sigma z tensor I, sigma z tensor sigma z.
+And minus sigma z tensor--
+
+minus sigma x tensor sigma z, minus sigma z tensor sigma x,
+and sigma y tensor sigma y.
+
+So we need some facts about this matrix.
+Any two entries in same row or column commute.
+
+Well, sigma x tensor I and I tensor sigma z commute.
+I tensor z and minus sigma x tensor sigma z commute,
+because sigma z's commute and the sigma x's commute.
+And sigma x tensor sigma x and sigma z tensor sigma z commute.
+And let me proof.
+
+E.g., sigma x tensor sigma x times sigma z tensor sigma z.
+
+So let's put superscript on this.
+a, b, a-- no, a and b are the wrong things, here,
+because they don't correspond to apples and bob--
+1, 2, 1, 2.
+
+Is equal to sigma x sigma z 1, tensor sigma x sigma z 2,
+equals sigma z tensor sigma x 1, sigma z--
+I'm sorry, sigma z times sigma x 1, tensor sigma z times sigma
+x 2.
+
+Good?
+So, what are we doing here?
+We're taking this tensor product and this tensor product
+and multiplying them out, which means
+we multiply the first slot with this
+and the second slot with this.
+So we get sigma x sigma z, in the first slot, tensor sigma x
+sigma z in the second slot.
+
+And now, when-- remember, sigma x and sigma z anticommute,
+so maybe we should do this in a little more detail.
+This is equal to sigma x sigma z minus sigma z tensor sigma z
+sigma x.
+
+Because, when we flip these around,
+we get a minus sign because they anticommute.
+But that is equal to--
+Now we want to flip these around,
+and we erase this minus sign.
+Sigma z sigma x tensor sigma z sigma x.
+And that is equal to sigma z tensor sigma x times
+sigma z tensor sigma x.
+
+So we take the tensor product of two things
+that anticommute, they commute.
+Hello?
+But z tensor z minus x tensor x?
+z tensor z times x tensor x.
+
+Yeah, good.
+
+Thank you.
+
+I'm glad some people are paying attention.
+[LAUGH] OK, so--
+
+And there's another fact we need.
+Well, so first, because any of them commute,
+we can consider the product of these,
+because it doesn't matter which order we take the product in.
+Product of any row equals the identity.
+Product of any column equals minus the identity.
+
+Is that good?
+Well, here, take the product of this column, we have sigma
+x times sigma x.
+That's identity.
+Sigma z times sigma z, that's identity.
+And we have a minus sign here.
+
+Now, we can take the product of these three,
+sigma x tensor sigma x, and sigma z tensor sigma z.
+Sigma x tensor sigma z is minus I sigma y.
+So this times this is minus I sigma y tensor minus I sigma y.
+That's minus sigma y tensor sigma y.
+And this is sigma y sigma y.
+
+So I'm going to write that down.
+Last column, column, we get sigma x sigma
+z sigma y tensor sigma x sigma z sigma y.
+And, if you remember how Pauli matrices work,
+sigma x times sigma z is minus I sigma y.
+So, this times this times this is
+minus I times the identity times tensor minus I
+times the identity, which is just the minus the identity.
+And this is a two-by-two identity,
+and this is a four-by-four identity.
+And, so, all of these matrices have eigenvalues plus and minus
+1, because, well, sigma x has eigenvalues plus or minus 1,
+sigma z has eigenvalues plus or minus 1, sigma, y has
+eigenvalues plus or minus 1.
+And we take the product of two of them,
+we just get eigenvalues of plus or minus 1,
+because it's a tensor product.
+So, for example, sigma z tensor sigma z
+is equal to 1 minus 1 minus 1 1.
+And when both eigenvalues are minus 1, you get a 1.
+When one of these eigenvalues is minus 1 and 1 is 1,
+you get a minus 1.
+And when they're both 1, you get a 1.
+So tensoring two matrices with eigenvalues plus or minus 1
+gives you a matrix for the eigenvalues plus or minus 1.
+And the same thing for--
+you put a minus sign on it, that doesn't
+change the fact that eigenvalues are plus or minus 1.
+And these matrices all commute, so they're all simultaneously

@@ -1,0 +1,65 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3p.txt
+#
+# Captions for 8.421x module
+#
+# This file has 56 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So we've done qubits.
+
+And you know pretty much how to find single gates on qubits.
+But of course, applying single gates
+on qubits in a quantum circuit, you know,
+you start with K qubits.
+
+This qubit never talks to this qubit.
+It really doesn't help very much.
+To actually get any kind of quantum computation,
+you need to do some gate that links two of these qubits
+so that they talk to each other.
+So what is a state space?
+
+State space of two qubits.
+
+Well, I mean, if you have two polarizations of a photon
+and you want them to be distinguishable,
+you're going to have to distinguish them somehow.
+And one way of doing that is making sure
+they're distinguishable in at least one of the photons.
+So you have two photons here.
+This is vertical-vertical, vertical-horizontal,
+horizontal-vertical, horizontal-horizontal.
+
+So this is four dimensional state space.
+So does anybody know what the size of the state space
+is for n photons?
+Yeah?
+2 to the n, yeah.
+And this is called a tensor product.
+
+So next time, I'm going to start poking about gates
+on two qubits where they can talk
+to each other and tensor product spaces.
+And on the day--
+I guess a week from now, I will start
+talking about what the measurement is in quantum
+computation, because--
+so this lets you-- you know, so unitary operations let
+you change the state of a system,
+but if you're doing-- if you have a quantum computer,
+you need to get the information out somehow.
+So how do you do that?
+Well, you need to measure it.
+And measuring it isn't the same as writing down its state,
+because if you've heard of the Heisenberg uncertainty
+principle, you cannot measure the complete state of a quantum
+particle.
+You can't measure the position and the momentum
+at the same time, and the same thing
+is going to be true for qubits.
+You cannot measure the complete state of n qubits.
+You can just measure some properties of it.

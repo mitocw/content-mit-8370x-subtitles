@@ -1,0 +1,74 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5h.txt
+#
+# Captions for 8.421x module
+#
+# This file has 65 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What we'll look at in the next--
+well, next couple of lectures, we
+will be using these four states called Bell states.
+
+0 0 plus 1 1.
+
+1 over root 2 0 0 minus 1 1, 1 over root 2 0 1 plus 1 0,
+and 1 over root 2 0 1 minus 1 0.
+
+And these are all entangled.
+
+They form a basis for the state space of two qubits.
+
+And I want to say that this state,
+remarkable because the spin is 0 in any direction.
+
+Along any axis.
+
+And I think the rest of this period--
+
+well, some of the rest of this period
+will go into proving this.
+
+And, you know, for these, the spin is 0 along some axes
+and 1 along other axes.
+
+So first calculation.
+
+x-- we'll call this psi.
+psi Sx psi equals 0.
+psi Sy psi equals 0.
+And psi Sz psi equals 0.
+
+Well, we've already--
+I mean, this is easy to check because Sz was--
+I erased that, didn't I?
+Sz was 1 0 0 minus 1, and these--
+this state is 0 1 minus 1 0, so it lies in the 0 eigenspace.
+
+And Sx was 1 1 1 1 1 1 1 1, and we can multiply it by 0 1
+minus 1 0.
+
+I think I need a normalization vector of some kind here.
+
+Not that it matters.
+And this is equal to, well, multiply it
+by the first term, top and 0, 0 0 0, so this is 0.
+
+And Sy equals 1/2, OK.
+You're going to have to trust me for the calculation here.
+
+Is equal to 0.
+So this is in the 0 eigenspace of Sx, Sy, Sz.
+
+So S alpha is equal to sigma alpha tensor 1 plus 1 tensor
+sigma alpha.
+
+Well, that's just alpha-x sigma-x plus alpha-y
+sigma-y plus alpha-z sigma-z.
+So this is just 1/2--
+I want to say Sx alpha-x Sx plus alpha-y Sy plus alpha-z Sz.
+So something in 0 eigenspace of Sx, Sy, Sz
+also is in 0 eigenspace of S alpha.

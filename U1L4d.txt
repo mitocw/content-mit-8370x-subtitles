@@ -1,0 +1,61 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4d.txt
+#
+# Captions for 8.421x module
+#
+# This file has 52 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+And there's one more thing I want
+to say about tensor products state of two-qubits
+before I go onto the no cloning theorem.
+Inner products of two-qubits.
+
+So suppose two-qubits are in a separable state.
+Well, the inner product, alpha, psi, phi
+is equal to some psi i star [INAUDIBLE] sub i 0, 2, 3.
+
+Or maybe I should say i equals 0, 0, 2, 1, 1.
+
+But if phi is equal to phi 1 tensor phi 2 and psi is
+equal to psi 1 tensor psi 2, phi psi
+is equal to phi 1 psi 1, the inner producer of the first two
+times the inner product of the second.
+
+Why is this?
+Well, psi is equal to--
+
+OK.
+
+Let's say psi 1 is equal to alpha 1,
+or psi a equal-- oh, no.
+Psi 1 equals alpha 1, beta 1, gamma 1, delta 1.
+And psi 2 equals alpha 2 beta 2, gamma 2, delta 2.
+
+And that equals, of course, this.
+Then, psi 1, psi 2, is equal to, well, alpha 1,
+gamma 1, alpha 2, gamma 2 plus alpha 1, delta 1, alpha
+2, delta 2.
+So that would be alpha 1 star gamma 1, alpha 2 star gamma 2
+plus alpha 1 star delta 1, alpha 2 star delta 2 plus
+beta 1 star gamma 1, beta 2 star gamma 2 plus--
+
+did I do this completely wrong?
+
+Alpha 1-- yeah.
+I did.
+
+I'm putting the complex conjugates in the wrong things.
+
+Plus beta 1 star delta 1 star, beta 2, delta 2,
+which if you look at it just factors.
+
+I have an alpha 1 star alpha 2.
+Star alpha 2, and you have beta 1 star beta 2, gamma 1
+star gamma 2 plus delta 1 star delta 2, which
+equals psi 1 phi 1a psi 1 psi 2 a times psi 1 psi 2, so b.
+
+So that's a proof of this.

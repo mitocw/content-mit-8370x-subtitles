@@ -1,0 +1,91 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6a.txt
+#
+# Captions for 8.421x module
+#
+# This file has 82 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Today, I'll be talking about quantum weirdness.
+And I think to talk about this, I first
+want to go back to a paper by Einstein, Podolski, and Rosen--
+that's EPR 1935.
+And what Einstein argued was that quantum mechanics
+is incomplete.
+
+So what Einstein used in this paper
+was position and momentum, but we're
+working with discrete quantum mechanics, so we'll just use--
+
+well, up and down, or 0 and 1.
+
+So I want to give Einstein's argument--
+so suppose you have 0 minus 1.
+
+So suppose Alice and Bob share a pair of entangled particles
+like this.
+If Alice measures in the 0,1 basis--
+
+Bob will have the opposite particle
+no matter what Alice measures.
+So if she measures a 0, he gets a 1.
+And if she measures a 1, he gets to 0.
+And if she measures in the plus or minus basis--
+if Alice gets a plus, Bob will always get a minus.
+And if Alice gets a minus, Bob will always get a plus.
+
+So because Alice and Bob can be reasonably far apart and can
+measure at the same time with relativistic speeds,
+Bob's particle cannot know whether Alice measured a 0 or 1
+when Bob measures it.
+So what this says is if Bob--
+well classically, you would think
+that if Alice can predict what Bob gets,
+which she can because she can predict
+in the plus minus basis, if she measures
+in the plus minus basis, and she can predict in the 1,0 basis
+if Bob measures in the 1,0 basis.
+So if Alice can always predict 100% what Bob will do,
+then there must be something in the quantum state
+that tells what Bob will get when he measures it.
+Yes?
+Should the state [INAUDIBLE] on top be 0,1 minus 1,0?
+It should be.
+I'm sorry, I wrote down the wrong state.
+
+I'm going to switch to 0,0 plus 1,1 later in this lecture
+because then--
+I'll tell you why when I get there.
+
+So you would think that there's something in this quantum state
+that tells whether it's going to be a 0 or 1
+when Bob measures it, but we know according to quantum
+mechanics that there is nothing in this state that
+tells whether it's going to be a 0 or 1.
+So what that means is that there must
+be a more complete theory of reality than quantum mechanics.
+So this is what Einstein argued.
+And Schrodinger wrote a paper that answered that.
+And Schrodinger's paper said that qubits are--
+or the particles are verschrankung--
+which is a German word that means crossed arms, or crossed
+legs, or intertwined fingers--
+and that's why this happens, which really is not
+that great of an explanation.
+And then Schrodinger later translated
+verschrankung into English as entangled
+because crossed would really have not worked.
+
+Well, nobody paid much attention to Einstein's argument
+for the next 25 or 30 years or so.
+And Einstein was never satisfied with quantum mechanics
+completely, but quantum mechanics
+worked so they ignored this objection to it.
+And then in 1964, Bell published a paper that said, well,
+Einstein was both right--
+there's something very strange going on here,
+but wrong in that there's no way to complete
+this theory to a real theory because the arguments

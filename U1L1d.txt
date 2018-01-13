@@ -1,0 +1,122 @@
+#
+# File:   content-mit-8370x-subtitles/U1L1d.txt
+#
+# Captions for 8.421x module
+#
+# This file has 113 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So immediately after this, the objection to the factoring
+paper was, but you can't do error correction
+on a quantum computer.
+And if you want to factor a real number,
+if every quantum operation, every quantum gate,
+is not accurate to one part in 10 to the ninth,
+the errors are going to mount up.
+And the result will be worthless.
+
+And why is this?
+Well, somewhere we have the no cloning theorem here.
+
+[? Here. ?]
+So what you can do is you can look
+at the classical techniques for error
+correction, classical fault tolerance, tolerance.
+And there are a bunch of techniques for classical fault
+tolerance.
+One, checkpointing.
+
+And write down state of system.
+
+If something goes wrong, you don't
+have to start at the beginning.
+
+You don't have to start at the beginning.
+Go back to beginning.
+And I don't know what it's like now.
+But 20 years ago, if you looked, the advanced micro devices
+chips had checkpointing.
+Every so often, they wrote down.
+And they called these techniques the Little Hammer and the Big
+Hammer.
+If something went wrong, they started again
+at the checkpoint.
+
+And actually both the Little Hammer and the Big Hammer
+were checkpointing.
+And I forget what the difference between them was.
+But whoever told me about this strongly suspected
+that the intel chips also had this cheat in them.
+So the chips don't actually work perfectly.
+But you don't notice it because there's
+fault tolerance built in.
+There's another technique, error correcting codes.
+
+Codes.
+
+And you'll map K bits to N bits.
+And you can recover, cover from some number of errors.
+And these are really good for memory and for communication.
+So basically, all your computer memory
+and all your electronic communication
+uses error correcting codes.
+But classically nobody used error correcting codes
+to do computation.
+And then three, massive redundancy.
+
+So what you do is you keep many copies of your computation
+around.
+And if one of them goes wrong, you
+compare them with the others.
+Or rather, you keep comparing them.
+And if one of them is different, you
+throw it out and use or copy the state of one
+of the other computations.
+And you can do massive redundancy for each bit.
+Or you could do massive redundancy
+for the whole computation.
+Yeah?
+So in the case of massive redundancy, [INAUDIBLE]
+obvious weighted error occurs?
+Right.
+With the other two, are we assuming
+that there's some method of error detection in place?
+Yeah.
+Well, error correcting codes have
+a method of error detection.
+Checkpointing, yeah.
+You can really only use that if you have
+some method of error detection.
+But I'm not going to get into what method of error detection
+you use for it because I just want
+to ask which of these are compatible with the node
+cloning theorem.
+Well, massive redundancy.
+It's fine to start out with n copies of your computation.
+It's fine to compare them against each other
+to see if they're wrong.
+But if one goes wrong, all you have to do
+is copy the state of another to this new one.
+Or else you just have n minus one copies of your computation.
+And our number of copies of your computation without any errors
+just keeps going down.
+So this does not work.
+Checkpointing.
+Well, you want to write down the state of your system.
+That's copying it.
+The no cloning theorem says you can't do that.
+Error correcting codes.
+Well, it looks like they're also forbidden
+by the no cloning theorem when, in fact, they work.
+And you can use them to do computation with, as well
+as use them to do communication and memory with.
+The reason nobody does computation
+with them in classical computers is
+that it requires a lot more overhead than using them
+for communication and memory.
+And classically, these techniques
+are much less resource-intensive.
+But they work for quantum computers.

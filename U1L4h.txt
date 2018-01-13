@@ -1,0 +1,162 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4h.txt
+#
+# Captions for 8.421x module
+#
+# This file has 153 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now what I want to do is H map
+0 to plus and vice versa and H maps 1 to minus and vice versa.
+So H does for the Hadamard matrix does is it takes the 0 1
+basis to the plus minus basis.
+
+So now let's remember our entangled state
+that I wrote down, 1 over root 2 0 1 minus 1 0.
+
+So what does it look like in plus minus basis?
+
+Well, what we can do is we can write this as a vector,
+and then use this H tensor H transformation that we did.
+So writing it as a vector, 0 0 0 1 1 0 1 1 is just 0 1 over root
+2 minus 1 over root 2 0.
+
+0 1 of root 2 minus 1 over root 2 0.
+
+So H tensor H times 0 1 minus 1 0 over root 2 is equal to--
+well, the top vector or rather the top row
+is orthogonal to this.
+So that's 0 times plus plus.
+Because, remember, this is changing the basis.
+
+The next row is minus 1 over root 2 times
+plus minus plus 1 over 2 minus plus plus 0 minus minus.
+
+So that means 1 over root 2 0 1 minus 1 0
+is equal to minus 1 over root 2 plus minus minus minus plus.
+
+So this state, which was entangled in the 0 1 basis,
+is essentially the same entangled state
+with a global phase in the plus minus basis.
+
+So what we've done is we've rotated both.
+Well, you can think of this as either changing
+the basis on both qubits or rotating both qubits,
+but either way the saying, we get the same state.
+
+And there's a remarkable fact about the state.
+
+OK, so--
+
+[INAUDIBLE] equality be written with the Hadamard in front?
+
+No, because-- I mean, 0 1 minus 1 0
+is equal to Hadamard minus Hadamard times 1 over root 2
+0 1 minus 1 0.
+So this is certainly true, but what the Hadamard does
+is it changes the basis from 0 1 to plus minus.
+So if you write this as 0 1 minus 1 0 and plus--
+remember, plus was equal to 1 over root 2 0 plus 1,
+and minus was 1 over root 2 0 minus 1.
+So if you just substitute this in here,
+you will get this, because what the Hadamard does
+when applied to 0 1 is turn 0 into plus and 1 into minus.
+So this is a legitimate equality.
+And this is also legitimate inequality.
+I mean, maybe I should write this out.
+Yeah, maybe I should just expand this to show you
+that it's really true.
+Minus 1 over root 2 plus was 0 plus 1,
+and minus was 0 minus 1.
+And we have another 1 over root 2--
+well, we have [INAUDIBLE] over root twos,
+because minus 0 minus 1 is 0 plus 1.
+
+So we have a 1 over root 2 from here and two 1 over root twos
+from this guy and this guy.
+So that's minus 1 over root 2 root 2.
+And here we get 0 0 minus 0 0.
+Here we get minus 0 1 minus 0 1 1 over root 2 0 1.
+And here we get--
+well, the 1 ones cancel, and the 1 0 and the 1 0 add up.
+And they both have plus signs on them.
+So you get a plus 2 1 0.
+
+OK, why don't I just do it that way?
+So when you multiply these things out,
+you get this, which gives you that equals that--
+
+right, because I forgot that minus sign.
+So there's a 0--
+minus 0 1 on the inside.
+There was a minus sign on the front from here.
+That equals that.
+
+So the Hadamard matrix is changing the basis from 0
+to plus and 1 to minus.
+And I really should write Hadamard tensor product
+with itself, because we're applying the Hadamard
+to both the qubits.
+
+So tensor products are one of the most confusing things
+about quantum--
+about this course.
+So are there any questions about them?
+Yeah.
+Is there anyway to apply a single qubit gate
+to one of the qubits without having
+to compute a sensor product?
+
+Yeah, there is.
+
+I mean, maybe I should do an example,
+because, yeah, you don't really want
+to compute tensor products.
+
+So what you can do is you can--
+let's try-- let's apply H on the first qubit of 0 0 plus 1 1,
+where this is a b a b.
+We know H equals of 0 equals 1 over root 2 0 plus 1.
+So we can apply the Hadamard and actually--
+technically what we're doing is applying the Hadamard tensor
+identity to this if you want to make
+sure all your dimensions add up to the matrices.
+But quite often, we'll just apply-- say, we'll
+just use this notation, and we'll
+leave the tensor identity no implicit.
+So if you apply the Hadamard to 0, you get 0 plus 1 a 0 b--
+and maybe I should put a tensor product in--
+plus 0 minus 1 a 1 b is equal to 0 0 ab.
+
+So we have a 0 0.
+And now the next one, if we're reading them
+in the lexicographical order, is 0 1 plus 0 1 ab
+plus 1 0 1 0 ab minus 1 1 ab.
+
+So you just apply Ha to this qubit
+and leave all the other qubits in this expansion alone,
+and you get this.
+And that's much better than--
+or much more efficient than taking the tensor product of H
+with the identity and then multiplying it out.
+Any other questions?
+Yeah.
+Is every transformation that you can apply to multiple qubits
+necessarily a tensor product [INAUDIBLE]??
+No.
+Every transformation you can apply to multiple qubits
+is a what?
+It's a unitary matrix, but it's not necessarily
+a tensor product.
+
+And, in fact, if every thing was a tensor product, then
+you couldn't really do quantum computation.
+Because if you start with a tensor product of qubits
+and apply tensor products--
+and apply tensor product unitary to each of them,
+you know, a string of tensor product unitary to them,
+you'll never get qubit one to talk to qubit two.
+And to do quantum computation, you really

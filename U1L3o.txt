@@ -1,0 +1,88 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3o.txt
+#
+# Captions for 8.421x module
+#
+# This file has 79 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What are the number of degrees of freedom,
+and what are the number of degrees
+of freedom of 2 by 2 unitary?
+
+Well, we can factor out a global phase.
+And, well, the first thing is going
+to be 1 or rather it's going to be cosine theta.
+The first column has to look like cosine theta.
+OK, let's call this alpha.
+So in e to the minus alpha cosine--
+we can always assume this is real, because we factored out
+the global phase.
+So if this is cosine theta, this is e to the i phi sine theta,
+because You know that this first column has to be a unit vector.
+And this is e to the i phi 2 sine theta.
+And this-- you know, that this has to be orthogonal to this.
+So that means this has to be e to the minus i
+by 1 plus by 2 cosine theta.
+So there's three degrees of freedom.
+
+And the last thing I want to say is that you
+can start with a Bloch sphere.
+
+And you can take any point to any other point
+by applying rotation around the z-axis
+times a rotation around the x-axis times another rotation
+around the z-axis.
+So any unitary transformation on a qubit modulo,
+the global phase, can be decomposed this way.
+
+Yeah, that's what I wanted to say.
+And how do you do that?
+Well, let's start-- let's worry about where
+the North Pole is taken.
+So if we have the North Pole here,
+we can take it to any latitude by just rotating
+around the x-axis.
+
+So I guess if this is--
+
+if this angle is theta we just rotate it theta degrees
+around the x-axis.
+That brings us down.
+And now we can rotate around the z-axis.
+
+And now it's at the same latitude,
+but a different longitude.
+OK, I've got my latitude and longitude mixed up now,
+same latitude, but a different longitude.
+
+So now we've got the North Pole right,
+but we don't know whether we have
+rotated it the right amount around the North Pole.
+Because if you fix the North Pole, there's another rotation
+you can do around the new place on the North Pole,
+but we could have done that by starting here and rotating it
+the right amount.
+
+I want to say we can always fix this rotation around the North
+Pole by going back to the original thing
+and rotating this around the North Pole.
+And then we rotate the North Pole down,
+and we rotate the North Pole across.
+And if we figure out the right amount of this rotation,
+we'll get this one taken care of.
+So you can always get--
+you can always rotate a sphere by rotating
+around the z-axis, the x-axis, and then the z-axis again.
+And of course, z and x are not unique here.
+You could pick any two of x, y, and z and do it like this.
+So there were three degrees of freedom of 2 by 2 unitaries.
+And here we have three degrees--
+no, we have three parameters, theta--
+oh, I guess, phi 1, theta 1, and theta 2, call them.
+
+OK, good.
+Are there any questions?

@@ -1,0 +1,27 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4f.txt
+#
+# Captions for 8.421x module
+#
+# This file has 18 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So tensor products of vectors.
+
+Let's go over it again.
+We have alpha, beta, tensor, gamma, delta.
+And now these-- we should give these coordinates a name.
+This is 0, 1, and this is 0, 1.
+This product of these is, well, we
+have to put these coordinates in some order.
+And the easiest order to put them in is lexicographic order.
+And, in fact, if the tensor product is--
+if we do if we don't say anything
+about the order of the coordinates in the tensor
+product, they'll just be in lexicographic order.
+And that's just-- well, 0, 0 0, 1 is alpha delta.
+1, 0 is beta gamma.
+And 1, 1 is beta delta.

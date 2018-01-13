@@ -1,0 +1,82 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3k.txt
+#
+# Captions for 8.421x module
+#
+# This file has 73 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+How many of you have heard of interpretations
+of quantum mechanics?
+Yeah.
+So everyone's heard of the Copenhagen interpretation?
+So the Copenhagen interpretation--
+
+Copenhagen interpretation, is due to--
+or supposedly due to Niels Bohr.
+
+I guess when-- in the early days of quantum mechanics,
+Copenhagen--
+Niels Bohr with Copenhagen that was a big center of research
+in quantum mechanics.
+And a lot of physicists came through and well
+were maybe taught quantum mechanics by Niels Bohr.
+Anyway, much later, David Mermen started
+teaching a course in quantum computation at Cornell.
+And you know he writes--
+I mean he's a physicist, but he also
+occasionally writes philosophical columns
+for I think Physics Today.
+And one of his columns he said well,
+you know starting to teach quantum mechanics to all
+these computer scientists, I found myself
+drifting into the Copenhagen interpretation.
+And Niels Bohr of course was teaching quantum mechanics
+to all sorts of physicists who didn't know it.
+And he came up with the Copenhagen interpretation
+to explain it.
+And so the Copenhagen interpretation
+is really good at well explaining how to calculate
+with quantum mechanics etc.
+And the other thing Niels Bohr did with the Copenhagan
+interpretation is he added a layer of mysticism to it.
+So we'll try not to do that.
+But you know good for teaching quantum mechanics.
+
+And what it says is it says that quantum mechanical processes
+can be divided into two--
+
+I don't want to say steps, but two kinds of evolution.
+
+Isolated processes undergo unitary evolution.
+
+And every so often, an experiment or maybe the
+universe itself--
+somebody looks at them.
+
+Looks at them.
+
+And this is called measurement.
+
+And it's awfully convenient to treat measurement as something
+that happens you know--
+something goes under-- undergoes unitary evolution for a while.
+Then it gets measured, then maybe undergoes
+more evolution-- unitary evolution.
+And then it gets measured etc.
+Of course, in real life these are happening both at once.
+And what you get is a master equation.
+And there are all sorts of oh I don't
+know what the right word is--
+and you can look at master equations
+and figure out their dynamics and work with them etc.
+But that's much more complicated.
+And this is the easy way to explain things.
+So this is what we're doing.
+
+So unitary evolution is what happens to quantum systems
+when they're isolated from the environment
+and nobody is looking at them.

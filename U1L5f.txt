@@ -1,0 +1,107 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5f.txt
+#
+# Captions for 8.421x module
+#
+# This file has 98 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So when we major S sub z, you get--
+
+well, we get one of three values.
+
+We get-- so you can see what the eigenvalues are here.
+They're either 1 or 0 or minus 1.
+
+And 1, the eigenspace is 0 0.
+Minus 1, the eigenspace is 1 1.
+And 0, the eigenspace is the span of 0 1 and 1 0.
+So if we get 0, the spin gets projected into this eigenspace.
+
+OK.
+So plus 0 1 x z y, which was 0 plus i1 over root 2.
+
+So let's think of a point here, which is x, y, z.
+
+So this is a block sphere.
+And I want to claim the spin.
+OK.
+
+Alpha-x, alpha-y, alpha-z.
+
+Along-- I'm going to say the observable
+for the spin along the alpha-x, alpha-y, alpha-z axis.
+
+Alpha-x, alpha-y, alpha-z axis is alpha-x sigma-x
+plus alpha-y sigma-y plus alpha-z sigma-z,
+and let's divide by 1/2.
+
+OK, I don't want to call this a theorem,
+but I'm going to call it something.
+So 1/2 alpha-x sigma-x plus alpha-y sigma-y
+plus alpha-z sigma-z is Hermitian with eigenvalues
+plus or minus 1.
+
+So let's call this sigma in the direction alpha.
+
+Proof-- 2 sigma alpha squared is equal to the identity.
+
+OK, let's-- I'm sorry.
+If we take the 1/2--
+yeah.
+If we had 1/2 here, which would be the observable for spin
+on the alpha direction, then the eigenvalues
+would be plus or minus 1/2, but let's call sigma
+alpha just this.
+And it's has eigenvalues plus or minus 1.
+So the proof is that sigma alpha squared
+is equal to the identity because it's equal to, well, we
+have alpha squared plus alpha-x squared plus alpha-y squared
+plus alpha-z squared.
+
+So sigma-x squared is sigma-y squared
+is sigma-z squared is the identity.
+So we take this term squared, this term squared,
+and this term squared, we get this times the identity.
+And because this is a unit vector,
+because it's at a point of the surface of a sphere,
+this is 1 plus alpha-x alpha-y sigma-x sigma-y
+minus sigma-y sigma-x plus dot-dot-dot.
+And these terms, sigma-x and sigma-y, anticommute.
+Remember, sigma-x sigma-y was i sigma-z,
+and sigma-y sigma-x was minus i sigma-z.
+So these terms all go away.
+So we have a matrix whose square is 1.
+That means its eigenvalues must be--
+and it's also Hermitian because we're adding 3 Hermitian
+matrices, so we get--
+it's Hermitian because its adjoint is itself.
+
+So we get a matrix with eigenvalues plus or minus 1.
+And trace of sigma alpha is equal to alpha trace.
+
+Sum over x, y, x.
+
+Alpha key trace sigma key.
+And the trace of all these Pauli matrices is 0, so equals 0.
+So that means one of its eigenvalues must be plus 1
+and the other must be minus 1.
+So this is observable for spin in some direction.
+And you know, with some calculation,
+you can show that the direction is alpha-x, alpha-y, alpha-z.
+But, you know, the other thing is that with this formula,
+it essentially has to be because, you know,
+it's true at x, at y, and at z, and--
+
+I don't want to do this calculation because it's
+rather messy, but I think it's in the textbook.
+
+So we have the observable for spin in an arbitrary direction.
+And if you want to calculate what
+state at this point on the block sphere corresponds to,
+one way to do it is, you know, compute this matrix
+and then find its eigenvalues.
+And another way to do it is just with trigonometry.

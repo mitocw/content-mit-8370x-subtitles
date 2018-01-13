@@ -1,0 +1,137 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4n.txt
+#
+# Captions for 8.421x module
+#
+# This file has 128 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Tensor products are very confusing.
+And what I-- last thing I want to do is give you--
+
+or rather give you a warning about how not
+to think about them.
+So what I did was I showed you how
+to write down a tensor product matrix when you have a tensor
+b.
+But suppose what you have is you have three, three qubits.
+
+I think this is our first example with three qubits.
+And you have a control NOT from here to here.
+
+You would think this would be an I--
+let's label these three qubits, A, B, C--
+an I on B tensor, CNOT on A C, and it is.
+But A and C are not adjacent in the lexicographic ordering,
+because B comes in between them.
+So if you try to use the--
+
+if you try to use the tensor product thing I gave you
+this way, where you take some matrix
+and in each of these slots you put the tensor
+product for the first matrix, it doesn't quite work.
+So let's try to figure out what this is.
+
+So 0, 0, 0; 0, 0, 1; 0, 1, 0; 0, 1, 1; 0, 0, 1; 1, 0, 1; 1, 0,
+1; 1, 1, 1.
+
+So what's going to happen is you'll get to C NOT on the four
+things where B is 0, an independent C NOT on the four
+coordinates where B is 1.
+
+So here are the four coordinates where B is 0.
+
+And let's write down the CNOT.
+We know what the CNOT like.
+
+And here are the four coordinates where B is 1.
+
+And we can write down the CNOT here, 1, 1; 1, 1.
+So that is this gate written down with these coordinates.
+And yes, so if you're used to writing
+tensor products of the form A tensor B and you
+have to write down something that
+looks like this, where B is between
+and C in lexicographic order--
+well, I mean, start from first principles
+and reason out how to write it down,
+but don't try to blindly apply this formula to this case,
+because it doesn't really work very well.
+Yeah.
+Is it equivalent if use SWAP gates to get them adjacent--
+Yes.
+[INAUDIBLE]?
+Yeah, so there's another way of doing it,
+which is you could put a SWAP gate here and then another SWAP
+gate here.
+
+Is that equivalent to multiplying by that [INAUDIBLE]
+on the top board, though?
+Well, if you multiply them by the matrix
+according to this SWAP, and then this matrix, and this matrix,
+you should get that matrix.
+
+So yeah-- so this is a good point in that you never
+actually have to apply gates on non-adjacent qubits
+if you have SWAP gates.
+But of course, you know, it may take a lot longer
+to catch if you have to keep swapping all your qubits
+so that their adjacent before you apply a gate to them.
+But this is a question of quantum computing architecture,
+whether you want to have non-adjacent gates or just
+use lots of SWAP gates.
+
+Any more questions?
+Yeah.
+Is tensor product, does it have any association [INAUDIBLE]??
+
+Well, I mean, if you have--
+
+I mean, a tensor product is just a matrix.
+So it's associative.
+But I mean, if you want--
+
+so let's say the tensor product on qubits B, C, E tends
+to be identity on qubits A--
+let's call this M--
+A, B, our tensor.
+
+OK, what do I want say?
+Well, we can do an operation on qubits B, C, and E.
+And now let's make this qubits B and C, A, D, E.
+And now we can apply another operation, M A, D, tensor I, B,
+C, E. So if you do it--
+I want this to be A, D.
+OK, so I want to say that this matrix and this matrix commute,
+because this is an operation on qubits B, C,
+and this is an operation on qubits A and D.
+And if you're not operating on the same set of qubits,
+it doesn't matter which of these two operations you do first.
+But I don't know if that really answers the question.
+
+I mean, if you--
+no, if you construct a tensor product--
+
+yeah, if you constructed tensor product,
+it's really M, A, tensor M, B, tensor, R,
+C is equal to some matrix T on A, B,
+C. It doesn't matter whether you take the tensor product of A
+and B first and then C or C and B first and then A,
+as long as you keep the coordinates straight.
+So a tensor product really--
+this matrix really has x, y, z, x is a coordinate A. y
+is a coordinate system B. And z is a coordinate in system C.
+And as long as you keep all these coordinates straight
+and don't mix them up somehow, then the tensor products
+will all be consistent.
+So you can apply this tensor first and then
+that or this tensor first and then that or this tensor
+first and then that.
+But this also gets you to questions like this.
+You have to keep the coordinates straight.
+And you know if you apply a tensor with this
+coordinate in between these, you have to be careful
+what you're doing.

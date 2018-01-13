@@ -1,0 +1,200 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5j.txt
+#
+# Captions for 8.421x module
+#
+# This file has 191 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Recall in the first lecture I said, if you could clone,
+then you could communicate faster than light.
+
+Then, communicate.
+
+And this was--
+Herbert called this FLASH, this is for laser amplified--
+
+first laser amplified superluminal hookup.
+And what I'm going to do is basically
+go through his paper, although I'm simplifying some things.
+This is essentially the argument of his paper.
+
+And the reason he thought you could clone
+is if you look at a high level description of how
+a laser works, it seems like it should
+be able to clone photons.
+It can't, but that apparently wasn't
+clear to any of the referees, because they couldn't figure
+out the flaw in the paper.
+So what we do we do.
+We take the state 0 1 plus 1 0 and distribute it
+between Alice and Bob.
+
+Alice measures her qubit in either 0 1 basis or plus minus
+basis.
+
+Good.
+
+So let's see.
+I think I need another board to show what happens.
+
+Unless
+Alice, 0 1, plus minus.
+
+Bob-- well, if Alice measures her qubit and she gets 0,
+then Bob has 1.
+If she gets 1, he has 0.
+So Bob gets 0, probability 1/2, 1, probability 1/2.
+And here gets plus with probability 1/2,
+minus, with probability 1/2.
+Bob now clones his qubit.
+
+And I will use this notation as saying,
+this is a very suspect step.
+So now he has 0 0 with probability 1/2 and 1 1
+with probability 1/2.
+And over here he has plus plus with probability 1/2,
+minus minus with probability 1/2.
+
+And now, what Bob is going to do is
+he's going to measure both qubits in the same basis.
+
+OK.
+So if he measures in bases 0 1, he
+gets 0 0 with probability 1/2 and 1 1 with probability 1/2.
+
+If he measures in the bases plus minus,
+well, if you measure 0 in the basis plus minus,
+you're equally likely to get a plus or a minus.
+What you get is plus minus, plus minus, minus plus, minus minus,
+each with probability 1/4.
+And over here, if he measures in 0 1,
+he gets 0 0, 0 1, 1 0, 1 1, with probability 1/4.
+
+And over here, if he measures in plus minus,
+he gets plus plus with probability 1/2.
+And because if he got plus plus and he
+measured in the plus minus basis,
+he would get both quibits plus.
+And same-- let me repeat.
+That minus minus and he measured it in the plus minus basis,
+both of them would come out minus.
+Minus minus, with probability 1/2.
+
+So you see, Bob get something different
+depending on whether Alice measured in the 0 1
+basis or the plus minus basis.
+And if Alice does something and Bob gets--
+Alice sends a signal and Bob receives
+the signal and the signal is different
+depending on what Alice did, they
+can use that to communicate.
+So what does this mean?
+Well, this means that 0 with probability 1/2 and 1
+with probability 1/2--
+
+so this is one ensemble of states--
+and another ensemble of states plus with profitability 1/2
+and minus with probability 1/2, these two ensembles
+must be indistinguishable.
+
+And there's a problem on the homework
+that's related to this.
+But here we have--
+Alice can either measure in the 0 1 basis and the plus minus
+basis.
+If she measures in the 0 1 basis,
+Bob gets this ensemble of quantum states.
+If she measures in the plus minus basis,
+he gets this ensemble.
+And because Bob and Alice can share entangled qubit
+and then Alice can measure, or rather
+Alice can measure her half and Bob
+can measure his half at exactly the same time,
+regardless of how much distance there is between them, then
+if there was some way of Bob distinguishing
+between this ensemble of quantum states
+and this ensemble of quantum states,
+Alice and Bob could send a signal faster than light.
+
+And we know that's impossible.
+Well, we know that should be impossible from relativity.
+And this is why Herbert's FLASH scheme failed.
+But in failing, it did something very
+useful in that it provided an opportunity for two
+other groups to prove that quantum cloning is impossible.
+So are there any questions?
+
+Yeah.
+When you say, these two ensembles
+must be indistinguishable, is this
+a conclusion from the fact that this scheme fails,
+or is this a conclusion that's required for this scheme
+to work?
+It's a conclusion from the fact that the scheme has to fail,
+because Alice can give Bob this ensemble by measuring in a 0 1
+basis, and Alice can give Bob this ensemble by measuring
+the plus minus basis.
+And Bob should not be able to tell these apart,
+because then Alice could communicate the signal to him
+faster than light.
+Yeah?
+Could you go over again why the cloning is
+necessary in order for him to distinguish what Alice--
+Well, here he has two copies of the quantum state,
+rather than one copy of the quantum state.
+And so, I mean, if we just had one copy of the quantum state
+and did the same--
+you know.
+So let's see.
+0 1.
+
+And he measures in 0 1, 0 1 basis,
+he gets 0 with probability 1/2 and 1 with probability 1/2,
+because he measures the state perfectly.
+And in either case--
+but he had these two things with probability 1/2.
+Now, if he measures in the plus minus basis,
+he gets plus with probability 1/2
+and minus with probability of 1/2,
+because if you measure 0 and the plus minus basis,
+it has an equal probability of giving you a plus
+and giving you a minus, because 0 equals 1 over root 2
+plus plus minus.
+And 1 equals 1/2 plus minus minus.
+And if you measure this in the plus minus basis,
+you get plus with probably 1/2 and minus with probability 1/2.
+So it doesn't matter.
+If you can't duplicate these steps,
+then he will get plus with probability 1/2 and minus
+with probability 1/2, regardless of whether he has signal--
+or rather, whether his ensemble is 0 1 or plus minus.
+
+So in order to use this to distinguish them,
+he has to be able to clone.
+Because here, when he cloned this 0 1 qubit,
+they were always the same.
+But if he only has one qubit, he can't test whether both of them
+were the same.
+
+This is why this faster than light scheme did not work.
+
+And the real reason it didn't work
+is because lasers didn't work the way he thought he did.
+But that was actually a rather subtle point,
+because none of the referees, obviously,
+knew how lasers worked, or they would have rejected this paper.
+And then, the no cloning theorem would have taken another five
+years to be discovered.
+Yeah?
+Sorry.
+Can I just clarify, what exactly is the information
+that is being sent?
+The information being sent is which basis Alice measured in.
+So she can either measure in the plus
+minus 1 basis, in which case she gets a random output,
+or she can measure in the plus minus basis, in which case
+she gets a different random output.

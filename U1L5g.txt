@@ -1,0 +1,36 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5g.txt
+#
+# Captions for 8.421x module
+#
+# This file has 27 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now what I want to do is let's look at sigma z,
+or Sz sigma z [? counter ?] I plus I [? counter ?] sigma z.
+And consider a state, let's say 0 0 minus 1 1--
+
+plus 1 1.
+
+The expectation value of Sz on 0 0 plus 1 1 is 0.
+
+1 0 0 minus 1, and this was 1 0 0 1 and 1 0 0 1--
+1/2 probability-- is equal to 0.
+
+But the actual, I guess, observable
+is plus 1 with a probability 1/2,
+minus 1 with probability 1/2.
+
+Well, why?
+Because it either projects it onto 0 0,
+or it projects onto 1 1, or it projects it
+onto the subspace consisting of 0 1 plus 1 0.
+
+This vector does not overlap with that middle subspace.
+So if you measure the spin on this state with respect
+to the z-axis, you get plus one with probability 1/2, minus 1
+with probability 1/2.
+State 0 1 minus 1 0 get spin 0.

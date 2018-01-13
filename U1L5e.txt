@@ -1,0 +1,75 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5e.txt
+#
+# Captions for 8.421x module
+#
+# This file has 66 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We've talked about when we have the observables for spin
+in the x-direction, y-direction, and z-direction for one qubit.
+I want to talk about what happens
+when you have these observables for two qubits--
+S sub x, S sub y, S sub z for two qubits.
+
+Well, the spin for two qubits should
+be the spin for the first qubit plus the spin
+for the second qubit.
+At least, it [AUDIO OUT] if the qubits are in a tensor product
+state.
+
+So S sub x is equal to sigma x tensor I plus I tensor sigma
+x, and ditto for y and z.
+
+I'm not going to write that out.
+
+And maybe I'll write this out.
+So sigma x tensor I is 1, 1, 1, 1 because you take sigma
+x, which is just 0, 1, 1, 0, 0, and you tensor it with I,
+which is--
+identity here and identity here--
+plus 1, 1, 1, 1.
+
+And actually, I'm leaving out a factor of 2
+because the observable for spin was 1/2 sigma x
+because the spin values were--
+spin 1/2 particles have either one half pointing down
+or one half point up.
+So that is equal to 1/2, 1, 1, 1, 1.
+
+And let's do S sub z equals 1/2--
+
+1, minus 1, 1, minus 1--
+
+plus 1/2-- 1, 1, minus 1, minus 1--
+is equal to 1, 0, 0, 1.
+
+And I guess this is I tensor sigma x.
+And this is sigma x tensor I.
+z.
+z.
+z.
+Thank you.
+Yeah?
+But isn't it sigma x tensor sigma x and sigma x tensor
+sigma z?
+Oh.
+Well, so we're trying to figure out their combined bit
+of two particles is.
+So to get the combined spin of two particles,
+you take the first particle and take its spin,
+and then take the second particle and add its spin.
+So if we take the first--
+and this is the spin of the first particle,
+sigma x tensor I over 2.
+And this is the spin of the second particle
+in the x-direction and in the z-direction.
+
+So if we multiplied them, we would
+be taking the spin of the first particle
+and multiplying it by the spin of the second particle, which
+would give us an observable.
+But it's not the observable for spin.

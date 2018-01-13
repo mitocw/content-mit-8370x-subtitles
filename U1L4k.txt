@@ -1,0 +1,50 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4k.txt
+#
+# Captions for 8.421x module
+#
+# This file has 41 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So H x H is equal to sigma z.
+H sigma to the z H equals sigma-x.
+
+Well, actually, remember that H--
+if you're thinking of this as a change of basis,
+H just takes 0 to plus and plus to 0 and 1 to minus
+and minus to 1.
+H sigma-x-- OK.
+Changing bases with unitary UM U-dagger equals M tilde.
+This is in a different basis.
+Or rather in the basis that, you know,
+M takes the standard base--
+U takes the standard basis to some other basis,
+because remember, the unitary is just take
+orthogonal unit vectors to orthogonal unit vectors.
+So unitaries take bases two bases.
+So UM U-dagger is just a change of basis for M. So we change--
+H takes the x spaces to the z basis and vice versa.
+So h sigma xH equals sigma-z and H sigma-z H equals sigma-x.
+And maybe I should--
+
+so that's the easy way to see it.
+But you can also write out 1 1 1 minus 1, 1 minus 1,
+that's sigma-z.
+
+1 1 1 minus 1, and let's put a factor of 1/2
+because each of these H's has a 1 over 2 on it.
+And that should equal 1 1.
+
+And let's just do this to make sure that 1 1 1 1,
+and then the second.
+
+When we multiply this by that, we
+change the sign of the second column, we get 1 1 1 minus 1,
+and now it's easy to see that this is equal to 0 1 1 0.
+
+And of course, H squared is the identity,
+so you can get this by just applying H
+to both sides of that top one.

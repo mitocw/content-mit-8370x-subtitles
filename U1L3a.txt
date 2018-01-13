@@ -1,0 +1,39 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3a.txt
+#
+# Captions for 8.421x module
+#
+# This file has 30 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The quantum mechanics in this course
+is going to be essentially linear algebra,
+and there are a few things I expect
+you know from linear algebra.
+And I think most people will actually
+know these even if you haven't had a linear algebra course.
+So I expect you to know what a vector is, what a matrix is,
+how to add and multiply them, and what an eigenvalue
+and eigenvector are.
+
+So there will be a lot of linear algebra in this course that
+probably isn't taught in 18.06.
+And I will try to--
+I will explain that to you.
+So what you don't need to know are
+I guess unitary matrices, Hermitian matrices,
+and tensor products.
+
+So these will be explained in the next few lectures
+along with their uses in quantum mechanics.
+And nearly all the quantum mechanics
+we're doing in this course will be finite dimensional quantum
+mechanics, which means it deals with finite dimensional
+matrices and vectors, and their naught operators, and all
+the stuff that you need to worry about when you get
+to infinite dimensional spaces.
+
+So hopefully everybody knows this stuff,

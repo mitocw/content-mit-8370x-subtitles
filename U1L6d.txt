@@ -1,0 +1,192 @@
+#
+# File:   content-mit-8370x-subtitles/U1L6d.txt
+#
+# Captions for 8.421x module
+#
+# This file has 183 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So I want to say, the first column here,
+the output is going to be 0.
+And the right column here, the output is going to be 1.
+So let's label this diagram.
+So this is Alice, Alice, Alice, Alice, Bob, Bob, Bob, Bob.
+And here, this is, I guess, 0.
+
+I want A equals 0, A equals 1, B equals 0, and B equals 1.
+And the outputs are going to be 0, 0, 0, 0.
+So this is x.
+This is y.
+This is x.
+This is y.
+x equals 1, y equals 1 x equals 1, y equals 1.
+So is this fairly clear?
+
+So Alice gets a bit from the referee.
+And if the bit is 0, she chooses this basis.
+And if the bit is 1, she chooses that basis--
+ditto from Bob.
+And if Bob gets this state, he outputs 0.
+And if he gets this state, he outputs 1.
+
+So suppose Alice gets A equals 0 and Bob gets B equals 0.
+
+Alice gets observable sigma z.
+And now, I see that I never should
+have used x and y as the bits, because we
+have sigma z, which is--
+and Bob-- I shouldn't say gets, I should say measures.
+
+Bob measures the observable 1 over root 2 sigma
+x plus sigma z.
+
+So I suppose Alice measures 0.
+Then Bob has qubit 0.
+He measures it at with sigma x plus sigma z over 2.
+So what is the probability that he gets the eigenvector plus 1
+for this?
+Well, one way to do this is compute the eigenvector plus 1
+and take the inner product of it with 0 and square it.
+But there's an easier way.
+Ah, this should be a root 2, sorry.
+
+So the expectation of Bob's value
+is sigma x plus sigma z over root 2 times 0, 0.
+
+OK, we can compute that.
+
+So how do we compute that?
+Well, it's just 1, 0--
+that 0-- 1, 1, 1, minus 1.
+So that's sigma x plus sigma z, because sigma x was 1, 1 here,
+and sigma z was 1 minus 1.
+We must put a 1 over root 2 in front of that.
+Times-- OK, this should have been a row vector,
+and this should be a column vector.
+
+So this times this times that is 1.
+So this is 1 over root 2.
+But this is equal to the probability
+that Bob gets 0 minus the probability
+that Bob gets 1, because it's the expectation
+of this observable.
+And this observable has two eigenvalues--
+1 and minus 1.
+And the 1 eigenvalue corresponds to Bob getting a 0,
+or getting y equals 0.
+And the minus 1 eigenvalue corresponds
+to probability that Bob gets y equals 1.
+
+And so we want two numbers, whose difference
+is 1 over root 2 and whose sum is 1,
+because probabilities sum to 1.
+So this is 1/2 plus 1 over root 2.
+And this is 1/2 minus 1 over root 2.
+So this is the probability that Bob wins if Alice measures a 0.
+
+So what is that probability?
+It's 0.854 roughly.
+And let's go back and look--
+
+and it's also equal to cosine of pi over 8 squared.
+
+So let's go back and look at this picture again.
+That was the probability that Alice and Bob won if they
+got A equals 0, B equals 0.
+Well, the probability that we win
+if they get B equals 0 and A equals 1 is also--
+yeah?
+Question?
+Shouldn't that be 1 over 2 root 2?
+Yes, 1 over 2 root 2 and 1 over 1/2 minus 1 over 2 root 2.
+Thank you very much.
+
+But this is, indeed, 0.854.
+I'm sorry.
+I have a tendency to leave out 2's and get minus signs wrong,
+and all those other things.
+So let's go back and look at this diagram some more.
+That was the probability that Alice and Bob win
+if they use these two axes--
+or these two-- yeah--
+these two points on the Bloch sphere,
+which differ by an angle of pi over 4.
+But if they use these two points on the Bloch sphere, which also
+differ by pi over 4, they also win with that probability,
+because the only thing that matters
+when telling whether two axes on the Bloch sphere agree
+is the angle between the points--
+and ditto for B equals 1 and A equals 1.
+Well, how about B equals 1 and A equals 0?
+Well, we know that--
+
+let's see, if A equals 1 and B equals 1, well, Bob gets 0
+and Alice gets 1.
+
+So that's this point and this point.
+And we want to know how often these occur together.
+Well, they occur together with 1 minus the probability
+that these two get the same answer, because this answer is
+always the--
+I mean, Bob here, Bob's y is 0, and here, y is 1.
+So x and y agree for these exactly when
+x and y disagree for these.
+But x and y disagree exactly when--
+but Alice will get this answer and Bob
+will get this answer with probability also 0.854.
+So that means that because if Bob and Alice got
+0, 1; 0, 0; and 1, 0, they wanted their bits to agree.
+And if they chose A equals 1 and B equals 1,
+they want their bits to disagree.
+And that's exactly-- and they disagree
+with exactly the same probability
+that these two things would agree.
+I don't think I said that very well,
+but hopefully, you understand what I mean.
+So A equals 1 and B equals--
+so x equals 0 and B equals 1 are the vice versa.
+x plus y equals 1 with probability 0.854.
+So this is what we wanted to happen.
+
+So Alice and Bob can win this game
+with probably 0.854, which is bigger than 0.75.
+There's two more things I want to say.
+
+If this angle was theta--
+
+well, let's draw another thing.
+If this is theta, these two observables
+agree with probability cos squared theta over 2.
+
+So that's cos squared pi over 8.
+But if you've measured these two observable simultaneously,
+the probability that they would be agreed
+would be cos squared pi over 4, which is 1/2.
+And we know that these two observables--
+if Alice measures 0 and Bob measures plus,
+they agree with probability of 1/2.
+And these two observables never agree.
+And that's cosine squared pi over 2.
+
+So this is the general formula for if Alice and Bob have
+an entangled state and they measure something-- two
+observables theta apart, it's cosine squared theta over 2.
+And I'm not going to prove that.
+Yeah?
+So this means that this particular strategy
+is the optimal one?
+
+That's the next thing I was going to say.
+You can prove that this particular strategy
+is the optimal one.
+They cannot do better than 0.854 at this game.
+And that is-- well, I'm not going
+to prove it in this lecture, because it's
+a little more complicated than everything I've done so far.
+But Tsirelson, I think, is the one who proved it.
+
+So now, this gives a game which Alice and Bob can
+win with higher probability if they have an entangled

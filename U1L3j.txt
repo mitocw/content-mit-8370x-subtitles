@@ -1,0 +1,41 @@
+#
+# File:   content-mit-8370x-subtitles/U1L3j.txt
+#
+# Captions for 8.421x module
+#
+# This file has 32 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So unitary one o columns unit orthogonal.
+Two, all rows are units, and vectors and orthogonal vectors.
+Three, takes com-- takes units vectors to unit vectors.
+
+And four, u is equal to u dagger point.
+No, u inverse is equal to u dagger.
+
+So I should tell you some notation if you don't know it.
+m dagger is equal to m conjugate transpose.
+
+So I will prove one direction of this.
+I'm not going to bother proving the other.
+If you have the textbook, it's in the textbook.
+So if u is equal to c1, c2 through c17 minus 1,
+u adjoint--
+this is called adjoint--
+is equal to c1 star, c2 star through c d minus 1 star.
+
+And now, suppose we take u dagger u.
+We are multiplying the i's column
+of u sub dagger with the--
+or rather, we're multiplying the row of u dagger
+with the j's column of u.
+So this is equal to c1 dagger, c1, c1 dag--
+c1 transconjugate c2 through c2 conjugate, c2, et
+cetera, which equals 1, 1, 1, 1, 1, 1.
+Because cj dagger, ci is zero unless i
+equals j, in which case it's 1.
+So that says that u conjugate transpose
+is the inverse of u, which is condition number four.

@@ -1,0 +1,93 @@
+#
+# File:   content-mit-8370x-subtitles/U1L5b.txt
+#
+# Captions for 8.421x module
+#
+# This file has 84 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+There's another way of doing measurement.
+Suppose we measure in phases plus minus.
+And we'll take the same state for our example.
+Well, one way of doing it is just
+rewriting this state and the basis plus-minus
+and doing exactly the same thing.
+Or at least rewriting the first qubit in the basis plus-minus
+and doing exactly the same thing.
+There's another way of doing it.
+
+1 over root 2 0 plus 1--
+so this is plus--
+
+times 1 over root 3 0 0 plus 0 1 plus 1 1.
+
+And now we just take the inner product
+of this guy with this guy.
+
+And this is something you're not used
+to doing in linear algebra.
+In fact, you know, we're taking, you know,
+the dimensions in a product of a two-dimensional vector
+with a four-dimensional vector, which is something
+you would never do in 18:06.
+But what you do is you can lose the rules.
+
+x A x, y AB is equal to delta x--
+what's-- I need to--
+let's put a tilde on this x.
+delta-x x-tilde, where this is a Kronecker delta function,
+which is 1 if x equals x-tilde, times y sub B.
+And I suppose you should call this a partial inner product,
+because later, we will get to partial traces and partial--
+maybe partial transposes, and they work exactly the same way
+as this partial linear product, although I
+haven't heard it called partial linear product.
+I haven't-- I don't remember any real name for it.
+But anyway, if we use this thing, we take 0 0.
+So first, I guess we get a 1 over root 6 here.
+And 0 0 gives you with 0 B plus.
+
+Here we have a 1 B. And here we have a 1--
+
+another 1 B. 1 over root 6.
+
+Let's see, this is going to be 0 sub B plus 2 1.
+
+Now, it feels like I should rewrite this in the basis plus
+to make sure that it works.
+To prove to you that it works the same way,
+but I don't think I'm going to do that.
+Because I didn't-- and if you took 0 minus 1 B,
+minus 1 root 2 0 A. This would give you, well,
+the same 1 over root 6.
+And the 1 would be--
+
+am I doing this right?
+0 B plus 1 B minus 1 B. Yeah.
+Is equal to 1 over root 6 0 A.
+Well, I think we should figure out the probabilities.
+So the probability of seeing this
+is just the length of this vector.
+Can anybody tell me what the length of this vector is?
+
+5 or a 6.
+Or actually the square of the length of the vector.
+And the probability of this, probability is 1/6.
+
+This is-- so if we take--
+measure this plus with 5 6 probability,
+we get the first vectors in the state plus,
+and the second vector is in this state.
+With probability 1/6, we get the first vector
+is in the state minus, and the second vector
+is in the state 0.
+
+And if you want to check that this works exactly the same way
+as if you wrote this out in the--
+wrote the first qubit in the 0 plus 1 basis
+and the plus-minus basis and did this procedure,
+I'll let you do that at home.
+

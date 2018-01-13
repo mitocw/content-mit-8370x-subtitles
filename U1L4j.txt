@@ -1,0 +1,135 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4j.txt
+#
+# Captions for 8.421x module
+#
+# This file has 126 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So gates.
+
+Recall we had a universal set of classical gates.
+
+Classical gates.
+
+And can anyone tell me what a universal set of possible gates
+is?
+NOT.
+Another one?
+AND.
+And that's universal, actually.
+But actually, this is not.
+If you look at it closely, there's
+another gate that's implicit, which is FANOUT.
+
+You put in a zero, you get out two zeros.
+You put in a one, you get out two ones.
+
+OK.
+
+Now, quantum circuits.
+
+Well, maybe the equivalent of FANOUT in quantum circuits
+is cloning.
+So you can't use FANOUT in quantum circuits.
+So NOT.
+
+So there is actually--
+so how do we do quantum circuits?
+
+Well, gates for quantum circuits.
+
+Well, the most important gate, maybe,
+is CNOT, which is one, one, one, one.
+
+Zero, zero, zero, one.
+One, zero, one, one.
+
+So what does this do?
+
+Let's describe it.
+If bit one is zero, OK, let's say this is x and y.
+If x is zero, y goes to y.
+If x is one, y goes to not y.
+
+Right, because if x is zero, we're in this upper corner,
+upper left corner.
+AND is the identity.
+If x is one, x being the first bit here,
+we're in this lower right corner.
+And this is a NOT.
+
+And this is a classical reversal gate, as well as
+a quantum gate, because--
+well, basically because it's a permutation,
+which means it's a classical--
+you don't get any phases applied to any of the things,
+and we don't get any superposition,
+so it's a classical gate.
+
+OK.
+
+And quantum CNOT is drawn like that.
+
+NOT, and in fact, if you have an arbitrary unitary, U,
+you can draw it like this.
+And a controlled U would be drawn like that.
+
+And this, what does this mean?
+It means apply i to qubit two if qubit one is zero.
+
+Zero.
+And if qubit one is one, apply U to qubit two.
+And fU equals alpha, beta, gamma, delta.
+Controlled U is equal to--
+well, again, if qubit one is zero,
+that's this upper left corner.
+And if qubit one is one, that's this lower right corner.
+And you can easily see that if this is unitary,
+then this is unitary.
+
+OK.
+So the next thing I want to do is give some identities
+on gates.
+
+But first, maybe I should say something
+about the controlled NOT gate.
+
+So I'm going to say, CNOT can copy, well, not qubits,
+but classical information.
+
+So how does that work?
+Well, so I want to say one, zero.
+
+CNOT applied to zero, zero is equal to zero, zero.
+CNOT applied to one, zero is equal to one, one.
+Because this is a one, you take the NOT of this, you get one.
+So CNOT of x zero where x is equal to zero or one
+is equal to x, x.
+
+So we can copy classical information.
+And if we want to copy classical information in a quantum
+circuit, we apply a CNOT.
+
+And we cannot copy quantum information,
+so that's as good as we can do.
+Question?
+For the controlled gates, can you
+have other unitary, single-qubit gates
+in the upper left instead of the identity?
+You could, but then they wouldn't be controlled gates.
+They'd be called something else.
+
+So I mean, alpha, beta, gamma, delta.
+Alpha prime, beta prime.
+
+Why don't I--
+
+U, U prime, zero, zero.
+What this does is it applies U if bit one is zero,
+and applies U prime if bit one is one.
+But this is really not called a control gate, a controlled U
+gate, although it's very similar.

@@ -1,0 +1,110 @@
+#
+# File:   content-mit-8370x-subtitles/U1L4c.txt
+#
+# Captions for 8.421x module
+#
+# This file has 101 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so the first thing I want to do
+before I get to the no-cloning theorem
+is talk about tensor products.
+
+So suppose we have two qubits.
+
+What is the state space?
+
+Well, let's think.
+What is a basis for the state space?
+How many distinguishable states can you find?
+
+Anybody?
+Can somebody give me-- yeah?
+0, 0; 0, 1, 1; 0, 1, 1.
+Yeah.
+0, 0; 0, 1; 1, 0; and 1, 1.
+
+So how can you distinguish them?
+Well, if you wanted to distinguish these two,
+you can measure the second bit.
+If you wanted to distinguish these two,
+you can measure the first bit.
+And, in fact, there are four distinguishable states.
+Which means that if you have two qubits,
+your state space has dimension four and n qubits.
+Can someone tell me what the size of the state
+space for n qubits is?
+2 to the n.
+
+And I probably don't need to write down all the basis
+states.
+And I should say something, that this
+is one way of expressing this state space.
+We can also write it as [? 0, ?] 0,
+where this applies to the first qubit
+and this applies to the second.
+Or 0 tensor, 0.
+So this is 1.
+And if we name our systems AB, we
+can make it clear which qubit belongs
+to which system by putting, say, AB here or AB or AB.
+
+OK, so that's the no-cloning theorem--
+that's the tensor products.
+
+And let's do a little bit more tensor products
+before we get to the no-cloning theorem.
+
+So how many degrees of freedom for a single qubit?
+
+Well, there were three, remember?
+Because you had a block sphere and a qubit
+it could be anywhere on the block sphere.
+So how many degrees of freedom for two qubits?
+
+Well, we have alpha 0, 0 plus beta 0, 1
+plus gamma 1, 0 plus delta 1, 1.
+So that's 2, 4, 6, 8.
+But then we have to subtract some things.
+
+But some alpha I squared is equal to 1.
+So that gives you 1 fewer degree of freedom.
+And-- wait, 3?
+No, this is 2.
+I mean, it's on the surface of the block sphere
+so it's just 2 degrees of freedom.
+
+So I mean-- yeah.
+And two qubits.
+And we also have a global phase, which is irrelevant.
+So that's 6.
+And n-- well, we really have 2 to the n
+minus two because, again, we have
+the sum of the squares is 1 and a global phase.
+So what does this say?
+Well, this says that there are 4 degrees of freedom
+if we take the product of 2 qubits, each of which
+is in its own state, and there are 6 degrees of freedom
+if we look at the general state space of two qubits.
+So that means there are some states of 2 qubits which cannot
+be factored into 2 things.
+So a separable state--
+
+each qubit is in a definite state.
+
+And alpha 0 plus beta 1--
+let's call this qubit--
+A times gamma 0 plus delta 1--
+let's call this qubit B--
+is equal to alpha gamma 0, 0 plus alpha delta 0,
+1 plus beta gamma 1, 0 plus beta delta 1, 1.
+So this is a qubit in a separable state
+where you can say these two states each exist.
+So otherwise the qubit is an entangled state, e.g.
+1 over root 2 0, 1 minus 1, 0.
+
+And here you cannot separate this state into one state
+for the first qubit and one state [? for ?] the second
