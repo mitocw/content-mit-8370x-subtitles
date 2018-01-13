@@ -1,7 +1,7 @@
 #
 # File:   content-mit-8370x-subtitles/U1L3h.txt
 #
-# Captions for 8.421x module
+# Captions for course module
 #
 # This file has 106 caption lines.
 #
