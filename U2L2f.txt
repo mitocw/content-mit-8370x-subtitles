@@ -1,0 +1,112 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2f.txt
+#
+# Captions for course module
+#
+# This file has 103 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Phase oracle versus, let's call it XOR oracle.
+So remember, the classical oracle was this gate.
+You put in, say, log n inputs, got out f of the input.
+
+And this is obviously unusable as a quantum oracle
+because it's not reversible.
+So here we have input x, output x, and this one is,
+well, output is minus 1 to be f of x, x.
+And we're actually going to see this kind of oracle used again
+for grower's algorithm, and the oracle which
+best corresponds to the classical Oracle
+was what I call an XOR oracle, where you put an x,
+and then you put in an additional bit,
+let's call it B, and, you get a control not here,
+and you get B plus f of x here, and you get out x here.
+
+So what I claimed is, given an XOR oracle,
+you could turn it into a phase oracle.
+Yeah?
+So I'm a little confused about this function f
+and it's behavior when you don't give it bits,
+but you give it qbits as input.
+OK.
+Because it was definied it takes log n bits,
+and then it gives you back a bit.
+Right.
+But now your x is a quantum state.
+Yeah, so the x is log n qubits.
+And the output is log n qubits.
+Plus an extra qubit here and a extra qubit here.
+Yes, so the XOR oracle makes sense.
+It's more the phase oracle I'm confused because [INAUDIBLE]..
+
+Oh, it's either a 0 or a 1.
+So yeah.
+Ah, so I should do is, f of x, written as a matrix,
+or phase oracle written as a matrix, so matrix,
+so we need to write it as a unitary matrix
+to say what it does.
+And what it does is, plus 1 minus 1 minus 1
+plus 1 minus 1 minus 1 minus 1.
+
+This is-- let's put another, let's make this balanced.
+And, this, of course, is 0, 0, 0, 0, 0, 1, 0, 1, 0, et cetera.
+So if you put in a basis state, it applies the minus sign
+if the basis state is f of x.
+So input, you know, say, 0, 0, 0 plus 0, 1, 0 plus 1,
+1, 0 minus 1 to the f of x--
+what would happen is you would get out, well, 0, 0, 0
+was a plus 1.
+So that's 0, 0, 0.
+
+0, 1, 0 was a minus 1, so minus 0, 1, 0, and 1, 1, 0
+is all the way down here, I think, and that's a minus 1,
+too.
+No, it's down here, yeah.
+Minus 1, 1, 0 So what the phase oracle does,
+is you put in the supervision of basis states.
+It applies a minus 1 to each of the basis states,
+and the superposition for which f of x is minus 1,
+and applies a plus 1 to the ones for which f of x is 0.
+
+So in each of the different states
+is the classical portion of it.
+That's right.
+Yeah, there's just this diagonal matrix.
+OK.
+So the phase oracle versus the XOR oracle.
+
+And now I want to tell you how to use the XOR
+oracle to get the phase oracle.
+
+X.
+And what we're going to do is, we're
+going to put in the state, 1 over root 2, 0 minus 1--
+
+and that's, of course, minus into this thing.
+
+So what happens?
+Not applied to a minus is equal to minus minus.
+Because what happens is, you apply the not
+to the first thing.
+That turns the 0 into a 1, and a 1 into a 0.
+And, you know, so a not is the same as a sigma x.
+
+They're that, better.
+
+And so this is minus 1 the f of x minus.
+
+And identity applied to a minus is equal to a minus.
+So if you fix the input to this extra bit to be minus,
+then what you get is the phase oracle, if you have the--
+
+maybe we should call it the bit oracle
+because I think that's what other people call it--
+or the XOR oracle, or whatever.
+
+And you can also go from here to here
+in nearly the same way, except you might have to use--
+
+it's not quite as easy.

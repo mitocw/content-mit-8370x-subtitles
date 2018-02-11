@@ -1,0 +1,159 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3a.txt
+#
+# Captions for course module
+#
+# This file has 150 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Simon's algorithm came out just a little
+while after the Deutsch-Jozsa algorithm,
+which I described last time.
+And you can see how Simon's algorithm is somewhat
+built along the same lines as the Deutsch-Jozsa algorithm.
+On the other hand, it solves a problem on quantum computers
+that's exponentially faster than the best algorithm
+on classical computers.
+Whereas the Deutsch-Jozsa algorithm,
+the problem that was solved could be solved just as easily
+on classical computers if you were allowed
+a probabilistic algorithm.
+And Simon's algorithm is not that far, in some sense,
+from the factoring algorithm, which we're doing next.
+So by seeing how Simon's algorithm works,
+you'll be prepared to see how the factoring algorithm works.
+The factoring algorithm is quite a little bit more complicated,
+but it has the basic lines.
+
+It runs along the same lines.
+So what does Simon's algorithm do?
+Well, it solves Simon's problem.
+
+Problem.
+
+And Simon's problem is something that may be a little bit
+non-intuitive, and which certainly does not
+appear anywhere else.
+So we'll spend a few minutes on Simon's problem
+so that you all understand it before I go into the algorithm.
+So the problem is, given f--
+so this is another Oracle function--
+as a black box.
+
+f is either 1-to-1 or 2-to-1 with f
+of x equals f of x plus c.
+
+So this is another promise problem.
+You're given that f is either one of these,
+or either this case or this case.
+And what you're supposed to do is
+you're supposed to tell which is which.
+
+And we might as well ask you to find
+C, because both Simon's algorithm
+and any classical algorithm for this problem
+have to work by finding C. Oops.
+
+So let's do an example.
+
+f maps 0 0 to 0 1, 0 1 to 1 1, 1 0 to 1 1, and 1 1 to 0 1.
+So can anybody tell me whether f is 2-to-1 or 1-to-1?
+
+2-to-1, very good.
+And can anybody tell me what c is?
+
+f of x equals f of x plus c.
+So what's c here?
+
+I should say x plus in terms of exclusive r.
+
+Yes?
+1 1.
+1 1, because you add 1 1--
+you take 0 0, you get 0 1.
+Now you add 1 1 binary with no carry.
+That's what?
+X exclusive r means you get 1 1.
+Now similarly, here, you take 0 1, and you add 1 1 to it,
+you get 1 0.
+So these two are related by c.
+And these two differ by c.
+
+So how well can you do classically?
+
+Well, I thought we would have a game with the class.
+And you query inputs, and I tell you what the values of f are.
+Now, first, does it make any difference at all which
+input is the first one you query?
+
+No, it doesn't, basically because everything
+is symmetric.
+And I seem to have done something very wrong here.
+
+There we go.
+
+So which one should we query first?
+
+Any volunteers?
+What?
+All 0's.
+All 0's.
+OK, I'm not going to write these in binary
+because it's easier to work in decimal.
+What should we do next?
+
+0 0 and 0 1.
+Sure.
+That gives us 6.
+Anyone else?
+Anything next?
+
+0 0, 1 0.
+OK, that gives you 5.
+
+Another one?
+
+All 1's.
+All 1's, excellent.
+That gives you 9.
+Another one?
+
+1 and three 0's.
+1 and three 0's.
+OK, let's see.
+Top right, top right, sorry.
+1 and three 0's, OK.
+That gives you 8.
+
+Well, it's pretty clear we're not going to get anywhere
+until we find two that match.
+So another one?
+1 1, 0 0?
+1 1, 0 0.
+11.
+
+Another one?
+
+0 1, 0 0?
+0 1, 0 0.
+Well, 0 1, 0 0.
+6.
+
+OK, so we're done.
+We have two 6's.
+And 0 0, 0 1 minus--
+or plus, it doesn't matter--
+0 1, 0 0 equals c equals 0 1, 0 1.
+So this is the value of c.
+This function happens to be 2-to-1, and we're done.
+So this is how all classical algorithms work.
+Yeah?
+Wouldn't you have to check the rest of the ones
+that it's [INAUDIBLE]?
+Well we're promised that f is either 1-to-1 or 2-to-1 with f
+of x equals f of x plus c.
+So we don't care if our algorithm fails miserably
+for any other functions.

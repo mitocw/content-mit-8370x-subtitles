@@ -1,0 +1,37 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5b.txt
+#
+# Captions for course module
+#
+# This file has 28 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+And why is factoring so important?
+So back in, I believe, the 70s, Rivest, Shamir, and Adelman,
+who were at MIT at the time--
+and Ron Rivest still is--
+a public key cryptosystem based on factoring.
+
+And that was used for secure transactions over the internet.
+
+And it is also undoubtedly used by many countries
+to keep their secrets secret when they transmit them.
+So if you could break RSA, well, there
+are probably a number of people who
+would pay an incredible amount of money
+for a factoring algorithm.
+
+And so far, there is no quick factoring algorithm
+on a classical computer.
+So 500 digit numbers, nobody knows
+how to break them on a classical computer.
+Now, if you had a big enough quantum computer,
+we know how to break them.
+
+So that's why factoring is important
+and why when the factoring result came out,
+everybody suddenly started paying a lot of attention
+to quantum computing.

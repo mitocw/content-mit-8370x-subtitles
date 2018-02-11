@@ -1,0 +1,154 @@
+#
+# File:   content-mit-8370x-subtitles/U2L4a.txt
+#
+# Captions for course module
+#
+# This file has 145 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So today, we're talking about the quantum Fourier transform.
+Why do you want to do a quantum Fourier transform?
+Well, one way-- one reason is because it's a neat quantum
+transform.
+But that's not really the only reason.
+Another reason is it's a crucial ingredient in almost--
+in many of the quantum algorithms
+we find-- that's found, that speed up classical algorithms.
+And in fact, the fast Fourier transform
+was an ingredient in Simon's algorithm,
+although you didn't recognize it the way I presented it.
+So what is a quantum Fourier transform?
+Well maybe I should say, what is the discrete Fourier
+transform first.
+What is the discrete Fourier transform?
+Well, you have a sequence x 0 x 1 x n minus 1.
+And let's say n is equal to 2 to the L.
+You get a new sequence, y sub i equals summation--
+OK, let's make it y sub j equals summation j equals 0
+to n minus 1.
+e to the 2 pi ij k minus j over n.
+And this is taking mod n.
+So what we're going to do for quantum Fourier transform--
+
+and there's always a minus here on the forward Fourier
+transform, and plus here on the inverse Fourier transform.
+And that's more or less by convention.
+So for quantum Fourier transform,
+we're going to do roughly the same thing.
+
+It's a unitary.
+It takes the state k to--
+
+OK, let's-- it takes the state j to the sum e to the minus 2 pi
+ijk over n k.
+
+j equals 0 to n minus 1.
+And we need a normalization constant.
+This-- we're summing up n different kets
+with unit coefficients on them.
+So to make it a unit vector, we need to divide by 1 over n--
+root n.
+So this is the quantum Fourier transform.
+And in fact, it's the same as a discrete Fourier transform,
+except you really have kets here.
+You have quantum states.
+Is the sum over j or over k?
+Sum over k.
+
+Thank you.
+OK, so first, is this unitary?
+Because I'm claiming it's a unitary--
+I'm claiming this is a unitary transformation.
+So what is the matrix for it like?
+Well, I guess k is over here.
+And j is over here--
+0, 1, 2, 3 through n minus 1--
+0, 1, 2, 3 through n minus 1.
+And eventually, we will let n be a power of 2, but--
+2 to the L--
+but right now, we don't need to assume n is a power of 2.
+Well the first row is e to the 2 pi ijk i over n. j is 0.
+
+Oh, wait, I have got this backwards I think--
+kj.
+
+k is 0, so these are all 1.
+Then you get 1 e to the 2 pi i over n,
+e to the 4 pi i over n--
+
+dot, dot, dot-- and then 1 e to the minus 4
+pi i over n, e to the minus 8 pi i over n,
+e to the minus 6 pi i over n, e to the minus 8 pi i over n,
+et cetera.
+
+So why is this unitary?
+
+Well, it's not, the way I've written it.
+We need to divide the whole thing by 1 over root n,
+because of this.
+
+So why is this unitary?
+Well, inner product of column B with column C is what?
+It's sum-- we have 2--
+1 over n-- root n here, so they become 1 over n.
+And column C, the i-th term in column C
+is e to the minus 2 pi i c.
+
+This had better be a equals 0 to n minus 1 2 pi i c times
+k over n.
+And the n-th term in column B is e to the minus 2 pi i
+b k over n.
+But because this is an inner product,
+we have to take the complex conjugate of this one.
+
+And this equals 1 over n e to the 2 pi i b minus c times k
+over n.
+And the first thing, is if b equals c, this is e to the 0,
+which is 1--
+so equals 1 if b equals c, and 0 otherwise.
+And this would-- so why is it 0 otherwise?
+
+Let's do it here.
+
+Well, if b is not equal to c, this is just 1 over n sum
+e to the 2 pi i.
+Let's call d k over n.
+B minus c equals d.
+And k equals 0 through n minus 1.
+So this is a geometric sum.
+
+And what we can realize, is that 1 plus e to the 2 pi i d over n
+plus e to the 4 pi i d over n plus
+dot, dot, dot times 1 minus e to the 2 pi i over d over n.
+
+So we're multiplying this by this.
+So this is a standard way of manipulating geometric sums.
+You should all have seen this before,
+but I'm just going over it again in case you've forgotten.
+You multiply this by this plus that by that.
+And the first term product with this and the second term's
+product with this cancel, and the same here.
+This gives a minus e to the 4 pi i.
+And this is an e to the 4 pi i, et cetera.
+So that you only get the first term and the last term,
+which is 1 minus e to the--
+well, the last term is n minus 1 times e to the 2 pi i d over n,
+So that's e to the n 2 pi i d over n, which is equal to 0,
+because d is an integer.
+So this is just e to the 2 pi i times an integer, which is 1.
+
+So this-- everything cancels, unless--
+so this says this times that equals 0.
+So either this equals 0, or this equals 0.
+This only equals 0 if d is a multiple of n.
+So otherwise, this term, which is the sum, equals 0,
+so we get this.
+So this matrix is indeed unitary.
+Which means there is a quantum circuit that produces it.
+Of course, this does not mean that if n is very, very big
+there is an efficient quantum circuit that produces it.
+So that's what this lecture is going to be on--
+how can you do this with an efficient quantum circuit?

@@ -1,0 +1,102 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5e.txt
+#
+# Captions for course module
+#
+# This file has 93 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK.
+So I want to say a little bit about normalization.
+So this is our normalized quantity.
+
+So this is small for z f of x with z not close to integer.
+
+f xz over 2 to the 2l is roughly, well, d plus 1 over 2
+to the 2l.
+
+So it's very close to an integer.
+
+Let's see if-- no, this is supposed to be rz.
+
+Well, this thing, there are roughly r copies--
+there are 2 to the 2l over r elements in the sum.
+And sum-- if they're all pointing in the same
+direction--
+
+if all in roughly same direction--
+
+which recall from this intuition picture of the unit circle
+is when we get a large thing.
+
+The sum is 2 to the 2l over r.
+So probability is roughly--
+well, we take this.
+We multiply it by 2 to the 2l over r.
+1 over 2 to the 2l, 2 to the 2l over r squared
+equals 1 over r squared.
+And there are r possible--
+
+r possible values of f of x, because f of x
+was periodic with period r, which
+means there are r things in the range.
+In the-- and there are also r possible values of 2 to the 2l
+over r times d, with d--
+
+well, OK.
+I want to say r possible value of d 2
+to the 2l over r, which are less than 2 to the 2l.
+So this is the output of the function, which was z.
+
+And what really happens--
+although I'm not going to have a chance to prove it--
+is you can look at the values of z between 0 and 2 to the 2l.
+There's one spike at z equals 0.
+There's a spike at 2 to the 2l over r.
+There's a spike at 2 times 2 to the 2l over r, et cetera.
+And away from these, spikes it decays like, you know,
+if you're distance k from one of these spikes,
+it decays like 1 over k squared from the top--
+I mean the amplitude--
+no, sorry.
+The probability is 1 over k squared
+from the top of the spike.
+And all of these spikes have the same--
+if you integrate over any of these spikes,
+it gives you the same probability.
+
+So this is what actually--
+you know, what you see--
+or the probability distribution of what
+you see when you measure z.
+And it doesn't really depend on which f of x you get,
+although it might by a very tiny amount.
+
+So that's the algorithm.
+Are there any questions?
+
+Yeah?
+So where did you get the log squared [? dependence? ?]
+OK, so-- OK.
+
+So what was the algorithm?
+It was-- first thing was a black box for the function
+f, which we're assuming takes constant time.
+Then we have a quantum Fourier transform.
+Remember, if you had the quantum Fourier transform on n bits,
+it took n squared gates.
+n squared gates exactly.
+
+And it's something like n log n--
+well, actually it was n choose--
+n plus 1 choose 2 gates exactly.
+And it was O of n log n to do an approximate Fourier transform
+that's good enough for--
+to get the results of the algorithm.
+So that's log n squared.
+That's where you get the log n squared problem.
+When you're doing the factoring, this term--
+computing the function actually dominates the quantum

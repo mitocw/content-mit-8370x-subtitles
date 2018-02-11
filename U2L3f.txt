@@ -1,0 +1,62 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3f.txt
+#
+# Captions for course module
+#
+# This file has 53 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So suppose this were a classical program.
+What did we do?
+Well, we started, we computed something
+in the first register.
+We did something, and we computed something
+in the second register.
+We did something and got a different value
+in the first register.
+Then, we measured the first register,
+and we throw the second register away.
+
+So if we throw the second register away,
+because the only information we care about is y.
+We don't actually care what f of x is, and in fact,
+f of x is equally likely to be all possible f of x's.
+Because the probability of seeing y f of x only
+depends on y, which means f of x tells us
+no information about anything, because all values of f of x
+are equally likely.
+So classically, if you ran this through an optimizing compiler,
+we'll say, well, we compute f of x.
+We never use it.
+Why bother?
+
+Let's see, am I--
+
+y, yeah, we computed f of x, and we computed this y only
+from this x.
+So why bother computing f of x?
+So this is what an optimizing compiler would
+do for a classical program, but now, if you erase f of x,
+there is no information about f anywhere.
+So this program can't possibly work.
+So the reason this works is back action
+from f of x to x, when you computed f of x.
+Which is, I don't know, I think it's very non-intuitive
+when you first look at this kind of stuff,
+because everything in quantum mechanics.
+If system A affects system B, then system B
+affects system A. and if system A system B,
+in some basis, system B effect system
+A and the conjugate basis.
+
+So if you have optimizing compilers for quantum
+computers, they're going to have to behave differently than ones
+for classical computers.
+So you can't do this.
+OK so this is what we get.
+We get a y such that y is perpendicular to c,
+and we get a random y that is perpendicular to c,
+since all possible y's have equal probability.

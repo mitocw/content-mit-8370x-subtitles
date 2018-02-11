@@ -1,0 +1,132 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5f.txt
+#
+# Captions for course module
+#
+# This file has 123 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I still need to show you how to get factoring
+from order finding.
+So first, let me say the second fastest classical algorithm is
+the quadratic sieve.
+
+So as like most classical algorithms.
+
+So suppose you have an N equal P times Q. Actually,
+they work in more general cases, but we'll just worry
+about the case of two primes.
+
+So the first step--
+
+actually this is, really, the only step.
+The trick is to bind x squared congruent to y
+squared mod N. x not congruent to plus or minus y mod N.
+So suppose you're trying to factor 21.
+You get 4 square equals 25--
+I'm sorry, not 4.
+4 is congruent to 25 mod 21, right?
+Because 25 minus 4 is about 21.
+
+No, wait.
+
+Is this going to work?
+Yes, it's going to work.
+
+So 4-- these are both squares.
+
+And now, we have 5 minus 2 times 5 plus 2 is congruent to 0 mod
+21.
+
+And whenever this happens, one of these
+contains P and the other contains Q. Or rather
+whenever these are not--
+whenever neither of these is 0, you
+have a product of two numbers, which is zero mod 21.
+And so we know that the product has to contain 3 somewhere
+and it has to contain [INAUDIBLE] somewhere.
+And if neither of these factors is 0 mod 21,
+3 has to be contained in one factor, and 7 in the other.
+And then what you can do is you can use Euclid's Algorithm.
+
+Algorithm 4 gcd to get P and Q. So whenever
+you get two squares which are equal to each other,
+you're essentially done.
+
+And this is how the quadratic sieve works,
+and that's the second fastest classical factoring
+algorithm known.
+And how do we find a x squared, x squared?
+
+Well, let's look at the function f of x equals g to the x mod N.
+So this is periodic because f g to the r is congruent to 1,
+then g to be x plus r is congruent to g to the x mod N
+because if g to the r is congruent to 1,
+then g to the x plus r congruent to g to the x,
+because it just nullify both sides of this by g to the x.
+So that says that f of x is periodic.
+I mean, it has to start repeating some time
+because there are only N possible things here.
+And whenever it starts repeating,
+you get a g to the x plus r congruent to g to the x.
+And that means g to the r is congruent to 1.
+Good, so that works.
+So g to the r over 2 squared is congruent to 1
+squared if r is even.
+
+So let's do an example.
+
+Suppose we're trying to factor 21.
+One, so 2 to the 0 will go first, 2 squared, et cetera.
+So this is 1, 2, 4, 8, 16, 32.
+32 minus 21 is 11, so the next element is 11.
+And 22 minus 21 is 1, 1.
+So 2 to the 6th is congruent to 1 mod 21.
+That means 2, 2 cubed is congruent to--
+or rather 2 cubed minus 1 times 2
+cubed plus 1 is congruent to 0 mod 21.
+And this is 7, and this is 9.
+And 7 contains the factor 7.
+9 contains the factor 3.
+
+So the question is, how can this go wrong?
+
+Well, there is a couple of things that could go wrong.
+
+We could have started with 4.
+
+4, 4, 16.
+16 squared-- well, we to 2 to the 6th is congruent to 1 mod
+21, so 4 cubed is congruent to 1 mod 21.
+So we get 4 cubed is congruent to 1 mod 21.
+4 to the 3/2 doesn't exist.
+Well, we can't compute it.
+
+So this shows that 4 cold go wrong.
+The other thing that could go wrong is we could do this
+and when we look at the middle element, it's minus 1.
+
+That would be a problem because then we
+have x is equal to minus y mod N, and we can't use that.
+We can't use this trick then.
+So some things can go wrong, but the great theorem,
+which is not too hard to prove using number theory,
+but which is too hard to prove in a single hour
+and a half session when I have way too much other stuff
+to cover, is probability of success.
+
+What is the sequence g to the x is
+greater than or equal to 1/2 for a random g between 0.
+For a random g less than N. So you choose a random g
+less than N. You do this repeated squaring,
+and the probability this will work is at least 1/2.
+And if it doesn't work, you choose another random g.
+So eventually, with high probability,
+you will get a g which lets you factor.
+
+OK, so there's two more things I have to do.
+I have to go back to [INAUDIBLE] fractions,
+and I haven't told you how to compute g to the x.

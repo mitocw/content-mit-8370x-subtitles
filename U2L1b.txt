@@ -1,0 +1,65 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1b.txt
+#
+# Captions for course module
+#
+# This file has 56 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So what is teleportation?
+Well, Charlie Bennett named it teleportation,
+which I find invariably brings up,
+you know images, of Star Trek.
+Although, you know, Star Trek, they were transporters and not
+teleporters.
+
+Anyway how does-- what is teleportation?
+Well, so some time from the past, Alice and Bob
+have acquired an entangled pair of qubits,
+and let's say 0, 0 plus 1, 1.
+
+And Alice has an unknown--
+
+unknown qubit.
+
+Let's call this zeta.
+
+Well-- so this is AB, AB.
+
+So what Alice does is she performs
+a measurement on her half of the entangled pair
+and this unknown qubit.
+
+And this leaves Bob with a qubit in some state.
+
+Let's call it zeta prime.
+And Alice gets two bits out of this measurement.
+
+Two-- well, she's measuring two qubits, which
+is a four-dimensional quantum state,
+so she gets one of four results, which is two bits.
+So she sends these two bits to Bob,
+and then he performs a unitary.
+Let's call this B1, B2.
+He performs a unitary that depends on B1 and B2
+on zeta prime.
+And miraculously, he gets back the original unknowing qubit.
+
+So you can send one qubit over a telephone line with two bits
+if the sender and receiver have an EPR pair.
+Now remember, in my first lecture,
+I said you could not send qubits over a telephone line.
+Because if you did, you could clone, because zeta
+goes into a classical channel.
+A classical channel can be duplicated.
+So if all the information about zeta
+were in this classical channel, you could clone the qubit.
+And we know that's not allowed.
+But here, Alice and Bob also have this EPR pair.
+And anyone-- any eavesdropper can
+listen in on this conversation and get the two bits.
+But if without the other half of the EPR pair,
+they can't recreate zeta.

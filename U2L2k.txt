@@ -1,0 +1,176 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2k.txt
+#
+# Captions for course module
+#
+# This file has 167 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+There's a construction in the book
+for how to build a Toffoli.
+
+H, control NOT, TDagger, control NOT, T, control NOT, TDagger,
+control NOT, TDagger, control NOT, TDagger, control NOT, T,
+S. And I want another H after this.
+Well, another T and then another H--
+T, H.
+So this constructs a Toffoli gate.
+
+And it's not that hard to check.
+So in the five minutes, I will do at least one case
+for checking it.
+Let's assume this qubit is a 0.
+
+So to check it, all you have to do
+is make sure that it gives the right answer
+when any of the eight possible basis states is input.
+So let's take care of four of them
+by seeing what happens if this is a 0.
+If this is a 0, well, this does nothing.
+So this TDagger, T cancel each other out.
+And now, we have to control NOTs on each other.
+They cancel each other out too.
+Now we have another T and a TDagger,
+and they cancel each other out too.
+And now we have an H and an H. And H squared is 1,
+so those cancel each other out.
+OK.
+
+So now we have a TDagger, control NOT, TDagger,
+control NOT, S. And if the first qubit--
+So this TDagger does nothing, because it's
+TDagger applied to 0 does 0, because T was 1, 0, 0, i.
+So TDagger is equal to 1, 0, 0, minus i.
+So now this turns it into a 1.
+This TDagger applies a phase of minus i.
+This turns it back to a 0.
+This does nothing.
+So if this was a 1, this TDagger and this T cancel out.
+If the first qubit was a 0, then none of these do anything.
+So if this qubit is a 0, then this circuit
+does the right thing.
+You can similarly see that the circuit does the right thing
+if this is a 0.
+And if these are both were 1's, what you get
+is a TDagger followed by--
+
+If first two qubits 1, get TDagger--
+
+Well, no, you get x TDagger, x T, x TDagger, x T, T, n,
+with an H on either S side--
+H, H. TDagger is equal to 1, 0, 0, minus i.
+
+T equals 1, 0, 0, i.
+x TDagger x is equal to minus i, 0, 0, 1.
+
+So this is minus i, 0 0, 1; 1, 0, 0, i; minus i, 0, 0, 1; 1,
+0, 0, i-- which is equal to minus--
+
+No, T isn't i.
+It's square root of i.
+
+I forgot.
+Which is equal to--
+I have two square roots of minus i's and two square roots
+of i's, which is minus i, i--
+which is equal to minus i times 1, minus 1.
+
+So this whole thing is a Z. And there's a minus i on the front,
+and you get H Z H, which is x.
+So this is x times a phase if the first two qubits are 1.
+And the phase is canceled out by this S.
+Or, well, it's canceled out by all these guys.
+So that is a sketch of why this thing is a Toffoli gate.
+
+So this proves that two qubit gates are universal
+for quantum computing.
+OK, so are there any questions about anything.
+Yeah?
+So any arbitrary unitary measures
+can be decomposed using [INAUDIBLE] using
+only two-level gates?
+Yes.
+And when you do this, it always diagonalizes the identity?
+There aren't any zeros on the deck?
+No, you-- Well, it always diagonalizes to--
+Well, when you diagonalize a unitary matrix,
+you get either the i phi--
+OK.
+--either the i phi, something along the diagonal.
+And then you have to fix those phases but you can
+fix those phases with more--
+So I lied.
+So after you diagonalize it, you get e to the i phi 1,
+e to the i phi 2, e to the i phi n.
+And then you need to do something
+to fix all these things.
+But you can also do that with two qubit gates,
+more two-qubit gates.
+And in fact, I think you can actually
+do that with two-level gates, but I can't be sure.
+
+Any other questions?
+Yes?
+[INAUDIBLE]
+Yeah, it does.
+So why didn't you make the second half [INAUDIBLE]??
+Well,
+Well, so recall if the first two qubits are 1, this--
+
+If the first two qubits are 1, so let's see--
+What happens when we cut the circuit--
+[INAUDIBLE]
+Right.
+So what happens then is you get the circuit 1, 1, 1, 1, 1, 1,
+1, which is a Toffoli circuit.
+Except actually, this is a minus i, minus
+i, or something like that.
+You get the right circuit, and it has a nasty phase
+you don't want to [INAUDIBLE].
+[INAUDIBLE]
+Yeah.
+So you want to remove the phase if both of these qubits are 1.
+[INAUDIBLE]
+No, because-- So what you want to do
+is you want to apply 1, 1, 1, i on the first two qubits.
+So if you multiply 1, 1 on the first two qubits by an i,
+you cancel out this guy.
+
+Why [INAUDIBLE]
+Because these qubits are 0, 0, 0; 0, 0, 1; 0, 1, 0; 0, 1,
+1; 1, 0, 0; 1, 0, 1.
+Or rather, the basis states are this.
+And this is a bit where the first two qubits are 1.
+
+And you have, I believe, a minus i there when
+the first two qubits are 1.
+So if you could apply the circuit that
+multiplies by i when the first two qubits are 1,
+which is this guy on the first two qubits--
+0, 0; 0, 1; 1, 0; 1 1--
+
+then this will cancel out this.
+
+So up to here--
+Well, actually, we need to put this H on the left here.
+So up to there gives you this circuit, or this gate,
+which is exactly what we want, except it has a minus i here.
+This minus i happens whenever both the first two qubits
+are 1.
+So we can cancel it by applying an i when the first two
+qubits are 1, and this gate we can do just on the circuits
+are the first two qubits.
+[INAUDIBLE]
+So this is another example of back action, in that you would
+think that this doesn't do anything for the first two
+qubits, but it actually changes the phase of them
+under certain circumstances.
+It doesn't change 0, 0; 0, 1; 1, 0; or 1, 1 values,
+because in the classical--
+You know, if you look at the classical basis values,
+none of these operations change it.
+But it does change the , phases and we need to undo all those
+phase changes.

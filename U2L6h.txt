@@ -1,0 +1,152 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6h.txt
+#
+# Captions for course module
+#
+# This file has 143 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now I want to go back and explain
+another application of the quantum Fourier transform.
+So this is called phase estimation.
+
+And suppose you have a unitary, U, and an eigenvector, psi,
+and can compute U to the K, easily.
+
+Well what you can do, is--
+and we know U, psi is equal to E to the I, theta for some theta,
+because eigenvalues of unitaries are all unit complex numbers.
+
+Estimate theta.
+
+In 1994, when I figured out the factoring algorithm--
+
+you know, the news of this algorithm
+spread, basically, like wildfire.
+I gave a talk in Henry Landau's informal seminar on a Tuesday,
+about how to do discrete log.
+And that Saturday, when I was home with a bad cold,
+Umesh Vazirani called me up and said,
+I hear you can do factor on a quantum computer.
+Tell me how!
+And there's two interesting things about that.
+First, after that, I think I gave a talk at the ANTS number
+three symposium, and Umesh gave a talk about my algorithm
+at this conference in Santa Fe.
+And all sorts of people were writing me,
+asking me for the paper, which, of course,
+I had not written yet.
+And, you know, the Economist and other magazines
+were calling and asking about this,
+and it was pretty exciting.
+Anyway, what was I saying?
+Anyway, Alexei Kitaev in Russia heard about the factoring
+algorithm, but he couldn't find the paper,
+so he figured it out by himself and he
+found this-- he figured out the phase estimation
+algorithm, which can also be used to do factoring.
+And if we have time, I'll explain how.
+So you have a unitary, an eigenvector,
+and you can compute psi to the K easily.
+So how do you estimate the phase?
+Well let's call this H to the N, and so this is a superposition
+of all binary numbers.
+And now what we want to do is we want to--
+
+so that's summation X and maybe C. Now
+let's call it summation K. K equals
+0 to 2 to the N minus 1C.
+And now the next thing we want to do is get into K
+equals zero to 2 to the N minus 1.
+U to the K, C, K.
+So how can we do that?
+Well, there's an easy way, which is we
+can apply a controlled U to--
+do we want the 1s bit on the bottom or the top?
+
+So this is the 1s bit.
+This is the 2 to the N minus 1 bit.
+And now let's apply U squared here,
+a controlled U fourth here, and a controlled U to the 2
+to the N minus 1 here.
+
+And now what we're going to do is apply an inverse quantum
+Fourier transform.
+
+Well actually we're going to apply a quantum Fourier
+transform, and then measure.
+
+OK.
+
+So the ith bit applies U to the 2
+to the I, which means if this is in some--
+if this represents some integer, J, then you apply U to the J.
+And I should have said we start out with all of these--
+
+oh, no.
+We start out with all of these 0s and the H to the N
+puts it in the superposition of all bits, which gives you this.
+And then this thing gives you K--
+U to the K, psi.
+And the last thing gives you K equals 0
+to the N minus 1, quantum Fourier transform.
+
+So that's E to the 2, pi, I. So this, of course,
+is just summation K equals 0 to 2 to the N minus 1.
+E to the K, theta, times psi.
+
+Because each U rotates it by theta, so U to the K rotated
+is E to the K, theta.
+E2 to the-- and then the Fourier transform,
+you get E to the 2 minus 2 pi over I. 2 to the N. E
+to the K, theta.
+
+K, psi.
+
+[INAUDIBLE] the indices.
+Yeah.
+We need to get these indices right.
+So J equals 0.
+E to the minus 2, pi, I, J, K over 2 to the N. E to the K,
+theta, K, psi.
+
+Wait, that was K, so make this J. OK, have I got it right now?
+Is equal to sum--
+no, I haven't got it right, because we need a 1 over 2
+to the N here.
+
+2 to the N over 2.
+1 over 2 to the N over 2.
+1 over 2 to the N over 2, and a 1 over 2 to the N.
+So this is 1 over 2 to the N. E to the minus 2, pi, I--
+
+K. J minus J over 2 to the N minus theta.
+
+J, Z.
+So you should recognize this.
+This is a--
+
+OK, I didn't get that right.
+2 pi, I, K. 2 pi, J over 2 to the N minus theta, J, Z.
+And this is exactly the same geometric series
+we saw before, which means that we can just read of--
+theta is approximately 2 pi, J over 2 to the N.
+Because if we get anything that is far away from this,
+the sum is very close to 0.
+So it's going to be within--
+we'll get J-- we'll get the exact J, plus or minus order
+of 1.
+Yeah?
+There's also a sum over K, right?
+Yes, there's a sum over K. And it's
+the sum over K which gives you the geometric series,
+and the sum over J just gives you this.
+So we see J with the sum that--
+sum over K, which is the geometric series.
+And the analysis of the geometric series
+is exactly the same as it did last time.
+So that gives you 2 pi--
+theta is 2 pi, J over 2 to the N.

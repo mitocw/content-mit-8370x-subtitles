@@ -1,0 +1,136 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2d.txt
+#
+# Captions for course module
+#
+# This file has 127 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+How do we generalize this to n value functions?
+Well, it's actually almost exactly the same.
+So you can ask, why did it take seven years for Deutsch
+to generalized to Deutsch-Jozsa.
+And the answer is that, if you read Deutsch's original paper,
+it looked nothing like this circuit.
+It looked quite different.
+And it was, I think, hard to generalize.
+And the other thing is maybe nobody was looking at it.
+
+So phase oracle.
+
+And let's put a hadamard on each of these places,
+and a measurement.
+
+And now what we want to do is say if f is constant,
+result is 0, 0, 0.
+
+If f is balanced, result is not 0, 0, 0.
+
+So the proof, the probability of getting all zeros is--
+
+OK, it's the square of the--
+want to say, this is plus to the log
+n, so log n pluses, tensor product of them, times f of--
+
+well, we have to put f as an operator here--
+and times plus to the log n.
+So why is this?
+Well, you are inputting pluses.
+And if they're all zeros, then the output
+had to be all pluses because, when
+you send a zero backwards through a hadamard,
+you get a plus.
+Do you have a question?
+Yeah, are there any other [INAUDIBLE]??
+Yes, there's lots of cases where f is constant or balanced.
+For example, in the two bit case here, f might have been,
+might--
+
+two bit case, might have been 0, 0, plus 0, 1,
+plus 1, 0, minus 1, 1.
+Or rather f might have been 1--
+0 for this, 0 for this, 0 for this, 1 for this,
+which would have been, this is f applied to plus plus.
+And this should be a 1/2.
+So probability of seeing plus plus here
+is, well, you want to multiply this by the plus plus vector,
+or take the inner product of this with a plus plus vector,
+and that is 1/4 plus 1/4 plus 1/4 minus 1/4, which is 1/2.
+
+So if f is neither constant nor balanced,
+then the probability of seeing plus plus is neither 0 nor 1,
+but we don't care because we said
+this was a promise problem, which means we only
+care about getting the answer right if f
+is either balanced or constant.
+So yeah, so computer scientists have this,
+I guess, huge classification of different kinds of problems.
+And this is a promise problem because you only
+care about getting the right answer
+right if the promise on the input is kept.
+And it's also an oracle problem because f is given
+to you as an actual oracle.
+You're not allowed to look in this article
+and find the actual program that produces f.
+
+So this phase oracle is a black box you cannot look inside.
+
+So here, this is equal to, well, summation
+over x in 0, 1, to the log n.
+So all binary strings x.
+I think I'd better put a 1 over 2 to the n--
+1 over 2 to the log n in front of this
+because, well, because you need to normalize this vector,
+and you need to normalize this vector,
+and normalizing them means you divide by each of them
+by 1 over the square root of n, so normalizing the whole thing
+means divide by.
+So that means, when you take this, you divide by 1 over n.
+And this is summation--
+
+OK, am I going too fast?
+I think I'm going too fast.
+Let's step back.
+So plus to the n is equal to 1 over-- plus to the,
+I guess, log n is 1 over square root of n times summation
+on all binary strings.
+
+So do people see this?
+0 plus 1, 0 plus 1, 0 plus 1, 1 over root 8, that's plus cubed.
+You take 1 from each of these things, and you are--
+you take one of the entries from each of the things,
+so you get equals 1 over root 8--
+0, 0, 0 plus 0, 0, 1 plus 1, 1, 1.
+
+And now, f applied to plus to the log n is equal to--
+well, it's the same thing.
+Sum x in all binary strings of [INAUDIBLE] log n.
+
+f of x times x.
+So you take the inner product of this guy with this guy,
+and you get x, x times f of x.
+Because f of x is just a--
+f of x multiplies by plus 1 or minus 1.
+
+Actually, that's not quite right.
+This is the Bayes Oracle, so it multiplies by minus 1
+to the f of x.
+
+So let's call this minus 1 to be applied to plus.
+
+And this is minus 1 to the f of x.
+
+And this should be minus 1 to the f of x.
+
+OK, so this is just the sum over all possible outputs of that,
+which, if it's 1, if f is constant,
+then it's just all of these are either 1's or minus 1's.
+The whole sum is either 1 or minus 1.
+So this equals 1 in the constant case.
+And in the bounds case, half of these are 1, and 1/2 of these
+are minus 1.
+And it equals 0 in the balanced case.
+

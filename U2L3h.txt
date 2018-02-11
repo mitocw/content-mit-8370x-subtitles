@@ -1,0 +1,241 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3h.txt
+#
+# Captions for course module
+#
+# This file has 232 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So example of computing c from different y's.
+
+Run program a number of times.
+I think it's four times.
+
+Get y1 equals 0 1 1 0, y2 equals 1 1 0 1, y3 equals 1 0 1 1,
+and y4 equals 1 1 1 1.
+
+So I think the best way to explain this is not, you know--
+do an example and explain the general principles following
+the example rather than trying to explain
+the general principles.
+
+How many possible c's after each y?
+
+Well, 0 1 1 0.
+We're eliminating all c's which are perpendicular,
+all values of c which are not perpendicular to this.
+So, you know, if we take c and multiply it--
+I mean, if we take a random c, which is actually--
+c had better not be 0, so there are 15 possible c's.
+If we take a random c and multiply it by y1 equals 0 1
+1 0, well, there are two possible answers--
+it's either 0 or 1.
+
+Start.
+Well, there's 15 of them, because c could be anything
+that's not all 0's.
+After the first one, we get 0 1 1 0.
+And it turns out that out of all possible 16 values,
+there are 8 which are perpendicular to 0 1 1 0.
+And of course, we can eliminate the all 0's sector.
+So there are 7.
+After the next the one, 1 1 0 1.
+The things are perpendicular to both of this--
+to both this and this form a two-dimensional subspace.
+And a two-dimensional subspace has sized 4
+because 2 squared is 4.
+And so the number of possible things is 3.
+After 1 0 1 1, well, you might think it goes down further,
+but actually it's three, and that's because 0 1 1 0, 1 1
+0 1, 1 0 1 1 are not linearly independent.
+Good?
+Because if you take this and you add it to this, you get this.
+
+So let's call this y1, y2, and y3.
+And we have y3 equals y2 plus y1, which
+we means c dot y3 equals c dot y2 plus c dot y1.
+So if both of these are 0, this is also 0.
+So because we were unlucky and got a dependence here,
+the number of possible c's doesn't go down any further.
+But at y4, 1 1 1 1, 1 1 1 1 is in fact independent
+of all of these, so y4, y2, and y1 form
+a three-dimensional subspace, which
+means there's only one non-zero vector
+perpendicular to this three-dimensional subspace,
+and that is c.
+
+So probability of finding c after n minus 1 iterations
+is, well, this last one, let's see.
+So what we need to do is we need to make sure all of these
+are linearly independent.
+So the first step, it always works--
+1.
+Because everything here is linear independent.
+Here, there is only one vector in this subspace or one--
+
+let's see.
+So yi can be 0, actually.
+If yi is 0, then this doesn't help us at all.
+So the first time--
+
+so yeah.
+So the first time we get 15 out of 16 good ones.
+The second time, well, there are now
+two vectors that don't help us because there's
+an all-zeros vector and y1.
+So that's 7 out of 8 times.
+Now there's the third time, there are three factors that
+don't--
+sorry, four vectors-- one vectors,
+two vectors-- fours vectors that don't help us,
+so this is 3 out of 4 times 1 out of 2.
+
+So for-- OK, something is--
+15, 7, 3.
+
+We don't need that last one out of two.
+15/16, 7/8, 3/4.
+Because here, this last vector, there were--
+
+OK.
+
+It's something like this.
+Let's think about this carefully.
+The first time, the only vector that can go wrong
+is 0, which is 15 out of 14.
+Yeah.
+Yeah.
+So it ends with 3 over 4.
+It would end with 1/2 if you were trying to narrow it down
+to get four independent vectors, and it doesn't
+do that, it ends at 3/4.
+Because when you have a subspace of size n over 2,
+there is one vector left that is perpendicular to the subspace.
+For arbitrary n, probability is 3/4 times
+7/8 times 15/16 times dot dot dot times 2
+to the n minus 1 over 2 to the n.
+And this converges.
+
+And I was going to prove this converged.
+So this is 1 over 1, 1 minus 1/4, 1 minus 1/8, 1 minus 1/16,
+1 minus 1 over 2 to the n is approximately
+equal to e to the minus 1/4, e to the minus 1/8,
+e to the minus 1/16, dot dot dot, e to the minus 1
+over 2 to the n, and that is equal to e to the 1/2 minus 1
+over 2 to the n.
+
+And I guess that is bigger than e to the minus 1/2.
+So
+So It actually has a reasonable probability of converging.
+And of course, all of these are approximations,
+but they don't actually affect the value of the probability
+that you've converged after n steps.
+And if you really want to make sure you've converged,
+you run for n plus log n steps, or you just
+run it until you get n minus 1 perpendicular values of y sub
+i.
+
+So I won't do any more probability of success,
+but it's possible to show that this algorithm succeeds
+and the expected time it takes is not
+much more than n iterations.
+
+OK.
+
+So here we are.
+So the next thing I wanted to do is
+explain why all these y sub i--
+I mean, how you can actually take these y sub i's and get c.
+And the answer is Gaussian elimination.
+And it might work a little bit differently for this,
+but we'll do it.
+
+So how to find c.
+
+Well, we know c dot y1 is 0.
+What does that mean?
+y1 tells us that c2 plus c3 equals 0.
+
+Because y1, we have c dot--
+no, y1 dot c is just y2 c2 plus c3.
+And y2 tells us that c1 plus c2 plus c4 equals 0.
+c2 plus c4 equals 0.
+y3 tells us that c1 plus c3 plus c4 Equals 0.
+
+And y4 tells us that the sum of all of them is 0.
+
+So what we're going to do is we're
+going to take these equations and eliminate
+variables one by one.
+Which if you remember Gaussian elimination,
+that's how it worked.
+
+So let's hope this works.
+OK.
+
+So I screwed up doing this in my notes,
+so I'm just going to be doing it on the board
+so I could easily make a mistake.
+So let's eliminate the first variable first.
+So get rid of c1.
+Rid of c1.
+Well, we know c1 equals c2 plus c4 For from y2.
+And now y1 gives us c2 plus c3 equals 0.
+y2, well, we're using this equation
+to eliminate c1 so we won't worry about it.
+Y3, we take this one and we subtract this one,
+we get c2 plus c3 equals 0, which is
+a duplicate of this equation.
+And the reason it's duplicate is you remember, y1, y2, and y3
+were not linearly independent.
+And y4, we subtract this equation from this equation
+and we get c1 plus c2 plus c4, cancel out, we get c3 equals 0.
+
+c3 equals 0.
+
+OK.
+So now we repeat.
+Well, we only have two equations left.
+We have c2 plus c3 equals 0 and c3 equals 0,
+so we can eliminate c3 from--
+
+I mean, this is--
+we can take y4 and subtract it from y1 and get c2 equals 0.
+So we get c2 equals 0, c3 equals 0.
+Plugging back in here, we get c1 equals c4
+and we get c equals 1 0 0 1.
+
+So what are we doing?
+Well, assuming all the yi's are independent,
+we are eliminating one variable at each step.
+So we start with I guess n minus 1 equations and n variables,
+and we're left with one variable and no equations,
+except we get all these equations for ci
+equals, you know, for c1 in terms of later variables
+and then for c2 in terms of later variables and c3 in terms
+of later variables, et cetera.
+So we get an equation that looks like c1 equals c4.
+And so we only have one variable left,
+and we can either set it to 0 or 1.
+If we set it to 0, we get y equals 0
+or we get c equals 0, which we know is the wrong answer.
+So we set it to 1 and we get c1 equals c4.
+So eliminating one equation and one
+variable at each step of this Gaussian elimination.
+And as long as we started with n minus 1 independent variables,
+we end up with a unique c.
+
+So this is just like Gaussian elimination
+for solving linear equations, except you
+don't have any fractions because the only thing you're dividing
+by is 1, which is much nicer.
+So this is indeed works.
+
+OK.
+So yeah, so I wanted to make sure that 1 0 0 1
+was perpendicular to all these vectors.
+Indeed, indeed, indeed, indeed.
+So we got the right answer.

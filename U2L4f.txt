@@ -1,0 +1,46 @@
+#
+# File:   content-mit-8370x-subtitles/U2L4f.txt
+#
+# Captions for course module
+#
+# This file has 37 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The next part is only going to make sense
+to people who understand the Cooley-Tukey FFT.
+Recall, the Cooley-Tukey FFT had,
+I guess, x0, x1, through x n over 2 minus 1 x n x n plus 1
+through x n minus 1.
+And you took this guy x1 with an x and a plus
+root two plus x n plus 1, and you added these
+and you subtracted these.
+So you take this plus this over here
+and this minus this over here.
+That is a [? hedamark ?] gate.
+And you need to add a factor of 1 over root 2
+because, well, basically the Cooley-Tukey,
+the discrete Fourier transform, you
+have a 1/n on the inverse Fourier transform and a 1
+on the forward Fourier transform.
+But you need to balance those out so
+that everything is unitary, and that
+means each Fourier transform you need to divide by root 2.
+And then you did funny things over here
+that you multiplied all of these by what
+I think the engineering committee calls
+a twiddle factor.
+And what's a twiddle factor?
+Well, the twiddle factor is all of these r-gates.
+And you're only multiplying if both [? cubits ?] are 1,
+and that's just corresponding to this thing
+because this is when both [? cubits ?] are 1,
+essentially.
+
+So that's a very hand-wavy explanation
+of how that corresponds in the Cooley-Tukey FFT.
+And if you don't understand the Cooley-Tukey FFT,
+you don't really need to know that.
+OK.

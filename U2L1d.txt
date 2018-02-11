@@ -1,0 +1,52 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1d.txt
+#
+# Captions for course module
+#
+# This file has 43 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So first, let's do the measurement
+Alice's measurement.
+Alice's measurement.
+
+And I think we talked about this basis of two cubits last time.
+But measure in basis.
+
+1 over root 2 0 0 plus 1 1.
+
+And this state is often called phi plus.
+I think the textbook uses a different name, but.
+
+This is called phi minus.
+1 over root 2 0 1 plus 1 0.
+And this is psi plus.
+And you can guess the last one.
+
+0 1 minus 1 0.
+And this is psi minus.
+So it's easy to see that all four of these states
+are orthogonal, because if you, you know,
+multiply this state and this state, you get 1 minus 1,
+which is zero.
+If you multiply this state and this state, this and this--
+no, the inter product of 0 0 with both 0 1 and 1 0 is zero,
+so you get 0.
+et cetera.
+So because these four states are orthogonal,
+you can do a measurement which returns
+one of these four states.
+So that's Alice's measurement.
+
+Oh, wait.
+
+I think I--
+I think I want to keep this up.
+And let's relabel this phi plus.
+
+So I will draw a classical control in green.
+And this is an XR because sigma x is an XR.
+And this is a z.

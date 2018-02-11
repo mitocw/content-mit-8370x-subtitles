@@ -1,0 +1,184 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1e.txt
+#
+# Captions for course module
+#
+# This file has 175 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So what Alice is going to do is she takes her unknown qubit
+and phi plus and measure the first two qubits of this three
+qubit state with this basis.
+So what happens?
+OK, I'm going to compute this in two different ways.
+But let's do the more or less straightforward way first.
+So let's say zeta is equal to alpha 0 plus beta 1
+where alpha and beta can be any complex numbers whose
+squares sum to 1.
+So state is alpha 0 plus beta 1, 0 0 plus 1 1.
+
+And the first two qubits belong to Alice,
+and the second one belongs to Bob.
+
+And now we want to measure this with the basis.
+
+So what we do is we take the inner product of this with 1
+over root 2 0 0 plus 1 1 with 1 over root 2--
+let's leave the 1 over root 2 in here--
+with 1 over root 2 0 0 minus 1 1, 1 over root 2 0 1 plus 1 0,
+and 1 over root 2 0 1 minus 1 0.
+
+And of course both of these qubits are in Alice's hands.
+
+So what do we get when we take this
+I guess partial inner product?
+Well, the 0 0 with the 1 and the 1 1 both returns nothing.
+So 0 0 with 0, 0 Alice is equal to, well there's a 1/2
+here times a 1/2 here.
+This is 1/2 0 Bob.
+And this 1 1, if you take the inner product
+with this one you get 1, you take the inner product
+with this 1, you get--
+OK, so some of these 1s are qubit states,
+and some of these 1s are scalars so it's confusing.
+But yeah, so you take the inner product of this and this,
+and you get plus alpha 1.
+Plus beta 1.
+Again, [INAUDIBLE].
+
+Now here what happens, this 0 0, the only term it picks out
+is 0 0 0, which has an alpha on it.
+So this is equal to 1/2 alpha 0, and this minus 1 1,
+the only term it picks out is 1 1 1.
+So it's minus beta 1.
+
+OK, same here.
+The 0 1 picks out the 0, 1 1.
+So that is equal to--
+well, the 0 1 picked out the 0 that's in alpha and the 1 1,
+so that's one 1/2 alpha 1 plus beta 0.
+
+And the last term we have 2 0 1, the 0 1 picks out 0, 1 1.
+So this is equal to 1/2 alpha 1 minus--
+because the second term is a minus,
+and it picks out 1 0 0 minus beta 0.
+
+So how do we correct?
+What do we do to the first--
+this first thing, alpha 0 plus beta 1, to correct it?
+Anyone?
+Nothing.
+Nothing.
+
+If we get the outcome phi plus, which is the top thing there,
+Bob's unitary is the identity.
+How about phi minus?
+What do we need to do to correct that one?
+
+Yes?
+Multiply by z?
+Yeah, multiply by z.
+Great.
+
+And any guesses on psi plus?
+Sigma x.
+Sigma x.
+Sigma x equals 1 1.
+And we could multiply by sigma y to fix this one,
+but that would give us a phase which I am not going to want.
+So what do we do to do it without the phase?
+
+Well first I want to say we apply sigma x.
+If we apply sigma x, we get alpha 0 minus beta 1.
+And then we apply sigma z which gives us alpha 0 plus beta 1.
+So when we apply sigma x, we go here, we apply sigma z,
+we go up to the top.
+So we first apply sigma x then sigma z, so that sigma
+z sigma x.
+
+OK.
+
+So that is how we fix it.
+So this gives us the teleportation protocol.
+Alice measures in this state, and then Bob fixes it.
+So what I want to do next is draw a quantum circuit
+for teleportation.
+So we start with psi and that's the top thing,
+and 0 0 plus 1 1, the next two qubits
+are going to be in this state.
+
+Well, what is the first thing we do?
+First thing we want to do is we want to measure this basis.
+
+So I'm going to go from right to left
+so I can leave these up here.
+So we're going to apply a z0, and what happens
+when we apply a z0 to this?
+Well first, why do we apply a z0?
+
+Well, I guess you'll probably see what--
+I mean, we're going to get 0 0 plus.
+Well, the z0 takes the first qubit, or first bit,
+and [INAUDIBLE] it with a second.
+So this is 0 0 plus 1 0.
+
+This is 0 0 minus 1 0.
+This is 0 1 plus 1 1, and this is 0 1 minus 1 1.
+
+But now we can rewrite these states
+because they're separable.
+So this is just plus time 0.
+
+This is minus time 0.
+This is 0 times plus--
+wait, no this is plus times 1, and this is minus times 1.
+
+So you see what I did was I factored out the second qubit
+here, and the first qubit became 1
+over root 2 0 plus 1, which is just plus,
+and similarly for the others.
+And now what we want to do is we want
+to put these in something that looks like the standard basis.
+And you can see that if you do a Hadamard to the first qubit
+and nothing to the second, this becomes 0 0, this becomes 1 0,
+this becomes 0 1, and this becomes 1 1.
+
+So how do we do this measurement?
+Well, what we want to do is we want to major in these basis.
+But after we apply this transformation,
+that's equivalent to measuring in this basis,
+and we know how to do that.
+
+So what was that transformation?
+Well, the first thing we do is a c0
+from the first qubit to the second qubit.
+That's this step.
+And the second thing we do is a [? Hadamard ?]
+transform on the first qubit at this step.
+And now we measure in the standard basis.
+
+OK.
+
+So the next thing we want to do is apply this correction.
+
+And let's go back here.
+If for the phi plus our measurement result
+was 0 0, for phi minus Alice's measurement result was 1 0,
+for psi plus it was 0 1, and psi minus it was 1 1.
+So given this measurement result,
+we want to apply these transformations.
+So you can see if the first qubit is a 1,
+we want to apply a sigma z.
+And if the second qubit is a 1, we want to apply sigma x.
+
+And we want to apply sigma x first.
+
+So every 1 with a first qubit is a z.
+Our first qubit is a 1, we apply sigma z,
+that's this guy and this guy.
+And where the second qubit 1, we apply sigma x,
+and we want to apply sigma x first
+because that's what we're doing here.

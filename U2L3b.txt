@@ -1,0 +1,63 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3b.txt
+#
+# Captions for course module
+#
+# This file has 54 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So how long does this take?
+Well, we're not going to get anywhere unless we have a--
+need a pair where f of x equals f of x plus c.
+
+Well, how many such pairs are there?
+Well, if f has n bits, there 2 to the n such pairs.
+
+After k, I guess, queries to the function,
+we have found k choose 2 is equal to k, k
+minus 1 over 2 pairs.
+Actually, we only do that if we're--
+we've only found k choose 2 pairs if we're clever.
+Otherwise, we might have found, no queried,
+some pairs multiple times.
+But we've certainly found less than k
+over 2 choose, k choose 2 pairs.
+
+And since any pair is equally likely--
+well, if an adversary chooses this function
+so that all c's are equally likely,
+we're probably not going to find the right answer
+until we've looked at k squared over 4 pairs to look at.
+
+That was roughly k squared over 4.
+Because if you are looking for a specific number,
+and you just choose random numbers from a list,
+you'll choose that at around half the way through the list.
+So that's k squared over 4, which is equal to 2
+to the n over 2 minus--
+
+wait-- I'm doing this.
+We want k squared over 4 to be equal to 2 to the n.
+So k equals 2 to the n minus 1, n over 2 times 2.
+
+So for n equals 4 bits, this would be 2 to the 4th times 2
+squared times 2.
+You expect around 8 queries.
+How well did you do?
+We did around 8 queries, so that's around right.
+So the answer is that classically, you
+can not do better than 2 to the n over 2.
+
+S algorithm takes theta of 2 to the n over 2.
+And just making random queries and waiting
+till you get two pair that matches does not do--
+also does theta of 2 to the n over 2 of a constant is worse.
+
+So this is Simon's algorithm.
+Classically, it takes exponential time.
+And we're going to get a problem for it.
+We're going to get an algorithm for it that
+takes polynomial time.

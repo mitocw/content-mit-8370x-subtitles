@@ -1,0 +1,81 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6f.txt
+#
+# Captions for course module
+#
+# This file has 72 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What do you do if you have no idea how many solutions there
+are?
+There's one easy thing.
+
+Psi.
+
+Alpha.
+Beta.
+
+So what does each step of the algorithm do?
+So this is angle theta over 2.
+It Rotates by an angle, theta.
+
+So let's just pick a random number of iterations
+and try that.
+
+Well, what is this algorithm doing?
+It's slowly progressing around the unit
+circle at a constant rate.
+So what happens if we pick a random point on the circle.
+If we choose a random number of iterations
+and this number of iterations is large enough,
+that's a random number of unit circle.
+And measure in the bases alpha, beta,
+which is equivalent to checking whether this point is
+a solution or not.
+Well, we get beta with probability 1/2.
+
+So if the number is bigger than--
+
+what's our math?
+Pi/4, root m over m.
+
+Pi/4.
+Root m over m.
+
+Get a solution with probability 1/2.
+
+So what you can do is you can guess that there's
+a lot of solutions, try that.
+If it doesn't work, guess that there are fewer solutions.
+Try that.
+And if it doesn't work guess, that there are fewer solutions
+and try that.
+Because each time you're doing it with more iterations.
+And eventually, you will run into a solution.
+
+So just start picking a random number between--
+well, suppose you have some idea of how many solutions there
+are, although it doesn't really matter.
+So let's start by assuming that 1/10 of them are solutions.
+And then you would run it for pi/4 times root 10.
+And if that doesn't work, assume--
+sorry, 1/20 of them were solutions and run it
+four pi/4 root 20--
+rather, not pi/4 root 20.
+A random number of iterations between, say, pi/4 root
+20 and 2 pi over 4 root 20.
+And you keep on doing this.
+Eventually, the number of iterations is bigger than this.
+And as soon as that happens, you have a probability of 1/2
+of finding a solution.
+
+So this might not be the optimal thing to do.
+but it certainly is easy, and it works pretty well.
+And I should say that Grover's algorithm, if all you're
+allowed to do is query the oracle,
+this number is actually the right answer.
+You can not do much better than this, provably,
+with quantum computer.

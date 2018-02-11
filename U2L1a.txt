@@ -1,0 +1,70 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1a.txt
+#
+# Captions for course module
+#
+# This file has 61 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So today, I will be talking about two simple quantum
+protocols.
+So this is the first lecture in the protocols section,
+which is, I guess, the second in this section of the course.
+And today, we're talking about teleportation and superdense
+coding.
+And I will try to go through these fairly slowly,
+because, you know, the material I'm
+presenting it's incredibly easy to make a sign mistake or--
+and I have a tendency to do that.
+And I will try very hard not to.
+So first I want to tell a little bit
+about the history of teleportation and superdense
+coding.
+And this is more or less irrelevant to the later part.
+And it's just an interesting historical--
+you know, historical anecdote about how they were discovered.
+So Asher Peres and Bill Wootters--
+one and two--
+Peres, Wootters-- were considering
+the following scenario.
+You had these two qubits that were either in this state,
+or both in this state, or both in the state, where these three
+states are 120 degrees apart.
+And they wanted to--
+they were asking how well can you--
+how well can you predict or test which of these three states
+they're in if you have these three things, qubits.
+They're not completely distinguishable.
+And if they're both in the same lab, the answer is very easy.
+But if they're in two different labs,
+the best that Peres and Wootters could do
+was come up with a very complicated protocol, which
+didn't get very close to the answer if they were in one lab.
+
+So more distinguishable in one lab than two.
+So then we started wondering about how could you
+better distinguish them.
+So here we have Alice with one of our qubits
+and Bob with the other.
+And you know, the labs are far apart.
+So they're not allowed to bring these two qubits together.
+So what additional resources could they
+use to distinguish them?
+And they discovered that an EPR pair 0, 0 minus 1 plus 1, 1--
+actually it doesn't matter which--
+it doesn't matter whether this is 0, 1 minus 1, 0 or 0,
+0 plus 1, 1.
+An EPR pair helps.
+
+And then they started figuring out why an EPR here helps.
+And an EPR pair helps, because it lets you teleport
+Alice's qubit to Bob's lab.
+And then Bob can perform the measurement
+with both particles in the same lab.
+So that was a much more surprising discovery
+than just the fact that an EPR helps distinguish, you know,
+this probability distribution of correlated qubits in two
+different labs.

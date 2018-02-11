@@ -1,0 +1,112 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5d.txt
+#
+# Captions for course module
+#
+# This file has 103 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so first I'll do the intuition
+and then I'll do the math.
+So it's a geometric sum and it's a whole bunch of points
+around the unit circle.
+So we start with e to the minus 2 pi i x zero.
+Let's plots these points--
+e to the minus 2 pi i x zero.
+And now we go yr over--
+I'm sorry rz over 2 to the 2l.
+So the next one we want to plot is y equals 1.
+So we go some distance around the circle.
+And let's plot another point.
+And then we plot another point.
+Another point.
+Another point.
+We keep on going.
+
+And what we get is quite possibly
+points that are nearly, exactly, uniformly
+distributed over the unit circle.
+
+Sum close to zero unless well, unless what happens is--
+what's here?
+Here was e to the 2 pi i x zero.
+I should divide by 2 to do that.
+2 to the 2l.
+
+And here is e to the 2 pi i.
+
+e to the minus 2 pi i x 0 plus.
+Y equals 1 here.
+r-- oh I forgot z here.
+z over 2 to the 2 l.
+
+So unless what happens is when we plot the point,
+we move around by the angle 2 pi i rz over 2 to the 2l.
+Suppose this angle is tiny.
+Well what happens then is we get points uniformly distributed.
+Suppose it's tiny enough so that when we add all of these 2
+to the l over r points we get points
+that are an arc, which doesn't even go
+all the way around the circle.
+
+Sum is close to well how many points were there?
+There were 2 the 2l over r.
+And they were all pointing in more or less
+the same direction.
+So in absolute value.
+
+So there's two cases here.
+
+2 pi rz over 2 to the 2l is close to 1, which means y--
+no sorry rz over 2 to the 2l is close to an integer.
+If rz over 2 the 2l is close to integer,
+and let's call that integer d.
+
+So if this is close to integer, then we
+get a large probability of seeing this.
+If it's not close to an integer, we
+get a tiny probability of seeing that.
+
+So now what I'm trying to do is actually do the geometric sum.
+So the geometric sum is 1 minus e 2 pi i.
+We want the last term of the sum.
+That's 2 to the 2 l rz over 2 the 2 l.
+
+No it's y goes from 1 to 2 to the 2l over r.
+So the last term you substitute in 2 to the 2 l r over z.
+So something like 2 to the 2 l over r.
+And we have to take the floor of that times r times z over 2
+to the the 2l.
+Which really, because of this floor
+could be anywhere on the unit circle.
+But it's always less than two in absolute value.
+And we're dividing that by 1 minus either 2pi i to the 2 l
+over r.
+No, we leave that term out.
+rz over 2 to the 2l.
+
+And remember the sum is really--
+so we're dividing something by something else.
+And it's going to be relatively small, unless the something
+else we're dividing is really really, really close to zero.
+So this is roughly something O 1 divided by what is this?
+This Is roughly r z over 2 to the 2l.
+So the probability of seeing a number z
+is roughly r z over 2 to the 2 l squared minus d,
+because d was our integer.
+So we have d over r is roughly z over 2 to the 2l.
+
+So what our algorithm does is it outputs z.
+We know 2 to the 2l.
+And we need to round it off to something like d over r.
+And there is a procedure for rounding numbers--
+rounding real numbers of two smaller fractions,
+that is efficient.
+And it's called continued fractions,
+and we'll talk about that later.
+But it's a classical algorithm.
+So once we get this, we can round it to d over r.
+And then we found r, which was the period we were looking for.

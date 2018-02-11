@@ -1,0 +1,122 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2g.txt
+#
+# Captions for course module
+#
+# This file has 113 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's go over the classical circuits.
+And, well, NAND is universal.
+
+Actually, this isn't quite true because NAND plus fanout
+is universal, but fanout is usually taken
+for free in classical circuits.
+
+So when people are designing chips for CMOS,
+what basic gates do they use?
+Anybody?
+
+Yeah?
+NAND, NOR, and NOT
+Yeah.
+CMOS.
+NAND, NOR, and NOT.
+So any idea why?
+It's easier to build that out of transistors than to put-- like,
+that's what naturally comes out.
+And you just have two transistors maybe.
+And then to make an AND you'd have to invert that,
+so it's just--
+Yeah, well you can make a NOT, make an AND
+by using a NAND followed by a NOT.
+And that is, well--
+so AND is more complicated to build than NAND.
+So you might as well just stick with these three, I think.
+But you don't want to use just NAND because then you
+would have to work hard to get NOR and NOT.
+And you don't want to work hard.
+You want to choose a set of gates and the universal basis
+that is as easy as possible.
+So quantum circuits.
+
+Universal gates.
+
+OK.
+
+So we're going to build a quantum circuit out
+of some set of universal gates.
+And the universal gates we choose, well,
+all 2 qubit gates.
+
+So I think this is what we're going
+to prove is universal today.
+CNOT, all 1 qubit gates, and CNOT, H X, Y, Z, T and S gates.
+
+And people should remember what H, X, Y, and Z gates are.
+So let me remind you what S is and what T is.
+
+S equals 1, 0, 0, i.
+And T is equal to 1, 0, 0.
+e to the pi i over 4, and T squared equals S. So this
+as a universal set of gates.
+And of course, it's not the smallest universal of gates
+because X can be H, X. Z is H, X, H, et cetera,
+but this is the universal set of gates
+used by Nielsen and Chuang, in the book,
+and it's a reasonably good set of gates.
+When you actually go to build a quantum computer,
+you may not use this set of gates
+because maybe there will be other gates which
+are much easier to implement.
+Because you have much more freedom choosing
+which gates to use in a quantum computer than you
+do in a classical computer.
+
+So I want to give a proof that these are--
+
+proof 2 qubit gates are universal.
+And actually, I should put a caveat to this statement.
+CNOT, H, X, Y, Z, T, S cannot produce all gates.
+
+Can anyone give a reason why this is true?
+
+[INAUDIBLE]
+Produce all quantum gates.
+Yeah, I think they can produce all quantum gates.
+
+Quantum unitary gates.
+
+But you can, because what you can do is,
+you can with CNOTs and H, and these, you
+can get a lot of different phase shifts.
+Yes?
+I was basically going to say the same thing.
+OK.
+[INAUDIBLE]
+OK, how many circuits can you build out of these gates?
+A countable number of circuits and uncomfortable number
+of gates.
+
+Because there are continuous variables in here,
+which is an uncountable number, and there is a countable number
+of circuits.
+Does it mean anything to say that you can approximate
+an uncountable number of gates with a countable number
+of circuits?
+Yeah, right.
+But you can get arbitrarily close to any gate.
+
+And in fact, you can get arbitrarily
+close to an any gate with a circuit of reasonable size
+of these, where you need to define what reasonable is,
+but it's polynomial in the error you want.
+
+And that's called the Solovay-Kitaev theorem.
+It's not easy to prove.
+And we're not going to prove this.
+
+So this is actually good enough.

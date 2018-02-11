@@ -1,0 +1,53 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1h.txt
+#
+# Captions for course module
+#
+# This file has 44 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So I wanted to just say that superdense coding now--
+and I'm not going to do the circuit
+diagram for superdense coding.
+What I will do is the basic idea.
+Alice and Bob-- oh, wait, that's small chalk.
+Let's use nice big chalk.
+Alice and Bob share 0, 0 plus 1, 1.
+
+And let's say Alice takes 0, 0, and she does her--
+OK, 0, 1; 1, 0, and 1, 1.
+Identity 0, 1, she can apply sigma x.
+1, 0, she can apply sigma z.
+And 1, 1, she can apply sigma z sigma x.
+
+What happens to the state if Alice applies that
+to the first qubit?
+Well, here she gets--
+well, she applies the identity, she gets 1 of root 2, 0, 0
+plus 1, 1.
+If she applies sigma x, she gets 1 of root 2, 1 0 plus 0, 1.
+If she applies sigma z, she gets 1 over 2, 0, 0 minus 1, 1.
+And if she apply sigma x, first, and sigma z second,
+she gets 1 over root 2, minus 1, 0 plus 0, 1.
+
+So after she does--
+so she encodes the message by applying one of these four
+operators to the first qubit--
+to her qubit.
+She then sends her qubit to Bob.
+Bob has all four of these states.
+And he can do a measurement and tell which of these states
+he has, because these are all--
+
+yeah, these are all four distinguishable states.
+So there is a measurement, which will--
+whose outcome will tell you which state we'll have.
+
+So that's superdense coding.
+
+Alice sends her qubit to Bob.
+
+B, et cetera.

@@ -1,0 +1,190 @@
+#
+# File:   content-mit-8370x-subtitles/U2L4d.txt
+#
+# Captions for course module
+#
+# This file has 181 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now what I want to do is the two-qubit Fourier transform.
+Well, let's write down the quantum Fourier
+transform for two qubits using our matrix,
+which I unfortunately erased.
+But it's 1 over the square root of n, that's 2,
+times, well, this is e to the 2 pi i minus 2 pi i over 4.
+Is there a simpler way of stating this, anybody?
+
+Yeah?
+Minus i.
+Minus i, very good.
+This is minus i.
+And this is minus 1, i, minus 1, i, and this is minus 1,
+1, minus 1, and i, 1, minus i.
+
+So that's what we want to get, and we
+want to build it out of gates.
+
+But this is also--
+
+the i-th entry is going to be e to the 2 pi--
+or the j, k entry is going to be e to the 2 pi i j
+k over 4 is equal to e to the minus 2 pi i j0--
+
+yeah, j0 plus 2j1 k0 plus 2k1 over 4 equals e to the minus 2
+pi i.
+Well, we get j0 k0 over 4 times e to the minus 2 pi i
+j1 k0 over 2 times e to the minus 2 pi i j0 k1 over 2.
+
+OK.
+
+And we don't get a j1 k1 term because, well,
+because 2j1 times 2k1 is a multiple of 4.
+
+So let's think about this.
+Well, the ji's are represented by qubits,
+so we can think of these as three potential gates.
+And here, I'm going to cheat a little bit--
+
+at least j0 goes to k.
+Let's try implementing the second one.
+So that j1 goes to k0 e to the 2 pi i j0 j1 k0.
+
+I need to do a sum over k0 equals
+0 to 1 e to the 2 pi i ji k0 over 2, right, over 2.
+
+So this is, well, 0 goes to 0, 1 goes to 0, 0 goes to 1,
+and 1 goes to 1.
+
+Actually, 1 goes to minus 1.
+
+And I forgot the--
+I forgot normalization factor.
+We need a normalization factor to make this unitary.
+So you should all recognize this gate.
+
+This is just the Hadamard gate.
+
+0 goes to 0--
+
+0 goes to 0 with a factor of 1 over root 2, 1
+goes to 0 with a factor of 1 over root 2, 0
+goes to 1 with a factor 1 over root 2,
+and 1 goes to 1 with a factor of minus 1 over root 2.
+So the Hadamard gate implements this piece,
+and it also implements this piece,
+because this is just the same thing with j0 and k1.
+So let's try drawing the circuit.
+
+OK, so this would be j0, j1, Hadamard, k0--
+oh, well, no k1, because remember, j1
+was Hadamarded from k0, and k1 was Hadamarded from j0.
+
+So this is not right yet.
+
+So this might be a first attempt at the circuit,
+but it doesn't work.
+So why doesn't it work?
+Need term.
+
+Well, we need the last term over here-- e to the minus 2 pi i
+j0 k0 over 4.
+
+e to the minus 2 pi i j0 k0 over 4.
+
+So what does this do?
+Well, this interacts-- j0, we want j0 to interact with k0.
+So what you want is you want to draw a gate that connects
+this piece with that piece.
+
+And of course, you can if you--
+
+j1, H, if you move this top Hadamard
+later than the bottom Hadamard.
+And now what is this thing?
+
+Well, j0 k0 goes to--
+well, nothing happens, or rather you multiply by 1 if j0 is 0
+or if k0 is 0.
+So that's 1, 1, 1.
+And otherwise, you multiply by e to the minus 2 pi i over 4,
+which you should recognize is minus i.
+
+And I drew this too far to the right.
+j0 k0 goes to 1, 1, 1, minus i, j0 k0.
+
+So that is just a controlled--
+
+remember, that was a controlled--
+well, a controlled-S gate has this i.
+So this is a controlled-S dagger gate, which gives minus i.
+
+So do nothing if the first qubit is 0.
+And if the second qubit is 0, multiply-- oh, or no.
+If the first qubit is a 1, multiply the second qubit by--
+multiply the phase by minus i if the second qubit is also a 1.
+So you see this gate is symmetric in, I guess,
+j0 and k0.
+
+So this is the quantum Fourier transform for two qubits.
+
+So let's try writing it out in terms of matrices.
+So the first thing we do is an H to j1.
+This is the first qubit of j--
+or no-- yeah.
+First thing we do is an H on j1, which is the first qubit of j.
+And of course, when we're multiplying matrices,
+the first thing we do to a vector
+is a matrix on the very right, which is 1, 1, 1, 1, 1, 1,
+minus 1, minus 1.
+
+The second thing we do is this controlled-S star,
+which is this matrix--
+1, 1, 1, 1, minus i.
+And the third thing we do is a Hadamard on the other qubit,
+which is the second qubit for writing them out
+in the standard way we write binary numbers.
+So that's 1, 1, 1, minus 1, 1, 1, 1, minus 1.
+And we want to multiply this by 1 over root 2 and this by 1
+over root 2, which give us a 1/2 in front of it.
+
+So this equals 1/2.
+
+OK.
+And I believe this thing multiplies the last row by i--
+or by minus i.
+So that's 1, 1, 1, 1, 1, minus i, minus 1, i.
+And now let's multiply those two together, and we get 1/2 1,
+1, 1, 1.
+I'm not going to actually--
+1 minus 1, 1, minus i, minus 1, i, 1, i, minus 1, minus i.
+Well, this isn't what we wanted.
+So what did we forget to do?
+
+Yeah?
+Do we want to swap the bits of k?
+Yeah, we wanted to swap the bits of k,
+because this came out k0 and k--
+This came out k0, j0, k1, and j1 went to k0.
+So these bits are in the wrong order.
+So to swap them what we need to do
+is multiply this whole thing by the swap gate,
+which swaps 1, 0 with 0, 1.
+And what does the swap gate do?
+Well, it swaps the second and third rows of this matrix.
+
+So that equals 1, 1, 1 1, 1, minus i,
+minus 1, i, 1, minus 1, 1, minus 1, 1, i, minus 1, minus i.
+So that actually-- so this circuit
+does work, except we need to do a swap at the end.
+And maybe that's not the best notation for a swap gate.
+
+OK.
+So if you're used to the Cooley-Tukey fast Fourier
+transform, you remember that the answer comes out
+in the wrong order, and you have to reverse the bits.
+And this is exactly the same thing happens here.
+The answer comes out in the wrong order.
+We need to reverse the bits.

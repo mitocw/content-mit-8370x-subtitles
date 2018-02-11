@@ -1,0 +1,87 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2c.txt
+#
+# Captions for course module
+#
+# This file has 78 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+And now let's think about how to do this for the two-bit qubit
+case.
+We have 0,0, 0,1 1,0 1,1.
+OK.
+So what I want to do now is I want
+to define a slightly different definition of oracle.
+And here, a definition of quantum oracle.
+
+Here you're going to put an x.
+
+And you're going to get minus 1 to the f of x times x.
+So this quantum oracle changes the phase of the input
+if f of x is 1.
+And it doesn't change the phase if f of x is 0.
+
+And we will later see why these two different definitions
+of oracle are actually equivalent.
+But right now, I want to say, well,
+how would you solve this problem with f
+of x being a quantum oracle?
+
+OK, well, what we're going to do is we're going to input 0,0
+plus 1,1 plus 0,1 plus 1,0 plus 1,1.
+So what we're doing right now is solving the two-qubit David
+Joseph problem.
+So output case a might be 1/2 0,0 plus 0,1 plus 1,0 plus 1,1.
+Or it might be minus that.
+But these are the only two things
+that will be output if f is constant.
+If f is constant and equal to 1, you'll output this.
+And case b, where it's balanced, the output would be 1/2 0,0
+minus 0,1 plus 1,0 minus 1,1.
+Or something like that.
+Now can anybody tell me how to distinguish between these two
+possibilities?
+
+Well, what we want to do is make a measurement.
+And we want to have the measurement
+to be yes in this case and no in this case.
+Yeah?
+[INAUDIBLE] to 0?
+Very, very good.
+Actually, you have to apply two Hadamard digs and test for 0,
+but yeah.
+
+And applying a Hadamard gate and testing for 0--
+So what we're going to do is we're
+going to put in plus-plus, the phase
+oracle, Hadamard-Hadamard, and measure-measure.
+
+If output equals 0,0--
+
+Well, if the output equals 0,0 this is constant--
+or, I should say, at this constant.
+If output is not equal to 0,0, f is balanced.
+Why is that?
+
+Well, applying two Hadamard gates--
+
+Two Hadamard gates measures in basis 0,0 0,1--
+oh wait.
+
+Plus-plus equals 0,0 plus 0,1 plus 1,0 plus 1,1.
+Plus-minus equals 1/2 0,0 minus 0,1
+plus 1,0 minus 1,1, et cetera.
+So minus-minus equals 1/2 0,0 minus 0,1 minus 1,0 plus 1,1.
+OK?
+
+So if f is this, or negative plus-plus,
+the outcome output will be plus-plus.
+If f is any balanced function, the output
+will be plus-minus, minus-plus, or minus-minus, depending
+on which function it is.
+And of course, measuring applying a Hadamard
+and then measuring in the 0,1 basis
+is the same as measuring in the spaces.

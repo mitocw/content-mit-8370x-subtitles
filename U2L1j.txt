@@ -1,0 +1,155 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1j.txt
+#
+# Captions for course module
+#
+# This file has 146 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The last part of this lecture, I want
+to explain to you why all of these parameters are optimal.
+So let's see, message, transmission, entanglement.
+
+So the message for teleportation it is 1 qubit.
+
+And you turn it into 2 possible bits, which maybe I
+should call civets.
+And you need 1 EPR pair.
+
+And for superdense coding, the message is 2 c bits.
+You need 1 qubit and 1 EPR pair.
+
+So can you do better?
+What would happen?
+
+Well, what would go wrong if you could encode 5 qubits--
+no, 5 c bits, 5 classical bits by 2 qubits?
+
+Well-- I mean-- so here think about this.
+You can take 1 qubit to 2 classical bits,
+and then you can re-encode them, 2 classical bits with 1 qubit.
+
+So if you first apply superdense coding and then teleportation,
+you actually haven't done anything.
+You're sending 2 classical bits using 2 classical bits.
+But what would happen if you could do better?
+
+Well, what would happen is Alice could first take her 5
+classical bits and then using some number of EPR pairs,
+she could [INAUDIBLE] them into--
+
+oh, let's-- here we go--
+
+2 qubits-- no, ERR pairs, sorry 5 c bits--
+so 2 qubits, 5 c bits, there.
+
+But look, she could then go ahead and take these 2 qubits
+and apply teleportation, superdense--
+no, teleportation to them.
+And so 2 qubits--
+so Alice turns her 5 classical bits into 2 qubits.
+But instead of sending these 2 qubits to Bob,
+she takes them and turns them into 4 classical bits, again,
+using more EPR pairs.
+
+I guess, in this case, this is just standard teleportation.
+So it's 2 EPR pairs.
+And now Bob gets these 4 classical bits.
+He turns them back into 2 qubits.
+And then he takes these 2 qubits and turns them back
+into 5 classical bits.
+So now you've seen--
+you see that we've taken 5 classical bits
+and set them using 4 classical bits.
+And you think there has to be something wrong there.
+And indeed there is.
+If you could do this, you could communicate faster than light.
+
+Actually, I think this is probably
+enough to convince you that this is impossible,
+because you could take n classical bits,
+turn them into 4/5 classical bits,
+and repeat this until you turn them into 4 classical bits
+and then set them over the wire.
+So you can code any number of classical bits
+in 4 classical bits if you could do better than this ratio
+1/2 for teleportation and 2 for superdense coding.
+But actually, if you can send 5 classical bits
+with 4 classical bits, you can communicate faster than light.
+
+And now I want to--
+let's say, suppose you could take 10 classical bits,
+encode them in 2 classical bits and 4 classical bits.
+
+OK, this-- I actually just realized this uses something
+about quantum particles that we haven't really explained yet.
+So I won't--
+I'll just give you the basic idea.
+So let's map the 0 to one specific range
+of 10 bits and a 1 to another specific thing of 10 bits.
+And each of these gets mapped into--
+
+OK.
+
+So send them using 4 bits.
+
+So what happens is Bob just guesses the 4 bits.
+There's only 16 possibilities.
+And then he pretends using these 4 bits to decode--
+you know, to decode Alice's code with all possible--
+you know, for all possible values of these 4 bits.
+Well, only one of them--
+we know there are only two possible values
+of Alice's code.
+And if you take these 4 bits and try to decode it,
+it's very unlikely that that will give you the wrong one
+for any of these 16 values.
+So that means you know which message [INAUDIBLE]..
+OK, so in reality, it is much more complicated than that,
+because you need to make sure that you can try all
+of these things using the quantum operations
+that you have to do on your end.
+And that's-- and proving that requires some information about
+quantum algorithms that we haven't gotten into.
+OK, so where were we?
+Well, we showed that this was optimal.
+We showed that this is optimal.
+Now I want to say that 1 EPR pair is optimal for teleporting
+1 qubit.
+So suppose 1 EPR pair--
+suppose you could teleport 2 qubits with 1 EPR pair,
+with 1 EPR pair.
+
+Well, what could Alice do?
+Alice could take 2 EPR pairs, encode--
+well, teleport the first qubit in each to Bob--
+
+qubit in each to Bob.
+And now-- and she destroys 1 EPR pair doing this,
+but now Alice and Bob have 2 EPR pairs.
+So then Alice could take 4 EPR pairs.
+And with her 2 EPR pairs, she could
+teleport the first qubit in each of these 4 EPR pairs to Bob.
+And then Alice has destroyed her 2 EPR pairs,
+but now Allison and Bob have 4 EPR pairs.
+So they can keep on doing this and generate as many EPR pairs
+as they want, which again has to be a contradiction,
+because you can not send quantum information
+over a regular telephone line.
+So that shows that this and this are all optimal.
+So this is optimal too, but it requires Holevo's theorem.
+It requires the fact that if you have 2 qubits,
+you cannot encode more than 2 classical bits,
+or rather if you have less than 1 EPR pair and 1 qubit
+that's fewer than 2 qubits and it requires 2 qubits to encode
+2 classical bits.
+So if you could do better than this,
+you would break Holevo's theorem,
+which says 1 qubit can only encode 1 classical bit, which
+we're not going to get to this term, but which if you take,
+Ike's advanced quantum information class--
+I forget what it's called--
+he will cover it, OK.

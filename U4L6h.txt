@@ -1,0 +1,164 @@
+#
+# File:   content-mit-8370x-subtitles/U4L6h.txt
+#
+# Captions for course module
+#
+# This file has 155 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Computing the resources required to give you
+the precision that you want in the final answer.
+So here we want to get the solution to Grover's algorithm
+by rotating up, like that.
+And now we will utilize this idea of Trotterization,
+but we will only have separate H1 evolutions
+and H2 evolutions, each of them for some sliver of time delta
+t.
+I now need to also compute the number of such evolutions
+and the size of the time step.
+And the cost will be in units of this thing here.
+So every time I run e to the iH2 delta t,
+no matter what delta t is, I will call this a cost of 1.
+So I will count the number of queries to the oracle.
+I will say, oracle, hey, run for delta t,
+and then give me back my state.
+And the oracle will charge us a unit cost
+for doing that operation.
+
+And our question is, how many oracle calls
+do you need in order to run Grover's algorithm
+with this simulation business.
+So lets start with the simplest Trotterization,
+which is up there.
+And I'll give you the actual formula.
+
+What we have is that e to the iH1 plus H2, t,
+is exactly equal to the e iHt--
+these can be delta t's, if you wish--
+times e to the iH2t plus order of delta t--
+
+insert deltas there yourself--
+squared.
+
+And this is true for small delta t's.
+And so now let us look very carefully at error term
+and see what the consequences are.
+It means that after t divided by delta t steps,
+so we take the total time of evolution,
+we break it down into delta t slices,
+the total amount of error is going to be the number of steps
+times the error per step, so that we
+get the error total being t divided by delta t times.
+Say this is now where I wish I had my deltas.
+
+So let's multiply the number of steps
+by the amount of error per step over here.
+And we want this to be no more than a constant.
+Because if the error is growing too rapidly,
+then it's unbounded.
+So we want this, for example, to be 1.
+Let's say it were equal to 1.
+Then we would find that delta t--
+canceling one delta t--
+has to be less than or equal to 1 over t.
+And remember, t is this.
+So this is 2 divided by pi square root of n.
+So that's not too bad.
+
+But then the number of steps is t divided by square root of t.
+And this is pi over 2 square root
+of n divided by this, which is just t squared,
+which is going to give you n.
+That's no good.
+Now the number of steps is n.
+What is the number steps supposed
+to be for Grover's algorithm?
+Square root.
+Square root of n.
+So my simulation is now rendered useless.
+It's no faster than the classic algorithm
+because I had to Trotterize, because the error
+was adding up too fast.
+So I have to do something better.
+So what I do is I pull out Trotter expansion 2.
+And I try to be a little more clever.
+It turns out that this is not the only way to approximate.
+You can do e to the i, H1 plus H2, delta t,
+is equal to e to the minus iH1 delta t divided by 2.
+This is a little weird.
+I do half of the first Hamiltonian.
+And then I do the full H2.
+And then I do the other half.
+
+Of course, you should be reading this from right to left,
+but what I said is still true.
+I did half, full, half.
+And if I split like this, the neat thing
+is that I reduce the error to third order instead
+of being second order.
+That's kind of clever.
+And the cost is now that I have to do three slivers instead
+of two slivers.
+Does that give you now an algorithm
+which scales properly?
+Let's work out the resource requirements
+in exactly the same way as here, but now for this higher order
+Trotterization.
+I won't work out the details for you.
+Let me just give you the result.
+So delta t with this third-order expansion--
+
+now is such that the cumulative error
+will be on the order of delta t cubed times
+the number of steps.
+Number of steps, again, is square root
+of n divided by delta t.
+And therefore, delta t will go as 1 over n to the 1/4.
+So the number of steps, if you work this out,
+is square root of n divided by 1 over n to the 1/4,
+which is n to the 3/4.
+Ha-- we're getting closer.
+But it's still not quite there yet.
+So better-- still.
+
+It turns out what you need is a better Trotterization.
+
+And in the case of Grover's algorithm,
+it turns out that a perfect Trotterization is known.
+But if you did not know that and you were just
+Trotterizing an arbitrary H1 and H2,
+you would look for much higher order terms.
+And you would say, well, I do have a delta t
+to the k-th Trotterization.
+You can pull it out of your bag.
+Such things are known.
+And then this, you would find, it
+gives you an n steps, which goes as n to the 1/2 times 1
+plus 1 over k plus 1.
+So that asymptotically, as k gets large,
+you recover this square root.
+This is capital N here, the square root of n
+that you expect for Grover's algorithm.
+So that is kind of nice.
+
+But it's a rather bit of a pain to have to do that.
+By the way, for those of you in higher energy physics,
+these Trotter expansions are called symplectic integrators.
+And they're very useful in field theory and other kinds
+of mathematics where you're trying
+to integrate over things.
+The symplectic integrators are also used in numerical recipes
+for a numerical computation in order
+to make sure that you do not lose,
+for example, the norm of some system,
+like the total energy conserved.
+So they are very useful constructs
+when you have a conserved system governed by, in particular,
+Lie algebras.
+Now here, we've shown that we had
+to pay very careful attention to the resources required
+for the quantum simulation.
+That was the third lesson I wanted

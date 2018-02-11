@@ -1,0 +1,40 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2h.txt
+#
+# Captions for course module
+#
+# This file has 31 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So suppose you can get a toffoli gate.
+
+OK, so later I will tell you how to get a toffoli gate out
+of this set of gates.
+Then you can get any permutation gate.
+
+So let's say use of f--
+no, let's say use of pi of 0100 equals pi 0100.
+And pi is a permutation on strings of te bits.
+
+So why is this?
+Well, let's see.
+
+OK, so a permutation gate, if you look at its matrix,
+just has 1's and 0's, and there's a 1 in every row
+and a 1 in every column.
+So this is a permutation matrix.
+
+And it's essentially a classical computation function.
+
+What did I call this?
+Use of pi.
+So pi maps x to y, xy classical bit strings.
+
+And, in fact, it's a reversible classical function.
+And Professor Truong explained why
+toffoli gates were universal for reversible classical functions.
+So if you have a toffoli gate, then you
+can get any permutation gate.

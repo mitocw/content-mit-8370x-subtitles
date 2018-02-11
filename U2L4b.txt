@@ -1,0 +1,45 @@
+#
+# File:   content-mit-8370x-subtitles/U2L4b.txt
+#
+# Captions for course module
+#
+# This file has 36 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So what I'm going to do is try to work it out
+for some very small examples.
+And once we've seen how it works, for n equals 1.
+That's one qubit, then we'll say something about general n,
+then we'll--
+n as a power of two, then we'll talk
+about how it works for two qubits,
+and I'll show you exactly how it works.
+And then I'll draw the circuit for general n
+and explain why it works.
+So what is this for any case, 1?
+
+n equals 1.
+1 over root n that's root 2 times 1 1 1.
+And here we have e to the minus pop
+to pi i over 2, which is just e to the pi i.
+Which is what minus 1?
+Minus 1 [INAUDIBLE].
+
+So yesterday, we saw Simon's algorithm and the transform
+we used to make Simon's algorithm work was comparable
+was h to the n.
+Different than I think.
+So this is the Fourier transform.
+
+1 over the group.
+
+Over the group of binary strings of length that--
+
+so you see Simon's algorithm was the Fourier transform just
+over a different group.
+So today, we're doing the Fourier transform over
+the cyclic group mod n.
+So that's the Fourier transform for n equals 1.

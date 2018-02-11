@@ -1,0 +1,142 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5a.txt
+#
+# Captions for course module
+#
+# This file has 133 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Today, we're doing factoring.
+So I discovered the factoring algorithm
+after seeing Simon's algorithm before Simon's algorithm
+actually got published.
+And I'm going to write down a circuit diagram,
+so you can see the similarities.
+So Simon's algorithm, remember, we started with n qubits
+in the plus.
+And then we went, and here is a black box
+that computes 0 to the n-th.
+From x, it computes F of x.
+
+And then we did a Hadamard transform to the end,
+which is just the quantum Fourier transform over
+the group of two elements to the n-th power--
+so n copies of the group of two elements.
+So this is just binary strings under addition without carries.
+And after that, I believe we measured this register
+and then did classical post-processing.
+
+So what is factoring?
+So what we're not going to do directly
+is a quantum algorithm for factoring.
+We're going to give a quantum algorithm for order finding--
+quantum algorithm for, well, periodicity.
+Theory
+So suppose we have a function over integers--
+
+f of x is equal to f of x plus c for some c.
+
+And here, you can see that f of x equals f of x plus c
+equals f of x plus 2c equals f of x plus 3c, et cetera.
+So it's a periodic function.
+And the period is--
+well, I'm calling it c right now.
+But at some point during this lecture
+I'm going to start calling it r, because that's
+what I'm used to calling it.
+
+Find c.
+
+Now, you might think this is easy.
+You just start with f of 0, f of 1, f of 2, f of 3,
+and keep on going until f starts repeating--
+
+so even if period is exponentially long.
+
+And that means that if you want to try
+to find a period of length r, we can
+do this in time of length polynomial in log of r.
+
+So we can find the period.
+And on a classical computer, if you have a black function,
+the best you can do is just keep on testing values
+until it starts repeating.
+So that means, the best you can do is period r.
+And in quantum computing, you can do log r, or a little bit
+more than log r.
+Yeah?
+What is the period potentially of log n?
+
+The time it takes to compute it.
+But then--
+Yeah?
+It's supposed to be a function of the algorithm and not
+of the period?
+It would-- when you take that exponentially long--
+Right, OK.
+In-- that's a very good question.
+
+f takes time O of n--
+
+so it's going to be exponentially
+long in the period of a number we want to factor.
+But if we're just finding period,
+find time period in time O of log c to the n-th.
+
+So we will be able to find the period in time--
+actually-- it's actually going to be quicker than log c if you
+really want to do it quicker-- log c squared,
+if we want to do it quicker, because we can not
+use the exact quantum Fourier transform
+but the approximate quantum Fourier transform,
+which has like log c, log log c gates.
+But here, so we want to find a period.
+We have a black box function for f.
+And we know f has some period of c.
+So what is the quantum algorithm for this?
+Well, we're going to do exactly the same thing here.
+We're going to start with plus to the c,
+0 to the n-th here for some--
+well, so we need--
+
+I'll tell you what n is later.
+
+And here, we have a black box function,
+which if you put in x, it computes f of x,
+or actually, it computes--
+
+well, remember, this took x, t to x, t xr f of x.
+We can assume this does the same thing--
+x, t to x, t xr f of x.
+
+And now, here's the only difference
+really between the circuits.
+We use the quantum Fourier transform over 2 to the--
+
+actually, let's do this right.
+There's 2n-- we want 2n qubits here, n qubits here--
+quantum Fourier transform over 2 to the n-th.
+And then we measure.
+And then we do classical post-processing.
+
+So it looks very similar.
+
+So let's go into the detail--
+Yeah?
+In both these cases, what happens to the bottom branch?
+We do nothing to the bottom branch.
+I mean, if we want to, we could measure the bottom branch
+and throw away the results, or we don't have to.
+Because if you measure something and throw away the results,
+it doesn't matter whether or not you measure it.
+But we do need to compute it.
+Because if you don't compute it, what have we done?
+We've taken the Hadamard transform of x to the n-th.
+That's just all 0's.
+So if you don't compute f of x, it
+destroys the interference in the upper half.
+So this is, again, action in a quantum circuit
+has back action.

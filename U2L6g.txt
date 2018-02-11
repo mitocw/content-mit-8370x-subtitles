@@ -1,0 +1,93 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6g.txt
+#
+# Captions for course module
+#
+# This file has 84 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, any questions?
+Yeah?
+What happens if there's [INAUDIBLE]??
+Well, if there's no solutions, you never actually find any.
+So what will happen is you will keep on trying, and keep on--
+well, if there's no solution, there's actually no beta here.
+And you always end up in--
+I mean, you never actually be from psi.
+But of course, you don't know that.
+And so you can just keep running Grover's algorithm until you've
+tried it with pi over 4 times root n iteration several times,
+and then if it doesn't work once,
+you should be fairly convinced that there's no solution.
+[INAUDIBLE]
+Well, I mean, if there's two solutions--
+I mean, if you do it at pi over 4 root n,
+and there is a right number of solutions,
+I think, n over 4, if there's exactly four solutions, what
+you will have done is you will have
+gone all the way around here to this point, which
+is psi, again.
+And you were never guaranteed to get it.
+So you can't try pi over 4 square root of n many times,
+because if you have the wrong number of solutions,
+that's guaranteed not to get you the answer.
+But if you try random things around pi
+over 4 times square root of n, and you never get anything,
+then you should be convinced it has no solutions.
+Yeah?
+What happens if, during one of the iterations,
+you land exactly on the beta?
+Then you get a solution with probability 1.
+Right, but then, what happens if you accidentally
+run another iteration?
+Well, it goes past it, and you get the solution
+that's slightly less than 1.
+So there's sort of an art to stopping this
+at the right time.
+Yeah, which, if you know what m is,
+you can do a partial iteration--
+which I haven't told you how to do, but it's a similar thing.
+And you're guaranteed to land exactly on beta.
+But if you don't know how many things there are,
+then you have to you have to allow for some randomness.
+
+And I think you did the homework problem for n equals 4,
+and you ended up always on beta.
+Then when you write it again, you ended up back
+where you started.
+Right, yeah.
+
+So n equals 4 is--
+I think n equals 4, you are here,
+and you just do one iteration.
+And then, if you do more, you'll end up back
+where you started from.
+But I think this is the only--
+
+I don't know if this is the only number where cosine of theta
+equals 1 over square root of some number, but--
+
+yeah.
+Yes?
+In quantum algorithms like this, where
+there's a probability of success,
+does the nature of quantum mechanics
+mean that we input the exact same value multiple times
+to get different results?
+Yeah, so quantum mechanics is inherently
+a probabilistic theory, and so that
+means that not all quantum algorithms--
+we don't know how to make all quantum
+algorithms deterministic.
+You can make Grover's algorithm deterministic by--
+if you know what m is--
+by doing a kind of partial iteration to bring
+you back exactly to this state.
+But I believe there are quantum algorithms we do not
+know how to make deterministic.
+
+And I think factoring may be one of.
+Them.

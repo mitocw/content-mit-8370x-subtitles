@@ -1,0 +1,206 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6d.txt
+#
+# Captions for course module
+#
+# This file has 197 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now I want to draw a picture.
+So this is alpha, this is beta.
+And alpha and beta are orthogonal,
+because alpha does not include the basis state
+beta in its sum.
+And here is psi equals--
+and what was it?
+1 over root N beta plus remaining alpha.
+Root N minus 1 over root N alpha plus 1 over root N beta.
+
+And we're assuming N is large, so this is very close to alpha.
+The inner product of alpha and this
+is root N minus 1 over root N. And now we want to look at 2
+psi psi minus I.
+So what does this unitary transformation--
+well, you can see it's unitary right here-- do?
+It does nothing to psi.
+
+So I don't know what to call this.
+So we could just call it pi 2 psi psi minus I applied to psi
+is just 2 times psi minus psi equals psi.
+So I want it plain as it takes a state here
+and it reflects it around the line psi.
+
+So assuming it's a supervision of beta and alpha.
+
+So we just have to worry about states
+that look like alpha plus beta.
+So x alpha plus y beta.
+So I see that I did not prepare this
+well enough, because I thought it was obvious
+when I was preparing.
+And there probably is an obvious explanation for it,
+but I don't see it right now.
+So 2 psi psi minus alpha minus I applied to alpha
+is equal to 2 psi psi alpha minus alpha.
+
+OK.
+Well, 2 psi psi times alpha is going
+to be some product of psi.
+
+It's going to be some multiple of psi.
+And alpha is going to stay the same.
+
+And psi was what?
+Psi was 1 over root--
+
+so let's take this.
+You get psi is equal to--
+
+oh, yeah.
+Psi equals root N minus 1 over root N alpha
+plus 1 over root N beta.
+
+So you take this inner product.
+You get 2 root N minus 1 over root N alpha plus 2--
+
+2 root N minus 1 over root N psi minus 2 alpha
+equals 2 root N minus 1 over root N alpha minus--
+I don't think this is the right way to do it.
+Plus 1 over root N beta minus 2 alpha.
+
+So we started with alpha.
+
+So we started with alpha, and we ended up with 2 root N minus 1
+over root N beta, which I think you can--
+
+so we start with alpha.
+We end up above this.
+And it's a unitary transformation,
+which means inner products are preserved.
+So after the unitary transformation,
+this angle has to be the same as that angle.
+
+And we started out--
+no, we clearly end up above this line,
+and we start out below this line.
+And inner products have to be preserved,
+so this has to go to that.
+And it also is unitary transformation, which
+means it preserves the plane.
+So if this point gets reflected up to here,
+the entire plane has to be reflected around this line.
+
+So this is what it does.
+And so, this reflects a line--
+reflects this alpha and beta plane around the line psi
+equals root N minus 1 over root N alpha plus 1 over N beta.
+
+So what does the other thing do?
+The other thing is x goes to--
+the oracle. x goes to minus delta beta x.
+Well, what does that do?
+It does nothing to alpha, and it reflects beta
+around the line x equals 0, around, I guess,
+the line alpha equals 0, which is, I guess, y equals 0.
+
+So what this Grover algorithm-- what this Grover iteration does
+is it first takes this point and reflects it down here.
+And let's say this angle is theta/2.
+And it then takes the point down here and reflects it not around
+the y-axis but around the line psi,
+which is just a little bit above the--
+sorry, just a little bit above the x-axis.
+
+So what happens when you take one reflection and then
+another reflection in a slightly skewed line?
+Does anybody know?
+Yeah?
+Looks like a rotation.
+It's a rotation, and it's a rotation of angle theta.
+
+And how can you see that?
+Well, I mean, you can break this--
+
+OK, I really should do it for something more general
+than this thing.
+So I mean, suppose we started here.
+This going down would be--
+
+let's call this angle gamma.
+Going down, we would have to reflect it around here.
+So the angle below here would be theta/2 plus gamma.
+
+And then reflecting-- reflecting around this.
+Well, this has an angle of theta plus gamma with respect
+to this line.
+So above here it would have to be gamma.
+So we started at an angle of gamma,
+and we ended up at an angle theta plus gamma.
+So that means we take whatever a thing is and we rotate it
+by an angle of theta.
+
+OK.
+Now, we're basically done all the hard work
+for Grover's algorithm.
+
+Let's see.
+What do I want to erase?
+
+This.
+
+We have sine of beta/2 is equal to 1 over root N,
+just because this is 1 over root N times beta plus root
+N minus 1 over alpha.
+Now, we're going to assume N is big.
+
+That means theta/2 is approximately 1 over root N.
+And we want to ask how many iterations
+to get to pi/2, because we want to take as many iterations
+as we need to get to something very close to this angle
+beta, this vector beta.
+And then when we measure it, with high probability,
+we get the answer.
+
+Well, it's pi/2 divided by--
+well, each of these angles is 2 over root N. 2 over root N
+is equal to pi over 4 times root N.
+So after pi/4 times root N of these iterations,
+we have a quantum state that's very close to beta.
+And if we measure it, we'd probably get our marked state.
+Yeah?
+Could you explain again what the theta/2 means?
+Theta/2 is this angle.
+
+So we're alternately reflecting it
+around the x-axis and this line psi.
+And it's the angle between the x-axis and the line psi.
+So what are we reflecting?
+Are we reflecting the line psi?
+We start with a quantum state, which is--
+we have a quantum state, which is a sub alpha alpha plus a sub
+beta beta.
+
+So that is somewhere on the unit circle here.
+And we start by reflecting it around the x-axis,
+and that corresponds to this thing.
+
+And so we go down here.
+And then the next step, we flipped it around--
+
+these things reflect around psi.
+
+And that takes it and moves it up there.
+
+So that's one Grover step.
+And it changes the angle by theta.
+And we want to ask, how many times do we
+need to change the angle by theta to get to the state
+theta, which has an angle pi/2?
+And the answer is 2 divided by theta,
+which is roughly pi/2 divided by 2 root N, which
+is pi/4 times square root of N.
+So that Grover's algorithm when there is one thing
+we're looking for.

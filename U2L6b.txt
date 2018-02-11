@@ -1,0 +1,54 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6b.txt
+#
+# Captions for course module
+#
+# This file has 45 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+And now I will tell you the algorithm.
+So a Grover iteration consists of four steps.
+
+So first, let's assume N is equal to 2 to little n.
+So assume we have a list of things which is of length 2
+to the n.
+And we can make this assumption without loss of generality,
+because if we have a list that's not a power of 2,
+we can just add non-solutions on it
+until it becomes a power of 2.
+And so with Grover iteration--
+
+wait a minute.
+
+Yeah.
+One, apply oracle O, which takes x to minus 1
+to the Kronecker delta of x and beta.
+x.
+
+So it does nothing to x if x is not equal to beta,
+and it applies a minus sign to x when x equals beta.
+Two, apply, the Hadamard transform.
+Three, apply x goes to minus minus 1 to the x delta of x, 0.
+x.
+So here, you apply a minus sign if your quantum state is not 0,
+and do nothing if your quantum state is 0.
+
+And four, apply H to the n again.
+
+So what is Grover's algorithm?
+Well, we start with n qubits, all
+in a superposition of 0 and 1.
+
+And then we do the Grover iteration,
+which has four pieces to it.
+And another Grover iteration, and a whole bunch more Grover
+iterations.
+And, in fact, I think there are pi over 4 squared of n of them.
+
+Yeah.
+And then measure.
+
+And we should have a solution with high probability.

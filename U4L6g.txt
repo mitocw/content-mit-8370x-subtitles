@@ -1,0 +1,176 @@
+#
+# File:   content-mit-8370x-subtitles/U4L6g.txt
+#
+# Captions for course module
+#
+# This file has 167 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+You are familiar with quantum algorithms that
+look like this, where we have a quantum circuit
+essentially that you're describing.
+Could you describe a quantum algorithm
+in a different language?
+
+Could I, instead, say that Grover's algorithm,
+this g applied k times, is just sum e
+to the i H Grover times some time acting
+on some initial state?
+After all, you have just seen two lectures
+on adiabatic quantum computation.
+You have seen how an adiabatic model
+is able to utilize a shift from one Hamiltonian--
+the starting Hamiltonian-- to a final Hamiltonian,
+and use that to simulate any quantum circuit.
+That was the whole point of the proof
+of universality of the adiabatic model of quantum computation.
+So you know in your mind that any quantum circuit
+can be now described by a suitably
+constructed Hamiltonian.
+This is slightly different.
+It doesn't have two Hamiltonians that you are
+shifting adiabatically between.
+But nevertheless, it should still
+be very appealing and natural.
+And I want to show you how this is possible here.
+So consider the following Hamiltonian.
+
+I think I'm going to leave out the zero on the x 0
+in the [INAUDIBLE],, and you should
+be able to see where it arises naturally.
+Consider this Hamiltonian where you have two parts to it.
+And we will take this Hamiltonian apart
+in just a moment.
+This part will be H1, H2.
+This will be the oracle.
+And this will be the Grover part of the algorithm that
+knows nothing about what the answer is doing.
+But for a moment, give me the freedom
+to imagine what would happen if we
+evolved under this Hamiltonian, which is the sum of two parts.
+You won't actually have the sum.
+You'll have one Hamiltonian or the other Hamiltonian
+since you have to pass off your state to the oracle.
+But I'll start with this combination for a moment.
+And I want to claim that if you can
+evolve under this Hamiltonian, you
+can solve the Grover problem.
+And the reason you can solve the problem
+is actually kind of neat.
+Let me define just like we did for the Grover algorithm
+definition--
+a picture where we look at the state
+orthogonal to that which is the answer state.
+And I'll call this y.
+So let y be equal to the superposition of all basis
+states minus the overlap--
+
+I'll define a in just a moment--
+normalized, where here, Psi x is equal to a.
+And since we're only considering a single marked item
+for simplicity, this is equal to 1 over the square root of n.
+Because there are n items in the superposition, only one of them
+is marked.
+And, therefore, a is just 1 over square root of n.
+Remember this geometric picture that we
+had for Grover's algorithm.
+
+We have some initial state--
+psi-- which has an unknown overlap with x.
+That overlap is a.
+We don't know where it is.
+And then we have an orthogonal state.
+This is the state y I've defined over here.
+And then we have another state which
+is the orthogonal complement of psi, which we won't
+care too much about for now.
+And Grover's algorithm rotated in this two-dimensional space.
+And what I now want to show you is that the Hamiltonian
+will do exactly the same thing.
+So let's take our Hamiltonian and rewrite it
+in terms of x and y.
+Because we want to write this in an orthonormal basis.
+After all, x and psi are not orthonormal with respect
+to each other.
+But we can certainly write this out in an orthonormal basis.
+
+So remember psi is now going to be
+a superposition, which is a x plus square root of 1
+minus a squared times y.
+And therefore, we can write this in column vector and row
+vector.
+We have here a square root of 1 minus a squared, row vector a,
+square root of 1 minus a squared.
+Literally taking the [INAUDIBLE] and [INAUDIBLE] here.
+And then plus x x, which is in this basis
+of x y x and y states, just a matrix with a single quantity
+in it-- a 1.
+Now if you work this all out, and then rewrite this in terms
+of Pauli matrices-- we love Pauli matrices--
+then it turns out to be something very simple.
+There will be a diagonal component, which is identity.
+You can see that this is appearing already over here.
+And then, a times square root of 1 minus a squared times
+the Pauli x matrix, and a times the Pauli z matrix.
+And I've reexpressed this in a peculiar way
+because this is a unit vector and having this form
+makes it very easy for us to exponentiate.
+So I can write e to the ih t, directly
+reading it off of this by knowing what happens with su 2.
+It is just going to be cosine of a t
+because this is the amount of rotation.
+This is the axis of rotation.
+So with this amount, we stay unchanged.
+This is times identity plus sine of a t
+times that unit vector over here and then i.
+Square root of 1 minus a squared x plus a times z.
+By the way, this is a very neat trick
+which allows you to exponentiate any two by two matrix
+very rapidly.
+Just express the two by two matrix as identity
+plus sum of Pauli matrices.
+And all matrices can be done that way
+because the Pauli matrices are a basis for Hermitian matrices.
+And then you can exponentiate the matrix immediately.
+So those of you taking the Putnam exam
+can utilize quantum mechanics to get a faster result.
+It's more effective than quantum computation.
+OK, so if we now apply this to the initial state e to the i h
+t times psi-- remember psi is this x and y over here.
+Look at that.
+It's a two by two matrix, a rotation happening to a two
+component cubit vector.
+This is exactly like what we had before.
+And you can write this down easily--
+cosine a t times psi minus i times sine a t times x--
+if you work this out.
+
+Excuse me, this is y.
+So we would like this term to be equal to 1.
+And so you choose t such that a times t is equal to pi over 2,
+so you've rotated all the way up to the answer.
+And this means that you want t to be equal to pi over 2 a.
+Remember a is down here--
+1 over square root of n.
+So this is square root of n times pi divided by 2.
+Beautiful-- isn't that Grover's algorithm?
+And you got it without having to use any quantum
+gates whatsoever.
+It's all continuous mathematics.
+So you don't have to be a computer scientist.
+You can make progress just being a physicist doing simulations.
+Now there's a catch, though.
+Remember I had asserted that I was going to only use
+this sum of the two Hamiltonian terms
+as a crutch to start out with.
+But I have to go back and fix that crush.
+Because you're not actually given the sum of H1 and H2.
+You have to call H2 at a different time than you use H1.
+H1 is what you do.
+H2 is what the oracle is doing.
+And you don't have the degree of freedom
+of getting this sum for free.
+It comes at a cost.

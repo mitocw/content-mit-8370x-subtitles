@@ -1,0 +1,27 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3g.txt
+#
+# Captions for course module
+#
+# This file has 18 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So the next question is how do we
+compute c if we have a whole bunch y's
+that are perpendicular to c?
+
+And for this, we actually need to use linear algebra over gf2.
+There's one big difference between linear algebra
+over finite fields and standard familiar algebra.
+
+Difference between linear algebra
+over reels over finite fields is you can have x, a vector--
+
+let's say, 110101010.
+And x dot x equals 0.
+
+X dot x equals 1 plus 1 plus 1 plus 1 equals 4 mod 2 equals 0.
+So that is the big difference.

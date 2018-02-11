@@ -1,0 +1,61 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3c.txt
+#
+# Captions for course module
+#
+# This file has 52 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Before I go any further, I want to tell you
+what the circuit does.
+And the circuit H H H H. The tensor product of n Hadamard
+matrices applied to x, where x is something in the, you know,
+0 1 basis of these qubits.
+So x is a bit string length n.
+
+Is equal to-- well suppose this is 0 1 0 1 1.
+Here we get 0 plus 1, 0 minus 1, 0 minus 1.
+And I should really put a 1 over 2 to the n over 2
+in front of all of these.
+
+So 0 plus 1 is--
+
+So what we get is this product.
+And let's normalize it.
+
+So suppose we got this answer.
+Let's call it y.
+What would be the coefficient on y?
+Is equal to-- well, it's the sum of a bunch of these things.
+But let's look at one of them in particular.
+What would the coefficient on y be?
+Well, you would get 0 for the first bit.
+You would get minus 1 for the second bit.
+
+Let's make this a 1.
+You will get a 1 for the third bit.
+And 0 minus 1 is the last one--
+you will get a minus 1 for the fourth bit.
+So this would be a plus.
+And in fact, if you expand this out, you get a minus 1
+exactly when x has a bit that is a 1 and y has a bit that is 1.
+
+So let's put a 2 the n over 2 here.
+
+So what I want to claim is that this is equal to 1 over 2
+to the n over 2 sum minus 1 to the sum xi yi,
+i equals 1 2n y, where xi is the ith bit of i,
+and xi is the ith bit of x and yi is the yth bit of y.
+
+And what is this thing?
+
+It's the inner product, its x dot y.
+So this is equal to 1 over 2 to the n
+over 2 summation over all y n.
+
+Bit strings of length n minus 1 to the x dot y y.
+
+Good.

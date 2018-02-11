@@ -1,0 +1,49 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6e.txt
+#
+# Captions for course module
+#
+# This file has 40 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+But suppose there's lots of things we're looking for.
+What do we do?
+We do exactly the same thing, except this oracle
+multiplies phase by minus 1 if x is a solution.
+
+OK.
+
+And now alpha equals 1 over root n minus m.
+x not a solution.
+
+And beta equals 1 over square root of m
+summation x for x a solution.
+
+And if you look at this algorithm, it does exactly--
+I mean, we have psi.
+No, that's exactly the same algorithm.
+
+We have reflection around psi and a reflection around alpha.
+But psi in this case now becomes root n
+minus m over root m alpha plus, I guess,
+root m over root m beta.
+
+sin theta 2 is root m over root n.
+And theta over 2 is approximately--
+so again, we're assuming that the number of solutions
+is small compared with n.
+If the number of solutions is large compared with n,
+you don't need a quantum algorithm at all.
+You just pick a random point and it's probably a solution.
+So you can make Grover's algorithm work in those cases,
+but there's really no need to.
+And how many iterations to get to pi over 2?
+Well, again, it's pi over 2 divided by theta
+is equal to pi over 2 times--
+well, theta was 2 root m over root m inverse.
+So this is pi over 4 times root n over m.
+
+OK, so this tells you how to find a solution if you know

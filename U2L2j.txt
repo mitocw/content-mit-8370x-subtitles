@@ -1,0 +1,157 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2j.txt
+#
+# Captions for course module
+#
+# This file has 148 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Two level gate defined as cos theta, e to the i pi
+sine theta, e to the i pi sine theta.
+Or e to the i pi, e to the i pi sine theta.
+
+I want this to be minus cos theta.
+
+So I want these two columns to be orthogonal,
+which I think means I need a minus e
+to the minus i pi sine theta.
+
+Because cosine theta times e to the i pi sine
+theta with a minus sign, plus e to i pi sine
+theta times cosine theta, and one's along the diagonal.
+
+So this is what is defined as a two level gate in the Nielsen
+and Chuang book.
+
+And let's say, I suppose we could get--
+
+so what I want to say is, suppose
+we could get that this gate cos theta e to the i phi sine theta
+minus e to e to the minus i phi sine theta cos theta.
+
+So this is controlled, controlled U,
+where U is this little matrix.
+So you apply a U to the last qubit,
+if all of the first K minus 1 qubits are 1
+and, otherwise, you do nothing.
+
+Well, then I want to claim we can get a two-level gate--
+
+any two level gate.
+
+Why?
+Well, this is just a permutation of the rows and columns
+of this.
+And we can ply u sub pi.
+
+So call this a c to the k u.
+
+So this is some permutation U pi dagger
+is equal our two level gate.
+
+In other words, if--
+so this is row 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1.
+To get from here to here, where this
+is row AB, what we need to do is,
+we need a permutation that takes this guy to A,
+and this guy to B.
+But we can do that because we have Toffoli gates,
+and they can produce any permutation we want.
+So if we have Toffoli gates, and this multiply-controlled U,
+then we can produce this.
+Let's let U equal cos theta minus sign theta sine theta cos
+theta.
+U to the 1/2 is equal to cos theta minus sine theta,
+sine theta cos cos.
+
+XU to the 1/2 X is equal to--
+
+I'm sorry, theta over 2, cos theta over 2,
+sine theta over 2, minus sine theta over 2, cose theta over 2
+is equal to U to the minus 1/2.
+
+I'm now going to write down a circuit which is going
+to produce U. At least, I hope it's going to produce U.
+So this is a multiply-controlled not--
+or a multiply-controlled X.
+So what happens if one of these qubits is 0?
+
+One of the first qubits is, get?
+
+Well, that means these controlled nots do nothing.
+So we get U inverse U, which equals identity.
+
+If all control qubits are 1, 1, get--
+well, what do we get?
+We get XU to the minus 1/2 XU to the 1/2.
+XU to the minus 1/2, XU to the 1/2 equals U.
+So if we can do a multiple controlled qubit, or a multiply
+control not, which we can, if we have Toffoli gates,
+and we can do a U to the minus 1/2 and a U to the 1/2,
+which we can if we have all 2 qubit gates,
+then we can get U, where U is any real rotation.
+
+And I haven't explained how to do complex rotations here.
+I mean, I haven't explained how to get these, e to the i phi,
+e to the bits here.
+But I don't want to because it's along these same lines,
+but more complicated.
+
+OK.
+
+Everything good so far?
+
+Ah, but I haven't explained what we do with these two level
+gates yet.
+
+I'm not going to explain it in detail.
+I'll just give a very quick sketch.
+Suppose we want an arbitrary U. Well, that has values in all--
+
+what do we do?
+Well, let's apply a alpha, beta, gamma, delta.
+
+Actually, maybe it's better if I used cos theta,
+e to the i phi sine theta, minus e to the minus i
+phi sine theta, cos theta, 1, 1, 1, 1, 1.
+What you can do is, you can make this entry 0.
+And then we can, by properly choosing these things.
+And then we can multiply--
+
+actually, I need to i phi sine theta--
+
+e to the i phi sine theta, cos theta, cos theta.
+So what I want to do is I want to change basis
+by multiplying the two level matrix here by this guy,
+by another, the inverse [INAUDIBLE] level.
+So this is T. This is T dagger equals T inverse,
+or T adjoint equals T inverse.
+And this is the matrix we want to create.
+You can set one of these entries to zero.
+And now you can keep on doing this
+until you get to this top entry, which then has to be unit
+because we know all the columns in a unitary matrix are 1,
+and we can keep on setting entries by 2, 0
+by multiplying by given two level matrix
+until we get a diagonal matrix.
+And then, of course, to construct this matrix,
+we put all of these, we move all of these two level matrices
+to the other side and, to start with this,
+multiply on each side by these T's and T
+daggers until we get this.
+So we can build any arbitrary matrix out
+of two level matrices.
+
+And we can build any two level matrices out of you know--
+one out of one qubit matrices, and controlled--
+
+or we can build any two level matrix out
+of Toffoli matrices and multiply-controlled gates.
+And we could build any multiply-controlled gate out
+of Toffoli gates and one qubit gates.
+
+So that explains everything except how
+to get Toffoli gates.

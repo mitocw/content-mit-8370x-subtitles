@@ -1,0 +1,91 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2e.txt
+#
+# Captions for course module
+#
+# This file has 82 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So how well can we do classically?
+What we can do classically is basically ask
+the oracle for a value.
+Ask for f of a, f of b, f of c.
+
+So how many do we need to know the function is not constant?
+
+Anybody?
+
+Yes.
+N over 2 plus 1.
+N over 2 plus 1.
+Very good.
+N over 2 plus 1, because if you get the first one 0.
+The second one's 0, the third one's 0, all the way up to N
+over to 2, 1, 0, they might all be--
+you might have been very, very unlucky and got--
+just chosen all your 0's and then the next one--
+
+well, then the next one is a 1.
+So to know that the function is not constant,
+you need to ask an f of a where f
+is 1 and an f of b somewhere-- or f of k where f is 0.
+So you need to get one 0 value or 1-- and one 1 value.
+And if n over 2 of them were 0, then it's not constant.
+
+You know it's not constant only when you've answered n
+over 2 plus 1 questions.
+And, in fact, if you were playing a game with someone
+and you ask them--
+were trying to guess whether a function they had in mind
+was constant or balanced and they know and they happened not
+to write down the function beforehand,
+you would have to ask them n over 2 plus 1
+to get the right answer.
+So classically--
+
+And how many queries did we--
+did I erase the quantum circuit?
+No.
+Well, this is the quantum circuit for the two bit case,
+but here is the quantum circuit for the n bit case.
+
+And classically we only made one call to the oracle.
+It was in a superposition of states
+that we called the oracle, but we only called it once.
+So we only asked them once.
+So quantum mechanically, the answer is 1.
+So this is much better than this.
+Of course, there is a drawback to how well can
+we do classically, which means that this paper really did not
+convince anyone that quantum--
+did not convince many people that quantum computers
+were better than classical computers.
+So anybody want to tell us this drawback?
+
+Yeah.
+Wouldn't the randomized algorithm also just require
+an expectation of constant [INAUDIBLE]
+Yeah, exactly, randomized.
+
+Ask random queries until you get f of--
+no, f of i equals 0 and f of j equals 1.
+
+And this takes-- expected number of queries equals 2.
+Actually it takes expected number of queries
+equal to 2 if you're really stupid about asking
+random queries and you don't check
+whether you've asked this query before,
+because then the first query--
+well, we might as well assume it gives you 0.
+And then each additional query has a 1 over 2 chance
+of giving you 1.
+So the expected number you need to ask of additional queries
+is 2.
+So this is 3.
+
+So classically deterministic, it's n over 2.
+Quantum mechanically, it's 1.
+And classically, if you have a randomized algorithm,

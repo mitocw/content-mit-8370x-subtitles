@@ -1,0 +1,76 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3e.txt
+#
+# Captions for course module
+#
+# This file has 67 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What information does y give us about f?
+Well, how do we figure this out?
+Well, what we want to do is we want
+to figure out, what is the probability of seeing a given y
+f of x.
+
+Seeing y f of x.
+
+Well, let's think about this.
+
+What happens when we measure this?
+We have a whole bunch of different terms in this sum.
+And what we do to figure out the probability
+is, we group the terms which give you the same y f of x,
+look at the coefficient on them, and then square it.
+
+I mean, this is the way quantum mechanics works.
+You expand this thing in, say, a basis,
+and then the probability of seeing a given basis element
+is a coefficient on it squared.
+So what's the probability of seeing y f of x?
+
+Well, f of x can come from two, can come from two different
+X's.
+Call them X and X plus C.
+And it doesn't really matter which one
+you call X, the result of the computation will be the same.
+So we get y f of x from X and X plus C.
+Would it be less confusing if I labeled this X X0?
+
+I think it might be.
+
+So some f comes from two different X's,
+which we'll call X0 and X1, which equals X0 plus C.
+So the probability of seeing Y f of x
+is, well, there's a 1 over 2 to the N on the front.
+
+And there's a minus 1 to the X0.Y. And there's a minus 1
+to the X1.Y. And then we want to square the whole thing.
+
+Well, this is equal to, well, X1 is X0 plus C.
+So this is 1 over 2 to the n minus 1 to the X0.Y minus 1
+to the X0.Y plus C.Y, whole thing squared.
+
+And now we can factor out this X0.Y
+because, we know it's in this term, and it's in this term.
+And when you factor out, well, either plus 1 or minus 1,
+and you square it, it turns into 1,
+so this is just 1 over 4 to the n,
+1 plus minus 1 the C.Y squared is equal to, I guess,
+4 to the minus n plus 1 if--
+
+well, if C.Y is 1--
+
+we're doing everything in [? mod ?] 2.
+So C.Y is either 0 or 1.
+If C.Y 1, this is 1 minus 1 squared is 0.
+And if C.Y is 0, this is 1 plus 1 squared, which is 2.
+So it's 4 to the minus n.1, and plus 1 if Y.C equals 0,
+and 0 if Y.C equals 1.
+So we only find Y's that are perpendicular to C.
+So that gives you one bit of information about C.
+And we need n bits of information about C.
+So we need to repeat this order of n times.
+And that will tell us of enough information

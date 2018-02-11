@@ -1,0 +1,77 @@
+#
+# File:   content-mit-8370x-subtitles/U4L6d.txt
+#
+# Captions for course module
+#
+# This file has 68 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's work through something concrete.
+First I would like to show you the example of a particle
+in a one-dimensional well.
+This is entry-level quantum mechanics,
+and I start at this point because you're
+very familiar with it and it will
+let me illustrate the first two steps in a quantum simulation
+process.
+Imagine that you have a particle located
+on a one-dimensional axis, and there's some potential v of x.
+Particle is somewhere delocalized in here.
+Let the scale of this be from minus d to plus d or so.
+And the particle is governed by a Hamiltonian
+which is of the form p squared over 2m plus v of x.
+So this is the energy of a free particle, the kinetic energy.
+This is potential energy.
+
+And, in analogy to what you saw over there with molecules,
+this is the set of T terms, and this is the set of V terms
+that are canonical in a molecule, as well.
+So, this is a very simplistic scenario,
+but it's not all that far away from the more complicated
+molecular Hamiltonian.
+And the first step that one employs
+in simulating the dynamics of this physical system
+is discretize.
+
+So normally we'll have some continuous set overlaying
+infinite one-dimensional axis.
+
+So, you can imagine that these are some coefficients
+that you have.
+
+I have this complex conjugated.
+
+OK.
+dx.
+
+So this is now expanded into eigenbases of position x.
+And the natural thing for us to do
+is to replace this with something discrete, like k
+delta x, so that this is in some way now going
+to be a sum over some coefficients c sub k of k delta
+x, where we choose the delta x to be sufficiently small
+and defined over this discrete interval from minus d to d.
+OK?
+So many of you have done this, especially
+if you're doing a computer simulation of such
+a particle in a potential.
+Should be very comfortable.
+The second thing that you do is to be
+able to simulate the Hamiltonian.
+So you evolve a system.
+Now, how does one evolve a system under a Hamiltonian?
+The problem is that this Hamiltonian here
+is comprised of two parts, H1 and H2, and they don't commute.
+
+So I cannot just let my evolution eat the minus iHt.
+I've dropped all my H bars today.
+I cannot simply let this be e to the minus i H1t e to the minus
+iH2t.
+I cannot evolve with one Hamiltonian,
+then evolve with a second Hamiltonian,
+even though they're added here, because they do not commute
+with each other.
+And this should be something you're very familiar with.

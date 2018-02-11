@@ -1,0 +1,58 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3d.txt
+#
+# Captions for course module
+#
+# This file has 49 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I am going to write Simon's algorithm out in the same way
+I'm going to write the factoring algorithm out.
+Which explains why you are not going
+to see a circuit diagram, because circuit
+diagram for factoring algorithm is way too complicated to give.
+So step one, well, we are going to start with summation, xn n
+0, 1 to the n.
+
+x, let's normalize this properly, 0.
+
+So we have two n bit registers.
+
+So maybe I should really call this 0 to the nth.
+
+Step two, what we do is compute f.
+So xn 0, 1 to the n, x, f of x, and we
+assume we have an oracle which lets us do this.
+Oracle takes x y to x y exclusive r f of x.
+So this is a reversible oracle.
+So we can assume it exists quantum mechanically,
+and it gives you f of x.
+Because here, if you input x 0 to the n, you get x 0 n
+plus up f of x which is f of x.
+So the step three 3 1 over 2 to the n.
+Take h to the n on register 1.
+
+So that gives you a 1 over 2 to the n summation.
+
+xn 0, 1 to the n, 1 0, 1 to the n, y.
+Because they had to mark takes x 2 minus 1 to the x dot y,
+y f of x.
+
+And step four, step four what we're going to do
+is just measure the result, and in fact,
+all we really need to measure is why.
+
+And this does not give us the answer.
+
+It gives information about the answer.
+
+And we repeat this many times, and collect
+a lot of information about the answer,
+and that will eventually tell us the answer.
+
+So we repeat theta of n times, and we
+compute the answer classically from all these values
+of y we got.

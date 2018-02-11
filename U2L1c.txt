@@ -1,0 +1,32 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1c.txt
+#
+# Captions for course module
+#
+# This file has 23 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I'm going to explain superdense coding,
+and then I'll go into the details of teleportation.
+So superdense coding-- so Alice has 2 bits.
+And she wants to send them to Bob.
+So Alice and Bob, again, have an EPR pair.
+
+And what Alice does is she encodes
+the 2 qubits in her half of the EPR pair, which is 1.
+She encodes the 2 bits in her half of the EPR pair,
+which is 1 qubit.
+She sends this to Bob.
+And Bob takes the--
+now Bob does a joint measurement, measurement,
+and he recovers the 2 bits.
+
+And this doesn't seem anywhere near as miraculous as this.
+But if you go back to 1973, Alexander Holevo in Russia
+proved that 1 qubit can only transmit 1 bit of information.
+So your transmitting twice as much information as, you know,
+theoretically possible without the EPR pair with 1 qubit.
+So that's why it's called superdense coding.

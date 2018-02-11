@@ -1,0 +1,129 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5j.txt
+#
+# Captions for course module
+#
+# This file has 120 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What we're going to do is we're going to show that continued
+fractions actually--
+if we're within 1 over r squared,
+the continued fractions will actually
+find the right fraction.
+So how do we do this?
+
+Well, let's consider continued fraction expansions of x.
+So here is x.
+If x equals-- what?
+Let's see x, x.
+If x equals d over r, well, we get the right answer
+because one of the convergence of any rational number
+in the continued fraction is the rational number itself.
+
+Get the right answer.
+
+So here is d over r.
+
+For sum interval around d over r, also get the right answer.
+
+| mean, that's actually pretty easy
+to prove because it's obvious that continued fractions are
+continuous process.
+So if you alter x by a small enough amount then d over
+r will be one of the convergence.
+
+Let's do this for 13/15.
+
+So what was it?
+13/15 was equal to 1 over 1 plus 1 over 6 plus 1 over 2.
+1 over 1 plus 1 over 6 plus 1 over 2.
+
+So let's look at 1 over 1 plus 1 over 6 plus 1 over 2
+plus epsilon.
+
+Epsilon is bigger than 1.
+
+Sorry, I want to say if epsilon is less than 1,
+still get 13 over 15 as a convergent.
+Why is that?
+Well, if epsilon is less than 1, then you
+do this them plus 1 over whatever plus 1 over whatever,
+et cetera.
+So if epsilon is less than 1, the continued fraction
+starts out like this and then keeps on going.
+
+And if epsilon is bigger than minus 1/2, we still get 13/15.
+Why is that?
+Well, if epsilon is bigger than minus 1/2,
+you get 1 over 1 over 6 plus 1 over 1 plus 1 over 1 plus dot,
+dot, dot.
+And 1 plus 1 over is just equal to 1 over 2.
+So if you cut it off here, it's still 13/15.
+
+Is that clear?
+
+And why bigger than minus 1/2?
+Well, if what you had was 1 over 3/2, it would be 1 over 1
+plus 1/2 plus more terms, but we can ignore them
+because this is 13/15.
+
+OK.
+
+So what is 1 over 1 plus 1 over 6 plus 1 over 2 plus epsilon?
+
+Well, this is clearly a fraction with epsilon in it.
+And it has to be of the form--
+well, I'll tell you what it is first.
+And then I'll tell you why it has to be of this form.
+It's 13 plus 6 epsilon over 15 plus 7 epsilon.
+
+So it has to be of form a plus epsilon over c plus d epsilon
+because if you stick that in there
+and then keep on doing these operations--
+you know, 1 over 1 plus g preserves
+something of that form.
+So it has to look like this.
+I mean, it has to be a plus b epsilon over c plus d epsilon.
+Now, when epsilon equals 0, we know it's 13/15.
+And did anybody notice that this was 6/7?
+So 6/7 is the convergent before that.
+And if you plug in epsilon equals infinity, well.
+What does that do?
+It gets rid of this last term, so you get the convergent
+before that.
+So you get 6/7.
+
+So this is 13 plus 6 epsilon over 15 plus seven epsilon.
+And when we go back here and we have 13/15,
+the number ahead of that is 20 over 23.
+The number behind that is 19 over 22.
+And you can see the difference between these
+is from 1 over 15 times 22.
+And the difference between these is 1 over 15 times 23.
+
+And well, this is r.
+This is actually less than 2r because it
+was 15 plus 7 times 1.
+And when you substitute in epsilon equals minus 1/2,
+then this has to be less than 3r.
+So this number is less than 2 r squared and this
+is less than 3 r squared.
+So as long as you're within 1 over three,
+r squared of d over r--
+one of your convergence will be the right answer.
+
+And actually I think the textbook
+has a proof of 1 over 2 r squared,
+But this is good enough.
+
+So that tells you that you choose l,
+you twice as many bits.
+Or rather 2l, your first register
+that you're using for the Fourier transform
+have to have twice the number of bits
+as the number you're trying to factor,
+and you're guaranteed to get d over r as one

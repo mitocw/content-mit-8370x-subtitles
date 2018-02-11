@@ -1,0 +1,71 @@
+#
+# File:   content-mit-8370x-subtitles/U2L4c.txt
+#
+# Captions for course module
+#
+# This file has 62 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So we have j goes to one over root n e to the minus 2
+pi i j k over n.
+k, and let's sum this from k is 0 to n minus 1.
+So that's the Fourier transform.
+And now we're going to let these numbers be powers of 2,
+or let n be a power of 2.
+So j is equal to b sub n minus 1 b n minus 2 b0.
+
+So that is-- so you can write out j in terms of its bits.
+So this is a binary representation of j.
+And k will be equal to b n minus 1, b n minus 2
+through b0, except I really better not use
+the same variables, because then I'll confuse everyone.
+So I'll put a prime on k.
+So now what happens?
+Well I went to write this thing in terms
+of the b's and the b primes.
+So b n minus 1, b n minus 2 through b0
+go through summation.
+
+Let's just call it j.
+Let's call it k equals 0 to n minus 1.
+e to the minus 2 pi i, b n minus 1, 2 to the n minus 1,
+plus b n minus 2 to the n minus 2 plus dot dot dot, plus b0,
+times b prime n minus 1 to the n minus 1
+plus b prime 0, all divided by 2 to the n times--
+let's call this k.
+So hopefully this-- so I'm multiplying this by this,
+dividing by 2 to the n and getting k.
+
+And now, here is where part of the magic comes in.
+So we have b0 through b minus 1, b0 prime
+through b n minus 1 prime.
+We can multiply this whole thing out.
+But it turns out that only half of these terms actually matter.
+So can anyone tell me why?
+[INAUDIBLE]
+What?
+[INAUDIBLE]
+Roots of unity?
+Well, yeah, but-- b to the 2 pi i, b j, b k, so our b prime k,
+that would be 2 to the j plus k over 2 to the n.
+So we get this.
+Now, when is this equal to 1?
+
+So let's assume b j and b prime sub k are both 1.
+When is equal to 1?
+
+Anyone?
+
+OK, what is e to the 16 minus 2 pi i times 16?
+Can anyone tell me what this equals?
+0.
+1.
+1, because e raised to a multiple of 2 pi i
+is 1, because e to the 2 pi i is 1.
+So any power of it is 1.
+So if this it 1, f of j plus k is bigger than or equal to n.
+
+So this is the crucial thing to remember.

@@ -1,0 +1,54 @@
+#
+# File:   content-mit-8370x-subtitles/U4L6f.txt
+#
+# Captions for course module
+#
+# This file has 45 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+A key thing about quantum simulations
+is exactly those errors, which I've
+swept under the rug with this simple discussion
+of a particle and a potential.
+Let me now illustrate the role of those errors
+in looking at the performance of an algorithm
+that you're familiar with.
+That will be Grover's algorithm.
+
+So recall what Grover's algorithm does.
+With Grover's algorithm, you're given an oracle
+which takes in some value x and some scratchpad y,
+acquires an oracle function, leaving x unchanged
+and giving you y [? XORed ?] with f of x.
+And the idea is that f of x is equal to 1
+for a single marked element and 0 otherwise.
+
+This is the bit-flip oracle we've used,
+but you may also have instead the phase-flip oracle, where
+x goes to minus x only for that marked element
+and is unchanged otherwise.
+
+And your goal is to find x0, given the oracle.
+All right.
+And remember how we did this.
+Grover's algorithm can actually be summarized very, very
+succinctly.
+We say that the algorithm is just the application
+of a Grover iterate a certain number of times.
+
+So call this psi sub k, G to the k, where G is equal to nothing
+more than this funny operator that Grover came up with.
+
+This O will be the oracle operation
+in this phase-flip formulation.
+And psi, here, is the superposition
+over all uniform basis states.
+[INAUDIBLE] apply to every qubit,
+if you're working in the qubit picture.
+
+Or, if you're not working in the qubit picture,
+just a uniform superposition over all states.
+So capital N will be the size of the domain we are searching.

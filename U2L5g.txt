@@ -1,0 +1,127 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5g.txt
+#
+# Captions for course module
+#
+# This file has 118 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's say N is a 300-digit number.
+
+Give circuit for x to g to the x-th mod N for g, x.
+We might as well assume they're less than N.
+Well, the obvious way to do this--
+take g, then multiply it by itself,
+and then multiply it by g again and multiply it by g again,
+multiply it by g again--
+is really not efficient, because if N is a 300-digit number,
+you need to multiply g by itself, well, google times.
+And that's not going to work.
+
+So efficient algorithm is repeated squaring.
+
+And I will give you the--
+I will not give you the most efficient version of this.
+But I'll give you one that's actually pretty reasonable.
+So let x be 100101001 in binary.
+So compute g, g squared mod N. That's easy.
+We just take g and multiply it by itself.
+And maybe I'll say something a little bit later
+about how we do that.
+g to the fourth mod N, g to the--
+let's see, 1, 2, 4, 8, 16, 32, 64, 128--
+256 mod N. So each of these, we're taking a 300-digit number
+and squaring it.
+So it's very easy to do with a classical computer
+and on a quantum computer, if you
+have a working quantum computer that handles 300-digit numbers.
+
+So we need to compute these.
+And now, we write down the digits of g.
+So that was 1000--
+Ah, OK, I think I've made a palindrome
+for g, which was a mistake.
+
+We take 101 dot, dot, dot, dot.
+And wherever there is a 1, we multiply by g.
+So we multiply g times g to the fourth.
+And then we do mod N. And then multiply it by g to the sixth.
+That's this one, reduce it by mod N--
+or rather, g, g to the fourth.
+Then we multiply it by g to the eighth, g to the 16th.
+
+So there's a 1 here.
+So we get g times g fourth times g to the 16th times g
+to the 256th, which is what we want.
+
+And we can do this.
+So we can do this using a controlled multiplication
+by g squared, a controlled multiplication
+by g to the fourth, et cetera.
+And we can actually precompute g, g squared, g to the fourth,
+classically, and then just build the quantum circuit
+for controlled multiplication by this number.
+And we can do all this using Toffoli
+gates, because this is a reversible classical circuit,
+because we're keeping the input around--
+x to g to the x-th.
+
+Well, no, if you remember our circuit, we started with x.
+And then we got x comma g to the x-th.
+So we're keeping the input around,
+so we can do this computation.
+
+So this is an algorithm for exponentiation,
+which only-- ah, yeah.
+The other thing I wanted to say, how long does this take.
+
+This Well, using longhand multiplication,
+you need to do O of N multiplies mod N. And that's each.
+So you remember your multiplication algorithm
+from grade school.
+You multiply each digit of the first number
+with each digit of the second number, and you add them up.
+That's N squared steps, because for each digit
+of the first number--
+or rather, not.
+I'm sorry, mod log N, there are log N bits in an N-digit
+number--
+or log N bits in a number N. So there
+are O of log N multiplies--
+
+to N multiplies.
+And each of these takes O of log to N squared.
+
+So this is log N cubed altogether.
+
+So we have an O of log N cubed algorithm
+for factoring on a quantum computer.
+And there are faster multiplication algorithms
+around.
+But if you look at them, well, first there's Karatsuba.
+I don't know if you know what Karatsuba algorithm is.
+But there is a problem with the Karatsuba-- at least,
+there was the first time I looked
+at it, which is, when you're doing a reversible circuit,
+you generate garbage.
+And there doesn't seem to be any way of doing Karatsuba
+without generating a lot of garbage
+and then cleaning it up, which means
+you need more qubits for it than you would need if you
+used longhand multiplication.
+And that's a big problem, because qubits
+are probably harder to make than time on a quantum computer.
+
+And there's another algorithm for multiplication,
+which is Schonhage-Strassen, but classically, it doesn't really
+start helping until you get to numbers
+that are considerably bigger than 300 bits or 300 digits.
+
+So I think the best algorithm--
+actually, this may have changed recently--
+but the best algorithm people knew about 5,
+10 years ago was longhand multiplication
+for quantum computers.

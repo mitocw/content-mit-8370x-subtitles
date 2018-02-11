@@ -1,0 +1,165 @@
+#
+# File:   content-mit-8370x-subtitles/U2L4e.txt
+#
+# Captions for course module
+#
+# This file has 156 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now, we can generalize this to the n-qubit Fourier
+transform.
+So let's recall this.
+
+Let's say j goes to summation e to the minus 2
+pi i b sub n minus 1 to the n minus 1 plus dot, dot, dot
+plus b 0 times 1 b prime 2 to the n minus 1 plus dot, dot,
+dot plus b prime 0 times 1 all divided by 2 to the n.
+
+And we need to multiply this by k,
+where k equals 0 through n minus 1 and b prime to the bits of k.
+And b's are the bits of j.
+Now, well, we have the term--
+well here, we have the term j 1 k 0, and j 0 k 1.
+So those were term e to the minus 2 pi i b sub s b prime.
+So we have n minus s minus 1 all divided by 2 to the n.
+
+[AUDIO OUT]
+This is a Hadamard from b sub s that s sub
+j to b n minus s minus 1 of k.
+
+Because this is just e to the minus pi i--
+oh, I forgot, there is a 2 to the n minus 1
+here, because there's a 2 to the s here, and a 2 to the n minus
+s minus 1.
+So this is just e to the pi i b s b prime n minus s minus 1
+over 2, which is just a minus 1, if they're both 1,
+and a 0 otherwise.
+So this is a Hadamard.
+
+So let's put that over here.
+
+So we start with b 0 b 1 through b n minus 1.
+And we need to Hadamard them all.
+And last time-- actually, I called
+them j 0 through j n minus 1.
+
+OK, I'm switching notation here, but--
+
+so
+[AUDIO OUT]
+B prime 0-- or b prime n minus 1 b prime n minus 2
+all the way through b prime 0.
+
+And recall, we did the smallest bit of j last,
+and the largest bit of j first, so let's do the same thing
+here--
+Hadamard, Hadamard, Hadamard, Hadamard.
+
+And let's call n equal 3, but--
+
+just to make things more specific--
+b 1 b 0.
+
+And now, we need to put in gates that do all
+these other transformations.
+
+So let's think about them carefully.
+We have b k and b j prime--
+no, those are bad variables.
+e to the minus 2 pi i b s b t prime over 2 to the s 2
+to the t over 2 to the n.
+
+That's just one term from here, and one term from here.
+And that's the gate--
+e to the minus 2 pi i b s b prime t 2 to the minus
+s minus t 2 to the s plus t minus n,
+where all this is in the exponent,
+despite my bad handwriting.
+
+There, that's better.
+OK, so what does this gate do?
+Well this gate is just 1, 1, 1 e to the minus 2 pi i 2
+to the s plus t minus m.
+
+And we can assume s plus t is less than n minus 1--
+assume s plus t is less than n minus 1.
+Why is that?
+Well, if s plus t was equal to n minus 1, then you got--
+it comes from this term, which transforms into a Hadamard gate
+in our circuit.
+So if s plus t is less than n minus 1,
+you get a different gate.
+So what does that do up here?
+Well, if s plus t is less than n minus 1, you have--
+well, if s-- so this is s.
+And here is t.
+And s plus t is less than 3, then
+there is room here for a gate after you do this Hadamard,
+and before you do that Hadamard.
+And of course, it doesn't matter where exactly you put it,
+as long as you put that gate between b i
+and b j prime-- or b s and b prime t after the Hadamard gate
+on t, and before the Hadamard gate on s.
+
+And what gate should we do?
+
+Well, let's call this r.
+OK, I want to use-- and now, I want
+to use the notation in the book.
+
+So we'll say r sub k is equal to 1, 0, 0
+e to the minus 2 pi i over 2 to the k.
+
+And maybe I should just put the gates in now,
+and then explain exactly why I put them in, and so here.
+I'm going to put an r 2 here, an r 3 here, and an r 4 here.
+
+OK, and now I want to put an r 2 here, an r 3 here,
+and now I want to put an r 2 here.
+
+So can everyone read this?
+
+So I've put an r 2 between all adjacent qubits, an r
+3 between all two--
+all pairs of qubits which are two-away, an r 4
+between all pairs of qubits which
+are three-away from each other.
+And generally, I'll put an r t between all pairs
+of qubits which are t plus--
+t minus-- t plus 1 away.
+
+And r sub i is just this gate--
+1, 0, 0 e to the minus 2 pi i over 2 to the k.
+So this is a control r sub i.
+So why did I do this?
+Well, this r 2 comes in between, for example, b 3.
+This is right.
+OK, so this is b 0.
+And here it's interacting with b 1 and 0
+plus n minus 0 plus 1 is 3.
+So you want an r sub 3, because what this depends on
+is n minus s minus t.
+So here we have a b 0 on the right,
+so that b 0 prime on the right interacting with a b 1.
+And it's b 1, because it's before this Hadamard gate that
+turns b 1 into b 2 prime.
+And it's b 0 prime if it's after this Hadamard gate that
+turns b 3 into b 0 prime.
+So the gate you want depends on n minus 1 minus 0.
+
+And that's, in this case, 3.
+
+But you can see, because these are going down,
+and these are going up, the sum of this value t
+and that value s over there just depends
+on the distance between the wires.
+And the distance between the wires, well it works out you
+have an r 2 between adjacent wires, an r
+3 between pairs of wires that are two-away,
+an r 4 between pairs that are three-away, et cetera.
+So this circuit does a 4-qubit Fourier transform.
+And of course, at the very end, we
+have to swap them to get the bits in the right order.

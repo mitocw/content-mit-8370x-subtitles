@@ -1,0 +1,85 @@
+#
+# File:   content-mit-8370x-subtitles/U2L3j.txt
+#
+# Captions for course module
+#
+# This file has 76 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+If the function is 1 to 1, you end up with n linear equations
+and--
+good point.
+c is all 0s.
+c is-- you end up with n linear equations.
+c is all 0s.
+So really, you need to--
+Yeah, so really what you need to do is you need to--
+
+but actually you don't want to do that.
+If c is all--
+if the function is 1 to 1, you're
+going to end up with a single value of c.
+And now what you need to do is you need to go back and ask
+is f of 0 equal to f of c.
+
+If yes, then it's clearly 2 to 1.
+And if no, it's 1 to 1.
+
+Because if the function is 2 to 1,
+you will never reach a point where you get--
+
+no, n linearly independent y sub i's.
+So if you don't get n linearly independent Y sub I's, you
+don't know whether you were just unlucky
+or whether the function was 1 to 1.
+So the safest thing to do is go back and plug-in
+f of 0 equals f of c.
+That was a very good question.
+Other questions?
+Yeah.
+And so-- so it means that the quantum magic from this
+is all contained within the oracle, right?
+Because everything else that we've done
+might as well just be on [INAUDIBLE] levels.
+But the [INAUDIBLE] all happens within when we call the oracle.
+I think so, yeah.
+I mean because what are we--
+what would the gate structure look like?
+So we started with plus, plus, plus.
+
+And now we compute f of x, and maybe I
+should have put 0s here, and we get f of x.
+And we get, I guess this thing is x.
+And then we do lots of Hadamards And we
+don't do anything to this.
+
+And finally, we measure.
+
+So if we didn't have this f of x in here,
+well, you can think of these pluses
+as just being 0s with a Hadamard on them.
+
+If we didn't have this f of x, then we
+would be doing a Hadamard and undoing a Hadamard
+and we wouldn't get anything.
+So the magic comes when f of x--
+when we take this oracle and compute f of x down here.
+And we haven't changed any of the bit
+values on this register, but we've changed their--
+we've changed their base structure when we--
+back fraction from here to here.
+
+And that lets us do the magic.
+OK.
+So, I mean the Hadamards are certainly very important in--
+Yeah.
+--making the algorithm work.
+Yeah.
+But the entanglement that makes--
+I mean, you can't do quantum computation
+without entanglement.
+And all the entanglement comes from this step.
+Right.

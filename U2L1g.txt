@@ -1,0 +1,152 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1g.txt
+#
+# Captions for course module
+#
+# This file has 143 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Fact-- if you do the circuit without the extra Hadamard,
+zeta plus 0 become 0 plus zeta.
+So this with a plus here and a 0 here swaps the zeta down here.
+So this just teleports the zeta there.
+
+So you can see this does teleportation.
+You need to check that this entry comes down here,
+and you also need to check that this entry and this entry
+are constant, independent of what this guy is.
+Because if they weren't, then this state
+would be entangled with these states
+and it wouldn't be teleportation.
+
+Well, it's fairly easy to show this.
+I mean, what you need to do is zeta equals alpha
+0 plus beta 1.
+So let's look at what happens when we put 0 plus 0 in--
+0 plus 0.
+Well, the first thing we do is a control NOT here.
+
+And that's 0.
+Well, wait-- no.
+There's an easier way of thinking about this.
+
+Well this control NOT does nothing
+because the top state is 0.
+And here, we apply a control NOT and we apply another control
+NOT, so that does nothing as well.
+So the only operation here, we have a 0 controlling NOT
+into another 0, which gives us a 0.
+So 0 plus 0.
+
+Now, the next one is a little more complicated--
+1 plus 0.
+
+So after this, the state is 1 00 plus 111.
+And now we're doing that.
+Well, what does this do?
+It x-- it control NOT's or XR's the first qubit
+into the second qubit.
+So after this guy, this state is 110 plus--
+
+110 plus 101.
+And now we do that again.
+So it becomes 111 plus--
+
+OK, I'm running out of room here.
+So but you can see that here it's 111 plus 101.
+And the last thing is this guy.
+So what that does is take the last qubit and XR it with
+the first qubit, so that becomes 011 plus 001.
+And that's here.
+
+And this is 0 plus 1.
+
+So 1 plus 0 became 0 plus 1.
+
+And now the last thing we get is a Hadamard and a measurement.
+
+So you can see that both of these states
+are plus right before they're measured,
+which means all measurement values are equally likely.
+And if you go back to our teleportation circuit--
+are the first way of analyzing teleportation,
+you would have seen that all teleportation
+values were equally likely.
+So that is the way of using the circuit
+to analyze how to teleport--
+to show this teleportation circuit actually
+teleports the first qubit to the last qubit,
+which means that the original teleportation circuit, which
+I've now erased, also did.
+
+OK.
+That's-- yeah?
+So the measurement is there to tell you what you teleported?
+Well, the measurements are necessary
+in the original teleportation circuit
+because, well, you need to get information
+from Alice to Bob somehow.
+And in teleportation, they don't have a classical channel
+between them, so the only thing they can send
+is classical information.
+So let's write down the original teleportation circuit
+and go over it.
+So we had psi plus 0.
+
+Measurements and-- so this first thing
+is done before these two qubits get
+distributed to Alice and Bob.
+So Alice-- so Bob owns everything here and Alice
+owns everything up here.
+
+And the only thing going from Alice to Bob
+are these two green classical bits.
+So Alice and Bob are in two different labs
+with a classical telephone line between them,
+over which they can send classical bits.
+
+So the reason you did this measurement
+was to convert the information into classical information,
+which then can be sent to Bob over a telephone line
+or-- yeah?
+So in the idealized version of the circuit,
+these measurements are no longer necessary?
+In the idealized version, oh--
+oh, you mean in this--
+yeah, in this version of the circuit,
+you don't need those measurements.
+OK.
+Yeah.
+But I kept them because they were in the original version,
+and I also wanted to show that this circuit made
+all four measurement outcomes equally likely, which--
+well, which was necessary for the original teleportation.
+
+Good question.
+Yeah?
+Sorry, just one last question.
+For the circuit that we have on the top right there--
+Yeah
+--we start after the first CNOT.
+It looks like the operation that we're describing
+is like a totally non-local thing between Alice and Bob,
+right?
+It's just some unitary that has these--
+like that controlled-Z gate, which is a non-local operation.
+Right.
+So this is a non-local-- yeah, so this and this
+are non-local operation between Alice and Bob.
+And yet, it turns out to do the same thing, which
+is local operations and classical communication.
+Right.
+And so is there--
+If someone just hands you a unitary,
+is there some way to tell whether or not
+that can be done?
+
+Well, the only reason we could do that, really,
+is these two measurements afterwards,
+which we could commute back over this state and that gate.

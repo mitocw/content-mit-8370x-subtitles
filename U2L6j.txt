@@ -1,0 +1,103 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6j.txt
+#
+# Captions for course module
+#
+# This file has 94 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So how do you use this for factoring?
+So unitary x goes to g x mod N. So we're just
+multiplying by some g.
+
+So what are the eigenvalues of this?
+And suppose g to the r turns to 1 mod N. So g has order r.
+Eigenvalue or our eigenvector is some g
+to the k e to the 2 pi i k l over r.
+
+Because what happens if you multiply this by g?
+
+Or rather, what happens when you apply the unitary?
+U times 1 over root r g to the k e to the 2 pi i k
+l over r is equal to 1 over root r, we have a sum here.
+Sum g to the k plus 1, e to the 2 pi l over r is equal to--
+
+well, so what we've done is we replaced g to the k
+by g to the k plus 1.
+But we can get from g to the k plus 1 to g to the k
+by just rewriting the coefficients of the sum--
+rewriting the index of the sum, k equals 0 to r minus 1,
+making k prime to the pi i k over l.
+So I want to say you can take k prime equals k minus 1,
+and you get less than or equal to e to the minus 2
+pi i l over r c.
+
+So if you can estimate e to the minus 2 pi I over r,
+you're done.
+
+And we can do that with [INAUDIBLE] estimation.
+OK, eigen.
+So, the question is, should I go into this step in more detail?
+Anyone?
+
+Yes, OK.
+
+So [? claing ?] summation g to the k, e to the 2 pi i k
+l over r is an eigenvector--
+
+let's call c sub l is an eigenvector.
+
+And the proof?
+Well, I want to divide this by 1 over root r.
+Proof is we apply u with c sub l.
+
+And we get 1 over root r sum go to the k [INAUDIBLE]
+2 pi i k l over g to the k plus 1.
+
+Because when we apply u to something, we multiply by g.
+So taking g to the k, and multiplying it by g,
+you get g to the k plus 1.
+And now, let's let k prime equals k minus 1.
+This is equal to 1 over root r sum.
+
+Well, I want to say it's the same sum as before, because k
+equals 0 to r minus 1.
+We now get k prime equals 0 2 r--
+k prime equals minus 1 2 r minus 2, but g to the k plus 1--
+
+I mean, but g to the 0 is equal to g to the r,
+so we can use the same limits on the summation--
+go to the k.
+We replace k plus 1 by k, e to the 2 pi i k
+prime minus 1 l over r.
+So this is the same as this, except we've multiplied
+by e to the 2 pi i l over r.
+Equals e to the minus 2 pi i l over r times our eigenvector.
+
+So these are the eigenvectors of the [INAUDIBLE]
+x goes to g x mod N.
+Now there is one last step, which is--
+I assumed that we had a unitarian eigenvector.
+We don't actually have the eigenvector.
+If we had the eigenvector, we would know how to factor.
+But suppose what we could do is we
+could pick a random eigenvector, and then apply this.
+That would work.
+So how do we pick a random eigenvector?
+Well, that involves density matrices,
+which I am going to talk to you about the first class
+after the exam.
+So the first class after the exam,
+I will show you how you can--
+well, maybe not actually pick a random eigenvector.
+You produce something entirely equivalent to picking
+a random eigenvector, and then that
+will give you Kitaev's algorithm for factoring
+by base estimation.
+
+Right, so and then the last thing I should have said
+is, once you know r, you do exactly the same thing--
+continued fractions as you saw last time.

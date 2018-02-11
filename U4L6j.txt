@@ -1,0 +1,125 @@
+#
+# File:   content-mit-8370x-subtitles/U4L6j.txt
+#
+# Captions for course module
+#
+# This file has 116 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now let me try to wrap all of this up together
+and show you how these thoughts are now relevant today,
+as the community is trying to pursue quantum
+simulations as a realistic application
+of near-term quantum computers.
+And this application is with respect to quantum chemistry,
+by and large.
+
+And it takes us back to this picture
+that I gave you at the beginning, of nitrogen fixation
+and nitrogenase.
+So the perspective I want to give
+you is one which crosses between the canonical picture
+of quantum simulations I just gave you
+and a evolving, emerging, different approach to quantum
+simulations, which I will describe,
+called the "variational quantum eigensolver."
+OK.
+And here's a challenge.
+
+You are given a certain Hamiltonian.
+
+And you want to simulate the dynamics of that Hamiltonian
+with a bounded amount of error, taking into account
+all those resource constraints that we just illustrated
+with Grover's algorithm.
+And you won't be able to simulate the full Hamiltonian.
+You'll only be able to simulate pieces of it, one at a time.
+And yet you would like the dynamics
+to be equal to that of the full Hamiltonian.
+So let's consider exactly that, a full Hamiltonian,
+and start to discuss the process by which you would simulate it.
+So let's go back to the Hamiltonian,
+which we described at the start of this,
+with quantum chemistry.
+I said that you had the kinetic energy of a nuclei,
+and I wanted you to know how easy it is to write down
+all these Hamiltonian terms.
+This is freshman-year physics, in many ways.
+So the nuclei have a free particle momentum,
+so that's p squared over 2m.
+So here we'll write it down in terms of derivatives,
+three-dimensional derivatives, using
+notation which is common in the quantum-chemistry world.
+So that's p squared over 2M sub k.
+So capital R will be the location of the nuclei.
+This is the mass of the nuclei.
+
+We also have the same kind of term for the electrons,
+with the mass of the electron involved.
+And then we have potential terms.
+For example, nuclei interacting with nuclei.
+And these potential terms are due to the charge
+of interaction between them.
+So two positive charges interacting together.
+And we'll have a structure that looks like this,
+a Coulomb interaction, Z1.
+Z is now charged, not the poly Z matrix.
+Zi Zj, divided by the distance between the two nuclei, Ri Rj,
+together with all the usual 4 pi epsilon
+knots that I'm leaving out.
+Then the nuclei electron interaction.
+Now the sign flips back.
+We have Zi.
+The electron is unit charge Ri minus Rj.
+And then electron electron.
+So here we have a unit charge, again, Ri minus Rj.
+Done.
+That's it.
+This is a straightforward Hamiltonian to write down.
+It governs any molecule
+I ought to be able to write it down for nitrogenase.
+Now, nitrogenase, it turns out, if you wrote this down with
+the some-5,000 carbon atoms involved,
+with the number of energy levels that you have for each one
+of those carbon atoms, maybe 20 to 50, OK, it's unaccessible--
+inaccessible.
+You can't possibly simulate such a large system.
+So the very first step people do in this is to simplify and turn
+it into just the relevant set of basis states
+that are involved in the chemical reaction.
+And if we do that, by simplifying,
+you end up getting another kind of Hamiltonian.
+First, people normally go into what is
+called "second quantized form."
+I won't describe it here, but it's basically
+simulating rewriting this Hamiltonian
+as a number of harmonic oscillators
+that are interacting with a certain set
+of statistical guarantees.
+For example, hpq a dagger p a sub q, where these are raising
+and lowering operators for our harmonic oscillator,
+in modes p and q.
+And there will be some interaction term
+hpqrs a dagger p, a dagger q ar as.
+Maybe you'll commute these in various ways.
+So these are the individual particle excitations,
+and these are interactions between the particle
+excitations to lowest order.
+And then, after this, at this, for example,
+with the nitrogenase example, using an appropriately
+simplified set of basis states, which is almost all
+of what quantum chemistry is about,
+you can perhaps simplify this to on the order
+of 100 qubits in the space.
+So we're now looking at a Hilbert space of about 2
+to the 100.
+You can't do that with any normal classical computer
+today.
+Yet I would like to find the ground
+state of this system, which has dynamics happening in a 2
+to the 100th size Hilbert space.
+Now, there are two pathways forward,
+from this point, that the community has taken.

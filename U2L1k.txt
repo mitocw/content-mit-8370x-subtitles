@@ -1,0 +1,128 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1k.txt
+#
+# Captions for course module
+#
+# This file has 119 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So I think I might have time to cover a really neat quantum
+protocol called Vaidman bomb detection.
+Yeah.
+OK, and here, we're actually going
+to have to draw beam splitters and quantum optical tables.
+So the basic idea is you have a bomb.
+
+And you have a whole bunch of these bombs,
+and you'd like to test them, whether they are actually
+defective or not.
+So the bomb has a little fuse on it.
+And the fuse is so sensitive, if you shine one photon on it,
+it explodes.
+
+One photon on fuse, bomb explodes.
+
+So of course, you keep these bombs in the dark.
+And what you would like to do is you would like to see--
+and some bombs are missing fuses.
+
+Some bombs are missing fuses.
+
+So you would like to make sure these bombs actually
+have fuses.
+But you want to check to see whether they
+have fuses without exploding.
+But of course, if you look at the fuse, it explodes.
+So what do you do?
+
+Well, I am going to--
+
+what we're going to do is we're going to set up a--
+
+no, two half-silvered mirrors and a source of photons.
+
+And this is a plane mirror.
+And this is a plane mirror.
+So this is an interferometer.
+
+And we adjust it.
+Adjust interferometer so that if there's
+nothing in the path, nothing in path,
+everything goes to this detector one, detector two.
+All photons go to detector one.
+
+So I mean you can model this as basically this
+is a hadamard gate.
+And this is another hadamard gate.
+And when you multiply them, everything
+goes to this detector.
+
+And now, what we're going to do is
+we're going to put a bomb here with its fuse over the path.
+Well, assuming it has a fuse, the fuse
+will be over the path of this photon.
+
+No bomb, 100% detector one.
+Suppose there is a bomb.
+Well, what happens is a photon goes through
+with 50% probability, it goes this way
+and explodes the bomb--
+
+50% probability bomb explodes.
+
+In which case, we actually don't see any signal
+at the detectors.
+If the other 50%, it goes this way, and it goes up this way,
+but now, there's no interfering ray coming from this path,
+so the photon goes this way with 50% probability and this way
+with 50% probability--
+25% detector one, 25% detector two.
+So if the bomb is defective, detector one
+is the one that triggered.
+If the bomb has a fuse, 25% of the time detector two
+is triggered.
+So whenever we get detector two, we know it's a good bomb.
+And we know that there is a fuse in it.
+And we have not looked at the fuse.
+So of course, this is something you cannot do classically.
+If you have a bomb that has a fuse on it,
+and you want to check whether there's a fuse,
+you have to look at the fuse somehow.
+And if you look at the fuse, the bomb explodes.
+So this is a way of getting some bombs out
+or some bombs which we know have fuses out
+without exploding them all.
+And if you want, you can set up a much more complicated
+optical experiment, which explodes the bomb not
+with 50% probability, but with maybe 1%
+probability or 0.01% probability.
+So you can set up a much more complicated optical experiment,
+which almost always detects good bombs.
+But that's more complicated.
+And I'm not going to go through it in this class.
+OK, good.
+Yeah?
+
+Can you make a device which has sort of an arbitrarily
+small, as in you could make this interferometer as complicated
+as you want and you can get whatever
+probability of the bomb exploding as you want,
+basically?
+That's right.
+But you can't set it all the way to zero.
+There has to be some probability the bomb explodes.
+But well, basically, the idea is that you
+have mirrors so that the photon goes up and down here
+many, many times.
+And the more times it goes up and down,
+the lower probability you can get it of having an actual bomb
+explode.
+But I guess to get zero, you would
+have to have it go up and down infinitely many times.
+And that doesn't work.
+So that's the basic idea for reducing this probability.
+
+Any other questions?

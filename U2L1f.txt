@@ -1,0 +1,160 @@
+#
+# File:   content-mit-8370x-subtitles/U2L1f.txt
+#
+# Captions for course module
+#
+# This file has 151 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So this is a circuit for teleportation.
+Now, what I want to do is take this circuit for teleportation
+and use it to show you that teleportation works.
+And this involves doing a bunch of, I guess,
+operations on circuits, which leave what the circuit does
+unchanged, but make it clearer, or at least [INAUDIBLE]
+But first, what did I want to do?
+First, I wanted to divide this into Alice and Bob.
+So Alice has the first two parts.
+
+So the first operation, if we take plus and 0
+and apply a control know, we get 1 over root 2 0, 0 plus 1, 1.
+
+So that means that the circuit is equivalent to 0 plus 0.
+
+I'm going to put a control knot here,
+and then a control knot here.
+And then, I have [INAUDIBLE] and then a measurement,
+and a classically controlled--
+
+well, two measurements-- and a classically
+controlled x, which I guess I should be drawing in green,
+and a classically controlled z.
+
+So this does the same thing as this circuit.
+So if you can prove that this one teleports,
+you can prove this one teleports.
+
+OK, now, the second change I want to make in the circuits
+is moving these controls to the left of these measurements.
+
+So what does that look like?
+OK, we're starting with our unknown qubit.
+Yeah, our new and computed qubit was supposed to be zeta.
+And I seem to have removed it in the first picture.
+So let's fix that.
+
+Zeta and plus and a 0.
+
+And the. first thing is a control knot here.
+The second thing is a controlled knot here.
+And then, there's that Hadamard up there.
+
+And then, there's control z, control x, and a measurement
+here, and a measurement here.
+
+Let's see.
+
+OK, good, now, I really should have--
+
+OK, so what did we do?
+What we're saying is it doesn't matter
+if we do this measurement, and then do the control
+classically, or if we just do a quantum control knot,
+and then do the measurement.
+So why is this true?
+
+So we have a unitary--
+
+well wait, we have a qubit here, say.
+
+And we have another qubit here, alpha 0 plus beta 1.
+
+And we want to say that a control
+knot before a measurement is the same as a classical measurement
+followed by a control knot.
+
+Well, alpha 0-- so this is actually
+not the most general situation.
+But I'll just show you what happens in this situation.
+Y-- and we want to do a c knot on this--
+is equal to alpha 0--
+and the c knot does nothing, If alpha is 0--
+plus beta 1 sigma x phi.
+
+So doing a control knot on this gives you
+alpha 0 phi plus beta 1 sigma x phi, measuring 0.
+If you get 0 as a result of the measurement,
+you have alpha phi.
+And if you get 1 as a result of the measurement,
+you have beta sigma x times phi.
+
+Now, if you measured first--
+this should be alpha squared, I'm sorry, and beta squared.
+Now, if you'd measured first, with alpha squared probability,
+you would have gotten 0.
+And with beta squared probability,
+you would have gotten 1.
+And then, when you apply the controlled classical sigma
+x to phi, with probability alpha squared, you get phi.
+And with probability beta squared, you get sigma x phi.
+So in this case, these two results are the same.
+And in fact, the two results are always the same.
+And you can show it with a little more computation
+in quantum computing.
+Yeah, you have a question?
+What specifically do you mean by they're always the same?
+Oh, well, if you have a measurement and a basis,
+well, you have a controlled unitary followed
+by a measurement in this basis, it's
+the same as doing the measurement
+and then doing the classically controlled unitary.
+The results here, the probability
+of, the probability skew outcomes for the basement,
+and the quantum states at the end of the measurement
+will be identical.
+
+OK, so now, our original circuit was equal to this.
+And now, there's only one more step
+we need to take to get to the circuit,
+well, actually two steps.
+A controlled z is equal to a controlled z up.
+
+So they both give unitary 1, 1, 1, minus 1.
+So this is just saying, change this phase of the entire system
+if both the top and bottom qubits are 1.
+Because you do nothing if the top qubit is 0.
+And if the top qubit is 1, you change the phase
+only if the bottom qubit is 1.
+Because sigma z was what?
+Sigma z was this matrix, 1 minus 1.
+
+But this matrix is symmetric.
+And [? the force ?] qubit and qubit,
+so it's the same as this thing.
+
+And a control z is equal to a control x, Hadamard, Hadamard.
+
+Because z equals H sigma x H. So if you put a control on them,
+you still get the same identity.
+
+So what we're going to do is we're going to take this
+and we're going to turn that over.
+And let's do it up here.
+
+Zeta plus 0--
+
+OK, there's an H here.
+And there is another control knot here,
+and then a control knot up this way with an H
+on the left and an H on the right.
+
+And yeah, OK, good.
+And the last transformation we need to do is just--
+remember, if you apply to H's, they give the identity.
+So this is completely equivalent to our teleportation circuit.
+Of course now, we have control knot gates
+between Alice and Bob, which weren't
+present in the original.

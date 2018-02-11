@@ -1,0 +1,135 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5h.txt
+#
+# Captions for course module
+#
+# This file has 126 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The continued fraction algorithm.
+So what we have is we have z over 2 to the 2l is
+a approximately on d over r.
+And we want d over r.
+
+And we also know r is much smaller than 2 to the 2l.
+So first, let's think about this in terms of information.
+How much information is there?
+How much information in z?
+Well, the answer is 2l bits.
+
+How much in d r?
+log d plus log r, that's roughly.
+So what we need is we need r to be-- or we need 2 to the 2l
+to be roughly r squared.
+And in fact, we're going to show it works as long as 2 to the 2l
+is bigger than 4 r squared.
+
+So this 2l for a l bit long number--
+if we want to factor an l bit long number,
+we need 2l registers for the function and another l
+registers for the result of the function.
+
+OK.
+So continued fraction is an algorithm
+which finds all good approximation to a real number.
+
+Finds all good approximations.
+
+Where there's a technical definition
+of good approximation we won't use.
+And what is it?
+
+Let's say r equals 15 and we get 887 over 1,024.
+So this was the output of our quantum computer,
+and this was 2l where we're using
+2l bit register for the quantum Fourier transform.
+
+So this is equal to 0.86621.
+The first thing we do is we take this number
+and we write it in continued fraction form.
+
+Equals 1 over 1 plus 1 over 6 plus 1 over 2 plus 1 over 9
+plus 1 over 3 plus 1.
+So 887 equals that.
+And the continued fraction is 1, 6, 2, 9, 3, 2.
+So just these pieces of the numerator of the continued
+for--
+pieces of the denominator of the continued fraction.
+
+So how do we do this?
+
+It's actually pretty easy.
+
+And I'll just do it by example.
+.86621 equals 1 over 1 plus 0.154454.
+So we divide 1 by this number and we get 1 plus a remainder.
+So 1 over this is 1 plus 0.1546
+Well, this is equal to--
+well, we're going to do the same thing.
+We take 1 and divide it by this number and we get 6.
+1 plus 1 over 6 plus 0.4744.
+And you can guess what we're going to do next time,
+we're going to take 1 and divide it by this.
+And that's equal to 1 over 1 plus 1 over 6 plus 1 over 2
+plus 0.1079, etc.
+And we keep on doing this.
+Well, either until-- well, in this case,
+we can keep on doing this until we
+reach the actual rational number 887 over 1,024.
+Yeah?
+As you progress through the continued fraction chain,
+will these always be underestimates?
+No, they're going to alternate being under and over.
+
+Well, actually all of these things are exact.
+This is equal to this is equal to this is equal to that
+because I've added this thing.
+But as you can guess, the convergence are--
+
+first convergent is 1.
+Second is 1 over 1 plus 1 over 6.
+That equals 0.8571.
+That's under.
+The next 1 over 1 plus 1 over 6 plus 1/2.
+That equals 13 over 15.
+And that's 0.86667.
+And the next one is 1 plus 1 over 1 plus 1 over 6
+plus 1 over 2 plus 1 for 9.
+So we're just taking the first few things of that.
+That is equal to 123 over 142 equals 0.866197.
+And I'm not going to go through any more of them.
+But you can see that this first one is over,
+the second was under, third is an overestimate,
+but it's getting much closer.
+The fourth is an underestimate, and it's really, really close.
+So those are the convergence of the continued fraction.
+And I should say the continue fraction is guaranteed to find
+all good approximations where--
+there is a technical term for what a good proclamation is
+and it's not quite what you might think it is.
+
+and
+If you choose 2 to the 2l is roughly bigger
+than the maximum possible period squared,
+the right answer is guaranteed to be a good approximation.
+But I'm not going to prove either of these
+because proving it finds all can be good approximations is
+a little bit tricky and proving that it actually
+is a good approximation, this technical term,
+is also a little bit tricky.
+Although, maybe I should write down what
+a good approximation is.
+Q over r is a good approximation to x.
+
+Let's make d over a is good approximation to x
+if d x, minus r is less than a c x minus q for all integers--
+for all c q less than r.
+
+Well, for all c and for all q less than r.
+So if q is less than r, you could not
+get as good approximation for d x minus r.
+So this is what it means to be a good approximation
+for the continued [INAUDIBLE].

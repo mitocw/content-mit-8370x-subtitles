@@ -1,0 +1,60 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2a.txt
+#
+# Captions for course module
+#
+# This file has 51 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So today we're going to be talking
+about the Deutsch-Jozsa algorithm.
+What happened is that, in the early 1980s,
+historically, Richard Feynman, in the US,
+and Yuri Manin in the Soviet Union,
+suggested using quantum computers to simulate quantum
+mechanics.
+And in 1985, David Deutsch tried to formulize this.
+And what he did was, he defined a quantum Turing machine,
+and he also explained how to solve--
+well, what is going to turn out to be the 2
+bit Deutsch-Jozsa problem.
+And in 1992-- and solving the 2 bit Deutsch-Jozsa problem
+did not really impress anyone for reasons
+that will become apparent later in the talk.
+In 1992, David Deutsch and Richard Jozsa
+generalized his construction to solve the end bit
+Deutsch-Jozsa problem.
+And that's the first thing I want to talk about.
+So what is Deutsch-Jozsa problem?
+
+So given a function on end bits, so there are 2 to the nth
+values, decide whether--
+
+OK-- on log n bits, so there are n values.
+OK, so I want to be consistent with my notes.
+
+Decide whether A, f is constant, or B, f is balanced.
+
+So f is constant if f equals 0.
+Well, let's f of x equals 0 for all x,
+or f of x equals 1 for all x.
+And f is balanced if f of x equals 0 for n over 2x,
+and f of x equals 1 for f over 2x's.
+
+So f is constant if either all inputs to x gives 0,
+or all inputs to x gives 1.
+f is balanced if half of the inputs give 0,
+and the other half give 1.
+
+So what we have is, we have what computer
+scientists call a promise problem.
+
+So you're given a function, and you're
+promised that one of either two things hold.
+And if somebody gives you a function which is not
+either constant or balanced, it doesn't
+matter what you've output.
+You're going to-- you solve the problem if you

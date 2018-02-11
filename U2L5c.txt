@@ -1,0 +1,82 @@
+#
+# File:   content-mit-8370x-subtitles/U2L5c.txt
+#
+# Captions for course module
+#
+# This file has 73 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What is the algorithm and detail?
+So suppose we have a bound on r.
+
+Maybe I should call it r max, and choose
+a power of 2 bigger than r max.
+Or actually, choose a power 2 bigger
+than 2 r max, and well, I will write down the algorithm.
+We start with plus two the 2L zero.
+
+That's here.
+Next, we take the compute F of x, and whatever
+ends in the first register, we compute
+that in the second register.
+But this is just some i equals 0 2 to the 2L i,
+where i is just the binary representation of the number.
+And we need to divide by 2 to the L,
+because we want this to be a unit vector.
+
+So we compute F. So this becomes sum to the 2L, i, F of i, i
+equals 0 to 2 to the 2L to the quantum fourier transform.
+So that's 1 over 2 to the 2L summation.
+
+i is a really bad letter to use, because it's also
+the square root of minus 1.
+So let's use x.
+
+OK, so the quantum fourier transform
+takes x to let's call it z, F of x z
+equals 0, 2 to the 2L minus 1.
+
+e to the 2 pi i xz over 2 to the 2L.
+
+So we've taken x and taken the fourier transform
+of it, and that gives us this.
+
+Now, what happens if we measure F of x?
+
+Well, we're going to get some value for F of x.
+And I'm going to leave out the normalization constant
+for the time being, because the normalization constant just
+makes figuring out exactly what's going on
+with a normalization constant-- it's possible,
+but it's a lot of tedious algebra,
+and I'll come back to it later.
+So we're out of normalized. z equals 0 through 2 to the 2L.
+
+So let's call-- let x0 be the smallest x, x giving F of x.
+
+So this is going to be z of the form x0 plus y times r,
+because when we measure F of x, we only get--
+
+not z When we measure F of x, we only
+get x equals x naught plus yr, F of x 0, z
+e the 2 minus 2 pi i x.
+
+Well, xz, but x is in the form x0 plus yr, z over 2 to the 2L.
+So what did we do?
+We measured F of x here, and we're just
+looking at the ones which give us F of x0,
+and we know all of these x's are the form x0 plus yr.
+And the phase factor doesn't change, and z doesn't change.
+So now, we have the sum, and we have
+to figure out how big it is.
+
+Well, we can write sum z equals 0 through 2 to the 2L,
+sum y equals 0 through 2 to the 2L over r, plus or minus 1
+here, but that doesn't matter.
+F of x0, z, e to the 2 pi i, x naught plus yr,
+z over 2 to the 2L.
+And what is this?
+This is a geometric sum.

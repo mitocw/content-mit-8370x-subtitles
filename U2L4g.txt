@@ -1,0 +1,59 @@
+#
+# File:   content-mit-8370x-subtitles/U2L4g.txt
+#
+# Captions for course module
+#
+# This file has 50 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+There's one more thing I want to say about quantum Fourier
+transform.
+Let's pick r sub 11 equals 1, 0, 0,
+e to the minus pi i over 1,024.
+So that's the rotation date between pairs
+of wires which are--
+I think-- 10 wires away from each other.
+You apply a controlled r11.
+And if you look at this, well, and you notice
+it's really pretty close to an identity matrix.
+So why do we even include it if we're basically
+not doing anything?
+And the answer is, you don't have to.
+You can cut off these r's--
+well, so you can cut off these r's after some number of steps
+between--
+of distance between the wires.
+So what you have to do is you have
+to look at the whole circuit you're using for your transform
+in and figure out what sensitivity the whole circuit
+has to the phases.
+And if you're taking the fast Fourier transform
+or the quantum Fourier transform on 100 qubits, when you're
+trying to factor 100 number, say, then most of these are is
+you don't need it all.
+You can cut it off after maybe 20--
+after r20 or so, or maybe less.
+
+I've forgotten exactly how the analysis works out,
+but you can just drop it, drop this r sub
+k whenever the k gets too big.
+
+And you don't get the exact Fourier transform,
+but you get something that is close enough
+to do your quantum circuit.
+So it's not-- so how many gates are there in this?
+Well, in a quantum Fourier transform on n qubits,
+there are, well, there's a gate between every two qubits.
+And then there's another gate--
+Hadamard gate-- on each wire.
+So that's n choose two gates then.
+Or n plus one, choose two gates, roughly n squared over 2.
+But if you're doing quantum Fourier transform on
+say 10,000 qubits, you would probably still
+only need to use k30.
+So 30 n gates instead of--
+r30 times 10,000 gates instead of 10,000 gates squared.
+So this is actually a pretty efficient circuit.

@@ -1,0 +1,46 @@
+#
+# File:   content-mit-8370x-subtitles/U2L2b.txt
+#
+# Captions for course module
+#
+# This file has 37 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So the next question is, how are we given f?
+
+And in this sense, we're really given f as an oracle.
+Assume given f as an oracle.
+
+So we're given a black box, and we input x,
+and it outputs f of x.
+
+Of course, this black box really isn't a quantum circuit,
+because it has log n bits of input and one bit of output.
+
+So a quantum oracle had better be reversible,
+which means the number of inputs should
+be the number of outputs.
+So how do we do that?
+Well, if you remember something Ike said in the second lecture,
+he said that any quantum function
+or any classical function could be made reversible as long
+as you keep the input around.
+So we'll assume this is true for this classical oracle.
+We will keep the input around.
+So you input x--
+0, 1, 0, 0, 1.
+
+And out comes the input.
+
+And now, let's say this is sum [? beth ?] b.
+What we're going to do is we're going to output b
+exclusive or, XOR, f of x.
+
+So this is definitely reversible.
+Because well, first, it's its own inverse.
+Because if you put another thing, you would get b, then b
+plus f of x.
+And when you add f of x twice, mod 2, you get b back.

@@ -1,0 +1,34 @@
+#
+# File:   content-mit-8370x-subtitles/U4L6e.txt
+#
+# Captions for course module
+#
+# This file has 25 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The approximation we apply in order
+to simulate this sum of two Hamiltonians
+is [? the ?] Lie product formula,
+which says that, in the limit, as I
+take an infinite number of partitions of e
+to the iH1t divided by n, e to the minus
+iH2t divided by n, where I evolve
+by the first Hamiltonian, for a small sliver of time,
+t divided by n, then the second one for another small sliver
+of time, repeat this many times, taking the slivers to become
+smaller and smaller, this gives us
+an equality which is the sum of the two Hamiltonians.
+Now, this is a beautiful mathematical fact.
+Unfortunately, when we do our actual simulation,
+we have to truncate it at some point,
+and errors start to pop in.
+And when we truncate it at a certain point,
+this method is called "Trotterization."
+
+And this is often referred to as the "Trotter Suzuki formula"
+or "expansion."
+And I'll give that in its forms, with all the error bounds,
+in just a moment.

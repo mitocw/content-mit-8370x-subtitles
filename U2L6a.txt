@@ -1,0 +1,144 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6a.txt
+#
+# Captions for course module
+#
+# This file has 135 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK.
+So today we're going to talk about Grover's algorithm.
+It first appeared in something like 1995,
+in a paper that was titled "A Fast Quantum Mechanical
+Algorithm for Database Search," which
+is a title that sells the usefulness of the algorithm
+short.
+In other words, this was probably
+the wrong title for the paper.
+What does Grover's algorithm do?
+So suppose you have an unsorted list--
+
+a list which is somehow in quantum memory--
+
+and one of the items is marked.
+
+Find marked item.
+
+So actually, if you have a list of things,
+you really don't want to use this algorithm because, first,
+what you can do is you can just take this list,
+you can sort it, and then you can access any item you want
+in time log N. Or rather, you can check whether an item is
+on the list in time log N.
+And if you have a list of n things,
+the putting them in quantum memory
+is going to take N time, unless you can somehow do it
+quantum parallely, which is--
+I don't know-- only works for certain kinds of lists.
+And it takes O of square root of N list
+of N things time, which is much slower than you could do
+with a real classical database.
+So where is Grover's algorithm for?
+Well, it works we're finding, I guess, implicit lists.
+So suppose you want to find x, y, z, w,
+with x to the fourth plus y to the fourth plus
+z to the fourth equals w to the fourth.
+And you know there's a solution with x, y, z, w.
+That's then 1 million.
+
+Classical time.
+Well, actually, this was done by a mathematician using,
+I don't know, a clever idea.
+So there are better ways to do it.
+But classical time by brute force.
+
+On the other hand, this was an open question for, I think,
+200 years before [INAUDIBLE] found a solution in 1986 or so.
+So the classical time by brute force.
+Well, I mean, if you have a random x and a random y
+and a random z, you can take the fourth power
+and add them up, and take the fourth root of that,
+and check whether it's an integer.
+So you only really have to search over
+10 of the sixth times 10 to the sixth times 10
+to the sixth things, 10 to the 18th.
+
+But Grover's algorithm can search this list in time
+roughly 10 to the ninth.
+Small constant times 10 to the ninth.
+
+So that's our 10 to the 18th trials of this thing.
+And Grover would take 10 to the ninth trials of this thing.
+Yeah?
+But that's assuming that the--
+that's assuming the worst case scenario, though, right?
+Yes.
+That you find it only on the very last pair you try.
+Right.
+So, on average, it would be maybe one half 10 to the 18th.
+And in case you're interested--
+we're not going to test you on this--
+1 to the fourth equals 414,560 to the fourth plus 217,519
+to the fourth plus 95,800 to the fourth,
+assuming I didn't copy it wrong.
+
+So right now we're going to assume
+there's only one solution.
+
+Right now, assume one solution in N things.
+
+And later, we will tell you how to do it.
+It's actually faster with M solutions.
+
+And we assume-- let's see.
+
+What is our name?
+
+OK.
+So assume beta is--
+
+yeah, OK.
+Good.
+So assume beta is our solution, and assume
+we have an oracle of a black box function, unitary.
+
+Let's call that O. And O x equals x.
+x not equal to beta.
+And O of beta equals minus beta.
+So this is a phase oracle.
+But we showed you how to get a phase oracle from a bit oracle
+back when we're discussing Deutsche Djoser.
+And the way you would use a phase oracle for this
+is basic--
+for this problem, as you would take x, y, z,
+you would classically take their fourth powers,
+and then take the fourth root, and decide
+whether that was an integer.
+And if it's an integer, you apply the minus sign,
+and then you undo that all to get rid of the garbage.
+So the only thing that's left that you've actually done
+is you've applied a minus sign when beta is a solution.
+
+So there's lots and lots of time spent
+looking for good solutions.
+So what we're assuming is--
+we're assuming, if we have a solution, we can recognize it.
+And that's all we're assuming.
+And that's very often the case.
+
+I mean, there's lots and lots of computer cycles spent
+on [INAUDIBLE] optimization, where
+you're looking for some structure which
+gives you a good solution to an optimization problem.
+And you could use Grover's algorithm for that.
+Of course, it does not speed up the classical time
+exponentially.
+Classically, it's order N, and the quantum mechanical thing,
+its order of square root of N. On the other hand,
+it's a guaranteed provable speedup, assuming you have--
+assuming you can't take apart this oracle that tells you
+whether something is a solution or not,
+the best thing you can do just by exhaustive search

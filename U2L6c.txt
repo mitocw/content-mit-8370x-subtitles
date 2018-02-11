@@ -1,0 +1,84 @@
+#
+# File:   content-mit-8370x-subtitles/U2L6c.txt
+#
+# Captions for course module
+#
+# This file has 75 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So why does this work?
+What we're going to do to explain why it works
+is carefully analyze each piece of the Grover iteration.
+So let's let alpha equals summation
+x not equal to beta, x.
+And let's normalize it 1 over root n minus 1.
+
+And beta equals theta.
+
+So beta is what we're trying to find.
+
+So if you look at the Grover iteration,
+we start in an equal superposition of everything.
+
+Start with, I guess, that's root m minus 1 alpha
+plus 1 over root n beta.
+
+Because what we're doing is, we're
+starting an equal superposition of all n bit
+strings, which is two to the little n bit strings.
+And alpha is everything that not x--
+or, everything that's not beta, and beta is our goal.
+And so this gives us an equal superposition of everything.
+
+OK, and I don't know whether I should start.
+Yeah, let's start x equals 0 to n minus 1 x.
+
+OK, now what I want to say is that every step
+of the out every step of the algorithm
+is going to look like some amplitude.
+Let's call it a sub alpha, alpha plus a sub theta, theta.
+
+Why is this?
+Well, because we do exactly the same thing to all the
+x's which are not equal to 1.
+
+Maybe it's not clear with these [? hatta mark ?] transforms,
+but we will--
+
+no, it will become clear when we look
+at these steps of the algorithm carefully.
+So everything that is not 1, every basis state that's not--
+sorry every basis state that's not
+beta we do the same thing to so we get an equal superposition
+of all of these at time t.
+Which means we have some amplitude times
+alpha, plus another amplitude times beta.
+So maybe I should go into the steps
+and tell what each of them does, and then that will be clear.
+So x goes to minus minus 1 to the delta
+x 0 I want to claim that a matrix that does this
+is 2 0 0 minus I. Why is that?
+Well, is equal to 1 minus 1 minus 1 minus 1
+because 2 0 0 just has a 2 in the top left corner.
+And you subtract I from it, that just gives you
+1 and minus 1s here, which does exactly this.
+
+So [AUDIO OUT] is H to the n 0 0.
+
+minus I H to the n.
+Well, that is equal to, well, H to the n times 0 0
+is the equal superposition of all states.
+So let's give it a name to that.
+
+psi is equal to 1 over root n superposition.
+j equals 0 to n minus 1--
+make that x.
+X. So this is just 2 psi psi minus I. I'm good?
+And maybe I should call this 0 to the n.
+
+Oh, sorry.
+
+Should put that within the [? ket. ?]
