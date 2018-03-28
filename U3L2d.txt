@@ -1,0 +1,35 @@
+#
+# File:   content-mit-8370x-subtitles/U3L2d.txt
+#
+# Captions for course module
+#
+# This file has 26 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+What happens when you apply unitaries to density matrices?
+Ensemble psi of i with probability p of i.
+Apply u and you get u psi of i with probability p of i.
+
+And the density matrix here was row
+equals summation p of i psi psi.
+
+And the density matrix here is going
+to be rho tilda equals sum p of i.
+Well, we now have u psi of i instead of psi of i.
+So u psi of i, and now psi of i u dagger.
+
+Well, again, we use linearity.
+And this is just summation.
+p of i-- wait.
+No.
+What we want to do is we want to move
+the u outside the summation.
+So this gives u summation p of i psi of i,
+or rather the projection onto psi of i, u dagger.
+But this is row.
+Equals u row u dagger.
+So you apply a unitary to a density matrix,
+you get u row u dagger.

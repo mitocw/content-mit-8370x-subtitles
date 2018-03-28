@@ -1,0 +1,51 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2f.txt
+#
+# Captions for course module
+#
+# This file has 42 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So next, what we're going to do is
+we're going to do that disjointness problem by using
+Grover's algorithm.
+And we'll do a slight variant of it, although it doesn't matter.
+I mean, once you see how the slight variant works,
+you'll see how the original disjointness algorithm works.
+So Alice has k out of n free days are numbers.
+
+And Bob has k out n numbers.
+And they want to ask, do Alice and Bob share a number?
+
+So Alice has some subset of the n numbers.
+Bob has some subset of the n numbers.
+And you want to ask, are they disjoint, or do they intersect?
+And in fact, OK, so classical communication required
+is exactly k.
+
+And you can see how to do it with,
+say, log k or k log k because Bob just sent Alice
+all of his k numbers.
+And Alice checks whether she's available on any
+of these numbers.
+So k log k easy and o of n is also easy because Bob can just
+send Alice a 01 string where the kith bit of the string being 1
+means k was one of Bob's numbers.
+So they can do it with end bits or they can do it
+with order k log k bits.
+You can actually get it down to order of k bits.
+And you can prove that this is the best you can do.
+Proving that this was the best you can do
+was actually an open problem in classical computer science
+for several years.
+So it's not-- well, I don't want to say
+it's a really hard proof, but it's not
+a proof I'm going to be able to give in this course.
+
+And I want to say quantum order of root k.
+
+Oops.
+Order of root k times log k communication.

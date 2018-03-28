@@ -1,0 +1,95 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2h.txt
+#
+# Captions for course module
+#
+# This file has 86 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Suppose you take k equal square root of that.
+Alice chooses randomly k of n elements,
+and Bob chooses randomly k of n elements.
+
+Then the probability of intersection is 1 minus 1
+over root n to the root n is equal to 1 over e roughly.
+
+So in the Deutsch-Jozsa algorithm,
+we had a promise problem--
+
+in Deutsch-Jozsa had promise problem.
+
+And somehow you had to make sure the sets were
+either balanced or constant.
+
+f of x plus g of x either balanced or constant,
+but here we have--
+here that isn't a promise problem.
+Here it's not a promise problem because Alice
+can choose randomly.
+In fact, it's a problem that you don't even need a referee
+to give you your data.
+Alice can choose root n things randomly,
+and Bob can choose root n things randomly.
+And then you get a problem whose answer is roughly
+50-50 yes and 50-50 no.
+So this is a problem that you can't even--
+so this is a problem that, if you take a wild guess,
+you will be wrong one every other time.
+So we have not a promise problem,
+and you get quadratic speed up over,
+I believe, any algorithm that does better
+than random guessing.
+So any classical algorithm that does better
+than random guessing is going to take order of k bits,
+and we did the distributed disjointedness problem
+in low k bits of communication.
+
+So for non-promise problems, you can get exponential speed up.
+
+Sorry, for promise problems, you can get exponential speed up.
+For non-promise problems-- and these
+are what are known as total functions,
+because for any input you give Alice
+and any input you give Bob, there is an answer.
+
+Only quadratic speed up is known.
+Yeah?
+Is that a general theory for the [INAUDIBLE]??
+Well, so there's a general theorem for regular quantum
+computing that only for total functions you cannot get speed
+up beyond, I think, the sixth power.
+And there are some functions--
+
+so it's probably a theorem, but I don't
+think anybody's proved it yet.
+So let's see.
+For general functions-- no, quantum algorithms--
+
+and you ask about number of oracle calls, I don't--
+speed up from-- so this isn't about the number of steps.
+It's about the number of oracle calls.
+So you have some kind of oracle, and you're asking
+the algorithm what is going on.
+And you don't count computation time.
+You just count number of oracle calls
+where you're allowed to ask oracle things [INAUDIBLE]
+speed up from t to better than t to, I believe,
+1/6 is impossible.
+
+And there are functions that t to--
+I'm going to put down t to the 1/3,
+but I don't know the real right answer,
+but there are things that do better than quadratic.
+
+So for promise problems--
+so one assumes that the same thing holds for communication
+complexity, but I don't know whether anyone
+has proved it yet.
+
+So someone should look at this.
+I mean, so Scott Aaronson found all these weird functions
+that do that, and the question is
+whether you can turn them into quantum communication

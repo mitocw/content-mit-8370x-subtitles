@@ -1,0 +1,99 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2d.txt
+#
+# Captions for course module
+#
+# This file has 90 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So let's go over the classical, the non-distributed
+Deutsch-Jozsa algorithm.
+So Deutsch-Jozsa oracle.
+
+You have i, b goes to i, b plus f
+of x, where i is an index which takes log n bits
+and b is a bit.
+
+And you start in state summation i, 0 minus 1.
+
+So you have two registers.
+This a log n register and this is a single-bit register.
+And you probably should have a normalization factor.
+
+And now you apply the phase oracle.
+
+Or rather, you apply, actually, the bit oracle.
+
+And what the bit oracle does is it turns into a phase oracle,
+because you're applying it to this.
+So you get 1 over root n, sum i minus 1 to the f of i,
+0 minus 1.
+Because if f of i is 1, this 1 becomes 0 and the 0 becomes 1.
+So you apply a minus 1 to the state, which is here.
+And actually I guess this is root 2n.
+And this should be root 2n.
+
+And then apply Hadamard transform.
+And you get 1 over root 2 times n, summation i, summation j, j,
+minus 1 to the i dot j minus 1 to the f of i, 0 minus 1.
+
+And if i is constant, then j equals 0.
+
+There's probability 1 of getting j equals 0.
+
+And why is that?
+Because if j is 0, then you have sum--
+these are all either 1 or they're all minus 1.
+And this is 0.
+So you get sum of 0 times 1.
+You have n summands.
+You're dividing by n.
+You're dividing by root 2.
+But this last thing has a length of root 2.
+So this probability is one.
+And if i is balanced, then j equals 0 with probability zero.
+
+So that was the Deutsch-Jozsa algorithm.
+
+So how do we turn this into a quantum algorithm?
+Well, there's several ways to do it.
+I will first give you the original way,
+and then give you another way of looking at it.
+So Bob prepares 1 over root n, summation i, 1 over root 2, 0
+y i minus 1 i sub i.
+Well, I'm going to say this this is f of i.
+Let's use the right notation.
+Well, g of i.
+There we go.
+So this is i plus g of i.
+And 0 plus g of i minus 1 plus g sub i, 1 over root 2.
+So Bob prepares this and sends it to Alice.
+
+So that's easy.
+He knows g of i.
+He can prepare the state.
+
+The easy way he can prepare it is start out with this state,
+and then just take i and [INAUDIBLE]
+g of i to the second thing, which is just applying
+the Deutsch-Jozsa oracle, which he can do because he knows
+he has all the values of g.
+Alice applies f of i to this thing.
+So she gets 1 over root n, summation i, 1 over root 2, 0
+plus f of i plus g of i minus 1 plus f of i plus g of i.
+
+So how does Alice do it?
+Well, she picks the first thing.
+She looks up her value of f of sub i.
+And if it's 1, she applies a controlled NOT to this qubit.
+So she applies a controlled NOT to f of i and this register.
+Well, what have we done?
+We have got this state, where this f is actually f plus g.
+And f plus g--
+we want to figure out whether it's constant or balanced.
+So we have this state that Alice can
+apply the Hadamard transform to, to obtain the answer
+for the Deutsch-Jozsa problem.

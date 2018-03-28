@@ -1,0 +1,62 @@
+#
+# File:   content-mit-8370x-subtitles/U3L2f.txt
+#
+# Captions for course module
+#
+# This file has 53 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so what kinds of matrices can be density matrices?
+A density matrix is trace 1 positive semidefinite
+and Hermitian.
+
+And, in, fact all Hermitian positive semidefinite trace 1
+matrices are density matrices.
+
+So summation p's of i, psi of i, psi of i, tracing this.
+
+This matrix, psi i, psi i, has trace 1
+because the normal psi is 1.
+So this is equal to sum p of i trace psi i, psi
+i equals sum pi equals 1.
+
+OK, positive semidefinite.
+OK, so here you need to know something
+about positive semidefinite matrices, which
+I don't know if I have proved, but I'm not going to.
+I'm just going to tell you.
+So if you have two positives semidefinite matrices
+and you add them, you get another positive semidefinite
+matrix.
+So positive semidefinite permission
+means all eigenvalues are greater than or equal to 0.
+
+So this matrix has one eigenvalue of 1
+and all the rest are 0, and the eigenvalue
+is, of course, psi of i.
+So it's positive semidefinite.
+So its sum, and you're adding a bunch of them--
+so the sum is also positive semidefinite.
+It's Hermitian, which means its conjugate is
+its transpose, because each of these is Hermitian.
+So we've shown that any density matrix
+is trace 1 positive semidefinite permission.
+But the other way around holds as well.
+
+If m is Hermitian, then m is equal to summation lambda i
+equals 1 through d, lambda i vi vi, where the v's of i
+are eigenvectors.
+
+First, all the vi's are perpendicular,
+so you can easily see that vi is an eigenvalue of this matrix
+with--
+eigenvalue of lambda i.
+And, in fact, that's the unique matrix,
+which has eigenvectors v's of i with eigenvalues lambda i.
+Eigenvalues.
+
+So a matrix is a density matrix if, and only if, it's
+positive semidefinite permission trace 1.

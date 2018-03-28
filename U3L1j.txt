@@ -1,0 +1,47 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1j.txt
+#
+# Captions for course module
+#
+# This file has 38 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So how do you correct errors?
+Well, what we're going to do is we're
+going to define H as equal to--
+well, what we're going to do is we're
+going to take this parity check piece of the matrix
+and stick it up here.
+
+And now we have that GH equals 0.
+
+Why?
+Well, in general, let's say G equals is.
+
+H equals minus si, so s equals minus s, if they're binary.
+GH is equal to--
+well, just multiply.
+i minus s plus s times i minus s plus s equals 0.
+
+So GH equals 0.
+
+So G is a four dimensional subspace
+of a seven dimensional thing.
+H is a three dimensional subspace,
+or the column space of H is a three dimensional subspace
+of a seven dimensional space.
+And H is actually the perpendicular subspace to G.
+And you will notice that H and G have a lot
+of the same vectors in them.
+Or maybe you won't notice that, because it's not
+completely clear given this, but every vector in H,
+every row here is also a vector in G.
+And that's because, well, if you take 1, 1, 1, 0, 1, 0, 0
+and take the inner product of itself, you get 4, which is 0.
+So even weight vectors are perpendicular to themselves.
+So a vector can be perpendicular to itself.
+And that's going to be very important later when
+we get to quantum Hamming code.

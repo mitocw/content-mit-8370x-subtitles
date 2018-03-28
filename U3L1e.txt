@@ -1,0 +1,86 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1e.txt
+#
+# Captions for course module
+#
+# This file has 77 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So let's say we take 0 and we map it to five copies of 0,
+and you take 1 and you map it to five copies of 1.
+
+So suppose you have what's called
+a binary symmetric channel.
+
+So 0 is going to go to 0 with probably 0.9,
+but maybe it goes to 1 with some small probability, 0.1.
+And 1 goes to 1 with probability 0.9,
+and it goes to 0 with probability 0.1.
+So this is a 90% accurate channel,
+and it's binary because there's two inputs and two outputs,
+and it's symmetric because it does the same thing to a 1
+as to a 0.
+
+Shannon started the theory of information in 1948.
+And before Shannon, everyone had the vague idea
+that, essentially, the best thing you could do
+was repeat this.
+So if we repeat it three times, it goes to 0, 0, 0.
+Well, the answer probability of error
+is equal to 0.1 cubed plus 3 times 0.9 times
+0.1 squared, which is 0.028.
+So that's better than 0.1, which is not encoding it at all,
+but maybe it's still not that good.
+And 0 goes to 0 to the fifth.
+You get the error down to 0.0086.
+0 goes to 0 to the seventh.
+It gets down further, 0.0027, and 1.
+0009.
+0 goes to 0 to the ninth.
+So you see, you can drive your error rate
+down to 0, but at the cost of making your input longer
+and longer and longer.
+So everyone had the vague idea that something like this
+was the best possible thing you could do,
+and to get the error rate down to 0, or close to 0,
+you had to use longer and longer inputs.
+And Shannon showed this was not true.
+He showed that there was something called
+the capacity of a channel, and as long
+as you're trying to send less information than the capacity,
+you can correct it arbitrarily well.
+As long as you're sending more information than the capacity,
+you can't.
+You're stuck with a high probability of error.
+So for the binary symmetric channel with error
+a probability 0.1, the capacity is 0.531 bits per, I guess,
+channel use.
+
+So what you can do is you can take your message of length n
+and encode it and do 2m and get very low probability of error.
+So instead of 0.028 rate of bit error,
+you could drive this down to 1 in a million
+probability of an error, or 1 in a trillion,
+or as low as you want.
+
+So the penalty you pay for using this is you
+need to use block encoding, which
+means you need to take 10,000 bits of your message
+and encode them in 20,000 bits and send them over, then take
+another 10,000 bits of your message,
+encode them in 20,000 bits and send them over the channel.
+So it's not going to work for very short messages,
+and the encoding schemes are much more complicated
+than this.
+
+Is it two years after channel Shannon's paper?
+Hamming came out with a first error correcting
+code that's better than this.
+
+Actually Shannon, I guess, implicitly, in his paper,
+he used error correcting codes, but he basically
+showed they existed.
+He didn't give any good examples of them.

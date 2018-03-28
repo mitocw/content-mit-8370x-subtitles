@@ -1,0 +1,145 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3g.txt
+#
+# Captions for course module
+#
+# This file has 136 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I thought I would actually give the proof of the lower bound
+on the Deutsche Jozsa algorithm.
+So let's remind us--
+let's remember how that goes, and then I'll give the proof.
+And actually, well, I mean, the proof is kind of a cheat
+because what it does is it takes a very powerful theorem
+from combinatorics and then applies it and gets the result.
+But none of these lower bounds is at all--
+you know, if you try to prove any of these lower bound
+from scratch they're all hard.
+So I'll do this one.
+And I'll just present the hard part as a lemma.
+
+OK, So what was the Deutsche Jozsa algorithm?
+
+Deutsche Jozsa.
+
+Alice has x1-- well, Alice has a bit string x1.
+Bob has bit string x2.
+
+Either x1 equals x2 or x1 equals x2 bar.
+So this is x1 plus x2 is constant
+or the Hamming distance between x1 and x2 is equal to n over 2.
+
+So they differ on exactly half of their bits.
+
+And this is the case, x1 plus x2 is balanced.
+
+And now, we [INAUDIBLE] an obscure combinatorics
+result from the combinatorics literature.
+It's by Frankl and Rodl.
+
+So left n be divisible by 4.
+
+I have no idea where this comes from.
+
+And S T are subsets of n bit strings.
+So this is one set of n bit strings and T
+is another set of n bit strings such
+that the Hamming distance between ST
+is not equal to n over 2 for s and S and t and T.
+So suppose you have two sets of n bit
+strings such that the Hamming distance between any string
+in this set and any string in this set
+is not exactly n over 2.
+
+Then the size of S times the size of T is less than or equal
+to 4 to the 0.96n.
+So you can see that this condition is exactly
+what is not allowed for ST.
+And as Berman's paper remarks, this result from combinatorics
+seems custom made for proving a lower bound
+or classical Deutsch Jozsa.
+So what is the result again?
+What result do we want to prove?
+So Alice has x1, Bob has x2, and they
+have a conversation, x1, x2.
+Alice sends some bits to Bob, Bob sends some bits to Alice.
+
+And then Alice says either x1 equals x2.
+
+So let's-- either x1 equals x2 the distance between x1 x2
+equals n over 2.
+So we start out with two strings,
+which are promised-- they're either equal,
+or the exact opposite, or balanced.
+And actually, for this lower proof,
+we can relax it to the case they're either equal
+or the Hamming distance between them is n over 2.
+And Alice and Bob are going to have to decide,
+after some number of some length of their conversation.
+And I want to claim this should be less an n over 100 bits.
+So if they send less than n over 100 bits back and forth,
+they cannot do this.
+So really, when Alice sends information to Bob,
+it's not only the bits she sends that conveys information,
+but also the last--
+
+it's also how many bits she sends could convey information.
+And what we want to do is we want
+to say that the total information conveyed
+is at most n over 100 bits.
+So we should encode this conversation
+in some way that makes the total information conveyed
+less than 100 bits.
+And you can do this something like 0,0,0 0 means, 0,0 means,
+0,1,1 means, 1,0,1 means end of message.
+It's your-- or what is it?
+Over and out?
+
+So assume that we've done some kind of encoding
+so that the total number of bits sent is at most n over 100.
+Now, there is some record of this conversation,
+which I need to find a new variable name for.
+So let's call R the conversation.
+
+So that gives us both Alice's messages and Bob's messages.
+So there are at most 2 to the R equals 2
+to the n over 100 conversations.
+
+Now, let's look at Alice's strings and Bob's strings.
+So 1,2,3 through 2 to the n and 1,2,3 through 2 to the n.
+So if Alice has--
+actually, I probably should say 0 and 2 to the n minus 1.
+So If Alice has 0 and Bob has 0, and they
+use whatever protocol they're using,
+they will get some conversation at R1.
+And if they both have R0, if they both have one,
+then they should have R1.
+If they both have two, they have R2, all the way down to R2
+to the n minus 1.
+And of course, this matrix has a lot of other entries in it,
+but let's just worry about the ones along the diagonal.
+
+There are 2 to the n over 100 conversations, total--
+
+or 2 to the n over 100 possible conversations, total.
+And there are 2 to the n entries along this diagonal.
+So there exists some R that appears 2
+to the n over 100 times.
+
+No, 2 to the--
+
+I'm doing this wrong.
+There are 2 to the n conversations total--
+or 2 to the n entries along this diagonal.
+Each of them is represented by one conversation,
+and there are 2 to the n over 100 possible conversations.
+So there are one conversation that
+appears 2 to the 0.99 n times.
+Good?
+OK, so let's just mark which things that appears
+and which things it appears in here.
+And we'll call this set S, and we'll call this set S as well,

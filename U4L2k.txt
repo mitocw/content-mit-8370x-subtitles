@@ -1,0 +1,92 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2k.txt
+#
+# Captions for course module
+#
+# This file has 83 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Well, the problem is that there is a very clever thing
+that Alice and Bob can do with classical communication.
+Cannot prove lower bound of theta of n for classical
+communication because it's not true.
+
+So this is the step I've kind of swept
+under the rug in all the examples I've given you.
+
+And for the disjointness problem,
+it really was hard to prove the lower bound
+for classical communication complexity.
+And in Simon's algorithm, it's actually not true.
+So Bob computes-- well, let's do this a little slower.
+Bob chooses y at random, sends Alice the exclusive r over x
+perpendicular to y, f of x.
+So this is log n bits.
+
+And I keep forgetting that Bob's function is called g.
+
+So I am going to say this is 2 to the n minus 1 log(n) bit
+strings.
+And you just add them bitwise, so you get a new log(n) bit
+string.
+Alice computes [? cross x, ?] x perpendicular to y, f of x.
+
+And then she takes Bob's thing that he
+sends her, plus g of x, x perpendicular to y.
+So this is equal to exclusive r of f
+of x plus g of x for x perpendicular to y.
+
+So suppose c is perpendicular to y.
+
+This is 0.
+
+And if c is not perpendicular to y,
+this is very unlikely to be zero for random functions f and g.
+
+So why is this 0?
+Well, this is equal to--
+
+over x prime, f of x plus g of x plus f
+of x plus c plus g of x plus c.
+
+Because if c is perpendicular to y, then
+if x is perpendicular to y, x plus c is perpendicular to y.
+So you can take this set of things perpendicular to y
+and divide them up into pairs, so
+that x prime contains one of x, x plus c
+for all x perpendicular to y.
+
+And we know that this thing is zero,
+because that's our condition on our functions for Simon's
+algorithm. f of x equals plus g of x equals f of x plus c
+plus g of x plus c.
+
+So we know that this is 0.
+So Alice is going to get a whole bunch of vectors
+which are perpendicular to c.
+And if she's lucky, there are no vectors
+that are not perpendicular to see
+in this bunch, which means she can find c by linear algebra.
+And if she's not lucky, maybe there
+are some vectors in this bunch that
+happen to be perpendicular to c just by sheer chance,
+because this is log n bits.
+They all might be 0 with probability 1 over n
+if they're random.
+If you choose f and g at random, satisfying this condition,
+it's not hard to show that if y is not perpendicular to c,
+this is a random number.
+But even if there are some vectors in there--
+even if there are some y's that are not perpendicular to c,
+she can just go through all possible c's.
+And there will only be one that's
+perpendicular to all her vectors.
+So she can identify it.
+
+So when you try to use Simon's algorithm
+to find a function that gives you
+exponential speed-up in communication complexity,
+it fails.

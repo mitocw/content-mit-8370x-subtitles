@@ -1,0 +1,136 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3c.txt
+#
+# Captions for course module
+#
+# This file has 127 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Suppose Alice and Bob share some source of random bits.
+
+And we'll also assume that the adversary does not
+know these random bits.
+
+OK.
+And this is actually an important case,
+because the quantum algorithm protocol
+we're going to present at the end of this discussion
+is going to look a lot like this.
+Or rather, it's going to use some of the same ideas.
+
+How can Alice and Bob win with--
+
+actually I think they win with a constant number of random bits.
+
+Deterministic, so shared randomness, O of 1.
+
+Well, the answer in this case is not at all clear.
+So for those who came in, the problem
+is Alice and Bob both have strings,
+and they want to send their strings to some third party
+in this collective game.
+And they want the third party to tell whether x1 equals x2,
+whether the strings are the same.
+And they want to send as few bits as possible
+to the third party.
+So classically, if they share random bits
+that the opponent who's trying to trick them
+doesn't know about, they can do really well.
+And the reason is they can use error-correcting codes.
+There exists an error-correcting code mapping n bits to 2n bits,
+such that any two code words differ in 2n over 30 bits.
+So if you have two code words, then they
+can overlap in 29/30 of their bits,
+but they differ in 1/30 of them.
+So there are error-correcting codes like this.
+And they're called [INAUDIBLE] codes.
+And you can actually write them down explicitly and use them.
+And actually, there's probably a whole bunch
+of other kinds of codes which you can write down explicitly
+that have very similar properties.
+
+This is the one that the paper by [? Berman ?]
+just used as the example.
+So we'll use this one.
+So there is n bits to 2n bits.
+Well, obviously since they're n-bit strings, what
+we're going to do with this is we're
+going to have Alice and Bob encode their bit strings.
+So Alice maps x to the encoded version of x, and Bob maps y--
+
+well, x1 to the encoded version of x1,
+x2 to the encoded version of x2.
+
+And they might overlap in a lot of places.
+But there's some places they differ in.
+
+So for example, here they differ there, there, and there.
+
+And now we come to the great use of the randomness
+that Alice and Bob share that the opponent doesn't
+know about.
+I really should call him an opponent,
+because it sounds less scary.
+
+OK.
+So Alice and Bob randomly choose 60 bits.
+
+And they use the same random string
+to choose it, so they choose the same 60 bits from each
+of the things, send them to R. So what bits do they choose?
+Well, let's say they choose this one, this one, this one,
+and this one.
+In that case, the responder would get 1, 1, 1, 1.
+And here he would get 1, 1, 0, 1.
+
+If the 60 bits are the same, answer yes.
+And if they're not, answer no.
+
+OK.
+So now we want to know what the probability is that they fail.
+
+At x1 equals x2, the probability is 0
+because these are identical things.
+So no matter what bits you pick from them,
+they're going to be identical.
+So if they're equal, the probability is 0.
+If x1 is not equal to x2--
+well, these two strings differ in at least 1/30 of their bits.
+So if you choose a random bit, the probability that x equals y
+is less than 29/30.
+
+So the probability, I want to say, is greater than 29/30.
+
+1 minus 29/30 to the 60th, because they're
+choosing 60 random bits and each of them
+has, at most, a 29/30 probability of being the same.
+So the chances that all the bits are the same is at most 29
+over 30 to the 60th.
+And that's approximately 1 minus 1 over e squared.
+
+Oh, wait, no, the probability they fail
+is 29/30 to the 60th, which is 1 over e squared.
+
+And of course you can make this probability as small
+as you want by just sending 90 random bits or 300 random bits
+or whatever.
+And it's still a constant amount of communication.
+So if Alice and Bob randomly choose k bits
+and send them to R, the probability the algorithm fails
+is going to be e to the minus k-th over 30 roughly.
+Yeah?
+So this uses a logarithmic amount
+of randomness [INAUDIBLE]?
+
+How much randomness does it use?
+Yeah, it uses a logarithmic amount of randomness,
+although that's not one of the parameters we'll
+be counting in our resource.
+But yeah, because you need to choose
+some number of random bits and each random bit counts log n.
+Each random bit takes roughly log n to choose.
+
+So here shared randomness was O of 1.

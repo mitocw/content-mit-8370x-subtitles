@@ -1,0 +1,42 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2e.txt
+#
+# Captions for course module
+#
+# This file has 33 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Why does this take much more communication
+when it's done classically?
+Actually, if Bob just took Logan random bits
+and set them to Alice and said which of these bits
+they were of his function, Alice could
+decide very high probability whether the function was
+constant or balanced because with high probability
+either of these log in random sample
+bits is going to be either half and half, 0, and 1,
+or all zeros or all ones.
+When she XRs Bob's bits with her bits.
+But if you want it deterministically,
+you can show that Bob needs to send Alice essentially
+all of his bits.
+Yeah?
+So this is basically no different
+than the normal Deutsch QS algorithm in terms of speed up.
+Right.
+This is exactly the same as a normal Deutsch's algorithm
+in terms of things speed up.
+And in fact, all of the things we do today
+are going to be the same as the classical counterparts in terms
+of speed up.
+They're nondistributed counterparts?
+What?
+They're nondistributed counterparts?
+They're nondistributed counterparts.
+Right.
+So yeah, and I'm not going to explain
+how you prove that Alice and Bob can't
+do this deterministically, but it's not too hard for.

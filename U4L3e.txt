@@ -1,0 +1,59 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3e.txt
+#
+# Captions for course module
+#
+# This file has 50 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We can ask what happens with quantum.
+So what we're going to show is that this entry is log n.
+So here we get an exponential advantage
+for quantum fingerprinting over classical fingerprinting.
+
+And of course, quantum fingerprinting cannot do any
+better than O 1.
+And I don't know what quantum fingerprinting can
+do in the deterministic case.
+
+So, we're going to do the same thing,
+we're going to use the same error correcting code.
+Alice and Bob are going to each prepare a quantum state.
+Prepare a quantum state.
+
+And Alice prepares, well this is a two-end bit error correcting
+code, so let's say i equals 1 through 2n square root of 2n
+E--
+
+i E sub i.
+
+Bob prepares one of root 2n sum i equals 1 through 2n.
+i, E sub i.
+And I should say this is the encoding of Alice's x1,
+and this is encoding of Bob's x2.
+
+So these are the fingerprints.
+
+x1 equals x2.
+
+Let's give these names, psi1 and psi2.
+
+psi1 and psi2 is equal to 1.
+
+If x1 is not equal to x2, psi1 psi2 is equal to sum.
+Well, they're summing from 1 through 2n, so 1 over 2n sum i
+equals 1 through 2n.
+And you want to take the inner product of this with this.
+So i i E ia and E ib.
+
+So when you take the inner product of this with this,
+if the values of i here are different
+in the first register, the inner product is 0,
+so you only need to worry about the ones where they're equal.
+And that's E ia and E ib.
+And we know from this error correcting code,
+that at most 29/30 of the bits are equal.
+So this is less than or equal to 29/30.

@@ -1,0 +1,43 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7g.txt
+#
+# Captions for course module
+#
+# This file has 34 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+And that is another quantum key distribution protocol,
+which is actually--
+well, much harder to implement than the BB84 protocol
+because all the BBT84 protocol uses
+is photons that are one of four bases,
+and Bob just measures them.
+And a random basis-- that's incredibly easy to do-- well,
+maybe not incredibly easy.
+It's moderately easy to do with all sorts of different--
+with standard equipment.
+And in fact, John Smolan and Charles Bennett in--
+oh, gosh, 1989 or so--
+it's here, somewhere.
+Anyway.
+They built a apparatus that did this.
+that was 30 centimeters long, and set qubits
+in one of two states, and then decoded that--
+measured them, decoded them.
+And so this was secret communication
+over a foot and a half.
+And they-- actually, it wasn't really secret because
+the apparatus made a different sound if it encoded a 0
+or if it encoded a 1.
+So it was secret for anybody who was deaf.
+[LAUGHS]
+But Jill Brossard remarks that after Charlie and John built
+this test apparatus, physicists suddenly started paying
+attention to quantum key distribution,
+whereas before they haven't.
+And Jill Brossard was rather amazed
+by this belief in experimenting, which
+I don't know whether physicists should be amazed by it, but--

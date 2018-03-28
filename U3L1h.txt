@@ -1,0 +1,31 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1h.txt
+#
+# Captions for course module
+#
+# This file has 22 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In general, if the minimum weight,
+non-zero code word has weight d--
+
+has weight d-- you can correct t equal d plus 1
+over 2 errors, d minus 1 over 2 errors.
+
+OK, I seem to have forgotten one crucial fact here,
+which is that c1 minus c2 is a code word--
+c1 minus c2-- code word.
+
+And the Hamming weight of c1 minus c2
+is a Hamming distance between c1 and c2,
+because a Hamming weight is the number of non-zero entries,
+and the Hamming distance is the number
+of positions they differ.
+
+So the Hamming weight of c1 minus 2
+is equal to the Hamming distance between c1 and c2.
+And c1 minus c2 is the code word, well,
+because the code is linear.

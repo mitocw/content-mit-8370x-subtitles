@@ -1,0 +1,94 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1d.txt
+#
+# Captions for course module
+#
+# This file has 85 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So what we're going to be doing in the next section
+is quantum error correction and quantum error correcting codes,
+and a bunch of other stuff.
+So what I'd like to do is I'd like
+to start with a little overview of classical error correcting
+codes, because quantum error correction codes are just
+classical error correction codes quantumized,
+kind of like the quantum fourier transform
+with a discreet fourier transform quantumized.
+So I want to talk about errors.
+
+In information theory, they're called messages,
+but they might be a movie, or they might be a song,
+or they might be something else.
+And you have a DVD player.
+And if you take a DVD and you scratch it,
+you're destroying some of the bits on it.
+But then you take this DVD and you stick it
+in your DVD player--
+miraculously, despite the fact that you've
+destroyed a bunch of the bits on it,
+it still works, unless you scratched it a lot,
+in which case it stops working.
+
+That's because the DVD is encoded
+with a classical error correcting code
+and it corrects errors.
+
+I think I want to start with the first error correcting
+code that exists.
+But first, I'll tell you a little story.
+In the 19th century, ships went around with chronometers.
+And the reason they all had chronometers,
+and these were very important, is you have a globe here.
+If you can figure out your latitude
+by looking at the stars and, well,
+you can see how far from the horizon the North Pole is.
+But how do you figure out longitude?
+
+Yeah?
+Compare the local time to a constant time reference?
+
+So you know the sun is supposed to rise at your latitude,
+and that's local time.
+So compare sunrise with a clock.
+But you need a really, really, really, really good clock
+to do this, because if you're off at a voyage
+and it takes months, and your clock loses or gains
+several minutes, then you're really
+are not sure where you are, in terms of this.
+
+So as I say, you need a very good clock.
+So there's this book called Longitude
+by Dava Sobel that tells about how this one man--
+so the British government put out a prize
+of some huge number of pounds, back in those days,
+for constructing a way of determining longitude.
+And this guy spent his entire life
+developing an accurate chronometer.
+
+And it took him an enormous struggle to get the money.
+And actually, the chronometers that ended up being used
+were developed by some guy in France
+that used some of this guy's ideas
+and some of their own ideas and developed accurate
+chronometers, which by 1800--
+I think that's 50 years after, I forgot his name, lived--
+
+they started putting them on ships.
+But a ship always carried three chronometers.
+Can you tell me why?
+
+So why don't you just carry one chronometer?
+Yeah?
+If one of them is faulty, you can take the majority.
+Yeah.
+If you have two, and one of them says 8:35
+and the other says 8:55, you don't know which one's right.
+If you have three, you can take the majority.
+You don't really want to average them because if one of them
+says 8:55 and the other two say 8:35,
+you know which one's right.
+

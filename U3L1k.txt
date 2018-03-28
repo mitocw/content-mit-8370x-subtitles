@@ -1,0 +1,132 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1k.txt
+#
+# Captions for course module
+#
+# This file has 123 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So how do you correct errors?
+Here's a diagram which is very useful.
+
+So here's an encoder, noisy channel, c plus e, decoder,
+m hat.
+
+And what we want is we want m hat to be equal to m.
+
+So we want m equals m hat, f.
+The Hamming weight of e equals 1.
+So if there's only one bit that's an error,
+we want m equals m hat, because I said this
+was one error-correcting code.
+So how do you correct errors?
+Well, what you get is--
+I guess I should say c equals m times G. You
+get m times G, plus e.
+
+So this is the received code word.
+
+So what we're going to do is we're going to take mG plus e,
+and multiply it by H. And this is
+equal to mGH plus eH, which equals eH because, remember,
+GH equals 0.
+
+So we've got something that doesn't depend
+on the code word that was sent.
+It just depends on the error.
+So this is called the syndrome.
+And I assume it's called the syndrome because you
+use it to diagnose the error.
+
+And so we now have to compute the error from the syndrome.
+
+So for general linear codes--
+
+I want to say something about general linear codes
+before I get back to this.
+
+So for general linear codes, codes have GH equals 0.
+
+And mG plus e times H equals eH.
+And this is still called the syndrome.
+And you want to compute eH.
+From eH you want to compute e.
+So this is the hard part.
+
+And once you have e, you have mG plus e minus e equals mG.
+And if you know mG, you can figure out
+m, because that's just--
+well, in this case, m is just the first four bits of mG--
+but even in cases where it's not,
+it's easy to compute m from m times G.
+Because that's just linear algebra.
+And encoding is just linear algebra, too.
+And getting eH is just multiplying by matrices.
+And getting e from eH is--
+well, for arbitrary binary codes, it's NP complete.
+But for special binary codes that
+have been constructed to be easy to decode, you can do it.
+But, you know, Shannon came up with his paper in 1948,
+Hamming came out with his first code in 1950.
+It took 25 or 30 years before people had--
+well, I'm trying to remember, it was probably less
+than that-- it took one or two decades before people came up
+with good codes that were practical,
+that could really be used in deep space communication.
+And there's another interesting thing,
+which I think has a very useful moral for quantum computers.
+In 1973-- it was a retrospective of the first 25 years
+of information theory.
+And someone said, we've basically
+figured out all the basics, and all we need to do
+is wait until computers are fast enough to actually have
+these things work.
+So when computers became fast enough that you could actually
+put these things on computers and have them work,
+they figured out there were lots and lots of better ways
+to do things than the ways they knew about in 1973.
+So actually having computers makes a huge difference.
+So I hope that having quantum computers
+will make a huge difference to quantum algorithms and quantum
+theory, and quantum error correction and all that.
+
+In fact, the best codes that we know about today
+were discovered by two French engineers,
+who had an idea for improving decoding
+of convolutional codes.
+And they tried this idea, and it got them
+within a few tenths of a percent of the Shannon's
+theoretical limit of how good codes could be.
+So-- yeah?
+If I read it right, what you showed
+us works for linear noise.
+Does it also work for convolutional noise?
+
+So you can do things to make convolutional noise
+look like linear noise.
+
+And, in fact, the real noise you need to worry about is bursts.
+But you can also do things that are good against bursts.
+So yeah, you can make everything look like linear noise.
+
+So when the two French engineers, or I
+forget how many French--
+well, there was one French engineer
+who actually discovered that.
+And then he communicated it with his colleagues,
+and they worked on it and decided
+it really worked, and published this paper together.
+And when it first came out, none of the theorists believed it.
+So they coded it up and they saw it worked, too.
+So then they started trying to figure out why it worked.
+And it took nearly another decade
+before they actually had a proof for why something related to it
+worked.
+OK, so where were we.
+
+Yeah, so general linear codes--
+the hard part is computing the syndrome,
+or the error from the syndrome.

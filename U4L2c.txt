@@ -1,0 +1,85 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2c.txt
+#
+# Captions for course module
+#
+# This file has 76 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+First Deutsch-Jozsa-- so this was the first,
+I think, quantum communication complexity result.
+So let's remember the Deutsch-Jozsa algorithm.
+
+Jozsa [INAUDIBLE] problem.
+
+You have an oracle--
+
+oracle f of x.
+
+Either f of x is balanced, f of x equals 0, or x over 2 inputs
+and f of x equals 1 for x over 2 inputs, or f of x is constant.
+
+f of x equals 0 for all x in x, or f
+of x equals 1 for all x in x.
+
+So what we're going to do is we're
+going to turn this into a communication complexity
+problem--
+
+so into a distributed problem.
+
+So how does this work?
+Well, let's say we have Alice and Bob, and each of them
+has a function.
+
+And now, in this case, rather than having the function
+given by a black box, we have the function
+given by a lookup table, which means the function is
+going to be on--
+well, we want the lookup table to fit
+in the size of their memories, and if their memories are, say,
+n cubits, then the function is going to be log n qubits f on.
+So Alice has f on log 2 n qubits--
+or bits, actually, and Bob has g, also
+on the same number of bits.
+And now what we're going to require
+is that either f plus g is balanced
+or f plus g is constant.
+
+And what we're going to show is there's
+a quantum algorithm that decides with certainty which
+of these two is the case, and any classical algorithm
+can only [? decide ?] probabilistically.
+
+Algorithm can [? decide ?] probabilistically n log n
+time--
+actually log n bits of communication.
+
+And deterministically in o of m bits of communication.
+And the quantum algorithm can decide deterministically
+in o of m bits.
+
+No, o of log n bits.
+I'm sorry.
+
+So actually, you remember that the regular Deutsch-Jozsa just
+took one bit of look up.
+
+And let's see.
+
+And the quantum Deutsch-Jozsa algorithm
+is going to take log n bits.
+So there's a difference between one
+call to the oracle and the log n call, but you can get--
+I mean, do people remember how the Deutsch-Jozsa algorithm
+worked?
+
+You took the Fourier transform-- or rather, you
+took the Hadamar transform, and if a Hadamar transform
+was 0, 0, 0, 0, 0 then it was constant.
+And if it was not, then--
+well, then it can't be constant, which means
+that it has to be balanced.

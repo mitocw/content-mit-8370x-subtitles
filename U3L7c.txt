@@ -1,0 +1,57 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7c.txt
+#
+# Captions for course module
+#
+# This file has 48 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So now we did the assumptions.
+Assume Alice and Bob have a classical channel.
+
+Eve cannot-- can listen to it, but cannot change the bits
+on it, which actually is called spoof in cryptanalysis lingo.
+So Eve can listen on it, but she can't change anything on it.
+And they have a quantum channel.
+Quantum channel.
+
+Eve can do anything.
+
+In particular, she can cut the quantum channel,
+which means they can't use quantum key distribution.
+So what we have to do is we have to say that--
+
+you know, not that Alice and Bob can agree on a bit,
+but that Alice and Bob are very unlikely--
+it's very unlikely that Eve can detect anything
+that Alice and Bob agree on.
+
+So those are assumptions.
+Options So Bob sends Alice, chooses a basis randomly,
+sends Bob, Bob sends a basis to Alice,
+and Alice sends a basis to Bob afterwards.
+
+Sends basis.
+
+After all this stuff is done on the quantum channel,
+and then they know which bits they agree on,
+and if nothing goes wrong, they have a serial key.
+But, of course, this is real life,
+and real life channels are noisy.
+Something you send as a vertical photon may get
+measured as a horizontal photon.
+
+And then, you know, they don't agree.
+This would be 0, 1, 0, 1, 0, 1.
+So-- and, of course, you can't tell
+whether noise is Eve listening in or just the channel's noise.
+So what do you do in real life to get rid of this thing?
+Well, it turns out that the first bunch--
+this protocol is exactly the same.
+But then you do classical post-processing
+on your random bits.
+
+OK.

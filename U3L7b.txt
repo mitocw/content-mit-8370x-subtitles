@@ -1,0 +1,106 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7b.txt
+#
+# Captions for course module
+#
+# This file has 97 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+The idea is based on photons.
+So the idea is if you have a photon, it's a qubit.
+It's either-- you can measure it in this basis, this basis,
+and you can measure it in this basis,
+but you can't measure it in both places.
+So these are conjugate bases.
+And you're putting it in one of these two bases,
+which means it's--
+this is why Wiesner called his paper "Conjugate Coding."
+
+And if you have photons in this basis,
+and somebody tries to measure it in this basis,
+they destroy them in this basis, which means
+they're no longer what you did.
+In other words, if you have a photon measure in,
+the original state gets destroyed.
+
+So that's the idea behind Bd84.
+
+So I'm going to start with the simplest idea.
+
+So let's say Alice chooses bases.
+
+So let's say there's one for each photon.
+
+And then she encodes--
+
+let's say 0 is one of these, and 1 is either that.
+No, 0 should be vertical and 1 should be horizontal, I think.
+
+There we go.
+So this is-- sends random bits.
+
+And I should say she chooses her basis randomly.
+
+So now let's make one of these that.
+So now Bob chooses random basis and measures.
+
+And whenever they agree, Bob gets the same thing.
+Wherever they disagree, Bob gets a random bit.
+
+OK.
+Now, after Bob has measured, Alice sends Bob her basis.
+
+Sends Bob bases.
+
+Discard ones where they don't agree.
+
+So let me mark the ones that agree.
+
+Have randoms-- have bits--
+well, so this is 0 1 1 0 1.
+No, wait.
+0 1 0 0 1 0 1.
+0 0 1 0 1.
+And now, assuming everything went perfectly,
+they have the same random bits, which
+means they share a secret key, which means they can use this
+as a secret key for some crypto-system
+and communicate securely.
+And if they want to be absolutely secure,
+they can use a one-time pad to communicate
+using these random bits.
+
+So I should have put--
+
+I should have said what assumptions I'm using,
+but we'll do that later.
+So if everything went perfectly--
+
+went perfectly-- they share a secret key.
+
+But suppose there was an eavesdropper.
+Well, they wouldn't know that she'd know.
+She might have gotten some bits of their secret key.
+
+The idea is can check half the bits to see if they agree.
+
+And if half of the bits agree, other half
+probably agree and probably no eavesdropper.
+
+But there's all these probablys in there.
+We don't like those.
+Good.
+Bob sends basis to Alice.
+But he only does that after he measures
+because he wants to make sure that if an eavesdropper is
+measuring, she doesn't know which basis
+he's sending them in.
+And if she measures in the wrong basis,
+she's going to get some of the bits wrong.
+So I want to add a line here.
+So what they do is they check some of their bits,
+find the error rate by comparing a sample of their bits--
+a sample of their bits.

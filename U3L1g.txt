@@ -1,0 +1,61 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1g.txt
+#
+# Captions for course module
+#
+# This file has 52 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+A Hamming weight of a vector equals the number of non-zeros.
+
+So for binary vectors, which are all
+we're going to care about is, it's the number of ones.
+
+The Hamming distance between d and w is equal to h w of v
+minus w equals the number of places--
+the number of positions they differ.
+
+So no I can tell you my fact.
+
+The minimum Hamming weight of a non-zero code word of c
+not equal to zero in code is 3.
+
+Well, we can go back and look at this.
+This row has Hamming weight three.
+This row has Hamming weight 3.
+This row has Hamming weight 3.
+This encode-- this code word has Hamming weight 4.
+
+And I want to claim that this implies it corrects one error.
+
+Proof.
+
+Given a received word, let's call it a c hat.
+
+There is, at most, one c in code that
+has the Hamming distance between c, c hat equal one.
+Well, equal-- less than or equal to 1.
+So, either c hat could be in the code, in which case
+the Hamming distance between--
+there's a code word which has Hamming distance of 0
+with c hat.
+Or c could not be in the code, in which case
+there is, at most, one code word that
+has distance of 1 between them.
+
+So if you start with some c, you have
+a c hat which has one error.
+That means the Hamming distance between c and c hat is 1.
+Which says there's only one code word it could have come from.
+OK, and the proof is very easy.
+Y-- So it is a proof by contradiction.
+Suppose not then the Hamming distance between c hat and c 1
+is the less than or equal to one.
+And a Hamming distance between c hat and c 2
+is less than or equal to one.
+And by the triangle inequality, which
+it's easy to check with a Hamming distance, satisfies--
+that says that the Hamming distance between a c 1 and c 2
+is less than 2, which is a contradiction.

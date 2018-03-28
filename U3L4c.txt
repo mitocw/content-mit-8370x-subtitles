@@ -1,0 +1,122 @@
+#
+# File:   content-mit-8370x-subtitles/U3L4c.txt
+#
+# Captions for course module
+#
+# This file has 113 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's look at a quantum code and use
+that as an example to illustrate some
+of these ideas and definitions.
+
+Remember the quantum bit flip code.
+So now in order to understand the code let's
+first look at the noise model.
+What I just erased here was the classical noise model
+of the binary symmetric channel.
+In the quantum case, what we have
+is a map that says that some input density
+matrix goes to sum output density matrix e of row.
+This is a notation that's commonly
+used in the community, which I'll
+start to use today, which was with some probability 1 minus p
+the original density matrix that comes in.
+You can think of this as a pure state if you wish.
+With some probability 1 minus p nothing happens to the state.
+But I'll have a stochastic combination.
+So with probability p, I'll have some error.
+And in this case, the error is x row x.
+And remember, we conjugate.
+We put the unitary operation on both sides of a density matrix.
+If this were a pure state, this would
+be something like psi psi, and then it
+would have u and u dagger on either side like this.
+So think of that as you see a term which describes an error.
+I'm not going to describe in formal ways
+all the ways that a density matrix can involve,
+but this is the noise model.
+And this is called the bit flip channel.
+
+And we encoded a single qubit for this code
+where we defined the logical 0 as being
+three zeros and the logical 1 as being three ones.
+
+So another thing that's useful to keep in mind
+is the picture behind this.
+What we have is two parties that are trying to communicate.
+And these are probably the two most famous people
+in the field after Peter Shore, Alice and Bob.
+So Alice had some state row.
+And she's communicating with Bob over a channel
+which I'll call e or epsilon.
+And Bob receives e of row like this.
+So that's the physical picture behind what I'm drawing.
+Right.
+And Bob wants to be able to recover the information
+that Alice has sent, despite what Eve might do.
+Eve being the environment that's causing the errors,
+otherwise known as e or epsilon in this diagram.
+So Eve is probably the fourth most famous person
+in quantum information.
+The way we're doing this can be defined
+in a much more formal way by giving you
+an analogous definition to the classical codes,
+but for quantum codes.
+So let me define that for you.
+A quantum code with parameters n, k, and d.
+Excuse me.
+I'm going to leave out distances for now.
+So a quantum n, k code--
+and the convention in the community
+is to use double brackets for quantum
+codes versus single brackets for classical codes--
+is defined as a k qubit subspace of an n qubit Hilbert space.
+
+Period.
+
+There's no more to the definition.
+That is, it's just some subspace of a Hilbert space.
+Just like for classical codes I told you
+the classical code was a set of bit strings.
+Now, OK, it's a subspace instead of just a set of vectors.
+But the set of vectors happens to be orthonormal to each other
+and defines a Hilbert subspace.
+So the reason I've left out distances and so forth
+is because they're a little hard to define
+until I give you the analogous quantity to a Hamming weight
+and Hamming distance.
+And I'm not going to do that in this class.
+But you can rest assure that it does exist
+and is a very powerful thing in the field.
+So let's get an example.
+
+Again, 0 0 0 and 1 1 1 is the logical codewords.
+Here are k equals 1, n equals 3.
+Now, compare this with what you might
+do if you are a classical coding theorist in 1995.
+You might have said if Alice has stated
+that she wants to transmit row, then
+she should transmit psi, psi, psi.
+
+Why can't she do that?
+Well, if she doesn't know how to produce psi
+but she was just giving it, then, first of all,
+she has no way to clone that unknown state
+to get three copies of it.
+Secondly, you'll find that even if you did create it and send
+it across like this, you can't measure that state to find out
+what errors occurred on it.
+So although we showed you how this works,
+there is an enormous conceptual leap
+that went to creating this instead of that
+that I want you to appreciate.
+And this is not how quantum codes work.
+This is how quantum codes work.
+This is the obvious way to make quantum codes
+that we've just forgotten about because it doesn't work.
+And there is something very non-intuitive about doing it
+this way until you get your mind rearranged like a quantum

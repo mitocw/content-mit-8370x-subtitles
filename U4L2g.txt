@@ -1,0 +1,70 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2g.txt
+#
+# Captions for course module
+#
+# This file has 61 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Grover's algorithm-- find marked set,
+and we have an oracle that takes.
+
+Actually, we want to find an element of the mark set,
+and we have an oracle that takes xb to xb plus f of x.
+f of x equals 1 if x is marked and 0 if x not marked.
+
+And this takes root s time.
+
+So again, we're going to use Bob as an oracle.
+
+So what do we do?
+Well, we have Alice has k possible dates,
+and let's call these set SA.
+
+Alice prepares summation i in SA ib.
+
+Sends to Bob.
+
+Well, actually this is going to be 0.
+
+Actually, it might be easier if we--
+
+no, let's do it this way.
+i0 sends to Bob.
+
+Bob sends back i--
+
+well, 1 if x is in SB, 0 if x is not in SB.
+
+And he does this, again, coherently
+by doing control not from the index i into this register.
+
+So I'm going to claim this is a Grover oracle for Alice,
+because Bob tells Alice if the set is marked
+or if the set is not marked, or if the element x is marked--
+or rather, this is i, not x--
+Bob tells Alice whether the element i is marked
+or the element i is not marked.
+
+And now Alice has applied Grover's oracle.
+And if Alice can apply--
+use Bob as a Grover oracle, she can just
+run Grover's algorithm, and every time Grover's algorithm
+says, call the oracle, she just sends a message to Bob,
+and he sends a message back to her.
+And actually, I should say she sends it to B,
+and this is 1 plus B--
+or 1 exclusive [? rB ?] if I is an S, and B if I is not an S.
+So she can do Grover's oracle by sending
+one message of login bits to Bob and him sending it back.
+So Grover's oracle requires root k time
+to identify a marked element.
+So Alice's algorithm-- Alice's distributed quantum algorithm
+requires root k time to identify a marked element,
+and a marked element is clearly an [? outside ?] set of SA.
+And because it's marked, it's in Bob's SB.
+
+so this is distributed disjointedness.

@@ -1,0 +1,73 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7d.txt
+#
+# Captions for course module
+#
+# This file has 64 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So first, Alice and Bob use error-correcting code.
+
+Code.
+Let's call it C to make sure they agree.
+
+And how do they do this?
+Well, Alice has a string of bits, b,
+and Bob has a string of bits, b plus e.
+
+And we'd, like this e--
+we'd like this somehow to turn into correcting an error
+with an error-correcting code.
+So Alice chooses a random c in C.
+So she chooses a random code word in C,
+and she computes b plus c and sends this to bob.
+And Bob can now--
+
+and I want to say Bob adds b plus c and b plus e.
+Let's just write this out.
+
+Equals c plus c.
+So Alice has c.
+Bob-- well, this is a error-correcting code
+with a small error added.
+We can correct it.
+So Bob computes c.
+And now, what does Bob do?
+
+Well Bob has b plus e, he has c plus e, and he has c.
+If you add all those together, you get b.
+
+c plus e plus c is equal to b.
+So Bob can get Alice's bit string from Alice's bit string.
+And what did Alice do?
+She took her error-correcting code
+and ran it, added a random bit in the error-correcting code
+to get to b to get c.
+So I want a claim that doesn't leak any information to Eve.
+Or rather it does, but doesn't leak very much.
+
+So basically it leaks the--
+
+it leaks the co-set of C that b is in.
+
+So let's say C is 2 to the k code words.
+
+They still have k random bits because they agree on C.
+And C isn't the code, so they have 2
+to the k possible messages.
+So maybe I should have said, they--
+Bob can compute c and Alice knows c,
+so maybe C is their random string.
+
+OK.
+So they agree on 1 of 2 to the k messages.
+And because b was totally random,
+b plus c doesn't tell anything to Eve.
+Rather, it tells her what co-set of c b is in,
+but it doesn't tell anything about which code
+word in our error-correcting code they agreed on.
+So you still have k random bits because they
+agree on a code word in C.

@@ -1,0 +1,96 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2j.txt
+#
+# Captions for course module
+#
+# This file has 87 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I'm going to say what goes wrong when you try
+to do this for Simon's problem.
+I don't think anybody has ever written this up, and it's neat.
+So Simon's problem-- try to turn into communication complexity.
+
+And I'm running out of chalk.
+OK.
+So Alice has function f mapping.
+
+Well, f maps, I guess, log n bits into--
+
+Now, presenting this to you, I may discover
+that I'm wrong about this.
+But let's try this for Simon's problem anyway.
+So Alice has f mapping log n bits into log n bits.
+And Bob has g mapping log n bits into log n bits.
+And we know f of x plus g of x plus f of x
+plus c plus g of x plus c is--
+I want to say it's 0.
+Because remember, Simon's problem--
+
+f of x was equal to f of x plus c.
+So here what we're doing is we're
+taking f of x plus g of x instead of f
+of x, and f of x plus c plus g of x plus c
+instead of f of x plus c.
+And when you take the exclusive or of all four of these things,
+you want to get zero.
+So here I want to say, Alice can compute--
+
+so what can Alice compute?
+Alice can compute oracle x b to x f of x plus g of x plus b,
+using 1 log n bit message.
+
+And Bob actually gets two log n messages,
+because she sends something to Bob and Bob sends it back.
+
+So Alice sends Bob x b.
+
+Bob computes x b plus g of x.
+
+So he does this just the same way
+he did for the Deutsch-Jozsa algorithm
+and for Grover's algorithm, and sends it back to Alice.
+
+And Alice computes x b plus g of x plus f of x.
+
+OK.
+
+So Alice can do Grover's algorithm.
+
+Or Alice can do Simon's algorithm
+if she has Simon's oracle.
+But I think I want to remind you what Simon's algorithm does.
+
+I want to remind you of some of the steps of Simon's algorithm.
+
+So Simon's algorithm, Alice and Bob.
+
+Well, Alice.
+I mean, really there's only one person
+running Simon's algorithm.
+So Simon's algorithm-- we start with superposition
+x 0 to n minus 1, 1 over root.
+
+And 0 to 1 over root n, i equals 0
+to n minus 1 x f of x, to 1 over n summation i, summation
+j minus 1 to the x dot y y f of x.
+
+The summation index is x or y, [INAUDIBLE]??
+
+Yes.
+This summation index is x, x, and x and y.
+
+And we only see y if y is perpendicular to c.
+And the reason for that is, well, there
+is exactly two y's with the same f of x.
+And one of them is y and the other one is y plus c.
+
+No.
+There's only two x's for the same f of x.
+One is x, and the other is x plus c.
+And if y is not perpendicular to c, minus 1 to the x dot y,
+plus or minus 1 to the x plus c dot y equals 0.
+So we only see y's with y perpendicular to c.

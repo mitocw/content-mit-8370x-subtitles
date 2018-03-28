@@ -1,0 +1,143 @@
+#
+# File:   content-mit-8370x-subtitles/U3L3d.txt
+#
+# Captions for course module
+#
+# This file has 134 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now we're going to go back to quantum error-correcting codes.
+And in this lecture, we're going to do a quantum
+version of the repetition code.
+So 0 goes to 0 0 0.
+1 goes to 1 1 1.
+Well, let's try to quantumize it--
+or quantize it.
+
+0 goes to 0 0 0.
+1 goes to 1 1 1, and I can write a circuit diagram for that.
+
+So what happens?
+
+So you already know that this is not quantum cloning
+because quantum cloning is impossible.
+So alpha 0 plus beta 1 goes to alpha 0 0 0 plus beta 1 1 1.
+
+So can we correct errors?
+
+Well, first let's try to correct the errors.
+So what did this channel do?
+It corrected one bit error or not channel.
+What did that code do?
+It corrected one bit error.
+So if you flip one bit you can get it back.
+
+So let's start out by trying sigma z errors.
+Or sigma x errors.
+Sigma x.
+Well, we have three bits.
+We can apply sigma x on it.
+
+And so let's apply a sigma x error
+to the encoded PSI on the second bit.
+So PSI uncoded is equal to what?
+It's equal to alpha 0 1 0 plus beta 1 0 1.
+
+Plus beta 1 0 1.
+So can we correct this?
+
+Well, you can correct measure which bit is different?
+
+Now you would like to measure which
+bit is different without measuring all three
+of these bits because if you measure all three
+of these bits, you put superposition
+into the code of 0 plus beta 1.
+We'd like the same supervision to come out of the code
+after you've decoded it.
+So how do you measure which is this different?
+Well, actually that's pretty easy.
+
+So here is our encoded psi.
+
+I encoded and we apply a control naught from the first bit
+to the second but a control up from the first
+to the third bit.
+Back here we apply a control naught
+from the first to the second and the control
+naught from the first to the third.
+You get 0.
+You get a so 0 0-- alpha 0 0 0 plus beta 1 1 1
+goes to alpha 0 0 0 plus beta 1 0 0, and you measure two zeros.
+So that's good.
+And you can see that this decoding circuit is really
+the inverse of the encoding circuit.
+
+So that's very good.
+
+And now, what do we have here?
+
+Sigma x.
+
+Well, what happens if you made acute an error there?
+Alpha so suppose you put alpha 0 1 0 plus beta 1
+0 1 into that circuit.
+
+Sign error maybe equals that.
+When you put it into that circuit, you get out alpha 0 1
+0 plus beta 1 1 0 because you're doing the control naught
+from this guy who this guy and from the first guy
+to the third guy.
+And you measure 1 0 and your state is alpha 0 plus beta 1
+because this is equal to alpha 0 plus beta 1 times 1 0
+and you're measuring these guys.
+From so what you measure tells you
+that your second bit is wrong, and you've
+recovered the first bit.
+
+So suppose you put in alpha 1 0 0 plus
+beta 0 1 1 so that's our error state.
+So we've got this by applying sigma x to the first qubit.
+
+After circuit, you get alpha 1 1 1 plus beta 0 1 1
+is equal to alpha 1 plus beta 0 times 1 1.
+And of course, you measure 1 1.
+So what do you need to do to this state to fix it?
+
+Yeah?
+Apply z?
+Apply?
+I'm sorry.
+Apply x.
+Apply x.
+So if these are both ones, these measurement results
+are both ones.
+
+You apply x here.
+And maybe I should draw classical stop and green.
+
+So that's how you decode the qubit
+but of course, not everything is a sigma x error.
+There's also sigma z errors.
+So what happens if we apply a sigma z error to this code?
+
+Well, there are three things you could apply the sigma z to.
+The first, second, or third qubit.
+What do we get?
+Well, here we get alpha 0 0 0 minus beta 1 1 1.
+Here we get alpha 0 0 0 minus well
+it's the same thing, right?
+And here we get the same thing again.
+
+And all of these are encoded alpha 0 minus beta 1.
+
+So what have we done?
+Well, so we'll call this the bit error correcting code.
+3 qubit bit error correction.
+
+Well, if you have sigma x corrected
+and if you have a sigma z, you've
+applied sigma z to the encoded qubit.

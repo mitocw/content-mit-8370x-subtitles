@@ -1,0 +1,45 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1m.txt
+#
+# Captions for course module
+#
+# This file has 36 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So what I want to tell you now is
+how to compute the error from the syndrome
+here, and then tell you what a general Hamming
+code, a general classical Hamming code, looks like.
+So how do you compute the error from the [INAUDIBLE]??
+Well, in this case, it's really easy.
+eh is 0, 0, 0, 1, 0, 0, 0, where this is in sum position times
+h.
+Well, this is a row of h.
+So suppose you get 0, 1, 1, has your syndrome.
+You can go to your matrix h and look at all the rows of it,
+and figure out which one it matches.
+
+So if this is in the ith place, this is the ith bit of h.
+
+OK, I think I have time to give an example.
+
+m equals 1, 1, 0, 1.
+We multiply that by G. mG is equal to 1, 1, 0, 1, 0, 1, 0.
+
+And mG plus e is equal to--
+do any of you have a favorite position to make the error in?
+5.
+5.
+1, 1, 0, 1, 1, 1, 0.
+
+mG plus e times h.
+We want to sum up the first, second, fourth, fifth,
+and sixth rows of h, so first, second.
+
+So this is just a 1 in the last one.
+The fourth is 0, 1, 0.
+The fifth is 1, 1, 0 and 1, 0, 0.
+So this is equal to 1, 0, 0, which is the fifth row of mG.

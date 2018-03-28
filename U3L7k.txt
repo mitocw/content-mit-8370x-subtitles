@@ -1,0 +1,129 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7k.txt
+#
+# Captions for course module
+#
+# This file has 120 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So let's look at BB84 again and ignore the places
+where they're different.
+So places where the bases disagree.
+
+Because we're throwing those out anyway,
+so we can just concentrate on the places
+where the bases agree.
+Alice sends Bob random bits.
+
+Let's call these b.
+
+And Bob gets b plus e on--
+this is over the quantum.
+
+Alice sends Bob b plus c, where c
+is in some classical error-correcting code.
+Let's call it c in C2 Let's call that classical error-correcting
+code C2.
+
+Bob takes b plus e and b plus c, and adds them.
+You get e plus c, and corrects it to c.
+So back over here, Alice sends Bob x plus k
+plus c on a quantum channel, sends
+Bob t on a classical channel.
+
+And Bob gets x plus c plus t, adds t, gets--
+
+no.
+He gets x plus c plus e plus t plus e,
+adds t, gets x plus c plus e in C2.
+So here he got--
+OK.
+I just noticed that I have done nasty things
+with variable names, which is so very common.
+So let's call this C tilde.
+And C tilde was in C2.
+And so we have a--
+I mean, just looking at this, we can have a dictionary t here
+corresponds to b here.
+t corresponds to b.
+So Alice sends Bob something in C2 plus t on a quantum channel.
+She sends her mt on a classical channel.
+And he adds them and gets something
+where he can decode with the code C2 to get the error.
+
+And the same thing is here.
+Alice sends Bob b on a classical channel.
+b plus c-- b plus c tilde on a classical channel.
+So I guess b plus c tilde corresponds to t.
+And the thing she sent on the quantum channel was x plus c
+plus t.
+
+So this is BB-- b--
+no, this is BB84.
+And this is modified Ekert.
+
+So x plus c plus t here is what she
+sent on the quantum channel.
+What did Bob send on the--
+Alice sends Bob b on the quantum channel.
+
+And in both cases, Bob gets--
+in both cases, Bob gets the quantum channel with an error,
+adds it to the classic channel, and decodes
+using the classical code C2.
+Here Bob gets that.
+He adds this and he decodes using the classical code C2.
+So now they have--
+
+so now they agree on b and c and x plus c n--
+or rather, they agree on c tilde and c.
+And 2 and x plus c in C2.
+
+But the code word, the secret key is actually just x.
+Secret key here.
+Key is x, which is the cosec of C1 and C2.
+So what does that correspond over here?
+Well, remember I said that Brisard and Bennett--
+you said you had to hash this thing
+to get rid of any information that Eve might have gotten out
+of it.
+
+So you hash this by taking cosec of C1 and C2.
+
+So instead of using this entire code word and C2
+as a secret key, you just find the cosec of C1 and C2,
+this corresponds to, and use that as a secret key.
+And that is a hashing in BB84 protocol.
+
+So this shows exactly how the BB84 protocol corresponds
+to this protocol where Alice takes
+half of a whole bunch of EPR pairs
+and sends them to Bob over a quantum channel,
+and makes sure that the channel is--
+makes sure that the channel is secure by testing
+the actual error rate of--
+the phase error rate and the bit error rate of the channel,
+and making sure that the quantum error-correcting code
+can handle that.
+And that, of course, is the same thing
+that Alice and Bob did in the classical and BB84
+by finding the error rate by comparing
+a sample of these qubits.
+And if the error rate is too high, they abort the protocol.
+So BB84 is completely--
+
+well, one flavor of BB84 corresponds
+to this quantum error-correcting code.
+You can actually use a whole bunch of other hash functions.
+And one of them--
+here we're using the hash function corresponding
+to code C!
+that is contained in C2.
+One of the proofs of security of BB84,
+which was long and complicated, shows
+you can use any error-correcting code,
+whether or not it's contained in C2.
+But that's for the hash.

@@ -1,0 +1,97 @@
+#
+# File:   content-mit-8370x-subtitles/U3L2e.txt
+#
+# Captions for course module
+#
+# This file has 88 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+If you apply a measurement to a state, well, what do you get?
+You get pi psi pi j psi over the absolute value
+of pi j, psi sub i.
+
+OK, so this is the jth outcome.
+And you get it with probability pi sub j, psi sub i--
+the absolute value of this.
+
+So what happens when you apply a measurement from an ensemble?
+
+OK, well, what you're going to get
+is you're going to get pi sub j psi sub i--
+
+oh, with probability absolute value squared.
+Sorry about the typo.
+
+You get over pi sub j, psi sub pi with probability p sub i
+times pi sub j, psi sub i squared.
+
+So you start with a whole bunch of different quantum
+states, each of which has some probability.
+And you make a measurement, and you
+get this term, the jth outcome for the ith
+state in your ensemble with probability, which
+is the product of the p sub i with pi sub j,
+psi sub i squared.
+So that's the probability of having the i state and then
+the probability of getting the jth outcome given
+that you have the ith state.
+I don't know.
+There's an extra squiggle in there.
+Sorry.
+So that is the probability that you have the i state
+and got the jth outcome.
+So now we want to do is we want to say,
+what is the ensemble of quantum states
+that we had when we got the jth outcome?
+
+Ensemble given jth outcome--
+
+well, this is what you have there.
+It's exactly the same thing as we
+have, pi j psi sub i over absolute value of pi sub j,
+psi sub i.
+And now you want to multiply it by this divided
+by the probability of getting the jth outcome because what
+we're doing is we're conditioning on getting the jth
+outcome.
+So with probability, p i, i j, psi sub i squared
+over the probability of jth outcome.
+
+And the probability of the jth outcome is just this.
+But I'm going to keep on writing it like this for a while.
+
+So the corresponding ensemble--
+
+well, we can divide 1 by probability of jth outcome.
+
+And now we want to take the sum of this times--
+no, ket of this and then bra of that.
+So pi sub j psi sub i, psi sub i, pi sub j
+divided by pi sub j, psi sub i.
+And we want to square this because this term appears
+in this ket and this bra.
+And now we need to multiply it by this.
+p sub i, pi sub j, psi sub i squared.
+
+OK, so everyone should notice that this cancels that.
+
+So this is equal to--
+well, 1 over the probability of the jth outcome was just that.
+So 1 over trace pi sub j, rho.
+
+And I want to say we have a sum p i, psi sub i inside.
+So that is just pi sub j sum p sub i, psi i, psi i, pi sub j.
+
+Is equal to 1 over trace pi sub j, rho, pi sub j, rho pi sub j.
+
+You take this, and you divide it by its trace.
+So you get a matrix of trace 1.
+
+So now I'm going to tell you something maybe I should of
+started telling you.
+Maybe I should have told you earlier.
+
+And this is, of course, with probability trace pi j, rho.

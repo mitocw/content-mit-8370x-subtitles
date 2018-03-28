@@ -1,0 +1,75 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3f.txt
+#
+# Captions for course module
+#
+# This file has 66 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So the responder gets psi 1 and psi 2.
+
+He wants to check if they're equal.
+
+So do you know how to check whether two quantum states are
+equal?
+
+Yeah?
+If they overlap.
+Right, but how do you do that with a quantum circuit?
+Measure it?
+Actually, that's not.
+
+You've seen this.
+So psi 1--
+I'll draw the quantum circuit, and then someone
+can tell me what this is.
+0 plus 1 psi 1 psi 2.
+
+Well, what we want to do is we want to do a controlled swap,
+and then I a Hadamard, and then a measurement.
+
+So we want to know whether they're equal,
+and if they're equal, then when we do the controlled swap,
+the state does not change, and 0 plus 1 over 2 turns into 0.
+So this is 0 with probability 1/2--
+
+or with 1-- probability 1.
+
+And here it's going to be 0 with probability less than 1.
+So do you remember the swap test?
+Yeah.
+
+So the state after the swap test is going to be 0 psi 1 psi 2
+plus 1 psi 2 psi 1 over root 2.
+
+And now we want to know what the overlap of that
+is with 0 plus 1 over root 2.
+And this is the probability that we measure 0.
+So that is just the amplitude of 1/2 1 plus psi 1 psi 2
+psi 2 psi 1 squared, because when
+you take the inner product of this--
+
+you're going to get psi 1 psi 2 plus psi 2 psi 1
+when you take this inner product.
+And then there are two kinds of terms.
+There's psi 1 psi 2 squared, which is 1,
+and psi 2 times psi 2 psi 1, which is this term.
+So when you add them all up, you get this, and this was--
+what was it?
+It was at most 29/30, so this is 0 with probability less than--
+
+well 29/30 plus 1 is 59/30.
+Divide by 2.
+You get 59/60, so this is 59/60 squared.
+
+So there's a significant difference between these two
+things, and if you repeat the test
+by sending lots of state psi 1 and psi 2,
+the responder can check--
+
+can do this test many times.
+And eventually he will get this number down to as small
+as he wants.

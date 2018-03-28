@@ -1,0 +1,78 @@
+#
+# File:   content-mit-8370x-subtitles/U3L2k.txt
+#
+# Captions for course module
+#
+# This file has 69 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Partial trace on density matrix rho is--
+well, you can do the same thing as representing--
+
+let's call this trace A psi, psi, A, B.
+And I really should have done this, because you can only
+apply partial traces to density matrices, and not pure states,
+formally, although is summation from i e sub i, rho e sub i.
+And rho is on a bipartite system,
+and e sub i's are only for the first [INAUDIBLE]..
+So here, we have a formula for the trace
+which uses some basis for the first system.
+So suppose you have two bases for the first system.
+
+We have two bases for system a, e sub i and f sub i--
+
+Well, if you have two bases for the same system,
+there is a unitary matrix, which takes one basis to the other.
+And we can assume that e sub j is equal to sum ujk f sub k,
+where ujk, u are the elements of a unitary matrix.
+
+So we have a unitary matrix taking e's taking, I guess,
+f's to the e's.
+
+And now, summation j, ej, rho ej is equal to summation.
+k summation k prime f sub k ujk dagger rho f sub k prime,
+ujk prime.
+
+And that is equal to--
+
+I left out the summation for j, so we put it back in.
+Well, let's put summation for j inside,
+and we have k k prime summation ujk dagger ujk prime
+f sub k rho fk prime.
+Now, this is equal to sum k k prime fk rho fk prime,
+which is just this formula, where the e is replaced
+by the f's.
+And why is this?
+
+ujk is a unitary matrix, which means
+any two different rows are orthogonal
+and the inner product of rho with itself is 1.
+And this is just the inner product
+of a row k with row k prime.
+
+Wait, am I saying rows when I should be saying columns?
+Let's see, jk.
+Yeah, this is just the inner product
+of column k with column k prime.
+And that means that if k equals k prime, then this is 1.
+If k is different from k prime, it's
+0, which gives you the Kronecker delta, function,
+which gives you that.
+So it doesn't matter which bases for system
+that you use in this formula, you get the same partial trace.
+
+And why is it called partial trace?
+Trace of psi a, or rather, suppose
+you have two different matrices, sigma sub a tensor sigma sub b
+is equal to trace sigma a times sigma b.
+So if you have a tensor product of two matrices,
+the partial trace just takes the trace of the first one.
+And if you have something that's not the tensor product of two
+matrices, you can break it up into a sum
+of tensor products of the two matrices and use this formula.
+So this is why it's called partial trace,
+because it's just the, I guess, linearization of the operator
+trace of sigma a times sigma b.

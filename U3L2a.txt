@@ -1,0 +1,68 @@
+#
+# File:   content-mit-8370x-subtitles/U3L2a.txt
+#
+# Captions for course module
+#
+# This file has 59 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So the next section is on quantum error correction,
+and we'll tell you how to construct quantum
+error correcting codes and how to analyze how well they work.
+And for that, we need noisy quantum systems.
+So you remember from last time, I
+talked about classical channels and classical error
+correcting codes and Shannon's theorem.
+And Shannon's theorem, binary symmetric, 1 minus p, p, p,
+1 minus p.
+We had binary symmetric channels.
+And so if you stuck in a 1 with probability p, it came out a 0.
+And with probability 1, it comes out a 1.
+If you stick out a 0 with probability 1 minus p,
+it comes at as 0.
+With probability p, it comes out with a 1.
+And we can ask, is there a quantum equivalent?
+
+And the answer is yes.
+And at the end of the lecture, I hope
+to get to tell you what this is.
+But first, we need to construct something first.
+What is a noisy quantum state?
+
+A noisy quantum state.
+
+Well, you can ask what's a noisy classical state?
+And the answer is, a noisy classical bit
+might be 0 99% of the time and 1 1% of the time.
+So it's some probability distribution
+over values of the bit.
+Noisy classical.
+
+And this is the model used for analyzing
+noisy classical channels and classical error
+correcting codes.
+
+And so we could try doing this.
+
+So suppose you have a state.
+
+You have a quantum state, which is
+psi of i side with probability p of i.
+And in one of your early problems sets,
+we actually looked at this.
+Well, that's one definition of a noisy quantum state,
+but it's easier to use something called density matrices.
+
+So what this is called, this is an ensemble of quantum states.
+
+So what is a density matrix, and why can we
+use a density matrix rather than an ensemble of quantum states?
+So corresponding to an ensemble of quantum states,
+we get a density matrix.
+Density matrix.
+
+And the definition of a density matrix is row
+equals summation p of i, psi by i, psi of i.

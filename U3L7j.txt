@@ -1,0 +1,71 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7j.txt
+#
+# Captions for course module
+#
+# This file has 62 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's think about this.
+Does Bob ever need s?
+No because the random key that Bob and Alice agree on
+is this co-set.
+And, you know, so he's going to major this co-set
+in the-- or major his qubits in the canonical basis.
+And he doesn't care what basis they have.
+So Alice doesn't actually need to send Bob s.
+
+So if Alice doesn't need to send Bob s,
+she can just send Bob the density matrix
+you get when she chooses a random s.
+
+Alice can average over s before sending it.
+And it's just to seek care because if she averages over
+s before she sends, it's indistinguishable from choosing
+a random s and sending Bob the code word,
+and not bothering to send Bob the s.
+Good?
+I mean this is--
+remember, if you have an average--
+if we averaged over s, all the diagonal elements went away
+and all you got was--
+well, this really corresponds to x plus c1, x plus c2,
+1 x plus c2, x plus c3, and x plus c4.
+
+Because that density matrix was here, so the different rows
+where the different seeds that were in c1.
+And if you average over s, it's the same
+as just choosing a random x plus ci
+instead of sending it to Bob.
+
+So what is this?
+Well, let's see what we got.
+Alice chooses x in c.
+And co-sets of c1 and c2.
+
+Alice chooses random element of c1.
+
+Alice chooses random shift.
+
+Random shift T. Sends Bob--
+
+we should call this something.
+
+C. C of C1.
+Sends Bob x plus C plus T.
+Well, that's it.
+And Bob measures.
+Bob measures And Bob measures error rate.
+
+Well, I mean, this is amazing.
+We haven't-- we've changed the protocol around,
+so now Alice isn't sending her anything other than qubits
+in some state.
+And Bob is measuring the qubits in some basis.
+But this is completely--
+this has gotten rid of any quantum computing whatsoever.
+
+And in fact, this protocol is entirely equivalent to BB84.

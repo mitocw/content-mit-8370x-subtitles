@@ -1,0 +1,66 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3a.txt
+#
+# Captions for course module
+#
+# This file has 57 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Today, we'll be mainly talking about fingerprinting.
+So what is fingerprinting?
+Well, it's basically a game played among three
+cooperating people, although you could have more.
+But it doesn't matter.
+So let's start with a general case.
+We'll say we have A1, A2, A3 through A sub k.
+They have strings x1, x2, x3 through xk.
+And they want to send their strings to some--
+
+or rather, they don't want to send their strings.
+They want to send information to some responder.
+
+And the responder has to tell--
+
+should say which xi are equal.
+
+And the basic idea is that each Alice takes her string
+and gets a fingerprint--
+
+x3-- and then sends f of xi to the responder.
+And responder compares these fingerprints.
+
+So first we're going to say, well, let's abstract
+this to a more rigorous game.
+And second, when can you do it and can you not do it
+in the classical situation?
+Because the quantum algorithm does better than the classical
+fingerprinting algorithm, but before we understand that,
+we have to understand when the classical fingerprinting
+algorithm works and when it doesn't.
+So first thing, actually.
+We can just worry about two Alices,
+and we will rename the second one Bob.
+So we have Alice and Bob.
+Each of them has a string.
+And they send some information to a responder who says,
+is x1 equal to x2?
+
+And to make this game more interesting,
+let's say there's some adversary who knows Alice's and Bob's
+strategy and gives them their strings.
+So we're looking at the worst case
+strings for any given strategy.
+Yeah?
+[INAUDIBLE]?
+Alice, Bob, and responder are all working together
+to decide whether x1 equals x2, and Alice and Bob
+want to minimize communication.
+
+And if they had random strings, they
+could just send the first 20 bits of the random string
+and get a probability of winning one in a million,
+which is why we're making the string supplied
+by an adversary who knows Alice and Bob's algorithm.

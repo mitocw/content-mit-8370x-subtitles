@@ -1,0 +1,80 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3h.txt
+#
+# Captions for course module
+#
+# This file has 71 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So let S be the set of bits--
+the set of Alice's strings that have r in their row--
+
+r in their row.
+So this is the set of Alice's strings,
+such if Bob makes the responses that are in r,
+Alice will make her half of the conversation in r.
+
+And let t set of Bob's strings that have r in their column.
+
+So let's pretend that Alice's strings are like this
+and Bob's strings are like this, even though they're not
+actually going to be gathered together.
+Then r-- was I--
+I think I want to make this a little r.
+
+Then any time Alice has some string in this set
+and Bob has some string in this set,
+then the conversation between Alice and Bob
+will be r because the set S of strings
+is a set of strings, which Alice makes the conversation
+r as long as Bob sticks with his half of the dialogue.
+And t is a set of strings for which Bob makes the responses
+in r as long as Alice sticks to her half of the dialogue.
+And any string in any s and s and t and t will give you r.
+
+But now I want to claim s times t is bigger than 2 to the 0.99n
+times 2 to the 0.99 n, because if you look at the diagonal-
+if you look at the intersection of the diagonal of this
+rectangle, there are at least 2 to the 0.99n things on that
+intersection because this conversation r appeared
+on the diagonal 2 the 0.99n times.
+And this just happens to be 4 to the 0.99n.
+But now we have the size of s times the size of--
+[INAUDIBLE]
+
+The size of s times the size of t is bigger than 4
+to the 0.96n, which means there is some s in s and t in t that
+differ by--
+
+with Hamming distance exactly n over 2--
+implies there exists an s in s, t in t,
+or maybe I should say s star, such
+that the Hamming distance between s star t star
+is equal to n over 2.
+
+And if Alice starts with s star and Bob starts with t star,
+they have--
+they have this conversation r, and we know this conversation
+r ends with Alice saying the strings are equal,
+because the--
+well, we can just say 1, 0 means strings equal.
+We can have that as the last message in the conversation.
+
+So this shows that any protocol for any classical protocol
+for Deutsch-Josza needs to have more than n over 100 bits
+if you encode the--
+
+enlarge the encoding to be something
+like this, which means it has to have, at most, more than n
+over 200 bits in the original message [INAUDIBLE]..
+
+So that is the proof that classical Deutsch-Josza
+deterministically with the exact answer takes at least n
+over 200 bit messages.
+And we know that quantum Deutsch-Jozsa can be done
+in log n messages by the--
+the exact quantum Deutsch-Josza can be done in log n messages
+by the protocol I gave you last time.

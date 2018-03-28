@@ -1,0 +1,86 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3d.txt
+#
+# Captions for course module
+#
+# This file has 77 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+And now what are we going to do?
+We're going to ask, what about unshared randomness?
+
+And this turns out to be root n, roughly.
+
+So they could do the same thing here.
+They're going to do exactly the same thing.
+They're going to get x1 and x2 and encode them
+in this error-correcting code which has at least 1/30
+of the bits different.
+But then they have to do something different,
+because Alice can pick a random set of bits
+and Bob can pick a random set of bits,
+but they might not overlap.
+Well, they're going to do something very similar.
+
+OK.
+
+Let's explain this carefully.
+So Alice takes bits of E of x1, puts them
+in root n by root n square.
+
+And if n is not even, then she just does the best she can.
+
+So this, I guess, is E1, E2, E3, E4, all the way down to En.
+
+Alice sends the responder a random row of the square.
+
+And she also says--
+
+let's say this row is i, and along with i.
+So she sends r a random row of the square,
+and she tells him which row it is.
+So this takes roughly root n bits.
+Actually root n plus log n, because she has
+to tell him which row it is.
+But that's OK.
+
+And what's Bob going to do?
+Bob is going to send r a random column.
+
+And you see that a random row and a random column
+overlap on one bit.
+
+So what happens?
+The responder says no, with probability at least 1 over 30
+if x1 is not equal to x2.
+
+So to do better, Alice and Bob can send 60 random rows each.
+
+And then the responder gets 3,600 places
+where they overlap.
+And he can check whether they're all equal.
+And if they're all equal, well, this actually
+is at least as good as 1 minus 1/30 to the 60th.
+So this protocol will fail with probability 1 over E squared.
+And if you want more probability,
+you can just send more random rows and columns.
+
+So this is how to do it if Alice and Bob can generate
+random bits that they know.
+Alice knows her random bits.
+She doesn't know Bob's random bits.
+And the opponent doesn't know either of their random bits.
+Well, he can check the random bits
+after he's sent them the numbers,
+and it doesn't do him any good.
+So that gives us this root n.
+And it turns out root n is as good
+as you can do here, because there is a general theorem
+that this entry with unshared randomness
+is at least the square root of this entry with deterministic.
+So you can't do better than root n
+here, because of a general theorem about communication
+complexity and communication complexity games.

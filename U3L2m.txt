@@ -1,0 +1,99 @@
+#
+# File:   content-mit-8370x-subtitles/U3L2m.txt
+#
+# Captions for course module
+#
+# This file has 90 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Bloch sphere.
+
+Remember the bloch sphere was a way
+of encoding, of visualizing, pure states on--
+
+I'm drawing this really badly.
+OK.
+Let's try this.
+
+We have 0 here.
+0 up at the top.
+0 plus 1 over root 2 equals plus here.
+1 at the bottom minus.
+And at the back we had 0 plus I 1 over root 2.
+And the front we had 0 minus I 1 over root 2.
+
+So there's a way of extending this
+to density matrices on qubits.
+
+And the center of the sphere is 1/2, 1/2 of 0, 0.
+
+So that's the completely random state.
+So what happens, intuitively, is you have pure states
+on the outside of this ball.
+And as you make them more and more mixed states, as you add,
+as you get them closer to the center, you get that.
+
+And-- so you can always write any 2 by 2 density matrix.
+
+You can always write rho equals I
+plus r dot sigma over 2, where r is in or on the unit ball.
+So it's somewhere inside the bloch sphere.
+r [? on-- ?] r equals 1.
+If and only if rho corresponds to a pure state.
+
+So the points on the surface of the sphere of the bloch sphere
+correspond to pure states.
+And as they get more and more mixed,
+you go into towards the center.
+And this is a way of visualizing all density matrices
+on two qubits.
+
+Suppose r-- suppose rho is pure.
+
+Rho is going to be equal to--
+
+well, we have two eigenvectors.
+One of them has--
+
+umm.
+OK.
+
+Rho equals psi psi.
+
+Remember 0.
+The point on the bloch sphere--
+
+point on bloch sphere corresponding to rho is--
+well, remember it was the operator corresponding to psi.
+Which is psi psi minus psi bar psi bar.
+
+Good.
+So I think that's right.
+Yeah.
+So rho is equal to--
+
+so that's r dot sigma for a point in the bloch sphere.
+rho is equal to psi psi plus minus psi bar, psi bar over 2
+plus I. But I is just equal to psi psi plus psi bar psi bar.
+Because if you take two orthogonal states
+and look at their density matrix,
+well, their density matrix is I over 2
+but I is psi psi plus are psi bar,
+psi bar, which is equal to psi, psi.
+
+So if rho is pure, then the point
+on a bloch sphere corresponding to rho
+is indeed r dot sigma, where r is a unit vector.
+And as you add--
+and any density matrix can be a density matrix--
+any density metric can be represented this way.
+I'm not going to have time to prove it.
+But it's-- I've shown that when rho is a pure state.
+And I've shown that for the identity matrix, which
+is the maximally mixed state.
+And this just interpolates between them.
+So that is how 2 by 2 density matrices
+work on the bloch sphere.

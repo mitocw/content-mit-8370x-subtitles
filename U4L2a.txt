@@ -1,0 +1,63 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2a.txt
+#
+# Captions for course module
+#
+# This file has 54 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Today, we'll talk about distributed quantum
+computation.
+What is the model?
+So we have a bunch of quantum computers,
+and actually, today, we'll just worry about the case
+where we have two quantum computers.
+So maybe I should-- two quantum computers.
+
+And they want to do some kind of computation--
+
+want to do some kind of--
+some joint computation.
+
+Well, you can think that there are still several models.
+There's the case that they can pass
+classical messages between them, can pass quantum states,
+and can pass [INAUDIBLE] classical messages,
+but they share entanglement.
+
+So I want to say that this one is weaker than the other two,
+and the other two are more or less equivalent, because these
+are equivalent by teleportation.
+
+So if you can have classical messages,
+but you share entanglement, you can essentially
+send quantum messages by sending,
+by teleporting a quantum state from one to another.
+And if you have quantum states, if you can past quantum states
+as messages, Computer 1 can pass Computer 2 quantum
+entanglement, and then they'll share EPR pairs.
+So you get this, and this is much weaker.
+And what we're going to do right now
+is talk about communication complexity.
+
+So let's say this computer has some data,
+and this computer has some other data--
+
+D sub B. And you want to figure out something about this data.
+
+Well, maybe the easy way to do it is have--
+can have B pass all its data to A, and A does the computation.
+
+So we have an upper bound on how much data needs to be passed--
+upper bound of, say, D sub B, bits of communication.
+
+And this is true both classically and quantum
+mechanically.
+You never need to pass more data than you have,
+because you can just send all your data
+to the first computer.
+The first computer does the computation,
+and then sends you back the results.

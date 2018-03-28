@@ -1,0 +1,86 @@
+#
+# File:   content-mit-8370x-subtitles/U4L3j.txt
+#
+# Captions for course module
+#
+# This file has 77 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So suppose you have two quantum computers.
+Each has n qubits.
+
+And we can send quantum messages between them.
+
+I want to say, you can simulate a 2n-qubit computer.
+
+How do you do this?
+
+Assign the 2n qubits to each computer.
+
+So you assign your 2n qubits in your 2n-qubit computer--
+assign n of them to one computer and n of them to the other.
+Any time you want to perform a gate between them,
+between the qubits in the different computers, what you
+can do is you can send the qubit from one computer to the other.
+
+OK.
+So that works pretty well, assuming
+you can find some division of your 2n qubits
+on your original computer so that there
+wasn't that much computation occurring
+across the dividing line.
+So you don't have to send too many messages
+between the computers.
+So assume you can only send classical messages
+between the computers.
+
+Well, I want to say you're pretty much stuck.
+
+Not simulate 2n-qubit computer.
+
+Why not?
+Yeah.
+I was going to say, can't you just tell it
+where it's going to be registered?
+Well.
+Yes, so if you have entanglement between the computers,
+you're in good shape.
+
+Suppose you have entanglement.
+
+You can use teleportation.
+
+So here I want to say, you cannot entangle the computers.
+
+And in general, an algorithm on a 2n-qubit computer
+will have a very highly entangled state in the middle.
+
+And there are ways of formalizing this.
+But I did not prepare them.
+So I'm not going to go through them.
+But if you want to have distributed
+quantum computations and any reasonable sense,
+you need to either teleport qubits
+from one place to another or send quantum messages
+from one place to another.
+And the distributed quantum protocols we've been looking at
+show that it's really useful to send quantum messages from one
+to another.
+Because here, at least in the classical, say,
+Deutsch-Jozsa algorithm or the classical disjointness
+algorithm where we're trying to find a date that we both have
+free, we didn't assume anything about how
+much computational power we were using.
+We just showed that we couldn't do it
+by sending classical messages.
+
+So even if you had two quantum computers who--
+each of them had your calendars in them
+and you find a day that you both have free,
+you need to send n classical messages between them
+to find the intersecting day.
+So that shows that quantum communication really
+is more powerful than classical communication,

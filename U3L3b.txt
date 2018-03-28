@@ -1,0 +1,34 @@
+#
+# File:   content-mit-8370x-subtitles/U3L3b.txt
+#
+# Captions for course module
+#
+# This file has 25 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So next, I want to tell you about what
+happens to the dephasing channel when you
+look at it in the Bloch sphere.
+So let's go back and draw the Bloch sphere.
+So the Bloch sphere looked like 0, 1, plus minus--
+
+well, when you multiply the off-diagonal elements by q,
+you get 1, 1, 1, 1, that's 1/2, goes to 1/2 1, 1 minus q,
+1 minus q, 1.
+And with that, you're just moving the Bloch sphere
+into the middle, because you're taking this,
+you're multiplying it by 1 minus q,
+and you're adding q amount of diagonal.
+Or q amount of the identity.
+So that goes here.
+And in general, this is going to go to an ellipsoid.
+This is still zero.
+This is still 1.
+And this is 1, 1 minus q, 1 minus q, 1, et cetera.
+So you shrink the Bloch sphere into an ellipsoid
+with the vertical axis stays the same and everything else
+shrinks by the same factor.
+So this is the phasing in Bloch picture.

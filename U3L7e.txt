@@ -1,0 +1,36 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7e.txt
+#
+# Captions for course module
+#
+# This file has 27 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK.
+But it might still have learned a little bit.
+So take hash lz to get your real secret key,
+to get k, which maybe say l bits.
+Cool And this process gets rid of Eve's information.
+
+So this was Bennett and Broussard's protocol
+they published.
+And, of course, you don't know how
+quantum mechanics and Eve's possible measurement
+interact with this protocol.
+So for a long time nobody could prove
+that it was actually secure.
+So I guess it was presented in 1984.
+And there were two security proofs by 2000,
+and they were both long and complicated.
+And one of them, virtually nobody could understand.
+And that's partially because it was not
+written up very well, but also partially
+because it was complicated.
+So what I did was I looked at the one that
+was incomprehensible and figured it out
+and extracted the meat of it.
+And then, with John Prescall, I published a much simpler proof
+of security, which I will show you now.

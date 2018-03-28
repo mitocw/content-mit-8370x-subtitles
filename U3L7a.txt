@@ -1,0 +1,115 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7a.txt
+#
+# Captions for course module
+#
+# This file has 106 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so today, we're talking about quantum key distribution.
+And if you have a few million dollars,
+you can buy a quantum key distribution system
+off the shelf from one of a number of companies
+and put it to work.
+And China has recently demonstrated
+quantum key distribution through satellites.
+So this actually is something unlike anything
+we've talked about so far, more or less, that
+works with today's technology.
+So what is quantum key distribution?
+So suppose you are somebody.
+
+And so these are the traditional participants
+in cryptographic protocols.
+And I don't know who started Alice and Bob.
+And so Alice and Bob want to communicate,
+and they want to communicate secretly.
+And there's an eavesdropper whose name, of course,
+is Eve, who wants to listen in.
+So that's the scenario of, well, probably thousands
+of cryptography papers in which Alice, Bob, and Eve are
+all the participants.
+And RSA, Ron Rivest, Adi Shamir, and Len Adelman
+showed how to do this with computational security,
+via using the fact that large numbers are hard to factor.
+So that's what is actually used in practice nowadays.
+Anytime you buy something over the internet,
+you multiply two very large primes together
+and hope that nobody knows how to factor it,
+because otherwise, they could steal your credit card.
+Although I should say that if you had a quantum computer that
+could factor, stealing people's credit cards from transactions
+is around probably the 100th most lucrative use for it.
+
+Your credit card, when you buy things from Amazon,
+is probably pretty secure unless someone
+breaks into Amazon's server.
+So there we are.
+So what quantum key distribution does is it uses secure--
+
+so quantum key distribution--
+Alice and Bob start by not having anything
+in common, any secret information in common,
+and end up with secret keys that agree
+and that nobody else knows.
+And this is secure, not through computational security
+saying that there is a task that could be used to break it
+if someone had a powerful enough computer, secure because
+of quantum mechanics.
+So it's secure because of physics' principles.
+And I'm going to explain that to you.
+Actually, quantum key distribution
+has a wonderful story behind it, which
+you can read in a "Brief History of Quantum
+Cryptography: A Personal Perspective"
+by Gilles Brassard.
+And so Gilles Brassard was, I think,
+swimming on the beach at a computer science conference.
+And Charlie Bennett, who he didn't know at all,
+came up to him and started talking
+about this weird quantum physics stuff.
+And so originally, Charlie Bennett
+got this idea from Stephen Wiesner,
+who went to graduate school--
+well, let's see.
+They were undergraduates together.
+And they kept in touch after they went to graduate school.
+
+Stephen Wiesner had this weird idea
+for using quantum mechanics for various computational tasks.
+And one of them was bank notes.
+And so he told Charlie about it.
+He wrote up a paper he submitted to IEEE Transactions
+of Information Theory, and it got rejected.
+So he just didn't do anything on it.
+It eventually got published, probably more than 10 years
+later, when Charlie persuaded the editor of SIGACT News
+to include it in SIGACT News, SIGACT being,
+I guess, Special Interest Group of the Association
+for Computing Machinery.
+
+But this conversation on the beach happened before all that.
+And Charlie Bennett told Gilles Brassard about his ideas
+and about Wiesner's ideas.
+And they eventually came up with what
+is known as BB84, which is Bennett, Brassard.
+And it was published in 1984 in an extremely obscure
+proceedings of a conference that took place in India.
+
+And probably because they submitted it to--
+I assume they submitted it to other places
+and got rejected, although let's see
+if it says that anywhere here.
+
+Yeah, they submitted it to stock and failed to have it accepted.
+
+Nice euphemism for rejected.
+And so then they submitted it to this computer science
+conference in India.
+And it got accepted and got published.
+Anyway, it was a very clever idea.
+It was based on Stephen Wiesner's ideas
+but fleshed out to make them more rigorous somehow.

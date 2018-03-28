@@ -1,0 +1,67 @@
+#
+# File:   content-mit-8370x-subtitles/U3L3c.txt
+#
+# Captions for course module
+#
+# This file has 58 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+There's another channel.
+I'd like to discuss--
+the depolarizing channel.
+Rho goes to rho plus--
+actually, let's make it 1 minus p rho plus p over 3 sigma
+x rho sigma plus p over 3 sigma y rho sigma y plus p over 3
+sigma z rho sigma z.
+So with 1 minus p, you do nothing.
+You apply the identity matrix.
+
+Probability of p over 3, you apply each of the three Pauli
+matrices.
+
+So is there an easier formula for this?
+Yeah.
+Rho goes to, I guess, 1 minus 4/3 p rho plus identity.
+
+And the reason for this is--
+
+Why?
+For any density matrix, rho plus sigma x rho sigma x plus sigma
+y rho sigma y plus sigma z rho sigma z equals--
+
+OK, so this is completely unnormalized.
+So we want this to be I over 2.
+And we want this to be 1/4.
+
+So with probability 1/4, we do nothing.
+And probability 1/4, we apply sigma x.
+1/4, we apply segment y.
+1/4, we apply sigma z.
+We get I over 2.
+Proof-- well, let's call this thing sigma.
+
+No, sigma is a bad--
+Let's do tau.
+Sigma x tau sigma x equals sigma y tau sigma y equals
+sigma z tau sigma z equals tau.
+
+Why is that?
+Well, if we multiply this by sigma y in front and sigma y
+behind, this gets taken to this sigma y.
+This gets taken to rho.
+Sigma x rho sigma x gets taken to sigma z rho signal z.
+And this gets taken to this.
+So it's invariant.
+
+So this is true of tau.
+And now the only density matrix tau which has this property
+is I over 2.
+
+OK, because let's say tau equals a, b, c, d.
+
+Sigma x tau sigma x equals b, d, a, c.
+So a has to be equal to b.
+Sigma z tau sigma z equals a minus c minus d b.

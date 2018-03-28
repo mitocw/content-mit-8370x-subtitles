@@ -1,0 +1,64 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7m.txt
+#
+# Captions for course module
+#
+# This file has 55 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So Wiesner had a bunch of things in his conjugate coding paper.
+One of these was a method to encode
+two pieces of information with different bases
+so that the receiver had a choice of decoding one of them
+or decoding the other.
+And of course, what you do is you encode one of them
+while using error correction with the horizontal or vertical
+basis, and the other with the diagonal basis.
+And now, if you measure each of each
+of these photons on a separate basis,
+there is no way you can choose a set of bases
+to learn both of these strings.
+But of course, there's lots and lots of other measurements.
+It turns out that there is a measurement, which
+is a complicated entangled measurement you can make,
+which tells you both of these bit strings
+that we see the sender is trying to let
+you have a choice of seeing one or the other.
+So that piece of the paper actually
+doesn't work with quantum mechanics.
+And Wiesner bank notes paper really
+does work with quantum mechanics although the disadvantage
+of using this as quantum money is
+to verify that this kind of money is really valid.
+you have to call up the bank because it depends on--
+so the idea was that the bank knows which basis each qubit
+is encoded in.
+But the merchant doesn't.
+But then, if a whole bunch of merchants got together.
+And each of them looked at his notes.
+And they would call up the bank.
+The bank would tell them which qubits
+to measure in which basis.
+If they got together and sneakily collaborated
+they could actually learn enough information
+to forge the bank note.
+So this is not really a great way of doing quantum banknotes.
+So I and some, Eddie Fahy and some former graduate students
+at MIT have proposed a different way
+of doing quantum banknotes which is actually
+much more cryptographic.
+And that we use knots and knot invariants.
+And there is some task that depends on knot invariants that
+we're assuming you cannot do with a classical computer,
+[INAUDIBLE],, assuming you can't even do it without a quantum
+computer.
+So this is a possible scheme for quantum money
+which nobody has broken yet.
+But nobody is really that sure is secure
+because nobody in classical cryptography
+uses knot invariants.
+So it's not at all clear that there's not
+some sneaky classical algorithm that will break this quantum

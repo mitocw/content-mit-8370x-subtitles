@@ -1,0 +1,70 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2m.txt
+#
+# Captions for course module
+#
+# This file has 61 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now, there's a way you might be able to get around it,
+but I don't know if anybody has ever tried.
+
+I just thought about this when I was
+preparing for the class Want h such that h of x
+equals h of x plus c.
+
+We took h equal f plus g and didn't work.
+
+Take h equal r of g where r is some nonlinear function, which
+can be as horrible as you like.
+
+Well now, h is no longer a linear combination of f and g
+so this trick does not work.
+
+So I don't see any way that Alice and Bob can speed up
+Simon's problem with classical communication.
+If you make our non-linear, in particular,
+if you make a nasty nonlinear function.
+And they can still do it.
+
+Alice can still query Simon's algorithm
+by message passing with Bob, although it's a little more
+complicated this time.
+So let's go over that.
+
+Alice sends Bob x v. No, x zero.
+
+Bob sends back x g of x.
+
+Alice computes.
+
+Keeps b.
+Alice computes x g of x b plus r of f of x g of x.
+
+So Alice has b in this register and she just
+computes this horrible nonlinear function f of x g and g of x.
+So now this is good except Alice has this extra registered g
+of x that might wreck the coherence of Simon's algorithm.
+Alice sends x g of x, who Bob, uncomputes g
+sends x zero to Alice.
+
+And Alice has x b plus r of f of x g of x.
+
+And this is the Simon Oracle that Alice
+needs to run Simon's Algorithm.
+And we have kept this clever trick
+from working because it depended on linearity.
+So this version of Simon's algorithm
+doesn't really give an exponential speed up
+in terms of communication complexity.
+And I don't know how to prove that,
+but I think it probably does.
+
+And I should say that there are other communication complexity
+problems that do provide an exponential speed up
+and I don't think I'll talk about them Thursday.
+What I think I'm going to talk about Thursday
+is fingerprinting which is another kind of distributed

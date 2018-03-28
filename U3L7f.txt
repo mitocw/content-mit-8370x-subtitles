@@ -1,0 +1,77 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7f.txt
+#
+# Captions for course module
+#
+# This file has 68 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I want to go over another key distribution system.
+So this is, I guess, based on Ekert, Chao, and Lo.
+So suppose Alice and Bob share n perfect EPR pairs.
+
+Well, the EPR pairs are a quantum state that's entangled.
+And they measure them.
+
+They get random correlated bits.
+
+So if they measure them in the right,
+left, base, up-- you know, the up,
+the horizontal, vertical basis, whenever
+Alice's bit is vertical, Bob's might be horizontal
+and vice versa.
+So they get perfect random correlated bits,
+which is quantum key.
+It's a secret key, and we know that nobody else can get this
+because nobody can predict what--
+nobody can predict what bit.
+No.
+Nobody can predict the outcome of a quantum measurement.
+
+So here's the new protocol.
+Alice and Bob use CSS code--
+or Alice uses a CSS code to encode them,
+to encode half of their--
+Alice-- here.
+Let's do this.
+Alice prepares n EPR pairs, intersperses m test qubits,
+and encodes one of each pair in CSS code.
+And now she intersperses m test qubits
+with a CSS code in a random state.
+
+And she sends them to Bob--
+
+sends, well, half of the EPR pairs--
+rather, half of each EPR pair.
+Well, she sends the encoded EPR pairs and the test
+qubits to Bob.
+
+So Alice-- I should really draw a picture of this.
+
+And Bob stores everything in memory, in quantum memory.
+
+Alice sends Bob, well, the positions of the test
+qubits, and I guess, values of test qubits.
+
+Bob measures error rate and decodes.
+
+And now Bob, when he measures the error rate,
+he knows whether the quantum error code is strong enough
+to overcome the error rate.
+So when he decodes it, he knows if the quantum error correction
+code is strong enough to overcome this error rate,
+Bob knows that he and Alice share perfect EPR pairs.
+So he can get the values of the qubits.
+So Alice has EPR pairs and test qubits.
+
+And now she encodes these, half of these,
+in an error-correcting code.
+
+And she intersperses the test qubits and sends these to Bob.
+And then Bob gets them.
+Alice tells Bob which were the test qubits.
+Bob measures them and estimates the error rate.
+And then he decodes these.

@@ -1,0 +1,205 @@
+#
+# File:   content-mit-8370x-subtitles/U3L7h.txt
+#
+# Captions for course module
+#
+# This file has 196 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+OK, so I've given you this protocol.
+I've given you this protocol.
+Now the remarkable thing, this protocol
+is completely practical, but it's hard to prove rigorously.
+This protocol is easier to prove rigorously,
+but you need a quantum computer to implement it.
+So the amazing thing is these protocols
+are actually secretly exactly the same protocol.
+So if this is secure, this is secure.
+So let's go back and start fiddling with this protocol
+to make it look like this protocol.
+
+So what is going on--
+
+was this chalk actually white?
+Yeah.
+OK, so remember what the CSS code was--
+CSS code C1 and C2.
+No, I called them CA and CB.
+CA is contained in CB.
+OK, and now A and B are problems because these are completely
+unrelated to Alice and Bob.
+
+So maybe we should go back to rename
+these C1 and C2 to be less confusing for this structure.
+Our code word is x plus C1 is equal to 1
+over normalization factor times the sum over, oh, c and C1,
+x plus c, where this is bitwise edition, mod two--
+
+4x and C2.
+
+So Alice sends Bob--
+
+I want to root C1, sum, x plus C1.
+
+OK, for the code word--
+
+actually, actually, maybe we should do something first.
+So Alice and Bob share in perfect EPR pairs.
+Alice prepares them and codes them and sends them over,
+and then Bob decodes it and measures it.
+It really doesn't matter if Alice--
+and Alice measures it.
+And Alice is going to measure her perfect EPR pairs too.
+It really doesn't matter whether Alice measures them
+before she encodes them, or if she encodes them
+before she measures them.
+Because once Alice-- where is this?
+Yeah, so Alice has encoded these EPR pairs.
+
+And she's going to measure them after she's sent them
+all to Bob, but measurement commutes
+with doing anything on the other half of the EPR pairs,
+so she might as well just measure them
+before she sends them all to Bob.
+And now what is she doing?
+She's taking a random state, and she's
+encoding it in a CSS code.
+So Alice is taking a random state,
+is actually just a random--
+x is in a random coset of C1 and C2.
+So here is where maybe I should have introduced
+the mathematical [INAUDIBLE] for cosets,
+but I'll see if I can get away with that, without it.
+So she takes a random coset of C1 and C2 and encodes it.
+Well, and she also sends Bob--
+sends Bob-- oh, let's do this again--
+0, 1 plus minus as test bits.
+
+And she sends these randomly, and she also what--
+yeah.
+And then after that, she tells Bob--
+which after Bob has put everything in quantum memory,
+she tells Bob, which of these are test qubits,
+and which of them are real qubits--
+or encoded qubits?
+And then Bob decodes, and he gets the bits that Alice sent.
+
+So this gives us the bit error rate,
+and this gives us the phase error rate.
+
+And those two rates are enough to tell us
+whether the quantum error correcting code
+is good enough to preserve information
+against the noisy channel.
+So what do we do now?
+Well, note that 0 plus 1 equals 1/2 plus plus minus
+equals I over 2.
+So these are completely mixed quantum states.
+So the test qubits are in a completely mixed quantum state,
+which means Eve can observe any information from looking
+at them.
+But if you look at code word, the code word
+is not in a completely mixed quantum state.
+So maybe Eve could get some information
+by looking at the code word.
+So let's do something different.
+Let's turn the key word, code word,
+into a completely mixed quantum state.
+
+So Alice sends Bob a shifted code word.
+
+1 over root c minus 1 to the--
+
+x-- OK, minus 1 to the s.c, x plus c plus t.
+
+So why is this shifted code word?
+Well, first we're shifting by t here.
+And second, no, remember the quantum error correcting code.
+If you took the Hadamard of them,
+they turn into another quantum error correcting code
+with C2 dual containing C1 dual.
+
+And if you do that, you find a shift in the Hadamarded code
+corresponds to a minus 1 to the s.c in the original code.
+And if I have time at the end, I will
+go through this calculation.
+But I don't think I'm going to have time at the end,
+so just trust me on this.
+You can do it yourself.
+That might be a good question to put on the homework
+if I don't get to it.
+Well actually, I don't think we can do that with the--
+
+well, maybe we can be clever of that and do that when
+the edX format.
+But we'll have to be clever.
+I'll think about it.
+Anyway, so this is a shifted code word.
+And with a shifted code word, both phase shift
+and a bit shift, average over st is the completely mixed state--
+
+mixed state.
+
+And I should explain this part at least.
+Actually, I think I only really need to explain the minus 1
+to the s.c part.
+OK, so summation c and C1, x plus c, and density matrix
+looks like is 1 over C1, 1, 1, 1, 0, 0.
+
+So you get 1's wherever you have an x plus c--
+wherever you have x plus c as the row and x
+plus c as the columns and 0's everywhere else.
+
+So just pretend that the 0's are there.
+So now you change that to 1 over c.1 to 1/2,
+summation c and C1 minus 1 to the c, x plus c.
+What happens is you have some columns in some rows where
+you multiply them by minus 1, and back
+to the same rows as columns.
+So what happens when you do that?
+Well, you get a minus 1, minus 1 here, and a minus 1,
+minus 1 here and here and here.
+So the diagonal elements all stay 1's, and the off-diagonal
+elements, some of them turn to minus 1's.
+And when you average it over all--
+oh, this is supposed to be s.c--
+when you average that over all s,
+the off-diagonal elements are equally
+likely to be plus 1 and minus 1.
+So they cancel out, and the density
+matrix you get when you average over all the s's is 0, 0--
+
+just to that.
+And now you average over all the t's.
+
+That covers all the diagonal elements equally often,
+and so you get completely mixed state.
+So this average of this is the over s and t
+is a completely mixed state.
+So here we have a new protocol.
+Alice sends Bob a shifted code word interspersed with test
+qubits, and Bob decodes it.
+Well, and Bob puts it in memory, and then Alice
+sends Bob s and t and Bob decodes it.
+
+OK, so we'll change the last thing and codes in--
+
+in shifted CSS code characterized by s and t.
+And then Alice sends Bob st and everything
+about the test qubits.
+
+Bob measures the noise rate and decodes.
+
+And here Alice actually doesn't have to prepare n EPR pairs.
+She prepares n random bits, which
+we showed was equivalent to preparing n EPR pairs,
+because it didn't matter whether she
+measured her half of the EPR pairs first or second.
+So Alice prepares n random bits and codes in the shifted ES CSS
+code, intersperses n test bits in random state,
+sends the encoded pairs in the test qubits to Bob.
+Bob stores everything in quantum memory,
+and then Alice and Bob sends Bob the st.
+Bob measures the noise rate and decodes.

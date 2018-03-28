@@ -1,0 +1,99 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1n.txt
+#
+# Captions for course module
+#
+# This file has 90 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so how do general Hamming codes work?
+You can map 1 to 1, 1, 1.
+Correct one error.
+0 to 0, 0, 0.
+And this is called 3 1 code, because the code
+words are length 3 and the message is 1 bit.
+And we can map G, correct one error, and we have a 7, 4 code.
+
+And there's also a 15, 11 code and a 31, 26 code, et cetera.
+
+So this is a class of Hamming codes
+that all correct one error.
+
+So what do they look like?
+
+Well, we're going to start with the identity.
+And let's say 1, 1, 0, 0, 1.
+1, 1, 0, 1, 0.
+
+Let's do the case of 4, 0, 1, 0, 0, 1.
+1, 1, 1.
+So I want to say we want these to be all bit strings of length
+greater or equal to 2.
+
+So how many of these are there?
+
+Of weight-- of weight greater or equal to 0.
+
+This is getting to be 2 to the n minus 1.
+
+Think about this.
+If you add all the strings of length 1 to them,
+you get all the strings of weight 1 to these.
+You get all binary strings of weight greater or equal to 1,
+and we know there are 2 to the n minus 1 of them.
+So this is 2 to the n minus 1 minus and n,
+because there are n binary strings of length.
+OK, n is not a good number.
+2 the k minus k, and 2 the k.
+
+The Hamming code, and codes, 2 to the k minus 1
+minus k bits and 2 to the k minus 1 bits.
+
+And why did we do this?
+
+All code words in row space have Hamming
+weight greater than or equal to 3,
+or all non-zero words in the row space.
+Why is that?
+Well, first, if you take one of these rows,
+its weight is clearly greater than or equal to 3
+because there is a 1 somewhere in this identity,
+and these vectors all have weight, at least 2.
+
+All rows, weight greater than or equal to 3.
+Sums of two rows, the weight is greater than or equal to 3.
+Why?
+Because there's two 1s in the first part from the identity.
+And there's a 1 in the last piece because no two of these
+are equal.
+So if you add two of these vectors,
+the weight's at least 1.
+
+And sums of three rows, the weight
+is greater than or equal to 3 because,
+well, if you have a code word or weight
+greater than or equal to 3, and when code it,
+the first piece of it, when you multiply by the identity,
+you get a weight greater than or equal to 3.
+So all code words of this code have
+weight greater than or equal to 3, which
+means it can correct one error.
+
+And that is classical Hamming code.
+
+Yeah?
+So the statement that the weight has
+to be greater than or equal to 3 to correct one error
+is valid for all linear codes?
+All linear codes.
+What about 3, 1 code?
+Yeah, the weight's greater than 3, greater than or equal to 3.
+But 0 is not to 0, 0, 0.
+Yeah, all non-zero code words.
+Oh, right.
+All non-zero code words have to have weight greater than
+or equal to 3.
+So that corrects one error.

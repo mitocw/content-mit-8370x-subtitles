@@ -1,0 +1,100 @@
+#
+# File:   content-mit-8370x-subtitles/U3L1f.txt
+#
+# Captions for course module
+#
+# This file has 91 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So a Hamming code is a linear code.
+We're basically going to be using the (7,4) Hamming
+code as an example both for Quantum error-correcting codes
+and classical error-correcting codes.
+But most of what I'm going to say
+applies to all linear codes.
+And there are lots and lots of linear codes
+that are better than the Hamming code.
+
+So I'm going to tell you what the Hamming code is,
+why it works, how to encode, how to correct errors,
+and how to decode.
+
+What is the Hamming code?
+
+OK.
+
+So this is a generator matrix for the Hamming code.
+And it's going to look like one--
+these are all 0s--
+and then we have, let's say, 1, 1, 1.
+1, 1, 0.
+1, 0, 1.
+0, 1, 1.
+
+And this is going to correct one error.
+
+And what is this?
+The code words are the row space, mod 2.
+To encode m times G.
+So now we're multiplying vectors by matrices on the right, which
+is the opposite of everything I've been
+doing in quantum computing.
+And the reason I'm doing this is that this way that information
+theory does it.
+Where as multiplying them on the left
+is the way that quantum mechanics does it.
+And my brain is too petrified to switch.
+
+So suppose we have 1, 1, 0, 1.
+Suppose that's our message.
+
+OK.
+To encode mG, what we do is we multiply it
+by this matrix, which means we take the first plus the second
+plus the fourth column.
+Row, sorry, row.
+So it's row 1 plus row 2 plus row 4.
+So that's in the row space.
+And the first four bits, you multiply by the identity.
+So this is equal to 1, 1, 0, 1.
+And the next three bits, it's 1 plus 1
+plus 0 for the fifth bit.
+So that's a 0.
+Because 1 plus 1 is 0.
+The sixth one, it's 1 plus 1 plus 1.
+So that's 1.
+And the sum of this one is 1 plus 1.
+So that's zero!
+
+So this is how you encode.
+And for linear codes in general, you
+can always find a generating matrix
+and encode it by multiplying the message by the generating
+matrix.
+Yeah?
+So in this case, you're basically
+just transmitting the original messages
+plus some sort of check-sub.
+Right Yeah.
+And this, in fact, is called parity check.
+
+And we call this the message.
+
+So, exactly right.
+
+So, it looks like you've added redundancy here.
+Which means, looks like you've duplicated information.
+But in fact, we'll show how to do
+quantum error-correcting codes which don't actually
+duplicate any information.
+And if you're bored with this, if you've
+seen classical error-correcting codes before,
+you can spend the rest of this class figuring
+out how could you do this quantum mechanically
+without actually duplicating any information.
+Although even when you see the formula
+for quantum error-correcting codes
+you have to really think about, why does this

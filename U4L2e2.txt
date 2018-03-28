@@ -1,0 +1,55 @@
+#
+# File:   content-mit-8370x-subtitles/U4L2e2.txt
+#
+# Captions for course module
+#
+# This file has 46 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now, I want to look at this a different way.
+You know, for the Deutsch-Jozsa problem, Alice had an oracle.
+And I want to say that she can use Bob as an oracle.
+Alice can use Bob and communication as oracle.
+
+Alice prepares i 0.
+She sends this to Bob.
+
+Now, Bob applies c not from f of i 2.
+
+OK.
+Let's label these.
+Let's label them b and n, or not n, r.
+Or maybe r1 and r2.
+
+So what Bob wants to do is he wants to do--
+
+well, Bob does not want to measure i.
+But he wants to have a quantum circuit which
+takes his value of i, looks up the value of the function,
+and then applies it to this qubit.
+And he wants to do this all coherently.
+So if Alice sends him a bunch of things in superposition,
+Bob does thise all.
+Bob's things stays in superposition.
+And you can write down a circuit to do this.
+
+I think we gave you a homework problem for writing down
+a circuit that did it in one of the first few weeks.
+But you know, you can do this with the classical circuit.
+So you can do it with a classical reversible circuit.
+So you can do it coherently with a quantum circuit.
+And then Bob sends us back to Alice.
+So Alice has 1 of root 2 summation i summation f of i.
+i equals 0 to n minus 1.
+
+So by passing log n qubits or log n plus 1 qubits to Bob,
+and Bob passing them back, so you've used two log n
+communication altogether, Alice has essentially
+queried the oracle for Bob's function.
+And, of course, Bob's function I said was g.
+So I should be calling this g.
+
+So Alice can use Bob essentially as an oracle
